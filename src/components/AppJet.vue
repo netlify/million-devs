@@ -2035,7 +2035,34 @@
 </template>
 
 <script>
-export default {}
+import { gsap } from "gsap"
+import { RoughEase } from "gsap/EasePack"
+import { CustomEase } from "gsap/CustomEase"
+
+gsap.registerPlugin(CustomEase, RoughEase)
+
+export default {
+  methods: {
+    rocketAnim() {
+      gsap.set(".rocket", {
+        y: 120,
+        x: -10,
+      })
+
+      gsap.to(".rocket", {
+        duration: 1,
+        x: 0,
+        y: 110,
+        opacity: 1,
+        ease:
+          "rough({ template: none.out, strength: 1, points: 20, taper: 'none', randomize: true, clamp: false})",
+      })
+    },
+  },
+  mounted() {
+    this.rocketAnim()
+  },
+}
 </script>
 
 <style lang="scss" scoped>
@@ -2044,9 +2071,9 @@ svg {
   height: 400px;
 }
 
-// .all-rocket {
-//   opacity: 0;
-// }
+.rocket {
+  opacity: 0;
+}
 
 .a,
 .e {
