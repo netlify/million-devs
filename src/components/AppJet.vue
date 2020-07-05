@@ -2039,9 +2039,10 @@
 <script>
 import { gsap } from "gsap"
 import { RoughEase } from "gsap/EasePack"
-import { CustomEase } from "gsap/CustomEase"
+import { ScrollTrigger } from "gsap/ScrollTrigger.js"
 
-gsap.registerPlugin(CustomEase, RoughEase)
+gsap.registerPlugin(RoughEase)
+gsap.registerPlugin(ScrollTrigger)
 
 export default {
   methods: {
@@ -2058,7 +2059,12 @@ export default {
 
       gsap
         .timeline({
-          defaults: { ease: "sine", duration: 1 },
+          scrollTrigger: {
+            trigger: ".intro",
+            start: "center bottom",
+            end: "center 30%",
+            scrub: true,
+          },
         })
         .add("start")
         .to(
