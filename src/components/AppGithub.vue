@@ -6,7 +6,7 @@
     height="500"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 372 327.9"
-    class="github"
+    class="github-all"
   >
     <g class="thought-bubbles">
       <g>
@@ -2048,7 +2048,7 @@
         d="M232.5,159.2l-4.3,2.7.5.9,4.3-2.7Z"
         transform="translate(-0.6 -0.4)"
       />
-      <g class="bitbucket">
+      <g class="company bitbucket">
         <path
           class="b"
           d="M231.8,124.4l-20-11.5a.6.6,0,0,0-.8,0h-.1l-5.1,3,4.8,8.1v11.2a2.7,2.7,0,0,0,1,2.1l10.3,6,5.3,8.7,5.2-3.2q.3-.2.3-.9V126.7A2.3,2.3,0,0,0,231.8,124.4Z"
@@ -2215,7 +2215,7 @@
         d="M133.8,159.5l-4.8,2.9.5.9,4.9-2.9Z"
         transform="translate(-0.6 -0.4)"
       />
-      <g class="gitlab">
+      <g class="company gitlab">
         <path
           class="b"
           d="M133.3,87.4,78.6,55.8h-.9l-5.5,3.3a.6.6,0,0,0-.2.5l5.3,9.1h0v48a3.5,3.5,0,0,0,1.2,2.4L123,144.8h.2l5,9a.6.6,0,0,0,.5.2l5.5-3.3a1.2,1.2,0,0,0,.5-1.1V89.8A4.8,4.8,0,0,0,133.3,87.4Z"
@@ -2262,7 +2262,7 @@
           transform="translate(-0.6 -0.4)"
         />
       </g>
-      <g class="github">
+      <g class="company github">
         <path
           class="b"
           d="M76.8,70.6l.2,2.7.9.5,5.8,9.7h.1l5.9-3.4c.3-.2.4-.5.4-1.1V55.1s0-.2-.1,0l-5.7,3.6Z"
@@ -2666,44 +2666,46 @@ export default {
     },
   },
   methods: {
-    redirectAnim() {
-      gsap.set(".github, .gitlab, .bitbucket, .access-1, .access-2", {
+    githubAnim() {
+      gsap.set(".company, .access", {
         transformOrigin: "50% 50%",
       })
 
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: ".redirect",
+            trigger: ".github-all",
             start: "center bottom",
             end: "center 30%",
             scrub: true,
           },
         })
-        .add("redirect")
+        .add("github")
         .fromTo(
-          ".computer",
+          ".thought-bubbles g",
           {
-            duration: 0.5,
+            duration: 1,
             opacity: 0,
-            scale: 0.9,
+            scale: 0,
+            rotation: -30,
             transformOrigin: "50% 50%",
           },
           {
             opacity: 1,
             scale: 1,
-            stagger: 0.05,
+            stagger: -0.3,
+            rotation: 0,
             ease: "back.out(1.7)",
           },
-          "redirect"
+          "github"
         )
         .fromTo(
-          ".access g",
+          ".access",
           {
-            duration: 0.5,
+            duration: 1,
             opacity: 0,
             scale: 0,
-            rotation: -60,
+            rotation: 180,
             transformOrigin: "50% 50%",
           },
           {
@@ -2711,19 +2713,41 @@ export default {
             scale: 1,
             rotation: 0,
             stagger: 0.1,
-            ease: "elastic",
+            ease: "sine",
           },
-          "redirect"
+          "github"
+        )
+        .fromTo(
+          ".company",
+          {
+            duration: 1,
+            opacity: 0,
+            scale: 0,
+            transformOrigin: "50% 50%",
+          },
+          {
+            opacity: 1,
+            scale: 1,
+            stagger: 0.3,
+            ease: "back.out(1.7)",
+          },
+          "github+=0.5"
         )
     },
   },
   mounted() {
-    this.redirectAnim()
+    this.githubAnim()
   },
 }
 </script>
 
 <style lang="scss" scoped>
+.company,
+.access,
+.thought-bubbles g {
+  opacity: 0;
+}
+
 .a {
   fill: #ffad43;
 }
