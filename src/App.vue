@@ -23,6 +23,14 @@
       <app-tree x="800" y="150" />
       <app-github />
       <app-tree x="1050" y="320" />
+      <app-text x="300" y="520">
+        <template v-slot:date>
+          Jul 13, 2106
+        </template>
+        <template v-slot:event>
+          Added GitLab integration (in addition to GitHub and Bitbucket)
+        </template>
+      </app-text>
     </svg>
   </div>
 </template>
