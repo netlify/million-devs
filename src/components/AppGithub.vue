@@ -6,13 +6,16 @@
     height="500"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 372 327.9"
+    class="github"
   >
-    <g>
-      <path
-        class="a"
-        d="M264.4,123.8l11.8-6.7c.9-.5,1.6,0,1.6,1.2v3.9a3.6,3.6,0,0,1-1.6,3l-2.8,1.6a8.1,8.1,0,0,1-3.5,5.1c-.1,0-.1,0-.1-.2a6,6,0,0,0,.3-2.8l-5.7,3.1c-.9.5-1.7,0-1.7-1.2V127A4.4,4.4,0,0,1,264.4,123.8Z"
-        transform="translate(-0.6 -0.4)"
-      />
+    <g class="thought-bubbles">
+      <g>
+        <path
+          class="a"
+          d="M264.4,123.8l11.8-6.7c.9-.5,1.6,0,1.6,1.2v3.9a3.6,3.6,0,0,1-1.6,3l-2.8,1.6a8.1,8.1,0,0,1-3.5,5.1c-.1,0-.1,0-.1-.2a6,6,0,0,0,.3-2.8l-5.7,3.1c-.9.5-1.7,0-1.7-1.2V127A4.4,4.4,0,0,1,264.4,123.8Z"
+          transform="translate(-0.6 -0.4)"
+        />
+      </g>
       <g>
         <path
           class="a"
@@ -675,7 +678,7 @@
         transform="translate(-0.6 -0.4)"
       />
     </g>
-    <g>
+    <g class="access">
       <path
         class="c"
         d="M34.4,165l-.8-.5L7.2,179.8l.7.5,10.8-6.2Z"
@@ -822,7 +825,7 @@
         transform="translate(-0.6 -0.4)"
       />
     </g>
-    <g>
+    <g class="access">
       <path
         class="c"
         d="M248.2,277.6l-20.1,11.7.6.5L249,278.1Z"
@@ -2045,7 +2048,7 @@
         d="M232.5,159.2l-4.3,2.7.5.9,4.3-2.7Z"
         transform="translate(-0.6 -0.4)"
       />
-      <g>
+      <g class="bitbucket">
         <path
           class="b"
           d="M231.8,124.4l-20-11.5a.6.6,0,0,0-.8,0h-.1l-5.1,3,4.8,8.1v11.2a2.7,2.7,0,0,0,1,2.1l10.3,6,5.3,8.7,5.2-3.2q.3-.2.3-.9V126.7A2.3,2.3,0,0,0,231.8,124.4Z"
@@ -2212,7 +2215,7 @@
         d="M133.8,159.5l-4.8,2.9.5.9,4.9-2.9Z"
         transform="translate(-0.6 -0.4)"
       />
-      <g>
+      <g class="gitlab">
         <path
           class="b"
           d="M133.3,87.4,78.6,55.8h-.9l-5.5,3.3a.6.6,0,0,0-.2.5l5.3,9.1h0v48a3.5,3.5,0,0,0,1.2,2.4L123,144.8h.2l5,9a.6.6,0,0,0,.5.2l5.5-3.3a1.2,1.2,0,0,0,.5-1.1V89.8A4.8,4.8,0,0,0,133.3,87.4Z"
@@ -2259,7 +2262,7 @@
           transform="translate(-0.6 -0.4)"
         />
       </g>
-      <g>
+      <g class="github">
         <path
           class="b"
           d="M76.8,70.6l.2,2.7.9.5,5.8,9.7h.1l5.9-3.4c.3-.2.4-.5.4-1.1V55.1s0-.2-.1,0l-5.7,3.6Z"
@@ -2646,6 +2649,11 @@
 </template>
 
 <script>
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger.js"
+
+gsap.registerPlugin(ScrollTrigger)
+
 export default {
   props: {
     x: {
@@ -2656,6 +2664,61 @@ export default {
       type: [Number, String],
       default: 170,
     },
+  },
+  methods: {
+    redirectAnim() {
+      gsap.set(".github, .gitlab, .bitbucket, .access-1, .access-2", {
+        transformOrigin: "50% 50%",
+      })
+
+      gsap
+        .timeline({
+          scrollTrigger: {
+            trigger: ".redirect",
+            start: "center bottom",
+            end: "center 30%",
+            scrub: true,
+          },
+        })
+        .add("redirect")
+        .fromTo(
+          ".computer",
+          {
+            duration: 0.5,
+            opacity: 0,
+            scale: 0.9,
+            transformOrigin: "50% 50%",
+          },
+          {
+            opacity: 1,
+            scale: 1,
+            stagger: 0.05,
+            ease: "back.out(1.7)",
+          },
+          "redirect"
+        )
+        .fromTo(
+          ".access g",
+          {
+            duration: 0.5,
+            opacity: 0,
+            scale: 0,
+            rotation: -60,
+            transformOrigin: "50% 50%",
+          },
+          {
+            opacity: 1,
+            scale: 1,
+            rotation: 0,
+            stagger: 0.1,
+            ease: "elastic",
+          },
+          "redirect"
+        )
+    },
+  },
+  mounted() {
+    this.redirectAnim()
   },
 }
 </script>
