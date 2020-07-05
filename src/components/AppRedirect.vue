@@ -1367,7 +1367,7 @@ export default {
           {
             duration: 0.5,
             opacity: 0,
-            scale: 0,
+            scale: 0.9,
             transformOrigin: "50% 50%",
           },
           {
@@ -1376,23 +1376,25 @@ export default {
             stagger: 0.05,
             ease: "back.out(1.7)",
           },
-          "start+=0.65"
+          "redirect"
         )
         .fromTo(
-          ".fire",
+          ".access g",
           {
             duration: 0.5,
             opacity: 0,
             scale: 0,
-            transformOrigin: "50% 0%",
+            rotation: -60,
+            transformOrigin: "50% 50%",
           },
           {
             opacity: 1,
             scale: 1,
-            stagger: 0.05,
+            rotation: 0,
+            stagger: 0.1,
             ease: "elastic",
           },
-          "start+=1"
+          "redirect"
         )
     },
   },
