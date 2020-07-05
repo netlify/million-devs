@@ -28,7 +28,10 @@
           Jul 13, 2106
         </template>
         <template v-slot:event>
-          Added GitLab integration (in addition to GitHub and Bitbucket)
+          Added GitLab integration
+        </template>
+        <template v-slot:event2>
+          (in addition to GitHub and Bitbucket)
         </template>
       </app-text>
     </svg>

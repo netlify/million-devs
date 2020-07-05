@@ -30,6 +30,9 @@
           Something here
         </slot>
       </text>
+      <text class="e" transform="translate(16.5 70)">
+        <slot name="event2"></slot>
+      </text>
       <text class="h" transform="translate(164.5 104.3)">
         View Milestone
       </text>
