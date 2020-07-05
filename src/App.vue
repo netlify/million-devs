@@ -16,6 +16,7 @@
         </template>
       </app-text>
       <app-tree x="1150" y="50" />
+      <app-redirect />
     </svg>
   </div>
 </template>
@@ -24,12 +25,14 @@
 import AppJet from "@/components/AppJet.vue"
 import AppText from "@/components/AppText.vue"
 import AppTree from "@/components/AppTree.vue"
+import AppRedirect from "@/components/AppRedirect.vue"
 
 export default {
   components: {
     AppJet,
     AppText,
     AppTree,
+    AppRedirect,
   },
 }
 </script>
