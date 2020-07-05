@@ -7,35 +7,42 @@
     :y="y"
     viewBox="0 0 280 115.4"
   >
-    <rect class="a" width="69.8" height="21.39" />
-    <rect class="b" y="25.4" width="280" height="56" />
-    <path
-      class="c"
-      d="M153.1,90.9a4.5,4.5,0,0,1,4.5-4.5h118a4.5,4.5,0,0,1,4.5,4.5v21a4.5,4.5,0,0,1-4.5,4.5h-118a4.5,4.5,0,0,1-4.5-4.5Z"
-      transform="translate(-0.1 -1)"
-    />
-    <path
-      class="a"
-      d="M265.8,96.4l-.2.4c0,.2.1.4.2.4l2.8,2.7h-6.7l-.4.2a.8.8,0,0,0-.2.4v.7c0,.2.1.4.2.4s.2.2.4.2h6.7l-2.8,2.7a.8.8,0,0,0-.2.4.5.5,0,0,0,.2.4l.5.5.4.2.4-.2,4.6-4.5a.6.6,0,0,0,.1-.4c0-.2,0-.3-.1-.4l-4.6-4.6h-.8Z"
-      transform="translate(-0.1 -1)"
-    />
-    <text class="d" transform="translate(7.6 14)">
-      <slot name="date">
-        Jul 13, 2016
-      </slot>
-    </text>
-    <text class="e" transform="translate(16.5 48.7)">
-      <slot name="event">
-        Something here
-      </slot>
-    </text>
-    <text class="h" transform="translate(164.5 104.3)">
-      View Milestone
-    </text>
+    <g class="textnode">
+      <rect class="a" width="69.8" height="21.39" />
+      <rect class="b" y="25.4" width="280" height="56" />
+      <path
+        class="c"
+        d="M153.1,90.9a4.5,4.5,0,0,1,4.5-4.5h118a4.5,4.5,0,0,1,4.5,4.5v21a4.5,4.5,0,0,1-4.5,4.5h-118a4.5,4.5,0,0,1-4.5-4.5Z"
+        transform="translate(-0.1 -1)"
+      />
+      <path
+        class="a"
+        d="M265.8,96.4l-.2.4c0,.2.1.4.2.4l2.8,2.7h-6.7l-.4.2a.8.8,0,0,0-.2.4v.7c0,.2.1.4.2.4s.2.2.4.2h6.7l-2.8,2.7a.8.8,0,0,0-.2.4.5.5,0,0,0,.2.4l.5.5.4.2.4-.2,4.6-4.5a.6.6,0,0,0,.1-.4c0-.2,0-.3-.1-.4l-4.6-4.6h-.8Z"
+        transform="translate(-0.1 -1)"
+      />
+      <text class="d" transform="translate(7.6 14)">
+        <slot name="date">
+          Jul 13, 2016
+        </slot>
+      </text>
+      <text class="e" transform="translate(16.5 48.7)">
+        <slot name="event">
+          Something here
+        </slot>
+      </text>
+      <text class="h" transform="translate(164.5 104.3)">
+        View Milestone
+      </text>
+    </g>
   </svg>
 </template>
 
 <script>
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger.js"
+
+gsap.registerPlugin(ScrollTrigger)
+
 export default {
   props: {
     x: {
@@ -46,6 +53,38 @@ export default {
       type: Number,
       default: 500,
     },
+  },
+  methods: {
+    textEntrance() {
+      gsap
+        .timeline({
+          scrollTrigger: {
+            trigger: ".textnode",
+            start: "center bottom",
+            end: "center 30%",
+            scrub: true,
+          },
+        })
+        .fromTo(
+          ".textnode",
+          {
+            duration: 1,
+            y: 40,
+            scale: 0.8,
+            opacity: 0,
+            transformOrigin: "50% 50%",
+          },
+          {
+            y: 0,
+            opacity: 1,
+            scale: 1,
+            ease: "sine",
+          }
+        )
+    },
+  },
+  mounted() {
+    this.textEntrance()
   },
 }
 </script>
