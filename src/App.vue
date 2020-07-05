@@ -7,16 +7,26 @@
         fill="#15847D"
       />
       <app-jet />
+      <app-text x="1200" y="-200">
+        <template v-slot:date>
+          Oct 20, 2105
+        </template>
+        <template v-slot:event>
+          There is a thing here
+        </template>
+      </app-text>
     </svg>
   </div>
 </template>
 
 <script>
 import AppJet from "@/components/AppJet.vue"
+import AppText from "@/components/AppText.vue"
 
 export default {
   components: {
     AppJet,
+    AppText,
   },
 }
 </script>

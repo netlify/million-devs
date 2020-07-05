@@ -1,8 +1,8 @@
 <template>
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="280"
-    height="116"
+    width="450"
+    height="250"
     :x="x"
     :y="y"
     viewBox="0 0 280 115.4"
@@ -19,9 +19,15 @@
       d="M265.8,96.4l-.2.4c0,.2.1.4.2.4l2.8,2.7h-6.7l-.4.2a.8.8,0,0,0-.2.4v.7c0,.2.1.4.2.4s.2.2.4.2h6.7l-2.8,2.7a.8.8,0,0,0-.2.4.5.5,0,0,0,.2.4l.5.5.4.2.4-.2,4.6-4.5a.6.6,0,0,0,.1-.4c0-.2,0-.3-.1-.4l-4.6-4.6h-.8Z"
       transform="translate(-0.1 -1)"
     />
-    <text class="d" transform="translate(7.6 14)">Jul 13, 2016</text>
+    <text class="d" transform="translate(7.6 14)">
+      <slot name="date">
+        Jul 13, 2016
+      </slot>
+    </text>
     <text class="e" transform="translate(16.5 48.7)">
-      Something here
+      <slot name="event">
+        Something here
+      </slot>
     </text>
     <text class="h" transform="translate(164.5 104.3)">
       View Milestone
