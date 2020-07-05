@@ -1,22 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <app-jet />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AppJet from "@/components/AppJet.vue";
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    AppJet
   }
-}
+};
 </script>
 
 <style lang="scss">
+body {
+  background: #00dc9e;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
