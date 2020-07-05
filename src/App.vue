@@ -9,12 +9,13 @@
       <app-jet />
       <app-text x="1200" y="-200">
         <template v-slot:date>
-          Oct 20, 2105
+          Apr 07, 2105
         </template>
         <template v-slot:event>
-          There is a thing here
+          Netlify officially launches
         </template>
       </app-text>
+      <app-tree x="1150" y="50" />
     </svg>
   </div>
 </template>
@@ -22,11 +23,13 @@
 <script>
 import AppJet from "@/components/AppJet.vue"
 import AppText from "@/components/AppText.vue"
+import AppTree from "@/components/AppTree.vue"
 
 export default {
   components: {
     AppJet,
     AppText,
+    AppTree,
   },
 }
 </script>
