@@ -2040,6 +2040,11 @@ export default {
     rocketAnim() {
       gsap.set(".rocket", {
         y: 120,
+        scale: 0.8,
+        transformOrigin: "50% 50%",
+      })
+      gsap.set(".burst, .top-burst", {
+        opacity: 1,
       })
 
       gsap
@@ -2053,6 +2058,7 @@ export default {
             duration: 1,
             y: 110,
             opacity: 1,
+            scale: 1,
             ease:
               "rough({ template: none.out, strength: 1, points: 20, taper: 'none', randomize: true, clamp: false})",
           },
@@ -2066,6 +2072,38 @@ export default {
             ease: "back.out(1.7)",
           },
           "start+=0.8"
+        )
+        .fromTo(
+          ".burst path, .top-burst path",
+          {
+            duration: 0.5,
+            opacity: 0,
+            scale: 0,
+            transformOrigin: "50% 50%",
+          },
+          {
+            opacity: 1,
+            scale: 1,
+            stagger: 0.05,
+            ease: "back.out(1.7)",
+          },
+          "start+=0.6"
+        )
+        .fromTo(
+          ".fire",
+          {
+            duration: 0.5,
+            opacity: 0,
+            scale: 0,
+            transformOrigin: "50% 0%",
+          },
+          {
+            opacity: 1,
+            scale: 1,
+            stagger: 0.05,
+            ease: "elastic",
+          },
+          "start+=1"
         )
     },
   },
