@@ -46,11 +46,11 @@ gsap.registerPlugin(ScrollTrigger)
 export default {
   props: {
     x: {
-      type: Number,
+      type: [Number, String],
       default: 1200,
     },
     y: {
-      type: Number,
+      type: [Number, String],
       default: 500,
     },
   },
