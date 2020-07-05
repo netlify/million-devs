@@ -17,6 +17,7 @@
       </app-text>
       <app-tree x="1150" y="50" />
       <app-redirect />
+      <app-bush />
     </svg>
   </div>
 </template>
@@ -25,6 +26,7 @@
 import AppJet from "@/components/AppJet.vue"
 import AppText from "@/components/AppText.vue"
 import AppTree from "@/components/AppTree.vue"
+import AppBush from "@/components/AppBush.vue"
 import AppRedirect from "@/components/AppRedirect.vue"
 
 export default {
@@ -32,6 +34,7 @@ export default {
     AppJet,
     AppText,
     AppTree,
+    AppBush,
     AppRedirect,
   },
 }
