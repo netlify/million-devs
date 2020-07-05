@@ -1,5 +1,13 @@
 <template>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -50 207.8 459.1">
+  <svg
+    x="900"
+    y="-400"
+    width="280"
+    height="550"
+    class="intro"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 -50 207.8 459.1"
+  >
     <g class="computer">
       <g>
         <g>
@@ -2040,7 +2048,8 @@ export default {
     rocketAnim() {
       gsap.set(".rocket", {
         y: 120,
-        scale: 0.8,
+        scale: 0.4,
+        opacity: 0.9,
         transformOrigin: "50% 50%",
       })
       gsap.set(".burst, .top-burst", {
@@ -2087,7 +2096,7 @@ export default {
             stagger: 0.05,
             ease: "back.out(1.7)",
           },
-          "start+=0.6"
+          "start+=0.65"
         )
         .fromTo(
           ".fire",
