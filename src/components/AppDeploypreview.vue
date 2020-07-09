@@ -2557,7 +2557,7 @@ export default {
           },
           {
             rotation: 0,
-            repeat: 3,
+            repeat: 6,
             y: 0,
             x: 0,
             yoyo: true,
