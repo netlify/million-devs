@@ -9,7 +9,7 @@
       <app-jet />
       <app-text x="1200" y="-200">
         <template v-slot:date>
-          Apr 07, 2105
+          Apr 07, 2015
         </template>
         <template v-slot:event>
           Netlify officially launches
@@ -25,7 +25,7 @@
       <app-tree x="1050" y="320" />
       <app-text x="300" y="520" num="2">
         <template v-slot:date>
-          Jul 13, 2106
+          Jul 13, 2016
         </template>
         <template v-slot:event>
           Added GitLab integration
@@ -35,6 +35,19 @@
         </template>
       </app-text>
       <app-letsencrypt />
+      <app-text x="1400" y="850" num="3">
+        <template v-slot:date>
+          Jan 01, 2017
+        </template>
+        <template v-slot:event>
+          Netlify first hosting provider to
+        </template>
+        <template v-slot:event2>
+          offer free SSL through Let's Encrypt
+        </template>
+      </app-text>
+      <app-streetlamp1 x="1600" y="600" />
+      <app-bush x="1510" y="700" />
     </svg>
   </div>
 </template>
@@ -47,6 +60,7 @@ import AppBush from "@/components/AppBush.vue"
 import AppGithub from "@/components/AppGithub.vue"
 import AppRedirect from "@/components/AppRedirect.vue"
 import AppLetsencrypt from "@/components/AppLetsencrypt.vue"
+import AppStreetlamp1 from "@/components/AppStreetlamp1.vue"
 
 export default {
   components: {
@@ -57,6 +71,7 @@ export default {
     AppGithub,
     AppRedirect,
     AppLetsencrypt,
+    AppStreetlamp1,
   },
 }
 </script>
