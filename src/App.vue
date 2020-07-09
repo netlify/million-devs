@@ -23,6 +23,7 @@
       <app-tree x="800" y="150" />
       <app-github />
       <app-tree x="1050" y="320" />
+
       <app-text x="300" y="520" num="2">
         <template v-slot:date>
           Jul 13, 2016
@@ -34,7 +35,9 @@
           (in addition to GitHub and Bitbucket)
         </template>
       </app-text>
+
       <app-letsencrypt />
+
       <app-text x="1400" y="850" num="3">
         <template v-slot:date>
           Jan 01, 2017
@@ -46,8 +49,21 @@
           offer free SSL through Let's Encrypt
         </template>
       </app-text>
+
       <app-streetlamp1 x="1600" y="600" />
       <app-bush x="1510" y="700" />
+
+      <app-text x="700" y="850" num="3">
+        <template v-slot:date>
+          Aug 16, 2017
+        </template>
+        <template v-slot:event>
+          Raised seed funding and joined
+        </template>
+        <template v-slot:event2>
+          Heavybit accelerator program
+        </template>
+      </app-text>
     </svg>
   </div>
 </template>

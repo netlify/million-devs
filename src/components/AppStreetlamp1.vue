@@ -1,10 +1,23 @@
 <template>
   <svg :x="x" :y="y" width="200" height="200" viewBox="0 0 164 150" fill="none">
+    <defs>
+      <linearGradient
+        id="lightlinear"
+        x1="46.353"
+        y1="-119.5"
+        x2="46.353"
+        y2="60.984"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#f9df81" />
+        <stop offset="1" stop-color="#f9df81" stop-opacity="0.1" />
+      </linearGradient>
+    </defs>
     <path
       fill-rule="evenodd"
       clip-rule="evenodd"
       d="M61.979 8.606l30.435 57.713S39.088 113.421.329 52.861L44.03 10.418 61.98 8.606z"
-      fill="url(#paint0_linear)"
+      fill="url(#lightlinear)"
     />
     <path
       stroke="#000"
@@ -70,19 +83,6 @@
       stroke="#0E1E25"
       stroke-linejoin="round"
     />
-    <defs>
-      <linearGradient
-        id="paint0_linear"
-        x1="46.353"
-        y1="-119.5"
-        x2="46.353"
-        y2="60.984"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop stop-color="#FFD840" />
-        <stop offset="1" stop-color="#FAAF40" stop-opacity="0" />
-      </linearGradient>
-    </defs>
   </svg>
 </template>
 
