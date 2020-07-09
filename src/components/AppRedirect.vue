@@ -1380,7 +1380,7 @@ export default {
         .fromTo(
           ".access g",
           {
-            duration: 0.5,
+            duration: 1.5,
             opacity: 0,
             scale: 0,
             rotation: -60,

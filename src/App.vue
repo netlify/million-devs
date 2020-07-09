@@ -34,6 +34,7 @@
           (in addition to GitHub and Bitbucket)
         </template>
       </app-text>
+      <app-letsencrypt />
     </svg>
   </div>
 </template>
@@ -45,6 +46,7 @@ import AppTree from "@/components/AppTree.vue"
 import AppBush from "@/components/AppBush.vue"
 import AppGithub from "@/components/AppGithub.vue"
 import AppRedirect from "@/components/AppRedirect.vue"
+import AppLetsencrypt from "@/components/AppLetsencrypt.vue"
 
 export default {
   components: {
@@ -54,6 +56,7 @@ export default {
     AppBush,
     AppGithub,
     AppRedirect,
+    AppLetsencrypt,
   },
 }
 </script>
