@@ -2060,7 +2060,7 @@ export default {
           scrollTrigger: {
             trigger: "#ssl",
             toggleActions: "restart pause reverse pause",
-            start: "center 90%",
+            start: "center 70%",
           },
           defaults: {
             duration: 1,
