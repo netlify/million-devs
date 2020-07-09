@@ -2061,16 +2061,17 @@ export default {
         .timeline({
           scrollTrigger: {
             trigger: ".intro",
-            start: "center bottom",
-            end: "center 30%",
-            scrub: true,
+            toggleActions: "restart pause reverse pause",
+            start: "center 90%",
+          },
+          defaults: {
+            duration: 1,
           },
         })
         .add("start")
         .to(
           ".rocket",
           {
-            duration: 1,
             y: 110,
             opacity: 1,
             scale: 1,
@@ -2091,7 +2092,6 @@ export default {
         .fromTo(
           ".burst path, .top-burst path",
           {
-            duration: 0.5,
             opacity: 0,
             scale: 0,
             transformOrigin: "50% 50%",
@@ -2107,7 +2107,6 @@ export default {
         .fromTo(
           ".fire",
           {
-            duration: 0.5,
             opacity: 0,
             scale: 0,
             transformOrigin: "50% 0%",

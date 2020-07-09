@@ -2675,16 +2675,17 @@ export default {
         .timeline({
           scrollTrigger: {
             trigger: ".github-all",
-            start: "center bottom",
-            end: "center 30%",
-            scrub: true,
+            toggleActions: "restart pause reverse pause",
+            start: "center 90%",
+          },
+          defaults: {
+            duration: 1.5,
           },
         })
         .add("github")
         .fromTo(
           ".thought-bubbles g",
           {
-            duration: 1,
             opacity: 0,
             scale: 0,
             rotation: -30,
@@ -2702,7 +2703,6 @@ export default {
         .fromTo(
           ".access",
           {
-            duration: 1,
             opacity: 0,
             scale: 0,
             rotation: 180,

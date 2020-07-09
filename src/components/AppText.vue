@@ -7,7 +7,7 @@
     :y="y"
     viewBox="0 0 280 115.4"
   >
-    <g class="textnode">
+    <g :class="`textnode text${num}`">
       <rect class="a" width="69.8" height="21.39" />
       <rect class="b" y="25.4" width="280" height="56" />
       <path
@@ -56,20 +56,23 @@ export default {
       type: [Number, String],
       default: 500,
     },
+    num: {
+      type: [Number, String],
+      default: 1,
+    },
   },
   methods: {
     textEntrance() {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: ".textnode",
-            start: "center bottom",
-            end: "center 30%",
-            scrub: true,
+            trigger: `.text${this.num}`,
+            toggleActions: "restart pause reverse pause",
+            start: "center 90%",
           },
         })
         .fromTo(
-          ".textnode",
+          `.text${this.num}`,
           {
             duration: 1,
             y: 40,

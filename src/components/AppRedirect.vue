@@ -1347,7 +1347,7 @@ export default {
     },
   },
   methods: {
-    rocketAnim() {
+    redirectAnim() {
       gsap.set(".computer, .access g", {
         transformOrigin: "50% 50%",
       })
@@ -1356,9 +1356,8 @@ export default {
         .timeline({
           scrollTrigger: {
             trigger: ".redirect",
-            start: "center bottom",
-            end: "center 30%",
-            scrub: true,
+            toggleActions: "restart pause reverse pause",
+            start: "center 90%",
           },
         })
         .add("redirect")
@@ -1399,7 +1398,7 @@ export default {
     },
   },
   mounted() {
-    this.rocketAnim()
+    this.redirectAnim()
   },
 }
 </script>
