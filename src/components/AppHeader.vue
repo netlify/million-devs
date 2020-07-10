@@ -54,7 +54,7 @@ export default {
   grid-template-rows: 200px 1fr;
   grid-column-gap: 40px;
   padding: 10vh 10vw;
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 .netlify {
@@ -79,7 +79,7 @@ h1 {
 
 .dialog {
   padding: 10px 20px 30px;
-  margin: 20px 0;
+  margin: 40px 0;
   border-radius: 4px;
   background: white;
   line-height: 2.5;
@@ -97,7 +97,7 @@ input {
 button {
   display: inline-block;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
   margin-top: 20px;
   text-decoration: none;
   background: #dd104a;

@@ -2060,9 +2060,9 @@ export default {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: ".intro",
+            trigger: ".all-rocket",
             toggleActions: "restart pause reverse pause",
-            start: "center 90%",
+            start: "center bottom",
           },
           defaults: {
             duration: 1,
