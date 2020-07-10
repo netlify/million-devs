@@ -954,8 +954,8 @@
         transform="translate(-0.1 -0.4)"
       />
     </g>
-    <g class="access">
-      <g>
+    <g>
+      <g class="access-g">
         <path
           class="c"
           d="M57.9,270.8v-4.7l-4.1,2.3L49.3,261c-1.7-1.1-10.5-.2-12.3.8l-3.6,6.9-4.1-2.1v4.7a1.7,1.7,0,0,0,1.2,1.7l10.2,5.7a7.1,7.1,0,0,0,6.2,0l10-5.9A3.5,3.5,0,0,0,57.9,270.8Zm-16.2-4a3.8,3.8,0,0,1,3.3,0l4.6,2.6-1.4.7v1l-8.9.7v-1L37,269.6Z"
@@ -1007,7 +1007,7 @@
           transform="translate(-0.1 -0.4)"
         />
       </g>
-      <g>
+      <g class="access-g">
         <path
           class="c"
           d="M174.7,189.4l21.9-1.7,3.2,2.2a31.3,31.3,0,0,1,13,3.6,22.1,22.1,0,0,1,3.2,2.3l4-.7v8.3c0,3.4-2.2,7-6.9,9.6-9.3,5.4-24.3,5.4-33.6,0a16.9,16.9,0,0,1-2.8-1.9v-8.3l10.4-1.9-12.4-3.2Z"
@@ -1104,7 +1104,7 @@
           transform="translate(-0.1 -0.4)"
         />
       </g>
-      <g>
+      <g class="access-g">
         <path
           class="c"
           d="M97.1,261.6V234.9h2a19,19,0,0,1,6.4-5.7c11.2-6.5,29.5-6.5,40.7,0a19,19,0,0,1,6.4,5.7h2v28.3c-.3,4-3.1,7.6-8.2,10.7-11.2,6.5-29.5,6.5-40.7,0-5.2-3.1-8-6.9-8.3-10.9C97.1,262.8,97.1,261.8,97.1,261.6Z"
@@ -1256,7 +1256,7 @@
           transform="translate(-0.1 -0.4)"
         />
       </g>
-      <g>
+      <g class="access-g">
         <path
           class="b"
           d="M214.1,65.7l-6.9-4.4v-.2L216,50.4h.2l1.4,6.5.3,4.5v.2l-3.8,4.1Z"
@@ -1377,21 +1377,16 @@ export default {
           },
           "redirect"
         )
-        .fromTo(
-          ".access g",
+        .from(
+          ".access-g",
           {
-            duration: 1.5,
+            duration: 1,
             opacity: 0,
             scale: 0,
-            rotation: -60,
+            rotation: -180,
+            stagger: 0.3,
+            ease: "back.out(1.7)",
             transformOrigin: "50% 50%",
-          },
-          {
-            opacity: 1,
-            scale: 1,
-            rotation: 0,
-            stagger: 0.1,
-            ease: "elastic",
           },
           "redirect"
         )
@@ -1412,10 +1407,5 @@ export default {
 }
 .c {
   fill: #ffad43;
-}
-
-.computer,
-.access g {
-  opacity: 0;
 }
 </style>

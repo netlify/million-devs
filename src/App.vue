@@ -65,6 +65,7 @@
         </template>
       </app-text>
       <app-deploypreview />
+      <app-deploybutton />
     </svg>
   </div>
 </template>
@@ -78,6 +79,7 @@ import AppGithub from "@/components/AppGithub.vue"
 import AppRedirect from "@/components/AppRedirect.vue"
 import AppLetsencrypt from "@/components/AppLetsencrypt.vue"
 import AppStreetlamp1 from "@/components/AppStreetlamp1.vue"
+import AppDeploybutton from "@/components/AppDeploybutton.vue"
 import AppDeploypreview from "@/components/AppDeploypreview.vue"
 
 export default {
@@ -90,6 +92,7 @@ export default {
     AppRedirect,
     AppLetsencrypt,
     AppStreetlamp1,
+    AppDeploybutton,
     AppDeploypreview,
   },
 }

@@ -795,23 +795,44 @@ export default {
           scrollTrigger: {
             trigger: "#deploybtn",
             toggleActions: "restart pause reverse pause",
-            start: "center 90%",
+            start: "center 80%",
           },
           defaults: {
-            duration: 1,
+            duration: 0.8,
           },
         })
         .add("deployB")
-        .to(
-          ".rocket",
+        .from(
+          "#glove",
           {
-            y: 110,
-            opacity: 1,
-            scale: 1,
-            ease:
-              "rough({ template: none.out, strength: 1, points: 20, taper: 'none', randomize: true, clamp: false})",
+            rotation: 30,
+            transformOrigin: "100% 100%",
+            ease: "sine",
           },
           "deployB"
+        )
+        .from(
+          "#deploy-btn",
+          {
+            duration: 0.1,
+            scale: 0.9,
+            transformOrigin: "50% 50%",
+            ease: "sine",
+          },
+          "deployB+=0.6"
+        )
+        .from(
+          "#stacks g",
+          {
+            duration: 0.5,
+            scale: 0,
+            opacity: 0,
+            rotaiton: 180,
+            transformOrigin: "50% 50%",
+            stagger: 0.1,
+            ease: "sine",
+          },
+          "deployB+=0.6"
         )
     },
   },
