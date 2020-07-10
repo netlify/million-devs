@@ -827,7 +827,7 @@ export default {
             duration: 0.5,
             scale: 0,
             opacity: 0,
-            rotaiton: 180,
+            rotation: 180,
             transformOrigin: "50% 50%",
             stagger: 0.1,
             ease: "sine",

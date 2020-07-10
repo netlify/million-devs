@@ -6,7 +6,7 @@
     height="400"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    viewBox="0 0 314.7 326.1"
+    viewBox="0 -20 314.7 350"
   >
     <defs>
       <clipPath id="clip-path" transform="translate(0 -0.1)">
@@ -2082,6 +2082,24 @@ export default {
             rotation: 0,
             stagger: 0.1,
             ease: "back.out(1.7)",
+          },
+          "enc"
+        )
+        .from(
+          "#top-handle",
+          {
+            rotation: 20,
+            transformOrigin: "100% 100%",
+            ease: "sine",
+          },
+          "enc"
+        )
+        .from(
+          "#camera",
+          {
+            x: 30,
+            y: -10,
+            ease: "sine",
           },
           "enc"
         )

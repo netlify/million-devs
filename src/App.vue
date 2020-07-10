@@ -66,6 +66,7 @@
       </app-text>
       <app-deploypreview />
       <app-deploybutton />
+      <app-book />
     </svg>
   </div>
 </template>
@@ -75,6 +76,7 @@ import AppJet from "@/components/AppJet.vue"
 import AppText from "@/components/AppText.vue"
 import AppTree from "@/components/AppTree.vue"
 import AppBush from "@/components/AppBush.vue"
+import AppBook from "@/components/AppBook.vue"
 import AppGithub from "@/components/AppGithub.vue"
 import AppRedirect from "@/components/AppRedirect.vue"
 import AppLetsencrypt from "@/components/AppLetsencrypt.vue"
@@ -88,6 +90,7 @@ export default {
     AppText,
     AppTree,
     AppBush,
+    AppBook,
     AppGithub,
     AppRedirect,
     AppLetsencrypt,
