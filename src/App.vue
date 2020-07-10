@@ -67,6 +67,7 @@
       <app-deploypreview />
       <app-deploybutton />
       <app-book />
+      <app-functions />
     </svg>
   </div>
 </template>
@@ -79,6 +80,7 @@ import AppBush from "@/components/AppBush.vue"
 import AppBook from "@/components/AppBook.vue"
 import AppGithub from "@/components/AppGithub.vue"
 import AppRedirect from "@/components/AppRedirect.vue"
+import AppFunctions from "@/components/AppFunctions.vue"
 import AppLetsencrypt from "@/components/AppLetsencrypt.vue"
 import AppStreetlamp1 from "@/components/AppStreetlamp1.vue"
 import AppDeploybutton from "@/components/AppDeploybutton.vue"
@@ -93,6 +95,7 @@ export default {
     AppBook,
     AppGithub,
     AppRedirect,
+    AppFunctions,
     AppLetsencrypt,
     AppStreetlamp1,
     AppDeploybutton,
