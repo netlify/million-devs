@@ -119,21 +119,29 @@ import AppDeploypreview from "@/components/AppDeploypreview.vue"
 
 export default {
   components: {
-    AppJet,
+    AppJet: () => import(/* webpackPrefetch: true */ "@/components/AppJet.vue"),
     AppText,
     AppTree,
     AppBush,
-    AppBook,
+    AppBook: () =>
+      import(/* webpackPrefetch: true */ "@/components/AppBook.vue"),
     AppDrop,
-    AppSeed,
+    AppSeed: () =>
+      import(/* webpackPrefetch: true */ "@/components/AppSeed.vue"),
     AppHeader,
-    AppGithub,
-    AppRedirect,
-    AppFunctions,
-    AppLetsencrypt,
+    AppGithub: () =>
+      import(/* webpackPrefetch: true */ "@/components/AppGithub.vue"),
+    AppRedirect: () =>
+      import(/* webpackPrefetch: true */ "@/components/AppRedirect.vue"),
+    AppFunctions: () =>
+      import(/* webpackPrefetch: true */ "@/components/AppFunctions.vue"),
+    AppLetsencrypt: () =>
+      import(/* webpackPrefetch: true */ "@/components/AppLetsencrypt.vue"),
     AppStreetlamp1,
-    AppDeploybutton,
-    AppDeploypreview,
+    AppDeploybutton: () =>
+      import(/* webpackPrefetch: true */ "@/components/AppDeploybutton.vue"),
+    AppDeploypreview: () =>
+      import(/* webpackPrefetch: true */ "@/components/AppDeploypreview.vue"),
   },
 }
 </script>
