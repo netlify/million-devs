@@ -7,7 +7,7 @@
         fill="#15847D"
       />
       <app-jet />
-      <app-text x="1200" y="-200">
+      <app-text x="1150" y="-200">
         <template v-slot:date>
           Apr 07, 2015
         </template>
@@ -15,7 +15,7 @@
           Netlify officially launches
         </template>
       </app-text>
-      <app-tree x="1150" y="50" />
+      <app-tree x="1100" y="50" />
       <app-redirect />
       <app-bush />
       <app-tree x="850" y="100" />
@@ -24,7 +24,7 @@
       <app-github />
       <app-tree x="1050" y="320" />
 
-      <app-text x="300" y="520" num="2">
+      <app-text x="200" y="410" num="2">
         <template v-slot:date>
           Jul 13, 2016
         </template>

@@ -3,8 +3,8 @@
     :x="x"
     :y="y"
     viewBox="0 0 236.1 284"
-    width="425"
-    height="375"
+    width="400"
+    height="350"
     class="redirect"
   >
     <g class="computer">
@@ -1343,7 +1343,7 @@ export default {
     },
     y: {
       type: [Number, String],
-      default: 100,
+      default: 50,
     },
   },
   methods: {

@@ -2,8 +2,8 @@
   <svg
     :x="x"
     :y="y"
-    width="525"
-    height="500"
+    width="500"
+    height="475"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 372 327.9"
     class="github-all"
