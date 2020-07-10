@@ -55,7 +55,7 @@
 
       <app-seed />
 
-      <app-text x="970" y="780" num="3">
+      <app-text x="1000" y="800" num="4">
         <template v-slot:date>
           Aug 16, 2017
         </template>
@@ -66,7 +66,20 @@
           Heavybit accelerator program
         </template>
       </app-text>
+
       <app-deploypreview />
+      <app-text x="50" y="650" num="5">
+        <template v-slot:date>
+          Aug 16, 2017
+        </template>
+        <template v-slot:event>
+          Raised seed funding and joined
+        </template>
+        <template v-slot:event2>
+          Heavybit accelerator program
+        </template>
+      </app-text>
+
       <app-deploybutton />
       <app-book />
       <app-functions />

@@ -1,7 +1,7 @@
 <template>
   <svg
     id="seed"
-    x="600"
+    x="650"
     y="600"
     width="350"
     height="375"

@@ -1,9 +1,9 @@
 <template>
   <svg
-    x="500"
-    y="900"
-    width="400"
-    height="400"
+    x="300"
+    y="850"
+    width="380"
+    height="380"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 314.2 328.1"
     id="deploypreview"

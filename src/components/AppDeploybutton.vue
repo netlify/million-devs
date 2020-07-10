@@ -1,7 +1,7 @@
 <template>
   <svg
     x="100"
-    y="900"
+    y="1250"
     width="400"
     height="300"
     id="deploybtn"
