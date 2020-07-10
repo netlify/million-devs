@@ -57,7 +57,7 @@
 
       <app-text x="1000" y="800" num="4">
         <template v-slot:date>
-          Aug 16, 2017
+          Aug 16, 2016
         </template>
         <template v-slot:event>
           Raised seed funding and joined
@@ -70,20 +70,30 @@
       <app-deploypreview />
       <app-text x="50" y="650" num="5">
         <template v-slot:date>
-          Aug 16, 2017
+          Aug 30, 2016
         </template>
         <template v-slot:event>
-          Raised seed funding and joined
-        </template>
-        <template v-slot:event2>
-          Heavybit accelerator program
+          Introduced Deploy Previews
         </template>
       </app-text>
 
+      <app-bush x="50" y="850" />
+      <app-bush x="100" y="900" />
+
       <app-deploybutton />
-      <app-book />
+      <app-text x="50" y="1500" num="5">
+        <template v-slot:date>
+          Aug 30, 2016
+        </template>
+        <template v-slot:event>
+          Introduced Deploy to Netlify Button
+        </template>
+      </app-text>
+      <app-tree x="500" y="1420" />
+
       <app-functions />
       <app-drop />
+      <app-book />
     </svg>
   </div>
 </template>

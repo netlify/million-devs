@@ -2,7 +2,7 @@
   <svg
     id="book"
     x="700"
-    y="1200"
+    y="3000"
     width="350"
     height="400"
     xmlns="http://www.w3.org/2000/svg"
