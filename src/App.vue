@@ -38,7 +38,7 @@
 
       <app-letsencrypt />
 
-      <app-text x="1400" y="850" num="3">
+      <app-text x="1520" y="450" num="3">
         <template v-slot:date>
           Jan 01, 2017
         </template>
@@ -50,10 +50,12 @@
         </template>
       </app-text>
 
-      <app-streetlamp1 x="1600" y="600" />
-      <app-bush x="1510" y="700" />
+      <app-streetlamp1 x="1550" y="650" />
+      <app-bush x="1450" y="700" />
 
-      <app-text x="700" y="850" num="3">
+      <app-seed />
+
+      <app-text x="970" y="780" num="3">
         <template v-slot:date>
           Aug 16, 2017
         </template>
@@ -67,7 +69,6 @@
       <app-deploypreview />
       <app-deploybutton />
       <app-book />
-      <app-seed />
       <app-functions />
       <app-drop />
     </svg>

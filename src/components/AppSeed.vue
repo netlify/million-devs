@@ -1,8 +1,8 @@
 <template>
   <svg
     id="seed"
-    x="200"
-    y="1600"
+    x="600"
+    y="600"
     width="350"
     height="375"
     xmlns="http://www.w3.org/2000/svg"
