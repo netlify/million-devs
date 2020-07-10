@@ -67,6 +67,7 @@
       <app-deploypreview />
       <app-deploybutton />
       <app-book />
+      <app-seed />
       <app-functions />
       <app-drop />
     </svg>
@@ -80,6 +81,7 @@ import AppTree from "@/components/AppTree.vue"
 import AppBush from "@/components/AppBush.vue"
 import AppBook from "@/components/AppBook.vue"
 import AppDrop from "@/components/AppDrop.vue"
+import AppSeed from "@/components/AppSeed.vue"
 import AppGithub from "@/components/AppGithub.vue"
 import AppRedirect from "@/components/AppRedirect.vue"
 import AppFunctions from "@/components/AppFunctions.vue"
@@ -96,6 +98,7 @@ export default {
     AppBush,
     AppBook,
     AppDrop,
+    AppSeed,
     AppGithub,
     AppRedirect,
     AppFunctions,
