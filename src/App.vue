@@ -123,6 +123,18 @@
 
       <app-auditlogs x="700" />
 
+      <app-text x="1020" y="1750" num="8">
+        <template v-slot:date>
+          June 28, 2017
+        </template>
+        <template v-slot:event>
+          Introduced audit logs
+        </template>
+        <template v-slot:event2>
+          for teams
+        </template>
+      </app-text>
+
       <app-functions />
       <app-drop />
       <app-book />
