@@ -862,7 +862,82 @@
 </template>
 
 <script>
-export default {}
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger.js"
+import { mapState } from "vuex"
+
+gsap.registerPlugin(ScrollTrigger)
+
+export default {
+  computed: {
+    ...mapState(["toggleConfig", "startConfig"]),
+  },
+  methods: {
+    splitTesting() {
+      gsap
+        .timeline({
+          scrollTrigger: {
+            trigger: `#splittesting`,
+            toggleActions: this.toggleConfig,
+            start: this.startConfig,
+          },
+          defaults: {
+            duration: 1,
+            ease: "back",
+          },
+        })
+        .add("split")
+        .from(
+          `#Magnifying_Glass`,
+          {
+            opacity: 0.5,
+            rotation: 180,
+            scale: 0,
+            transformOrigin: "50% 50%",
+          },
+          "split"
+        )
+        .from(
+          `#Screen`,
+          {
+            opacity: 0.5,
+            rotation: -30,
+            transformOrigin: "100% 0%",
+          },
+          "split"
+        )
+        .from(
+          `#Screen-2`,
+          {
+            opacity: 0.5,
+            rotation: 30,
+            transformOrigin: "0% 0%",
+          },
+          "split"
+        )
+        .from(
+          "#A, #B",
+          {
+            opacity: 0,
+            ease: "sine",
+          },
+          "split+=0.3"
+        )
+        .from(
+          "#Circle_3, #Circle_2, #Circle_1-2, #Square_1, #Square_2",
+          {
+            opacity: 0,
+            stagger: 0.2,
+            ease: "sine",
+          },
+          "split+=1"
+        )
+    },
+  },
+  mounted() {
+    this.splitTesting()
+  },
+}
 </script>
 
 <style lang="scss" scoped>

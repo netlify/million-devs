@@ -96,9 +96,22 @@
       <app-twodoto />
       <app-splittesting />
 
-      <app-tree x="1250" y="1100" />
-      <app-tree x="1300" y="1120" />
-      <app-tree x="1200" y="1150" />
+      <app-text x="1100" y="1100" num="6">
+        <template v-slot:date>
+          Mar 14, 2017
+        </template>
+        <template v-slot:event>
+          Introduced a new design system
+        </template>
+        <template v-slot:event2>
+          to the Netlify app
+        </template>
+      </app-text>
+      <app-tree x="500" y="1420" />
+
+      <app-tree x="1550" y="1200" />
+      <app-tree x="1600" y="1220" />
+      <app-tree x="1500" y="1250" />
 
       <app-functions />
       <app-drop />
