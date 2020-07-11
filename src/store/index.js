@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    toggleConfig: `restart pause reverse pause`,
+    toggleConfig: `restart pause none pause`,
     startConfig: `center 90%`,
   },
   mutations: {},

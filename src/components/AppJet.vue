@@ -2040,11 +2040,15 @@
 import { gsap } from "gsap"
 import { RoughEase } from "gsap/EasePack"
 import { ScrollTrigger } from "gsap/ScrollTrigger.js"
+import { mapState } from "vuex"
 
 gsap.registerPlugin(RoughEase)
 gsap.registerPlugin(ScrollTrigger)
 
 export default {
+  computed: {
+    ...mapState(["toggleConfig", "startConfig"]),
+  },
   methods: {
     rocketAnim() {
       gsap.set(".rocket", {
@@ -2061,8 +2065,8 @@ export default {
         .timeline({
           scrollTrigger: {
             trigger: ".all-rocket",
-            toggleActions: "restart pause reverse pause",
-            start: "center bottom",
+            toggleActions: this.toggleConfig,
+            start: this.startConfig,
           },
           defaults: {
             duration: 1,

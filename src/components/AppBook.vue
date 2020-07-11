@@ -2400,6 +2400,7 @@
 
 <script>
 import { gsap } from "gsap"
+import { mapState } from "vuex"
 import { ScrollTrigger } from "gsap/ScrollTrigger.js"
 import { MorphSVGPlugin } from "gsap/MorphSVGPlugin.js"
 
@@ -2407,14 +2408,17 @@ gsap.registerPlugin(ScrollTrigger)
 gsap.registerPlugin(MorphSVGPlugin)
 
 export default {
+  computed: {
+    ...mapState(["toggleConfig", "startConfig"]),
+  },
   methods: {
     bookAnim() {
       gsap
         .timeline({
           scrollTrigger: {
             trigger: "#book",
-            toggleActions: "restart pause reverse pause",
-            start: "center 70%",
+            toggleActions: this.toggleConfig,
+            start: this.startConfig,
           },
         })
         .add("book")

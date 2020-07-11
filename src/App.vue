@@ -96,6 +96,10 @@
       <app-twodoto />
       <app-splittesting />
 
+      <app-tree x="1250" y="1100" />
+      <app-tree x="1300" y="1120" />
+      <app-tree x="1200" y="1150" />
+
       <app-functions />
       <app-drop />
       <app-book />
