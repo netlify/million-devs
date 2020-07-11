@@ -28,6 +28,7 @@
       </template>
     </app-text>
 
+    <app-bush x="500" y="1700" />
     <app-auditlogs x="700" />
 
     <app-text x="1020" y="1750" num="8">
@@ -42,7 +43,12 @@
       </template>
     </app-text>
 
+    <app-tree x="50" y="1700" />
+    <app-tree x="0" y="1720" />
+    <app-tree x="0" y="1750" />
     <app-smashing />
+
+    <app-netlifycms />
   </g>
 </template>
 
@@ -56,6 +62,7 @@ import AppBush from "@/components/AppBush.vue"
 import AppTwodoto from "@/components/AppTwodoto.vue"
 import AppSmashing from "@/components/AppSmashing.vue"
 import AppAuditlogs from "@/components/AppAuditlogs.vue"
+import AppNetlifycms from "@/components/AppNetlifycms.vue"
 import AppSplittesting from "@/components/AppSplittesting.vue"
 
 export default {
@@ -69,6 +76,8 @@ export default {
       import(/* webpackPrefetch: true */ "@/components/AppSmashing.vue"),
     AppAuditlogs: () =>
       import(/* webpackPrefetch: true */ "@/components/AppAuditlogs.vue"),
+    AppNetlifycms: () =>
+      import(/* webpackPrefetch: true */ "@/components/AppNetlifycms.vue"),
     AppSplittesting: () =>
       import(/* webpackPrefetch: true */ "@/components/AppSplittesting.vue"),
   },

@@ -1,8 +1,8 @@
 <template>
   <svg
     id="functions"
-    x="700"
-    y="2000"
+    x="200"
+    y="2200"
     width="375"
     height="300"
     xmlns="http://www.w3.org/2000/svg"

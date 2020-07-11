@@ -1,10 +1,10 @@
 <template>
   <svg
     id="drop"
-    x="1000"
-    y="2000"
-    width="350"
-    height="275"
+    x="300"
+    y="2500"
+    width="430"
+    height="335"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 293.4 236.3"
   >
