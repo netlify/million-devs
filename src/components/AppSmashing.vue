@@ -715,7 +715,76 @@
 </template>
 
 <script>
-export default {}
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger.js"
+import { mapState } from "vuex"
+
+gsap.registerPlugin(ScrollTrigger)
+
+export default {
+  computed: {
+    ...mapState(["toggleConfig", "startConfig"]),
+  },
+  methods: {
+    smashingAnim() {
+      gsap
+        .timeline({
+          scrollTrigger: {
+            trigger: "#smashing",
+            toggleActions: this.toggleConfig,
+            start: this.startConfig,
+          },
+          defaults: {
+            duration: 1,
+            ease: "sine",
+          },
+        })
+        .add("smashing")
+        .from(
+          ".sbox",
+          {
+            duration: 0.5,
+            opacity: 0,
+            scale: 0.5,
+            transformOrigin: "50% 50%",
+            stagger: 0.1,
+            ease: "back",
+          },
+          "smashing"
+        )
+        .from(
+          "#Wordpress_Logo",
+          {
+            opacity: 0,
+            scale: 0.5,
+            transformOrigin: "50% 50%",
+          },
+          "smashing+=0.5"
+        )
+        .from(
+          "#LOGO",
+          {
+            opacity: 0,
+            scale: 0.5,
+            transformOrigin: "50% 50%",
+          },
+          "smashing+=1"
+        )
+        .from(
+          "#Smashing",
+          {
+            opacity: 0,
+            scale: 0.5,
+            transformOrigin: "50% 50%",
+          },
+          "smashing+=1.5"
+        )
+    },
+  },
+  mounted() {
+    this.smashingAnim()
+  },
+}
 </script>
 
 <style lang="scss" scoped>
