@@ -41,6 +41,8 @@
         for teams
       </template>
     </app-text>
+
+    <app-smashing />
   </g>
 </template>
 
@@ -52,8 +54,9 @@ import AppBush from "@/components/AppBush.vue"
 
 //unique units
 import AppTwodoto from "@/components/AppTwodoto.vue"
-import AppSplittesting from "@/components/AppSplittesting.vue"
+import AppSmashing from "@/components/AppSmashing.vue"
 import AppAuditlogs from "@/components/AppAuditlogs.vue"
+import AppSplittesting from "@/components/AppSplittesting.vue"
 
 export default {
   components: {
@@ -62,10 +65,12 @@ export default {
     AppBush,
     AppTwodoto: () =>
       import(/* webpackPrefetch: true */ "@/components/AppTwodoto.vue"),
-    AppSplittesting: () =>
-      import(/* webpackPrefetch: true */ "@/components/AppSplittesting.vue"),
+    AppSmashing: () =>
+      import(/* webpackPrefetch: true */ "@/components/AppSmashing.vue"),
     AppAuditlogs: () =>
       import(/* webpackPrefetch: true */ "@/components/AppAuditlogs.vue"),
+    AppSplittesting: () =>
+      import(/* webpackPrefetch: true */ "@/components/AppSplittesting.vue"),
   },
 }
 </script>

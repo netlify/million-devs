@@ -33,9 +33,11 @@ import AppJet from "@/components/AppJet.vue"
 import AppText from "@/components/AppText.vue"
 import AppHeader from "@/components/AppHeader.vue"
 
+//sections by year
 import App2016 from "@/components/App2016.vue"
 import App2017 from "@/components/App2017.vue"
 
+//misc, TODO: add them to a year
 import AppDrop from "@/components/AppDrop.vue"
 import AppBook from "@/components/AppBook.vue"
 import AppFunctions from "@/components/AppFunctions.vue"
