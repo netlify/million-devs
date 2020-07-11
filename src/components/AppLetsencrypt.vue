@@ -2043,10 +2043,14 @@
 <script>
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger.js"
+import { mapState } from "vuex"
 
 gsap.registerPlugin(ScrollTrigger)
 
 export default {
+  computed: {
+    ...mapState(["toggleConfig", "startConfig"]),
+  },
   methods: {
     encryptAnim() {
       gsap.set("#lock, #ssl, #letsencrypt path", {
@@ -2059,8 +2063,8 @@ export default {
         .timeline({
           scrollTrigger: {
             trigger: "#ssl",
-            toggleActions: "restart pause reverse pause",
-            start: "center 70%",
+            toggleActions: this.toggleConfig,
+            start: this.startConfig,
           },
           defaults: {
             duration: 1,

@@ -2612,10 +2612,14 @@
 <script>
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger.js"
+import { mapState } from "vuex"
 
 gsap.registerPlugin(ScrollTrigger)
 
 export default {
+  computed: {
+    ...mapState(["toggleConfig", "startConfig"]),
+  },
   methods: {
     bookAnim() {
       const path = this.$refs["arrowline"],
@@ -2630,8 +2634,8 @@ export default {
         .timeline({
           scrollTrigger: {
             trigger: "#seed",
-            toggleActions: "restart pause reverse pause",
-            start: "center 80%",
+            toggleActions: this.toggleConfig,
+            start: this.startConfig,
           },
           defaults: {
             duration: 1,
