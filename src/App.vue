@@ -94,7 +94,6 @@
       <app-tree x="500" y="1420" />
 
       <app-twodoto />
-      <app-splittesting />
 
       <app-text x="1100" y="1100" num="6">
         <template v-slot:date>
@@ -107,11 +106,22 @@
           to the Netlify app
         </template>
       </app-text>
-      <app-tree x="500" y="1420" />
 
+      <app-splittesting />
       <app-tree x="1550" y="1200" />
       <app-tree x="1600" y="1220" />
       <app-tree x="1500" y="1250" />
+
+      <app-text x="1300" y="1600" num="7">
+        <template v-slot:date>
+          June 28, 2017
+        </template>
+        <template v-slot:event>
+          Introduced split-branch testing
+        </template>
+      </app-text>
+
+      <app-auditlogs x="700" />
 
       <app-functions />
       <app-drop />
@@ -138,6 +148,7 @@ import AppSplittesting from "@/components/AppSplittesting.vue"
 import AppStreetlamp1 from "@/components/AppStreetlamp1.vue"
 import AppDeploybutton from "@/components/AppDeploybutton.vue"
 import AppDeploypreview from "@/components/AppDeploypreview.vue"
+import AppAuditlogs from "@/components/AppAuditlogs.vue"
 
 export default {
   components: {
@@ -168,6 +179,8 @@ export default {
       import(/* webpackPrefetch: true */ "@/components/AppDeploybutton.vue"),
     AppDeploypreview: () =>
       import(/* webpackPrefetch: true */ "@/components/AppDeploypreview.vue"),
+    AppAuditlogs: () =>
+      import(/* webpackPrefetch: true */ "@/components/AppAuditlogs.vue"),
   },
 }
 </script>
