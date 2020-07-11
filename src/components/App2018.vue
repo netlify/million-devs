@@ -1,7 +1,6 @@
 <template>
   <g>
     <app-functions />
-
     <app-drop />
   </g>
 </template>
@@ -23,7 +22,7 @@ export default {
     AppTree,
     AppBush,
     AppStreetlamp1,
-    Drop: () => import("@/components/Drop.vue"),
+    AppDrop: () => import("@/components/AppDrop.vue"),
     AppFunctions: () => import("@/components/AppFunctions.vue"),
   },
 }

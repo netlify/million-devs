@@ -14,7 +14,9 @@
       </svg>
       <h1>1 Million Developers</h1>
     </div>
-    <div class="mlogo"></div>
+    <div class="mlogo">
+      <app-million />
+    </div>
     <div class="intro">
       <h2>Explore our timeline</h2>
       <p>
@@ -38,11 +40,16 @@
 </template>
 
 <script>
+import AppMillion from "@/components/AppMillion.vue"
+
 export default {
   data() {
     return {
       nemail: "",
     }
+  },
+  components: {
+    AppMillion,
   },
 }
 </script>
