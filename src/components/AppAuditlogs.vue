@@ -87,7 +87,7 @@
           transform="translate(-47.2 -26.7)"
         />
       </g>
-      <g id="Block_7" data-name="Block 7">
+      <g class="bblock" id="Block_7" data-name="Block 7">
         <polygon
           class="cls-1"
           points="33.8 164.6 33 164.2 6.6 179.5 7.3 179.9 18.1 173.8 33.8 164.6"
@@ -149,7 +149,7 @@
           points="30.9 163.1 4.6 178.4 5.2 178.7 31.7 163.4 30.9 163.1"
         />
       </g>
-      <g id="Block_6" data-name="Block 6">
+      <g class="bblock" id="Block_6" data-name="Block 6">
         <path
           class="cls-3"
           d="M71.1,202.3h-.7a4.9,4.9,0,0,1-1.4-.3l-14-8.2-.2,4.2L69.6,207a1.9,1.9,0,0,0,1.5,0Z"
@@ -179,7 +179,7 @@
           transform="translate(-159.7 252.7) rotate(-89.2)"
         />
       </g>
-      <g id="Block_1" data-name="Block 1">
+      <g class="bblock" id="Block_1" data-name="Block 1">
         <path
           class="cls-2"
           d="M60.8,179.2,57,181.8l3.3,2a2,2,0,0,1,.9.9l3.9-2.5a.7.7,0,0,0-.3-.6Z"
@@ -200,7 +200,7 @@
           points="18.1 158 13.7 160.6 14.3 161.5 18.6 158.9 18.1 158"
         />
       </g>
-      <g id="Words">
+      <g id="blackboard-words">
         <path
           class="cls-4"
           d="M122.7,144.6l-.4-.4c-.2-.1-.5-.1-.5.2a2.7,2.7,0,0,0-.2,1.3c0,.5.1.8.1,1.1l1.1-2C122.8,144.7,122.7,144.7,122.7,144.6Z"
@@ -2985,7 +2985,7 @@
           points="218 219.2 217.7 219 218 220.3 218 219.2"
         />
       </g>
-      <g id="Block_2" data-name="Block 2">
+      <g class="bblock" id="Block_2" data-name="Block 2">
         <polygon
           class="cls-2"
           points="159.9 58.3 161.7 59.3 165.8 56.8 164 55.8 159.9 58.3"
@@ -3010,7 +3010,7 @@
           points="171 63.5 170.5 62.6 166.2 65.2 166.7 66.1 171 63.5"
         />
       </g>
-      <g id="Block_3" data-name="Block 3">
+      <g class="bblock" id="Block_3" data-name="Block 3">
         <path
           class="cls-1"
           d="M262.4,110.7,225.9,89.5a.9.9,0,0,0-1,0L220,92.6a.9.9,0,0,0-.4,1c-.1.1-.1.2-.1.4v3.9a2,2,0,0,0,1.1,1.7l36.1,21.2h1.4l4.9-3.2h.2a2.2,2.2,0,0,0,.3-.9h0v-4.1A2.2,2.2,0,0,0,262.4,110.7Zm-4,7.8-.5-.9,4.3-2.6.6.9ZM225.5,90.2c.2-.1.3-.1.4,0l36.2,21.1a1.1,1.1,0,0,1,.6,1h-.4l-4.2,2.5a1.4,1.4,0,0,0-.8-.9L221.2,92.9Zm-4.8,7.7V94.1l35.9,21a1.1,1.1,0,0,1,.3.7v3.8L221,98.6A1.1,1.1,0,0,1,220.7,97.9Z"
@@ -3031,7 +3031,7 @@
           points="210.7 91 211.2 91.9 215.6 89.2 215 88.3 210.7 91"
         />
       </g>
-      <g id="Block_4" data-name="Block 4">
+      <g class="bblock" id="Block_4" data-name="Block 4">
         <path
           class="cls-2"
           d="M290.1,196.7l-3.8,2.4.5.3a2.9,2.9,0,0,1,1.2,1.8l4-2.3a2.3,2.3,0,0,0-.7-1.4Z"
@@ -3056,7 +3056,7 @@
           points="244.9 186.2 240.5 188.8 241.1 189.7 245.4 187.1 244.9 186.2"
         />
       </g>
-      <g id="Block_5" data-name="Block 5">
+      <g class="bblock" id="Block_5" data-name="Block 5">
         <polygon
           class="cls-2"
           points="44.7 20.1 40.8 22.4 43.4 24 47.2 21.6 44.8 20.1 44.7 20.1"
@@ -3095,7 +3095,7 @@
           transform="translate(-47.2 -26.7)"
         />
       </g>
-      <g id="Bubble_1" data-name="Bubble 1">
+      <g class="bblock" id="Bubble_1" data-name="Bubble 1">
         <g>
           <path
             class="cls-3"
@@ -3121,7 +3121,7 @@
           />
         </g>
       </g>
-      <g id="Bubble_2" data-name="Bubble 2">
+      <g class="bblock" id="Bubble_2" data-name="Bubble 2">
         <g>
           <path
             class="cls-3"
@@ -3330,7 +3330,7 @@
           points="177.2 291.9 197.4 303.5 198.1 303.1 177.9 291.4 177.2 291.9"
         />
       </g>
-      <g id="Block">
+      <g class="bblock" id="Block">
         <path
           class="cls-3"
           d="M241.9,321.6V292.5l-11.2,6.6a2.9,2.9,0,0,1-1.3.5v29.2l.7-.4Z"
@@ -3569,7 +3569,7 @@
           transform="translate(-47.2 -26.7)"
         />
       </g>
-      <g id="Block_2-2" data-name="Block 2">
+      <g class="bblock" id="Block_2-2" data-name="Block 2">
         <path
           class="cls-3"
           d="M205.3,322.7V308.3l-11.1,6.5a2.9,2.9,0,0,1-1.3.5v14.5l.7-.3Z"
@@ -3590,7 +3590,7 @@
           points="161.8 281.2 161.5 281.2 160.7 281.2 160.7 290.7 161.5 290.7 161.8 290.7 161.8 281.2"
         />
       </g>
-      <g id="Block_3-2" data-name="Block 3">
+      <g class="bblock" id="Block_3-2" data-name="Block 3">
         <path
           class="cls-2"
           d="M191.5,298.1a3.4,3.4,0,0,1,1.2-1.6l5.7-3.3-6.7-4.2-6.5,3.8a2.3,2.3,0,0,0-.7.9Z"
@@ -3611,7 +3611,7 @@
           points="137 271.9 143.8 276 144.3 275.1 137.5 271 137 271.9"
         />
       </g>
-      <g id="Block_4-2" data-name="Block 4">
+      <g class="bblock" id="Block_4-2" data-name="Block 4">
         <path
           class="cls-3"
           d="M196.4,280.2a7.3,7.3,0,0,1-7,0l-.3-.2,1.1,10.2c0,.5.4.9,1.6,1.2a3.7,3.7,0,0,0,2.1,0c1.2-.3,1.6-.7,1.6-1.2l1.1-10.1Z"
@@ -3638,7 +3638,7 @@
           transform="translate(-47.2 -26.7)"
         />
       </g>
-      <g id="Block_5-2" data-name="Block 5">
+      <g class="bblock" id="Block_5-2" data-name="Block 5">
         <path
           class="cls-3"
           d="M208.7,338.9v-5.5l-11.2,6.5a3.1,3.1,0,0,1-1.3.6v5.6l.7-.3Z"
@@ -3669,6 +3669,12 @@
 </template>
 
 <script>
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger.js"
+import { mapState } from "vuex"
+
+gsap.registerPlugin(ScrollTrigger)
+
 export default {
   props: {
     x: {
@@ -3679,6 +3685,44 @@ export default {
       type: [Number, String],
       default: 1500,
     },
+  },
+  computed: {
+    ...mapState(["toggleConfig", "startConfig"]),
+  },
+  methods: {
+    auditLogs() {
+      gsap
+        .timeline({
+          scrollTrigger: {
+            trigger: "#auditlogs",
+            toggleActions: this.toggleConfig,
+            start: this.startConfig,
+          },
+          defaults: {
+            duration: 0.5,
+          },
+        })
+        .add("audit")
+        .from("#blackboard-words path, #blackboard-words polygon", {
+          opacity: 0,
+          stagger: 0.005,
+          ease: "sine",
+        })
+        .from(
+          ".bblock",
+          {
+            opacity: 0,
+            rotation: -30,
+            transformOrigin: "50% 50%",
+            stagger: 0.1,
+            ease: "back",
+          },
+          "audit"
+        )
+    },
+  },
+  mounted() {
+    this.auditLogs()
   },
 }
 </script>
