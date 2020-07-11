@@ -94,6 +94,7 @@
       <app-tree x="500" y="1420" />
 
       <app-twodoto />
+      <app-splittesting />
 
       <app-functions />
       <app-drop />
@@ -116,6 +117,7 @@ import AppRedirect from "@/components/AppRedirect.vue"
 import AppFunctions from "@/components/AppFunctions.vue"
 import AppLetsencrypt from "@/components/AppLetsencrypt.vue"
 import AppTwodoto from "@/components/AppTwodoto.vue"
+import AppSplittesting from "@/components/AppSplittesting.vue"
 import AppStreetlamp1 from "@/components/AppStreetlamp1.vue"
 import AppDeploybutton from "@/components/AppDeploybutton.vue"
 import AppDeploypreview from "@/components/AppDeploypreview.vue"
@@ -142,6 +144,8 @@ export default {
       import(/* webpackPrefetch: true */ "@/components/AppTwodoto.vue"),
     AppLetsencrypt: () =>
       import(/* webpackPrefetch: true */ "@/components/AppLetsencrypt.vue"),
+    AppSplittesting: () =>
+      import(/* webpackPrefetch: true */ "@/components/AppSplittesting.vue"),
     AppStreetlamp1,
     AppDeploybutton: () =>
       import(/* webpackPrefetch: true */ "@/components/AppDeploybutton.vue"),

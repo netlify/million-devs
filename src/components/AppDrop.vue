@@ -2,7 +2,7 @@
   <svg
     id="drop"
     x="1000"
-    y="1600"
+    y="2000"
     width="350"
     height="275"
     xmlns="http://www.w3.org/2000/svg"

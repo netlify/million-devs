@@ -1,11 +1,11 @@
 <template>
   <svg
     id="two"
-    x="700"
+    x="600"
     y="1100"
     xmlns="http://www.w3.org/2000/svg"
-    width="500"
-    height="400"
+    width="470"
+    height="370"
     viewBox="0 0 361 283"
   >
     <path
@@ -2089,7 +2089,7 @@ export default {
           scrollTrigger: {
             trigger: "#two",
             toggleActions: "restart pause reverse pause",
-            start: "center 80%",
+            start: "center 60%",
           },
           defaults: {
             duration: 1,
@@ -2097,6 +2097,13 @@ export default {
           },
         })
         .add("two")
+        .from(
+          "#netlify-letters path, #code-bubble1, #code-bubble2, #thought-bubbles g",
+          {
+            stagger: 0.1,
+            opacity: 0,
+          }
+        )
     },
   },
   mounted() {
