@@ -1,8 +1,8 @@
 <template>
   <svg
     id="drop"
-    x="300"
-    y="2500"
+    x="200"
+    y="3700"
     width="430"
     height="335"
     xmlns="http://www.w3.org/2000/svg"
@@ -443,16 +443,8 @@
       d="M203,185.3l31.4,18a.6.6,0,0,1,0,.9l-3.3,1.9a1.4,1.4,0,0,1-1.5,0l-31.4-18a.5.5,0,0,1,0-.8l3.4-2A1.7,1.7,0,0,1,203,185.3Z"
       transform="translate(-1 -0.7)"
     />
-    <path
-      class="cls-1"
-      d="M281.8,210.7l5.1-3v-1.1l-5.1,3Z"
-      transform="translate(-1 -0.7)"
-    />
-    <path
-      class="cls-1"
-      d="M274.3,215.1l5.1-3V211l-5.1,3Z"
-      transform="translate(-1 -0.7)"
-    />
+    <path class="cls-1" d="M281.8,210.7l5.1-3v-1.1l-5.1,3Z" transform="translate(-1 -0.7)" />
+    <path class="cls-1" d="M274.3,215.1l5.1-3V211l-5.1,3Z" transform="translate(-1 -0.7)" />
     <path
       class="cls-1"
       d="M57.2,3.7l1,65.4A7.2,7.2,0,0,0,61,74.4L145.4,124c1.1.6,2.9-.3,3.4-1.3a4.2,4.2,0,0,0,.3-1.3V55.8a6.8,6.8,0,0,0-2.7-5.1L60.9,1.5A2.6,2.6,0,0,0,57.2,3.7Z"
@@ -888,16 +880,8 @@
       d="M58.1,105.6l31.3,18c.4.2.4.6,0,.9l-3.3,1.9a1.4,1.4,0,0,1-1.5,0L53.3,108.3c-.4-.2-.4-.6,0-.9l3.3-1.9A2.5,2.5,0,0,1,58.1,105.6Z"
       transform="translate(-1 -0.7)"
     />
-    <path
-      class="cls-1"
-      d="M136.9,130.8l5-2.9v-1l-5,2.8Z"
-      transform="translate(-1 -0.7)"
-    />
-    <path
-      class="cls-1"
-      d="M129.5,135.2l5-2.9v-1.1l-5,2.9Z"
-      transform="translate(-1 -0.7)"
-    />
+    <path class="cls-1" d="M136.9,130.8l5-2.9v-1l-5,2.8Z" transform="translate(-1 -0.7)" />
+    <path class="cls-1" d="M129.5,135.2l5-2.9v-1.1l-5,2.9Z" transform="translate(-1 -0.7)" />
     <path
       class="cls-1"
       d="M266.7,157.8l-1.2-.8.3.3a3.3,3.3,0,0,1,1.3,2.5l-.3,3.3-2.4,35.1v.9l1.4.9,2.5-36,.3-3.2C268.8,159.7,267.8,158.4,266.7,157.8Z"
@@ -908,11 +892,7 @@
       d="M212.1,131.6v-10l-4.4-2.5c-.7-.4-1.2-.2-1.2.6v8.7h.3Z"
       transform="translate(-1 -0.7)"
     />
-    <path
-      class="cls-5"
-      d="M264.4,199.4l-16.9-9.7,17,9.7v0Z"
-      transform="translate(-1 -0.7)"
-    />
+    <path class="cls-5" d="M264.4,199.4l-16.9-9.7,17,9.7v0Z" transform="translate(-1 -0.7)" />
     <path
       class="cls-2"
       d="M213.8,132.5V112l9-5.2L258.1,127v-1.6L212.1,99v32.6Z"
@@ -923,16 +903,8 @@
       d="M223.1,117.7l-9.3-5.7v20.7l8.8,5,.8-.3-5.3-3v-1.1l6.7,3.8,3.7-.9h.6l-11-6.2v-1.1l32.6,18.7v.9l9.1,5.2v-9l-27-15.6v-9.8l27,15.6V128l-1.7-1-35.3-20.3Z"
       transform="translate(-1 -0.7)"
     />
-    <path
-      class="cls-6"
-      d="M222.8,106.8v10.3l-9-5.1,9.3,5.7Z"
-      transform="translate(-1 -0.7)"
-    />
-    <path
-      class="cls-2"
-      d="M222.8,106.8l-9,5.2,9,5.1Z"
-      transform="translate(-1 -0.7)"
-    />
+    <path class="cls-6" d="M222.8,106.8v10.3l-9-5.1,9.3,5.7Z" transform="translate(-1 -0.7)" />
+    <path class="cls-2" d="M222.8,106.8l-9,5.2,9,5.1Z" transform="translate(-1 -0.7)" />
     <path
       class="cls-1"
       d="M232.8,119.3v9.8l27,15.6,1.9,1.1V136l-1.9-1.1Zm17.4,17.2-2.3-1.4v-.5l1.8,1v-1.7l-1.6-1v-.5l1.6,1v-1.5l-1.7-1v-.4l2.2,1.3Zm2.9,1.7-2.4-1.4v-.5l1.7,1V133l.5.4v4.8Zm1.4.7-.5-.4v-4.7l.5.3Zm3.1,1.8-.5-.3v-2.2l-1.6-.9v-.5l1.6.9v-1.6l-1.7-1v-.5l2.2,1.2Z"
@@ -943,26 +915,14 @@
       d="M218,128.9V130l11,6.2a2.4,2.4,0,0,1,1.2.4l20.4,11.7v-.7Z"
       transform="translate(-1 -0.7)"
     />
-    <path
-      class="cls-1"
-      d="M218,134.4l5.4,3,1.4-.3-6.8-3.8Z"
-      transform="translate(-1 -0.7)"
-    />
-    <path
-      class="cls-5"
-      d="M259.8,144.7v1.8l1.9-.9Z"
-      transform="translate(-1 -0.7)"
-    />
+    <path class="cls-1" d="M218,134.4l5.4,3,1.4-.3-6.8-3.8Z" transform="translate(-1 -0.7)" />
+    <path class="cls-5" d="M259.8,144.7v1.8l1.9-.9Z" transform="translate(-1 -0.7)" />
     <path
       class="cls-2"
       d="M255.4,135.1l1.6,1v1.6l-1.5-.9v.5l1.5.9v2.2l.6.3V136l-2.2-1.4Z"
       transform="translate(-1 -0.7)"
     />
-    <path
-      class="cls-2"
-      d="M254,138.7l.5.2v-4.8l-.5-.2Z"
-      transform="translate(-1 -0.7)"
-    />
+    <path class="cls-2" d="M254,138.7l.5.2v-4.8l-.5-.2Z" transform="translate(-1 -0.7)" />
     <path
       class="cls-2"
       d="M252.6,137.3l-1.8-1.1v.6l2.3,1.4v-4.8l-.5-.4Z"
@@ -988,16 +948,8 @@
       d="M189.6,139.4v-9.9l-1.3-.8c-.8-.3-1.3-.1-1.3.7l.2,4.2V138l.2.2Z"
       transform="translate(-1 -0.7)"
     />
-    <path
-      class="cls-5"
-      d="M187.9,176l24.8,14.3Z"
-      transform="translate(-1 -0.7)"
-    />
-    <path
-      class="cls-5"
-      d="M244.9,208.8h.2v-1.2Z"
-      transform="translate(-1 -0.7)"
-    />
+    <path class="cls-5" d="M187.9,176l24.8,14.3Z" transform="translate(-1 -0.7)" />
+    <path class="cls-5" d="M244.9,208.8h.2v-1.2Z" transform="translate(-1 -0.7)" />
     <path
       class="cls-2"
       d="M191.5,140.4v-11l50.3,28.9v-1.4l-36.4-20.8L189.6,127v12.4Z"
@@ -1023,16 +975,8 @@
       d="M67.3,51.7V41.8l-4.4-2.6c-.8-.3-1.3-.1-1.3.6l.2,4.3v4.4c.1,0,.1.2.2.2Z"
       transform="translate(-1 -0.7)"
     />
-    <path
-      class="cls-7"
-      d="M119.6,119.6l-16.9-9.7,16.9,9.7v0Z"
-      transform="translate(-1 -0.7)"
-    />
-    <path
-      class="cls-8"
-      d="M119.6,119.6l-16.9-9.7Zm0,0v0Z"
-      transform="translate(-1 -0.7)"
-    />
+    <path class="cls-7" d="M119.6,119.6l-16.9-9.7,16.9,9.7v0Z" transform="translate(-1 -0.7)" />
+    <path class="cls-8" d="M119.6,119.6l-16.9-9.7Zm0,0v0Z" transform="translate(-1 -0.7)" />
     <path
       class="cls-2"
       d="M69,52.8V32.1L77.9,27l35.3,20.2V45.6L67.3,19.2V51.7Z"
@@ -1043,16 +987,8 @@
       d="M78.2,37.9,69,32.1V52.8l8.8,5,.8-.2-5.4-3.1V53.4l6.6,3.8,3.7-.8h.6L73.2,50.1V49l32.6,18.8v.8l9.1,5.3V64.8L87.8,49.3V39.5L114.9,55V48.3l-1.7-1.1L77.9,27Z"
       transform="translate(-1 -0.7)"
     />
-    <path
-      class="cls-6"
-      d="M77.9,27V37.3L69,32.1l9.2,5.8Z"
-      transform="translate(-1 -0.7)"
-    />
-    <path
-      class="cls-2"
-      d="M77.9,27,69,32.1l8.9,5.2Z"
-      transform="translate(-1 -0.7)"
-    />
+    <path class="cls-6" d="M77.9,27V37.3L69,32.1l9.2,5.8Z" transform="translate(-1 -0.7)" />
+    <path class="cls-2" d="M77.9,27,69,32.1l8.9,5.2Z" transform="translate(-1 -0.7)" />
     <path
       class="cls-1"
       d="M88,39.5v9.8l27,15.5,1.8,1.1V56.1L115,55Zm17.3,17.1L103,55.3v-.5l1.8,1V54.1l-1.6-1v-.5l1.6,1V52.1l-1.7-1v-.5l2.2,1.4Zm2.9,1.7L105.9,57v-.5l1.7,1V53.2l.5.4v4.7Zm1.5.9-.5-.4V54.1l.5.3Zm3,1.7-.5-.4V58.3l-1.6-.8V57l1.6.8V56.3l-1.7-1v-.5l2.2,1.2Z"
@@ -1063,26 +999,14 @@
       d="M73.2,49v1.1l10.9,6.3,1.3.3,20.4,11.8v-.9Z"
       transform="translate(-1 -0.7)"
     />
-    <path
-      class="cls-1"
-      d="M73.2,54.5l5.3,3.1,1.3-.4-6.6-3.8Z"
-      transform="translate(-1 -0.7)"
-    />
-    <path
-      class="cls-5"
-      d="M114.9,64.8v1.9l1.8-.9Z"
-      transform="translate(-1 -0.7)"
-    />
+    <path class="cls-1" d="M73.2,54.5l5.3,3.1,1.3-.4-6.6-3.8Z" transform="translate(-1 -0.7)" />
+    <path class="cls-5" d="M114.9,64.8v1.9l1.8-.9Z" transform="translate(-1 -0.7)" />
     <path
       class="cls-2"
       d="M110.5,55.3l1.7,1v1.5l-1.6-.8v.5l1.6.8v2.2l.5.4V56.1l-2.2-1.3Z"
       transform="translate(-1 -0.7)"
     />
-    <path
-      class="cls-2"
-      d="M109.2,58.8l.5.4V54.4l-.5-.3Z"
-      transform="translate(-1 -0.7)"
-    />
+    <path class="cls-2" d="M109.2,58.8l.5.4V54.4l-.5-.3Z" transform="translate(-1 -0.7)" />
     <path
       class="cls-2"
       d="M107.7,57.5l-1.8-1V57l2.3,1.3V53.6l-.5-.4Z"
@@ -1108,17 +1032,9 @@
       d="M44.8,59.6v-10l-1.3-.7c-.8-.4-1.3-.1-1.3.6v4.3l.2,4.4h.2Z"
       transform="translate(-1 -0.7)"
     />
-    <path
-      class="cls-5"
-      d="M43.1,96.2,68.7,111Z"
-      transform="translate(-1 -0.7)"
-    />
+    <path class="cls-5" d="M43.1,96.2,68.7,111Z" transform="translate(-1 -0.7)" />
     <path class="cls-7" d="M100.1,129h0v0Z" transform="translate(-1 -0.7)" />
-    <path
-      class="cls-8"
-      d="M100.1,129h0Zm0,0v0Z"
-      transform="translate(-1 -0.7)"
-    />
+    <path class="cls-8" d="M100.1,129h0Zm0,0v0Z" transform="translate(-1 -0.7)" />
     <path
       class="cls-2"
       d="M46.6,60.5v-11L96.8,78.4V77.2L60.4,56.3,44.8,47.2V59.6Z"
@@ -1140,11 +1056,7 @@
         d="M239.9,111.2l17.6,25.9-21.3,19.2-21.9-32.1,18-16.3,4.3,6.3Z"
         transform="translate(-1 -0.7)"
       />
-      <path
-        class="cls-2"
-        d="M232.3,107.9l4.3,6.3,3.3-3Z"
-        transform="translate(-1 -0.7)"
-      />
+      <path class="cls-2" d="M232.3,107.9l4.3,6.3,3.3-3Z" transform="translate(-1 -0.7)" />
       <path
         class="cls-1"
         d="M231.9,114.4l15.6,22.8.3-.3-15.5-22.7Z"
@@ -1155,11 +1067,7 @@
         d="M230.6,115.8,247.2,140l.3-.2-16.6-24.4Z"
         transform="translate(-1 -0.7)"
       />
-      <path
-        class="cls-1"
-        d="M229.2,117l16.5,24.4.4-.4-16.6-24.4Z"
-        transform="translate(-1 -0.7)"
-      />
+      <path class="cls-1" d="M229.2,117l16.5,24.4.4-.4-16.6-24.4Z" transform="translate(-1 -0.7)" />
       <path
         class="cls-1"
         d="M227.7,118.2l16.6,24.4.4-.3L228.1,118Z"
@@ -1187,16 +1095,8 @@
         d="M206.6,57.4l24.8,28.9-19.8,33L180.8,83.4l16.8-27.9,5.9,7Z"
         transform="translate(-1 -0.7)"
       />
-      <path
-        class="cls-6"
-        d="M197.6,55.5l6,7.5,3-5.6Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-2"
-        d="M197.6,55.5l5.9,7,3.1-5.1Z"
-        transform="translate(-1 -0.7)"
-      />
+      <path class="cls-6" d="M197.6,55.5l6,7.5,3-5.6Z" transform="translate(-1 -0.7)" />
+      <path class="cls-2" d="M197.6,55.5l5.9,7,3.1-5.1Z" transform="translate(-1 -0.7)" />
       <path
         class="cls-1"
         d="M198.5,64.3l21.9,25.5.3-.5L198.8,63.8Z"
@@ -1212,26 +1112,14 @@
         d="M195.9,68.7l23.4,27.2.3-.5L196.3,68.1Z"
         transform="translate(-1 -0.7)"
       />
-      <path
-        class="cls-1"
-        d="M194.5,71,218,98.1l.3-.5L194.9,70.3Z"
-        transform="translate(-1 -0.7)"
-      />
+      <path class="cls-1" d="M194.5,71,218,98.1l.3-.5L194.9,70.3Z" transform="translate(-1 -0.7)" />
       <path
         class="cls-1"
         d="M193.3,73.2l23.4,27.1.3-.5L193.6,72.5Z"
         transform="translate(-1 -0.7)"
       />
-      <path
-        class="cls-1"
-        d="M192,75.2l23.3,27.3.4-.4L192.3,74.7Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M190.6,77.4l23.5,27.3.2-.6L191,77Z"
-        transform="translate(-1 -0.7)"
-      />
+      <path class="cls-1" d="M192,75.2l23.3,27.3.4-.4L192.3,74.7Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M190.6,77.4l23.5,27.3.2-.6L191,77Z" transform="translate(-1 -0.7)" />
     </g>
     <g id="paper3">
       <path
@@ -1239,46 +1127,14 @@
         d="M145.1,12.1l33.3,19.1V90.8L137.1,67V16.7l8,4.7Z"
         transform="translate(-1 -0.7)"
       />
-      <path
-        class="cls-1"
-        d="M142,27.7l29.4,16.9v-1L142,26.7Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M142,31.6l31.4,18.2v-1L142,30.7Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M142,35.7l31.4,18v-1L142,34.6Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M142,39.6l31.4,18v-1L142,38.6Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M142,43.5l31.4,18v-1L142,42.5Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M142,47.4l31.4,18.2v-1L142,46.5Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M142,51.4l31.4,18.1v-1L142,50.4Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-2"
-        d="M137.1,16.7l8,4.7V12.1Z"
-        transform="translate(-1 -0.7)"
-      />
+      <path class="cls-1" d="M142,27.7l29.4,16.9v-1L142,26.7Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M142,31.6l31.4,18.2v-1L142,30.7Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M142,35.7l31.4,18v-1L142,34.6Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M142,39.6l31.4,18v-1L142,38.6Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M142,43.5l31.4,18v-1L142,42.5Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M142,47.4l31.4,18.2v-1L142,46.5Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M142,51.4l31.4,18.1v-1L142,50.4Z" transform="translate(-1 -0.7)" />
+      <path class="cls-2" d="M137.1,16.7l8,4.7V12.1Z" transform="translate(-1 -0.7)" />
     </g>
     <g id="paper2">
       <path
@@ -1286,46 +1142,14 @@
         d="M89.3,3.6l24.2-1.7,21.4,55.7-30.2,2.2-18-47,5.9-.5Z"
         transform="translate(-1 -0.7)"
       />
-      <path
-        class="cls-2"
-        d="M86.7,12.8l5.9-.5L89.3,3.6Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M93.2,20.1l21.4-1.6-.2-.8L92.9,19.3Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M94.7,23.8l22.9-1.6-.4-1L94.3,23Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M96.1,27.5l22.8-1.6-.2-1-23,1.7Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M97.5,31.3l22.9-1.7-.4-1L97.2,30.3Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M98.9,35l22.9-1.8-.4-.8L98.5,34Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M100.2,38.6l23-1.7-.3-.8L100,37.6Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M101.7,42.3l22.9-1.7-.4-.9-22.8,1.6Z"
-        transform="translate(-1 -0.7)"
-      />
+      <path class="cls-2" d="M86.7,12.8l5.9-.5L89.3,3.6Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M93.2,20.1l21.4-1.6-.2-.8L92.9,19.3Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M94.7,23.8l22.9-1.6-.4-1L94.3,23Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M96.1,27.5l22.8-1.6-.2-1-23,1.7Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M97.5,31.3l22.9-1.7-.4-1L97.2,30.3Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M98.9,35l22.9-1.8-.4-.8L98.5,34Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M100.2,38.6l23-1.7-.3-.8L100,37.6Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M101.7,42.3l22.9-1.7-.4-.9-22.8,1.6Z" transform="translate(-1 -0.7)" />
     </g>
     <g id="paper1">
       <path
@@ -1333,60 +1157,28 @@
         d="M61.3,27.7,76,17.2l26,41.4L83.5,71.8l-21.9-35,3.6-2.6Z"
         transform="translate(-1 -0.7)"
       />
-      <path
-        class="cls-2"
-        d="M61.6,36.8l3.6-2.6-3.9-6.5Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M67.4,41l13.1-9.4-.4-.7-13,9.3Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M69.1,43.6l14.1-9.9-.5-.7L68.8,43Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M70.9,46.5l14-10.1-.5-.6-14,9.9Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M72.6,49.2l14-10-.5-.7-14,9.9Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M74.3,51.8l13.9-9.9-.4-.7-14,10Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M76,54.7,89.9,44.6l-.3-.6L75.5,53.9Z"
-        transform="translate(-1 -0.7)"
-      />
-      <path
-        class="cls-1"
-        d="M77.8,57.4l13.8-10-.3-.7-14,9.9Z"
-        transform="translate(-1 -0.7)"
-      />
+      <path class="cls-2" d="M61.6,36.8l3.6-2.6-3.9-6.5Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M67.4,41l13.1-9.4-.4-.7-13,9.3Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M69.1,43.6l14.1-9.9-.5-.7L68.8,43Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M70.9,46.5l14-10.1-.5-.6-14,9.9Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M72.6,49.2l14-10-.5-.7-14,9.9Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M74.3,51.8l13.9-9.9-.4-.7-14,10Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M76,54.7,89.9,44.6l-.3-.6L75.5,53.9Z" transform="translate(-1 -0.7)" />
+      <path class="cls-1" d="M77.8,57.4l13.8-10-.3-.7-14,9.9Z" transform="translate(-1 -0.7)" />
     </g>
   </svg>
 </template>
 
 <script>
-import { gsap } from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger.js"
-import { mapState } from "vuex"
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger.js";
+import { mapState } from "vuex";
 
-gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig"]),
+    ...mapState(["toggleConfig", "startConfig"])
   },
   methods: {
     bookAnim() {
@@ -1395,73 +1187,73 @@ export default {
           scrollTrigger: {
             trigger: "#drop",
             toggleActions: this.toggleConfig,
-            start: this.startConfig,
+            start: this.startConfig
           },
           defaults: {
             duration: 0.75,
             ease: "sine",
-            repeat: 4,
+            repeat: 2,
             yoyo: true,
-            repeatDelay: 0.25,
-          },
+            repeatDelay: 0.25
+          }
         })
         .add("drop")
         .fromTo(
           "#paper1",
           {
-            opacity: 0,
+            opacity: 0
           },
           {
-            opacity: 1,
+            opacity: 1
           },
           "drop"
         )
         .fromTo(
           "#paper2",
           {
-            opacity: 0,
+            opacity: 0
           },
           {
-            opacity: 1,
+            opacity: 1
           },
           "drop+=0.25"
         )
         .fromTo(
           "#paper3",
           {
-            opacity: 0,
+            opacity: 0
           },
           {
-            opacity: 1,
+            opacity: 1
           },
           "drop+=0.5"
         )
         .fromTo(
           "#paper4",
           {
-            opacity: 0,
+            opacity: 0
           },
           {
-            opacity: 1,
+            opacity: 1
           },
           "drop+=0.75"
         )
         .fromTo(
           "#paper5",
           {
-            opacity: 0,
+            opacity: 0
           },
           {
-            opacity: 1,
+            opacity: 1
           },
           "drop+=1"
-        )
-    },
+        );
+    }
   },
   mounted() {
-    this.bookAnim()
-  },
-}
+    this.bookAnim();
+  }
+};
 </script>
 
 <style lang="scss" scoped>
