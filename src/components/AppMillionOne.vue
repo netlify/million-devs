@@ -1,5 +1,9 @@
 <template>
   <svg
+    :x="x"
+    :y="y"
+    :width="width"
+    :height="height"
     id="million"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -3456,6 +3460,22 @@ gsap.registerPlugin(ScrollTrigger);
 export default {
   computed: {
     ...mapState(["toggleConfig", "startConfig"])
+  },
+  props: {
+    x: {
+      type: [Number, String],
+      default: 0
+    },
+    y: {
+      type: [Number, String],
+      default: 0
+    },
+    width: {
+      type: [Number, String]
+    },
+    height: {
+      type: [Number, String]
+    }
   },
   methods: {
     millionAnim() {

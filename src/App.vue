@@ -3,7 +3,7 @@
     <section class="intro-section">
       <app-header />
     </section>
-    <svg id="timeline" xmlns="http://www.w3.org/2000/svg" viewBox="0 -500 2000 7500">
+    <svg id="timeline" xmlns="http://www.w3.org/2000/svg" viewBox="0 -500 2000 8500">
       <defs>
         <clipPath id="clip-candyland" transform="translate(-10 -30)">
           <path
@@ -30,10 +30,8 @@
       <app2016 />
       <app2017 />
       <app2018 />
-
-      <app-book />
-
-      <circle id="final" x="100" y="7250" r="10" fill="rgba(0, 0, 0, 0)" />
+      <app2019 />
+      <app2020 />
     </svg>
   </div>
 </template>
@@ -47,6 +45,8 @@ import AppHeader from "@/components/AppHeader.vue";
 import App2016 from "@/components/App2016.vue";
 import App2017 from "@/components/App2017.vue";
 import App2018 from "@/components/App2018.vue";
+import App2019 from "@/components/App2019.vue";
+import App2020 from "@/components/App2020.vue";
 
 export default {
   components: {
@@ -55,6 +55,8 @@ export default {
     App2016,
     App2017,
     App2018,
+    App2019,
+    App2020,
     AppJet: () => import("@/components/AppJet.vue")
   }
   //   methods: {

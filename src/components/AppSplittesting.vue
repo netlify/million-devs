@@ -882,7 +882,8 @@ export default {
           {
             opacity: 0.5,
             rotation: -30,
-            transformOrigin: "100% 0%"
+            transformOrigin: "100% 0%",
+            ease: "back.out(2)"
           },
           "split"
         )
@@ -891,7 +892,8 @@ export default {
           {
             opacity: 0.5,
             rotation: 30,
-            transformOrigin: "0% 0%"
+            transformOrigin: "0% 0%",
+            ease: "back.out(2)"
           },
           "split"
         )
@@ -901,7 +903,7 @@ export default {
             opacity: 0,
             ease: "sine"
           },
-          "split+=0.3"
+          "split+=0.5"
         )
         .from(
           "#Circle_3, #Circle_2, #Circle_1-2, #Square_1, #Square_2",
