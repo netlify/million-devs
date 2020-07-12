@@ -875,7 +875,60 @@
 </template>
 
 <script>
-export default {};
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger.js";
+import { mapState } from "vuex";
+
+gsap.registerPlugin(ScrollTrigger);
+
+export default {
+  computed: {
+    ...mapState(["toggleConfig", "startConfig"])
+  },
+  methods: {
+    bookAnim() {
+      gsap
+        .timeline({
+          scrollTrigger: {
+            trigger: "#jamstack-conf1",
+            toggleActions: this.toggleConfig,
+            start: this.startConfig
+          },
+          defaults: {
+            duration: 1,
+            ease: "sine"
+          }
+        })
+        .add("jamstack1")
+        .from("#clip-jamstack", {
+          duration: 2,
+          x: 100,
+          y: -100
+        })
+        .from(
+          "#man-arm",
+          {
+            rotation: -70,
+            repeat: 2,
+            yoyo: true
+          },
+          "jamstack1"
+        )
+        .from(
+          "#woman-arm",
+          {
+            rotation: 80,
+            repeat: 2,
+            yoyo: true
+          },
+          "jamstack1+=0.5"
+        );
+    }
+  },
+  mounted() {
+    this.bookAnim();
+  }
+};
 </script>
 
 <style lang="scss" scoped>
