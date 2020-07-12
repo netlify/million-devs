@@ -31,7 +31,7 @@
 
     <app-seed />
 
-    <app-text x="1200" y="1050" num="4">
+    <app-text x="1180" y="1050" num="4">
       <template v-slot:date>Aug 16, 2016</template>
       <template v-slot:event>Raised seed funding and joined</template>
       <template v-slot:event2>Heavybit accelerator program</template>
@@ -40,16 +40,17 @@
     <app-bush x="800" y="1350" />
 
     <app-deploypreview />
-    <app-text x="50" y="1150" num="5">
+    <app-text x="50" y="1180" num="5">
       <template v-slot:date>Aug 30, 2016</template>
       <template v-slot:event>Introduced Deploy Previews</template>
     </app-text>
 
-    <app-bush x="50" y="850" />
-    <app-bush x="100" y="900" />
+    <app-streetlamp2 x="100" y="1550" />
+    <app-bush x="0" y="1700" />
+    <app-bush x="50" y="1750" />
 
     <app-deploybutton />
-    <app-text x="50" y="1500" num="5">
+    <app-text x="150" y="2080" num="5">
       <template v-slot:date>Aug 30, 2016</template>
       <template v-slot:event>Introduced Deploy to Netlify Button</template>
     </app-text>
