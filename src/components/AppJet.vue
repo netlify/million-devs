@@ -2037,17 +2037,17 @@
 </template>
 
 <script>
-import { gsap } from "gsap"
-import { RoughEase } from "gsap/EasePack"
-import { ScrollTrigger } from "gsap/ScrollTrigger.js"
-import { mapState } from "vuex"
+import { gsap } from "gsap";
+import { RoughEase } from "gsap/EasePack";
+import { ScrollTrigger } from "gsap/ScrollTrigger.js";
+import { mapState } from "vuex";
 
-gsap.registerPlugin(RoughEase)
-gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(RoughEase);
+gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig"]),
+    ...mapState(["toggleConfig", "startConfig"])
   },
   methods: {
     rocketAnim() {
@@ -2055,22 +2055,22 @@ export default {
         y: 120,
         scale: 0.4,
         opacity: 0.9,
-        transformOrigin: "50% 50%",
-      })
+        transformOrigin: "50% 50%"
+      });
       gsap.set(".burst, .top-burst", {
-        opacity: 1,
-      })
+        opacity: 1
+      });
 
       gsap
         .timeline({
           scrollTrigger: {
             trigger: ".all-rocket",
             toggleActions: this.toggleConfig,
-            start: this.startConfig,
+            start: `center bottom`
           },
           defaults: {
-            duration: 1,
-          },
+            duration: 1
+          }
         })
         .add("start")
         .to(
@@ -2080,7 +2080,7 @@ export default {
             opacity: 1,
             scale: 1,
             ease:
-              "rough({ template: none.out, strength: 1, points: 20, taper: 'none', randomize: true, clamp: false})",
+              "rough({ template: none.out, strength: 1, points: 20, taper: 'none', randomize: true, clamp: false})"
           },
           "start"
         )
@@ -2089,7 +2089,7 @@ export default {
           {
             duration: 0.5,
             y: 0,
-            ease: "back.out(1.7)",
+            ease: "back.out(1.7)"
           },
           "start+=0.8"
         )
@@ -2098,13 +2098,13 @@ export default {
           {
             opacity: 0,
             scale: 0,
-            transformOrigin: "50% 50%",
+            transformOrigin: "50% 50%"
           },
           {
             opacity: 1,
             scale: 1,
             stagger: 0.05,
-            ease: "back.out(1.7)",
+            ease: "back.out(1.7)"
           },
           "start+=0.65"
         )
@@ -2113,22 +2113,22 @@ export default {
           {
             opacity: 0,
             scale: 0,
-            transformOrigin: "50% 0%",
+            transformOrigin: "50% 0%"
           },
           {
             opacity: 1,
             scale: 1,
             stagger: 0.05,
-            ease: "elastic",
+            ease: "elastic"
           },
           "start+=1"
-        )
-    },
+        );
+    }
   },
   mounted() {
-    this.rocketAnim()
-  },
-}
+    this.rocketAnim();
+  }
+};
 </script>
 
 <style lang="scss" scoped>

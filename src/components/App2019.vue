@@ -8,7 +8,7 @@
     </app-text>
 
     <app-book />
-    <app-text x="1080" y="4600" num="14">
+    <app-text x="1080" y="4600" num="15">
       <template v-slot:date>Jul 31, 2019</template>
       <template v-slot:event>First O'Reilly Jamstack Book</template>
     </app-text>

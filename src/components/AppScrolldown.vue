@@ -42,7 +42,7 @@ export default {
 <style lang="scss" scoped>
 .scrolldown {
   position: absolute;
-  left: 45vw;
+  left: calc(50vw - 30px);
   top: 85vh;
   text-align: center;
   display: flex;
