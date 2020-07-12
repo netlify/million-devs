@@ -20,14 +20,14 @@
 
     <app-letsencrypt />
 
-    <app-text x="1520" y="450" num="3">
+    <app-text x="1520" y="650" num="3">
       <template v-slot:date>Jan 01, 2016</template>
       <template v-slot:event>Netlify first hosting provider to</template>
       <template v-slot:event2>offer free SSL through Let's Encrypt</template>
     </app-text>
 
-    <app-streetlamp1 x="1550" y="650" />
-    <app-bush x="1450" y="700" />
+    <app-streetlamp1 x="1450" y="950" />
+    <app-bush x="1350" y="1150" />
 
     <app-seed />
 
