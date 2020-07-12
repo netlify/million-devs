@@ -1,7 +1,13 @@
 <template>
   <g>
+    <app-bush x="800" y="4300" />
+    <app-largemedia />
+    <app-text x="0" y="4680" num="14">
+      <template v-slot:date>Jul 31, 2019</template>
+      <template v-slot:event>First O'Reilly Jamstack Book</template>
+    </app-text>
+
     <app-book />
-    <app-bush x="300" y="4600" />
     <app-text x="1080" y="4600" num="14">
       <template v-slot:date>Jul 31, 2019</template>
       <template v-slot:event>First O'Reilly Jamstack Book</template>
@@ -18,6 +24,7 @@ import AppStreetlamp2 from "@/components/AppStreetlamp2.vue";
 
 //unique units
 import AppBook from "@/components/AppBook.vue";
+import AppLargemedia from "@/components/AppLargemedia.vue";
 
 export default {
   components: {
@@ -25,7 +32,8 @@ export default {
     AppTree,
     AppBush,
     AppStreetlamp2,
-    AppBook: () => import("@/components/AppBook.vue")
+    AppBook: () => import("@/components/AppBook.vue"),
+    AppLargemedia: () => import("@/components/AppLargemedia.vue")
   }
 };
 </script>
