@@ -1,7 +1,7 @@
 <template>
   <svg
     x="1100"
-    y="1320"
+    y="2120"
     width="425"
     height="300"
     id="splittesting"
@@ -9,14 +9,7 @@
     viewBox="0 0 380.2 227.6"
   >
     <defs>
-      <mask
-        id="mask"
-        x="88.09"
-        y="84.62"
-        width="37"
-        height="57"
-        maskUnits="userSpaceOnUse"
-      >
+      <mask id="mask" x="88.09" y="84.62" width="37" height="57" maskUnits="userSpaceOnUse">
         <g transform="translate(-0.7 -0.8)">
           <g id="path-79-outside-1">
             <rect class="cls-1" x="88.8" y="85.4" width="37" height="57" />
@@ -26,14 +19,7 @@
           </g>
         </g>
       </mask>
-      <mask
-        id="mask-2"
-        x="269.01"
-        y="82.41"
-        width="28"
-        height="49"
-        maskUnits="userSpaceOnUse"
-      >
+      <mask id="mask-2" x="269.01" y="82.41" width="28" height="49" maskUnits="userSpaceOnUse">
         <g transform="translate(-0.7 -0.8)">
           <g id="path-148-outside-2">
             <rect class="cls-1" x="269.7" y="83.2" width="28" height="49" />
@@ -99,10 +85,7 @@
               d="M46.7,103.3l1.6-.9-5.8-3.7-3,1.8a8.2,8.2,0,0,0-2.8,3l6.3,3.9A9.3,9.3,0,0,1,46.7,103.3Z"
               transform="translate(-0.7 -0.8)"
             />
-            <polygon
-              class="cls-1"
-              points="164.2 34.2 158.4 30.5 43.2 97.1 49 100.7 164.2 34.2"
-            />
+            <polygon class="cls-1" points="164.2 34.2 158.4 30.5 43.2 97.1 49 100.7 164.2 34.2" />
             <path
               class="cls-1"
               d="M35.1,108.9v21h0l6.5,4.1V112.9a12,12,0,0,1,.8-4.2l-6.3-4A10.7,10.7,0,0,0,35.1,108.9Z"
@@ -674,10 +657,7 @@
             class="cls-1"
             points="346.4 194.1 352.8 190.1 352.8 130.5 346.4 134.6 346.4 194.1"
           />
-          <polygon
-            class="cls-1"
-            points="338.2 100.6 343.9 97 228.8 30.4 223 34 338.2 100.6"
-          />
+          <polygon class="cls-1" points="338.2 100.6 343.9 97 228.8 30.4 223 34 338.2 100.6" />
           <path
             class="cls-1"
             d="M346.2,108.5a11.1,11.1,0,0,1,.9,4.3v20.9l6.4-4V108.8a10.4,10.4,0,0,0-1-4.2Z"
@@ -862,15 +842,15 @@
 </template>
 
 <script>
-import { gsap } from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger.js"
-import { mapState } from "vuex"
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger.js";
+import { mapState } from "vuex";
 
-gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig"]),
+    ...mapState(["toggleConfig", "startConfig"])
   },
   methods: {
     splitTesting() {
@@ -879,12 +859,12 @@ export default {
           scrollTrigger: {
             trigger: `#splittesting`,
             toggleActions: this.toggleConfig,
-            start: this.startConfig,
+            start: this.startConfig
           },
           defaults: {
             duration: 1,
-            ease: "back",
-          },
+            ease: "back"
+          }
         })
         .add("split")
         .from(
@@ -893,7 +873,7 @@ export default {
             opacity: 0.5,
             rotation: 180,
             scale: 0,
-            transformOrigin: "50% 50%",
+            transformOrigin: "50% 50%"
           },
           "split"
         )
@@ -902,7 +882,7 @@ export default {
           {
             opacity: 0.5,
             rotation: -30,
-            transformOrigin: "100% 0%",
+            transformOrigin: "100% 0%"
           },
           "split"
         )
@@ -911,7 +891,7 @@ export default {
           {
             opacity: 0.5,
             rotation: 30,
-            transformOrigin: "0% 0%",
+            transformOrigin: "0% 0%"
           },
           "split"
         )
@@ -919,7 +899,7 @@ export default {
           "#A, #B",
           {
             opacity: 0,
-            ease: "sine",
+            ease: "sine"
           },
           "split+=0.3"
         )
@@ -928,16 +908,16 @@ export default {
           {
             opacity: 0,
             stagger: 0.2,
-            ease: "sine",
+            ease: "sine"
           },
           "split+=1"
-        )
-    },
+        );
+    }
   },
   mounted() {
-    this.splitTesting()
-  },
-}
+    this.splitTesting();
+  }
+};
 </script>
 
 <style lang="scss" scoped>
