@@ -9,26 +9,15 @@
   >
     <defs>
       <linearGradient
-        id="paint0_linear"
-        x1="50.794"
-        y1="-109.908"
-        x2="50.794"
-        y2="78.419"
+        id="lightlinear2"
+        x1="46.353"
+        y1="-119.5"
+        x2="46.353"
+        y2="60.984"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#FFD840" />
-        <stop offset="1" stop-color="#FAAF40" stop-opacity="0" />
-      </linearGradient>
-      <linearGradient
-        id="paint1_linear"
-        x1="20.193"
-        y1="11.41"
-        x2="18.803"
-        y2="7.133"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop stop-color="#C6B4B7" />
-        <stop offset="1" stop-color="#A29296" />
+        <stop stop-color="#f9df81" />
+        <stop offset="1" stop-color="#f9df81" stop-opacity="0.1" />
       </linearGradient>
     </defs>
     <path
@@ -41,11 +30,11 @@
       fill-rule="evenodd"
       clip-rule="evenodd"
       d="M36.878 23.608L.156 82.36s60.66 51.136 101.189-12.512L55.647 25.512l-18.769-1.904z"
-      fill="url(#paint0_linear)"
+      fill="url(#lightlinear2)"
     />
     <path
       d="M21.121 6.04a.5.5 0 01.75.487l-.545 4.896a.5.5 0 01-.257.384l-2.992 1.632a.5.5 0 01-.74-.44V9.465c0-.041.005-.082.015-.122l.272-1.088a.5.5 0 01.233-.31l3.264-1.904z"
-      fill="url(#paint1_linear)"
+      fill="url(#lightlinear2)"
       stroke="#0E1E25"
       stroke-linejoin="round"
     />
@@ -141,11 +130,11 @@ export default {
   props: {
     x: {
       type: [Number, String],
-      default: 1450
+      default: 1000
     },
     y: {
       type: [Number, String],
-      default: 170
+      default: 300
     }
   }
 };

@@ -3,13 +3,16 @@
     <app-tree x="1100" y="50" />
     <app-redirect x="1100" y="150" />
     <app-bush />
-    <app-tree x="850" y="100" />
-    <app-tree x="900" y="120" />
-    <app-tree x="800" y="150" />
-    <app-github />
-    <app-tree x="1050" y="320" />
+    <app-streetlamp2 />
 
-    <app-text x="200" y="410" num="2">
+    <app-tree x="750" y="300" />
+    <app-tree x="800" y="320" />
+    <app-tree x="700" y="350" />
+
+    <app-github x="500" y="450" />
+    <app-tree x="1050" y="620" />
+
+    <app-text x="200" y="750" num="2">
       <template v-slot:date>Jul 13, 2016</template>
       <template v-slot:event>Added GitLab integration</template>
       <template v-slot:event2>(in addition to GitHub and Bitbucket)</template>
@@ -58,6 +61,7 @@ import AppTree from "@/components/AppTree.vue";
 import AppBush from "@/components/AppBush.vue";
 import AppText from "@/components/AppText.vue";
 import AppStreetlamp1 from "@/components/AppStreetlamp1.vue";
+import AppStreetlamp2 from "@/components/AppStreetlamp2.vue";
 
 //unique units
 import AppSeed from "@/components/AppSeed.vue";
@@ -73,6 +77,7 @@ export default {
     AppTree,
     AppBush,
     AppStreetlamp1,
+    AppStreetlamp2,
     AppSeed: () =>
       import(/* webpackPrefetch: true */ "@/components/AppSeed.vue"),
     AppGithub: () =>
