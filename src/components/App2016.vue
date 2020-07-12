@@ -50,11 +50,11 @@
     <app-bush x="50" y="1750" />
 
     <app-deploybutton />
-    <app-text x="150" y="2080" num="5">
+    <app-text x="150" y="2050" num="5">
       <template v-slot:date>Aug 30, 2016</template>
       <template v-slot:event>Introduced Deploy to Netlify Button</template>
     </app-text>
-    <app-tree x="500" y="1420" />
+    <app-tree x="640" y="2100" />
   </g>
 </template>
 

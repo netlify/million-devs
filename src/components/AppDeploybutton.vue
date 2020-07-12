@@ -2,8 +2,8 @@
   <svg
     x="220"
     y="1800"
-    width="450"
-    height="320"
+    width="420"
+    height="300"
     id="deploybtn"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 336.5 237.2"

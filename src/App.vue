@@ -3,7 +3,7 @@
     <section class="intro-section">
       <app-header />
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -500 2000 7500">
+    <svg id="timeline" xmlns="http://www.w3.org/2000/svg" viewBox="0 -500 2000 7500">
       <defs>
         <clipPath id="clip-candyland" transform="translate(-10 -30)">
           <path
@@ -15,7 +15,7 @@
       </defs>
 
       <path
-        id="candyland"
+        ref="candyland"
         class="cls-2"
         d="M989.2,500.5S1731,854.1,1181.8,998.1l-286.4,31.8s-378.5,66.6-8.3,323.1l366.7,10.1s413.5,199.2,30.1,308.1l-423.6-48.6S719.6,1647.7,756.4,1857s-281.3,195.9-281.3,195.9-378.4,31.9-185.8,323.2c0,0,157.2,208.4,406.9,132.3s472.2,23.4,472.2,23.4,259.5,224.4-43.6,338.3l-234.4,55.2S723,2943.7,743.1,3178.1c0,0,3.3,252.9-279.7,172.5s-192.5-50.2-192.5-50.2S46.5,3246.8,76.6,3474.5c0,0,18,153.3,308.1,127.3s350,107.1,350,107.1,117.2,170.8-160.8,227.8l-301.4,33.4s-272.9,73.7-28.4,309.8c0,0,108.8,145.7,353.3,147.4s257.8,118.8,257.8,118.8,8.4,234.5-279.6,212.7-342.9,7.1-393.5,120.6,107.2,180.8,107.2,180.8,129.5,11.4,304.7-46.9,247.8,72,247.8,72,58.6,88.7,16.8,209.3,231.1,159.1,231.1,159.1,281.3,0,284.6,184.2S1084.6,5894,1084.6,5894l-381.7-20s-283-63.7-345,189.2S671.1,6316,671.1,6316s309.7,18.4,195.9,261.2c0,0-3.4,209.3,264.5,177.5l199.3-56.9s334.9-51.9,172.4,247.8c0,0-70.3,98.8-383.4,46.9S872,7253.7,872,7253.7s16.7,77,261.2,88.7,241.1-25.1,309.8,67,16.7,165.8,16.7,165.8-125.2,147.3-302.9,246.1"
         transform="translate(16.1 -440.3)"
@@ -29,9 +29,11 @@
 
       <app2016 />
       <!-- <app2017 /> -->
-      <app2018 />
+      <!-- <app2018 /> -->
 
       <app-book />
+
+      <circle id="final" x="100" y="7250" r="10" fill="rgba(0, 0, 0, 0)" />
     </svg>
   </div>
 </template>
@@ -46,9 +48,6 @@ import App2016 from "@/components/App2016.vue";
 import App2017 from "@/components/App2017.vue";
 import App2018 from "@/components/App2018.vue";
 
-//misc, TODO: add them to a year
-import AppBook from "@/components/AppBook.vue";
-
 export default {
   components: {
     AppHeader,
@@ -56,9 +55,44 @@ export default {
     App2016,
     App2017,
     App2018,
-    AppJet: () => import("@/components/AppJet.vue"),
-    AppBook: () => import("@/components/AppBook.vue")
+    AppJet: () => import("@/components/AppJet.vue")
   }
+  //   methods: {
+  //     drawCandyland() {
+  //       const path = this.$refs["candyland"],
+  //         pathlength = path.getTotalLength();
+
+  //       gsap.set(path, {
+  //         strokeDashoffset: pathlength,
+  //         strokeDasharray: pathlength
+  //       });
+
+  //       gsap
+  //         .timeline({
+  //           scrollTrigger: {
+  //             trigger: "#timeline",
+  //             toggleActions: this.toggleConfig,
+  //             start: "500px bottom",
+  //             //end: () => "+=" + document.getElementById("timeline").offsetHeight,
+  //             markers: true
+  //             //scrub: true
+  //           }
+  //         })
+  //         .add("candyland")
+  //         .to(
+  //           path,
+  //           {
+  //             duration: 30,
+  //             strokeDashoffset: 0,
+  //             ease: "sine"
+  //           },
+  //           "candyland"
+  //         );
+  //     }
+  //   },
+  //   mounted() {
+  //     this.drawCandyland();
+  //   }
 };
 </script>
 
