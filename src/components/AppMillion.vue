@@ -3475,6 +3475,7 @@ export default {
         .from(
           "#back-circle",
           {
+            duration: 0.7,
             scale: 0,
             transformOrigin: "50% 50%"
           },
@@ -3483,19 +3484,48 @@ export default {
         .to(
           "#logo-clip, #one-clip, #dev-clip",
           {
+            duration: 1,
             x: 22,
-            y: -15
+            y: -15,
+            ease: "back"
           },
           "million"
         )
         .from(
           ".melements",
           {
-            duration: 0.7,
+            duration: 0.5,
             opacity: 0,
-            stagger: 0.1
+            stagger: 0.05,
+            scale: 0,
+            ease: "back",
+            transformOrigin: "50% 50%"
           },
           "million"
+        )
+        .from(
+          "#Right_Bolt",
+          {
+            duration: 1,
+            rotation: 360,
+            opacity: 0,
+            scale: 0,
+            ease: "back",
+            transformOrigin: "50% 50%"
+          },
+          "million+=0.25"
+        )
+        .from(
+          "#Left_Bolt",
+          {
+            duration: 1,
+            rotation: -360,
+            opacity: 0,
+            scale: 0,
+            ease: "back",
+            transformOrigin: "50% 50%"
+          },
+          "million+=0.25"
         )
         .from(
           "#colorboc",
@@ -3503,6 +3533,54 @@ export default {
             fill: "hsl(-200%, 0, 0)"
           },
           "million"
+        )
+        .from(
+          "#side-arm-r",
+          {
+            duration: 0.5,
+            rotation: -8,
+            transformOrigin: "100% 50%",
+            repeat: 5,
+            yoyo: true,
+            ease: "circ.in"
+          },
+          "million"
+        )
+        .from(
+          "#side-arm-l",
+          {
+            duration: 0.5,
+            rotation: -8,
+            transformOrigin: "100% 50%",
+            repeat: 5,
+            yoyo: true,
+            ease: "circ.in"
+          },
+          "million+=0.25"
+        )
+        .from(
+          "#front-leg-r",
+          {
+            duration: 0.75,
+            rotation: 10,
+            transformOrigin: "50% 0%",
+            repeat: 3,
+            yoyo: true,
+            ease: "sine.inOut"
+          },
+          "million"
+        )
+        .from(
+          "#front-leg-l",
+          {
+            duration: 0.75,
+            rotation: 10,
+            transformOrigin: "50% 0%",
+            repeat: 3,
+            yoyo: true,
+            ease: "sine.inOut"
+          },
+          "million+=0.25"
         );
     }
   },
