@@ -910,16 +910,18 @@ export default {
           {
             rotation: -70,
             repeat: 2,
-            yoyo: true
+            yoyo: true,
+            transformOrigin: "100% 100%"
           },
           "jamstack1"
         )
         .from(
           "#woman-arm",
           {
-            rotation: 80,
+            rotation: 40,
             repeat: 2,
-            yoyo: true
+            yoyo: true,
+            transformOrigin: "100% 0%"
           },
           "jamstack1+=0.5"
         );
