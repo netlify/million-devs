@@ -12,7 +12,7 @@
     <app-github x="500" y="450" />
     <app-tree x="1050" y="620" />
 
-    <app-text x="200" y="750" num="2">
+    <app-text x="200" y="700" num="2">
       <template v-slot:date>Jul 13, 2016</template>
       <template v-slot:event>Added GitLab integration</template>
       <template v-slot:event2>(in addition to GitHub and Bitbucket)</template>
@@ -20,7 +20,7 @@
 
     <app-letsencrypt />
 
-    <app-text x="1520" y="650" num="3">
+    <app-text x="1450" y="650" num="3">
       <template v-slot:date>Jan 01, 2016</template>
       <template v-slot:event>Netlify first hosting provider to</template>
       <template v-slot:event2>offer free SSL through Let's Encrypt</template>
@@ -31,14 +31,16 @@
 
     <app-seed />
 
-    <app-text x="1000" y="800" num="4">
+    <app-text x="1200" y="1050" num="4">
       <template v-slot:date>Aug 16, 2016</template>
       <template v-slot:event>Raised seed funding and joined</template>
       <template v-slot:event2>Heavybit accelerator program</template>
     </app-text>
+    <app-tree x="600" y="1050" />
+    <app-bush x="800" y="1350" />
 
     <app-deploypreview />
-    <app-text x="50" y="650" num="5">
+    <app-text x="50" y="1150" num="5">
       <template v-slot:date>Aug 30, 2016</template>
       <template v-slot:event>Introduced Deploy Previews</template>
     </app-text>

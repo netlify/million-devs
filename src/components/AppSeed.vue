@@ -1,8 +1,8 @@
 <template>
   <svg
     id="seed"
-    x="650"
-    y="600"
+    x="800"
+    y="950"
     width="350"
     height="375"
     xmlns="http://www.w3.org/2000/svg"
@@ -75,307 +75,79 @@
         d="M81.5,55.6a5.5,5.5,0,0,1-2.9-.8l-5.1-2.9a2.3,2.3,0,0,1-1.4-2,2,2,0,0,1,1-1.6L78.8,45a6.6,6.6,0,0,1,5.3.2l5,2.9a2.5,2.5,0,0,1,1.5,2,1.8,1.8,0,0,1-1.1,1.5l-5.7,3.5A4.1,4.1,0,0,1,81.5,55.6Zm-.3-10a3.4,3.4,0,0,0-1.8.4l-5.7,3.3a.9.9,0,0,0-.6.8c0,.4.4.8,1,1l5,2.9a4.8,4.8,0,0,0,4.2.2L89,50.9c.2-.2.5-.4.5-.8s-.4-.8-.9-1.1l-5-2.9A4.9,4.9,0,0,0,81.2,45.6Z"
         transform="translate(-1 -0.4)"
       />
-      <path
-        class="cls-2"
-        d="M88.5,53.4h-.8v1.9h.8Z"
-        transform="translate(-1 -0.4)"
-      />
-      <path
-        class="cls-3"
-        d="M80,56.1h-.8v3.5H80Z"
-        transform="translate(-1 -0.4)"
-      />
+      <path class="cls-2" d="M88.5,53.4h-.8v1.9h.8Z" transform="translate(-1 -0.4)" />
+      <path class="cls-3" d="M80,56.1h-.8v3.5H80Z" transform="translate(-1 -0.4)" />
     </g>
-    <path
-      class="cls-3"
-      d="M283.6,210.5l-.5-.2L144.4,290l.7.5Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M286.1,212.1l-.5-.3L147.2,291.5l.5.5Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M288.7,213.6l-.5-.5L149.5,293l.7.3Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M291.2,214.9l-.5-.3L152,294.6l.8.2Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M293.8,216.4l-.5-.3L154.6,295.8l.7.6Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M296.4,217.9l-.6-.2L157.1,297.4l.8.5Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M298.9,219.5l-.5-.5L159.7,298.9l.8.3Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M301.5,221l-.5-.5L162.5,300.4l.5.3Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M303.8,222.5l-.6-.5L164.8,301.7l.8.3Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-3" d="M283.6,210.5l-.5-.2L144.4,290l.7.5Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M286.1,212.1l-.5-.3L147.2,291.5l.5.5Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M288.7,213.6l-.5-.5L149.5,293l.7.3Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M291.2,214.9l-.5-.3L152,294.6l.8.2Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M293.8,216.4l-.5-.3L154.6,295.8l.7.6Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M296.4,217.9l-.6-.2L157.1,297.4l.8.5Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M298.9,219.5l-.5-.5L159.7,298.9l.8.3Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M301.5,221l-.5-.5L162.5,300.4l.5.3Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M303.8,222.5l-.6-.5L164.8,301.7l.8.3Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M305,224.8a1.2,1.2,0,0,0-.2-.5L167.6,303.5c.3,0,.5.3.8.3Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-3"
-      d="M305.5,227.4v-.8L170.7,304.3l1,.2Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-3" d="M305.5,227.4v-.8L170.7,304.3l1,.2Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M304,231.2c.3-.5.8-.8.8-1.3L175,304.8h1.5Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-3"
-      d="M245.3,188.6l-.5-.6L106,268l.8.5Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M247.8,190.1l-.5-.5L108.6,269.5l.8.3Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M250.4,191.4l-.5-.3-138.8,80,.8.2Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M252.9,192.9l-.7-.3L113.7,272.3l.8.6Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M255.5,194.4l-.5-.5-138.7,80,.7.5Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M258,196l-.7-.5L118.8,275.4l.8.3Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M260.6,197.2l-.5-.2L121.4,276.9l.7.3Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M263.1,198.8l-.5-.3L123.9,278.2l.8.5Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M265.7,200.3l-.5-.2L126.5,279.8l.7.5Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M268.3,201.8l-.6-.5L129,281.3l.8.2Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M270.8,203.4l-.5-.5L131.8,282.8l.6.3Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M273.4,204.6l-.5-.2L134.1,284.1l.8.5Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M275.9,206.2l-.5-.5L136.7,285.6l.8.5Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M278.5,207.7l-.5-.5-138.8,80,.8.2Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M281,209l-.5-.3-138.7,80,.8.2Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M206.9,166.6l-.7-.5L67.7,246l.8.3Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M209.5,167.9l-.8-.3-138.4,80,.7.2Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M212.1,169.4l-.8-.3L72.8,248.8l.5.6Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M214.6,170.9l-.8-.5-138.4,80,.8.2Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M217.2,172.2l-.8-.2L77.9,251.9l.8.3Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M219.7,173.7l-.7-.2L80.5,253.4l.8.3Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M222.3,175.3l-.8-.3L83,254.7l.8.5Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M224.8,176.8l-.5-.5-138.7,80,.8.5Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M227.4,178.3l-.8-.5-138.4,80,.7.2Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M229.9,179.6l-.5-.2L90.7,259.3l.8.3Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M232.5,181.1l-.8-.2L93.3,260.6l.7.5Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M235,182.7l-.7-.5L95.8,262.1l.8.5Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M237.6,184.2l-.8-.5-138.4,80,.7.2Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M240.2,185.5l-.6-.3-138.7,80,.8.2Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M241.9,186.8,103.5,266.5l.8.5,138.4-80Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M171.2,145.9l-.5-.3L32,225.3l.7.6Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M173.7,147.4l-.7-.5-138.5,80,.8.5Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M176.3,149l-.5-.6-138.7,80,.7.3Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M178.8,150.2l-.7-.2L39.6,229.9l.8.3Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M181.4,151.8l-.8-.3L42.2,231.2l.7.5Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M184,153.3l-.8-.5L44.7,232.7l.8.6Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M186.5,154.8l-.5-.5-138.7,80,.8.2Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M189.1,156.1l-.8-.2L49.8,235.8l.8.3Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M191.6,157.6l-.5-.2L52.4,237.1l.8.5Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M194.2,159.2l-.5-.5L54.9,238.6l.8.5Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M196.7,160.7l-.5-.5-138.7,80,.8.2Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M199.3,162l-.8-.3-138.4,80,.7.2Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M201.8,163.5l-.5-.2L62.6,243l.8.5Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M204.4,165.1l-.5-.6-138.7,80,.7.5Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-3" d="M245.3,188.6l-.5-.6L106,268l.8.5Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M247.8,190.1l-.5-.5L108.6,269.5l.8.3Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M250.4,191.4l-.5-.3-138.8,80,.8.2Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M252.9,192.9l-.7-.3L113.7,272.3l.8.6Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M255.5,194.4l-.5-.5-138.7,80,.7.5Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M258,196l-.7-.5L118.8,275.4l.8.3Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M260.6,197.2l-.5-.2L121.4,276.9l.7.3Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M263.1,198.8l-.5-.3L123.9,278.2l.8.5Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M265.7,200.3l-.5-.2L126.5,279.8l.7.5Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M268.3,201.8l-.6-.5L129,281.3l.8.2Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M270.8,203.4l-.5-.5L131.8,282.8l.6.3Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M273.4,204.6l-.5-.2L134.1,284.1l.8.5Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M275.9,206.2l-.5-.5L136.7,285.6l.8.5Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M278.5,207.7l-.5-.5-138.8,80,.8.2Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M281,209l-.5-.3-138.7,80,.8.2Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M206.9,166.6l-.7-.5L67.7,246l.8.3Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M209.5,167.9l-.8-.3-138.4,80,.7.2Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M212.1,169.4l-.8-.3L72.8,248.8l.5.6Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M214.6,170.9l-.8-.5-138.4,80,.8.2Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M217.2,172.2l-.8-.2L77.9,251.9l.8.3Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M219.7,173.7l-.7-.2L80.5,253.4l.8.3Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M222.3,175.3l-.8-.3L83,254.7l.8.5Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M224.8,176.8l-.5-.5-138.7,80,.8.5Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M227.4,178.3l-.8-.5-138.4,80,.7.2Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M229.9,179.6l-.5-.2L90.7,259.3l.8.3Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M232.5,181.1l-.8-.2L93.3,260.6l.7.5Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M235,182.7l-.7-.5L95.8,262.1l.8.5Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M237.6,184.2l-.8-.5-138.4,80,.7.2Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M240.2,185.5l-.6-.3-138.7,80,.8.2Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M241.9,186.8,103.5,266.5l.8.5,138.4-80Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M171.2,145.9l-.5-.3L32,225.3l.7.6Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M173.7,147.4l-.7-.5-138.5,80,.8.5Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M176.3,149l-.5-.6-138.7,80,.7.3Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M178.8,150.2l-.7-.2L39.6,229.9l.8.3Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M181.4,151.8l-.8-.3L42.2,231.2l.7.5Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M184,153.3l-.8-.5L44.7,232.7l.8.6Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M186.5,154.8l-.5-.5-138.7,80,.8.2Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M189.1,156.1l-.8-.2L49.8,235.8l.8.3Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M191.6,157.6l-.5-.2L52.4,237.1l.8.5Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M194.2,159.2l-.5-.5L54.9,238.6l.8.5Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M196.7,160.7l-.5-.5-138.7,80,.8.2Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M199.3,162l-.8-.3-138.4,80,.7.2Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M201.8,163.5l-.5-.2L62.6,243l.8.5Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M204.4,165.1l-.5-.6-138.7,80,.7.5Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M159.2,141h-1.3L27.6,216.1a1.8,1.8,0,0,0-.2,1.1Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-3"
-      d="M163,141.8l-.8-.2L27.1,219.5v.7Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-3" d="M163,141.8l-.8-.2L27.1,219.5v.7Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M166.1,143.1c-.3,0-.5-.3-.8-.3L27.9,222c0,.3.2.3.2.5Z"
@@ -396,16 +168,8 @@
       d="M283.3,221.1l-.5-.4L132.4,133.9V5.5l1.1-.3.3.5,43.5,81.2L192,81.8l.3.7,33.6,67.3,18.5-8.2,39.8,78.7ZM134,133.1l147.7,85.3-37.9-74.9-18.7,8.3L191.2,83.6l-14.7,5.1L134,8.8Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M133.2,6,142,1.4l43.8,81.9L177,87.9Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-4"
-      d="M134.2,14.9l8.9-4.6,43.8,81.9L178,96.8Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M133.2,6,142,1.4l43.8,81.9L177,87.9Z" transform="translate(-1 -0.4)" />
+    <path class="cls-4" d="M134.2,14.9l8.9-4.6,43.8,81.9L178,96.8Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M176.7,88.8,132.6,6.3c-.2-.3,0-.8.3-1.1L142.3.4l44.6,83.2ZM134.2,6.3l43.1,80.5,7.5-4L141.7,2.3Z"
@@ -416,16 +180,8 @@
       d="M177.3,88.5l-.6-1.3,8.9-4.6,14.5-5.2.7,1.4L192,83.3Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M200.4,78.2l34,68-8.9,4.6L191.7,82.6Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-4"
-      d="M200.4,86.8l34,68.1-8.9,4.7L191.7,91.4Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M200.4,78.2l34,68-8.9,4.6L191.7,82.6Z" transform="translate(-1 -0.4)" />
+    <path class="cls-4" d="M200.4,86.8l34,68.1-8.9,4.7L191.7,91.4Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M225.1,151.8,190.6,82.3l10-5.3,34.6,69.5ZM192.6,82.9l33.3,66.8,7.5-4L200.1,78.9Z"
@@ -436,16 +192,8 @@
       d="M225.8,151.4l-.7-1.2,9-4.7,18.4-8.2.7,1.2-8.9,4.7Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M283.3,220.3l8.7-4.7-39.3-77.7-8.8,4.6Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-4"
-      d="M277.2,214.8l8.8-4.6-32.2-63.1-8.9,4.7Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M283.3,220.3l8.7-4.7-39.3-77.7-8.8,4.6Z" transform="translate(-1 -0.4)" />
+    <path class="cls-4" d="M277.2,214.8l8.8-4.6-32.2-63.1-8.9,4.7Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M283,221.2l-40-79,10-5.3L293,216Zm-38.1-78.4,38.7,76.5,7.5-4-38.7-76.4Z"
@@ -513,11 +261,7 @@
       d="M88.2,238.9l-.7-.4v-40h.4l41.5-23.9.4-.2,64.6-37.9.7.4v40h-.4l-63.9,37.5-.4.2Zm.7-39.4v37.6l40.6-23.4.4-.2L193.8,176V138.4l-63.1,36.9-.4.3Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M57.4,181.2v39.2l30.8,17.9V199.1Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M57.4,181.2v39.2l30.8,17.9V199.1Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M88.2,238.9h-.4l-31.2-18V181l.7-.4h.4l31.2,18v39.8ZM58.1,220.1l29.4,17V199.5L58.1,182.4Z"
@@ -563,21 +307,13 @@
       d="M61.3,246.6l-.4-.2L30.1,228.6h-.4v-8.7l.7-.4h.4l31.1,18v8.6ZM31.2,227.7l29.4,17v-6.2l-29.4-17Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-4"
-      d="M74.7,214.6,44,196.8l6.7-3.8,30.8,17.8Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-4" d="M74.7,214.6,44,196.8l6.7-3.8,30.8,17.8Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M74.7,215.4l-.4-.2-31.1-18v-.8l.4-.2,7.1-4.1.4.2,31.2,18v.8l-.4.2ZM45.3,196.8l29.4,17.1,5.4-3.2-29.4-17Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M81.5,210.7,50.7,192.9v-7.8l30.8,17.8Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M81.5,210.7,50.7,192.9v-7.8l30.8,17.8Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M81.5,211.5l-.4-.2L49.9,193.4v-8.6l.7-.4.4.3,31.1,17.9v8.6ZM51.4,192.6l29.4,17v-6.2l-29.4-17Z"
@@ -603,101 +339,61 @@
       d="M61.3,238.9l-.4-.2-31.2-18v-.8l.4-.2,7-4h.4l31.2,18v.8l-.4.2ZM31.8,220.3l29.5,17,5.4-3.1L37.2,217.1Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M68,234.2,37.2,216.4v-7.8L68,226.4Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M68,234.2,37.2,216.4v-7.8L68,226.4Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M68,235l-.4-.2L36.5,216.9v-8.7l.6-.4h.4l31.2,18v8.5ZM37.9,216l29.4,17v-6.2l-29.4-17Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-4"
-      d="M68,226.4,37.2,208.6l6.8-3.9,30.7,17.9Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-4" d="M68,226.4,37.2,208.6l6.8-3.9,30.7,17.9Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M68.1,227h-.4L36.6,209v-.8l.4-.3,7.1-4.1.4.3L75.7,222v.8l-.4.3ZM38.6,208.6l29.4,17,5.4-3.2L44,205.4Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M74.7,222.4,44,204.6v-7.8l30.7,17.8Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M74.7,222.4,44,204.6v-7.8l30.7,17.8Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M74.7,223.2h-.4l-31.1-18v-8.5l.6-.4h.4L75,214.1h.4V223Zm-30.1-19,29.5,17V215L44.6,198Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-4"
-      d="M46.4,153.9l4.3-2.5L36.1,143l-4.4,2.5Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-4" d="M46.4,153.9l4.3-2.5L36.1,143l-4.4,2.5Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M46.4,154.6h-.3l-14.9-8.6v-.7h.2l4.5-2.7.3.2,14.9,8.6v.6h-.3Zm-13.6-9.1,13.7,7.9,3.3-1.8-13.7-8Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M46.4,153.9v17.2l-14.7-8.5V145.5Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M46.4,153.9v17.2l-14.7-8.5V145.5Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M46.4,171.7h-.3L31.2,163V145.2l.5-.2H32l14.9,8.6v17.7Zm-14.2-9.3L46,170.3v-16l-13.8-7.9Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-3"
-      d="M50.7,151.6v17.1l-4.3,2.5V154.1Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-3" d="M50.7,151.6v17.1l-4.3,2.5V154.1Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M46.4,171.7l-.6-.2V153.7l.3-.2,4.5-2.6.5.3v17.6l-.3.2Zm.5-17.4v16l3.3-1.9V152.3Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-3"
-      d="M209.6,271.7v23.5l62.6-37V234.7Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-3" d="M209.6,271.7v23.5l62.6-37V234.7Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M209.7,295.9l-.6-.4V271.3l.3-.2L272.4,234l.7.4v24.3l-.4.2Zm.6-23.8V294l61.2-36.2V235.9Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M144.4,233.6v23.3l65.2,38.3V271.7Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M144.4,233.6v23.3l65.2,38.3V271.7Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M209.7,295.9l-.3-.2-65.5-38.6V232.5l66.4,38.6v24.3Zm-64.6-39.4L209,294V272.1l-63.9-37.3Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-3"
-      d="M80.1,270.7v23.5l64.5-37.1V233.6Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-3" d="M80.1,270.7v23.5l64.5-37.1V233.6Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M80.1,294.9l-.6-.4V270.2l.2-.3,64.9-37.2.6.4v24.3l-.3.3Zm.7-23.9v21.9l63.1-36.3V234.7Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M49.3,252.9v39.2L80,294.2V270.7Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M49.3,252.9v39.2L80,294.2V270.7Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M80.3,294.9H80l-31.4-2.3V252.5l.7-.4.4.2,31.1,17.9v24.2Zm-30.4-3.4,29.5,1.9V271L49.9,254Z"
@@ -723,11 +419,7 @@
       d="M66.7,287.1l-.4-.3L35.1,268.9v-.8l.4-.3,7.2-4.1.4.3,31.1,18v.7l-.3.3ZM37.2,268.5l29.5,17,5.4-3.2-29.4-17Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M73.4,282.3,42.7,264.5v-7.8l30.7,17.9Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M73.4,282.3,42.7,264.5v-7.8l30.7,17.9Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M73.4,283.1l-.3-.2-31.2-18v-8.6l.6-.3h.4L74.1,274v8.6Zm-30.2-19,29.4,17.1V275L43.2,257.9Z"
@@ -743,11 +435,7 @@
       d="M73.5,275.2H73l-31.1-18v-.8l.4-.2,133.9-78.3.4.3,96.5,56.1v.8l-.3.2L210,272.3h-.5l-64.9-37.8ZM44,256.7l29.4,17.1,71-40.9,65.2,38,61.3-36.2-94.8-55.2Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M59.9,305.8,29.2,288v-7.8l30.7,17.9Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M59.9,305.8,29.2,288v-7.8l30.7,17.9Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M59.9,306.6h-.3L28.4,288.6V280l.7-.4h.4l31.1,18v8.5Zm-30-19,29.4,17.1v-6.2L29.9,281.4Z"
@@ -763,22 +451,14 @@
       d="M59.9,298.7h-.3l-31.2-18v-.8l.4-.2,7-4.1h.4l31.1,18v.8l-.4.2ZM30.5,280.2l29.4,17.1,5.5-3.2-29.5-17Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M66.7,294.1,35.9,276.3v-7.8l30.8,17.8Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M66.7,294.1,35.9,276.3v-7.8l30.8,17.8Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M66.7,294.9h-.4l-31.2-18v-8.6l.7-.4.4.2,30.7,17.8h.4v8.7Zm-30.1-19,29.4,17v-6.2l-29.4-17Z"
       transform="translate(-1 -0.4)"
     />
     <g id="arrow">
-      <polygon
-        id="arrowhead"
-        class="cls-3"
-        points="111.6 1 111.6 17 124.1 10.4 111.6 1"
-      />
+      <polygon id="arrowhead" class="cls-3" points="111.6 1 111.6 17 124.1 10.4 111.6 1" />
       <polyline
         id="arrowline"
         ref="arrowline"
@@ -792,11 +472,7 @@
         d="M273.1,202.1h-.4a.8.8,0,0,1-.4-.8V187.3a.9.9,0,0,1,.9-.9h12.3v6.5a4.9,4.9,0,0,1-2.6,3.7l-9.1,5.2A1.1,1.1,0,0,1,273.1,202.1Zm.5-14.3v12.7l8.5-4.9a3.1,3.1,0,0,0,2-2.6v-5.2Z"
         transform="translate(-1 -0.4)"
       />
-      <path
-        class="cls-3"
-        d="M239.2,164.2l-.5,5.9H240l.5-5.9Z"
-        transform="translate(-1 -0.4)"
-      />
+      <path class="cls-3" d="M239.2,164.2l-.5,5.9H240l.5-5.9Z" transform="translate(-1 -0.4)" />
       <path
         class="cls-3"
         d="M273,202.4l-.8-.4a23,23,0,0,0-9.9-2.8,57.9,57.9,0,0,1-12-2l-4-1a38.4,38.4,0,0,0-5.1-1c-1.6-.1-2.8-.9-2.9-1.9v-6.6l.6-.2h1.6v-.7l-3.3-1.9a2,2,0,0,1-1.2-1.8v-6l.3-.3h.7l7,1.8c.6.2,1.8.4,1.9,1.3a1.3,1.3,0,0,1-.5,1.1l6.5,1.8a5.7,5.7,0,0,1,3.5.4l.4.2,1.8-1a6.6,6.6,0,0,1,5-.1h.4l1.7-.9a5.8,5.8,0,0,1,5-.1l9.8,5.7,6,.5v6.5a4.9,4.9,0,0,1-2.6,3.7Zm-33.4-9.3c.1.4.8.8,1.7,1a29.3,29.3,0,0,1,5.3.9l3.9,1a72.6,72.6,0,0,0,11.8,2,23.9,23.9,0,0,1,10.4,3l9.1-5.2a3.3,3.3,0,0,0,2-2.7v-5.3l-5.2-.5h-.1l-9.9-5.7a4.1,4.1,0,0,0-3.6.1l-2.3,1.4-1.1-.6a3.6,3.6,0,0,0-3.5.2l-2.4,1.3-1.1-.5a3.5,3.5,0,0,0-2.7-.3h-.4l-7.8-2.4.4-1.7h.1l-.5-.2h-.2l-6.2-1.7v5q0,.3.6.6l4.2,2.5v.5l-.6,1.9h-2C239.6,191.8,239.6,192.9,239.6,193.1Z"
@@ -817,56 +493,16 @@
         d="M262.8,176.2l-.7-.4a4.7,4.7,0,0,0-4.3.2l-2,1.2-.6-.4a4.6,4.6,0,0,0-4.4.1l-2,1.2-6.2-3.6a4.7,4.7,0,0,0-4.3.2l-.6.2c-1.2.7-1.3,1.9-.1,2.5l15.3,8.9h-.1L250,186l-6.1-.7h-1.6c-1.7-.1-3.1.5-3.5,1.6v.3c-.3.9.7,1.7,2.2,1.9a45.1,45.1,0,0,1,5.3,1l3.9,1a86.8,86.8,0,0,0,11.9,2,23.6,23.6,0,0,1,10.2,2.9l.4.3,9.5-5.4c2-1.2,2.7-3,2.1-4.5V186a9.5,9.5,0,0,0-4.1-4.1l-11-6.3a4.4,4.4,0,0,0-4.3.1Z"
         transform="translate(-1 -0.4)"
       />
-      <path
-        class="cls-3"
-        d="M248.1,177.5l-.6,1.1,5,2.9.7-1.1Z"
-        transform="translate(-1 -0.4)"
-      />
-      <path
-        class="cls-3"
-        d="M252.4,185.4l-.4,1.2,3.4,1.3.5-1.2Z"
-        transform="translate(-1 -0.4)"
-      />
-      <path
-        class="cls-3"
-        d="M255.2,176.5l-.7,1.2,3.9,2.2.7-1.1Z"
-        transform="translate(-1 -0.4)"
-      />
-      <path
-        class="cls-3"
-        d="M262.2,175.8l-.6,1.1,3,1.8.7-1.2Z"
-        transform="translate(-1 -0.4)"
-      />
-      <path
-        class="cls-3"
-        d="M233.4,165.9l-1.1.7,3.2,5.1,1.1-.7Z"
-        transform="translate(-1 -0.4)"
-      />
-      <path
-        class="cls-3"
-        d="M227.7,171.6l-.3,1.2,5.9,1.8.4-1.3Z"
-        transform="translate(-1 -0.4)"
-      />
-      <path
-        class="cls-3"
-        d="M240.4,178.5H239v5.9h1.4Z"
-        transform="translate(-1 -0.4)"
-      />
-      <path
-        class="cls-3"
-        d="M250.3,190.5h-1.4v5.9h1.4Z"
-        transform="translate(-1 -0.4)"
-      />
-      <path
-        class="cls-3"
-        d="M268.9,193.8h-1.3v5.9h1.3Z"
-        transform="translate(-1 -0.4)"
-      />
-      <path
-        class="cls-3"
-        d="M242.7,188.9h-1.3v5.9h1.3Z"
-        transform="translate(-1 -0.4)"
-      />
+      <path class="cls-3" d="M248.1,177.5l-.6,1.1,5,2.9.7-1.1Z" transform="translate(-1 -0.4)" />
+      <path class="cls-3" d="M252.4,185.4l-.4,1.2,3.4,1.3.5-1.2Z" transform="translate(-1 -0.4)" />
+      <path class="cls-3" d="M255.2,176.5l-.7,1.2,3.9,2.2.7-1.1Z" transform="translate(-1 -0.4)" />
+      <path class="cls-3" d="M262.2,175.8l-.6,1.1,3,1.8.7-1.2Z" transform="translate(-1 -0.4)" />
+      <path class="cls-3" d="M233.4,165.9l-1.1.7,3.2,5.1,1.1-.7Z" transform="translate(-1 -0.4)" />
+      <path class="cls-3" d="M227.7,171.6l-.3,1.2,5.9,1.8.4-1.3Z" transform="translate(-1 -0.4)" />
+      <path class="cls-3" d="M240.4,178.5H239v5.9h1.4Z" transform="translate(-1 -0.4)" />
+      <path class="cls-3" d="M250.3,190.5h-1.4v5.9h1.4Z" transform="translate(-1 -0.4)" />
+      <path class="cls-3" d="M268.9,193.8h-1.3v5.9h1.3Z" transform="translate(-1 -0.4)" />
+      <path class="cls-3" d="M242.7,188.9h-1.3v5.9h1.3Z" transform="translate(-1 -0.4)" />
       <path
         class="cls-3"
         d="M273,196.6l-.8-.4a23,23,0,0,0-9.9-2.8,57.9,57.9,0,0,1-12-2l-4-1a38.4,38.4,0,0,0-5.1-1,3.7,3.7,0,0,1-2.7-1.3,1.7,1.7,0,0,1-.2-1.4v-.3c.4-1.3,2.2-2.1,4.2-2l1.6.2a56.7,56.7,0,0,1,5.8.5l-12.5-7.3a1.9,1.9,0,0,1-1.2-1.7,2,2,0,0,1,1.3-1.8l.4-.4a6.2,6.2,0,0,1,5-.2l5.9,3.5,1.8-1a5.8,5.8,0,0,1,5-.1h.4l1.7-.9a5.8,5.8,0,0,1,5-.1h.4l1.7-.9a5.8,5.8,0,0,1,5-.1l11,6.3a9.7,9.7,0,0,1,4.3,4.5l.2.2c.9,2,0,4-2.4,5.3Zm-30.8-10.9c-1.3,0-2.4.6-2.5,1.1v.7a1.8,1.8,0,0,0,1.6.6,26.8,26.8,0,0,1,5.2.9l4,1.1a86.5,86.5,0,0,0,11.7,2,22.7,22.7,0,0,1,10.5,3l9.1-5.3c1.7-.9,2.4-2.3,1.8-3.5V186a9.2,9.2,0,0,0-3.8-3.8l-11-6.4a3.9,3.9,0,0,0-3.6.2l-2.3,1.3-1.1-.5a3.4,3.4,0,0,0-3.5.1l-2.4,1.3-1.1-.5a3.9,3.9,0,0,0-3.5.1l-2.4,1.3-6.6-3.8a4.1,4.1,0,0,0-3.6.1l-.5.3c-.4.3-.7.5-.7.7a.8.8,0,0,0,.6.5l15.8,9.1-.4,1.1h-.7l-2.7-.4a59.8,59.8,0,0,0-6.1-.7h-1.6C242.3,185.7,242.3,185.7,242.2,185.7Z"
@@ -1143,21 +779,9 @@
       d="M165.5,288.7a18.1,18.1,0,0,1-7.8-1.6,6.8,6.8,0,0,1-3.1-2.9l-.2-.3.2-.2a6.3,6.3,0,0,1,3.1-2.9c4.3-2.1,11.3-2.1,15.5,0a7.1,7.1,0,0,1,3.2,2.9v.5a6.6,6.6,0,0,1-3.2,2.9A17.1,17.1,0,0,1,165.5,288.7Zm-9.6-4.9a4.5,4.5,0,0,0,2.4,2,17.6,17.6,0,0,0,14.2,0,4.9,4.9,0,0,0,2.4-2,4.5,4.5,0,0,0-2.4-2,17.6,17.6,0,0,0-14.2,0A6.1,6.1,0,0,0,155.9,283.8Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M174.5,290.3h-1v3.3h1Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-2"
-      d="M153.1,287.5h-1v3.3h1Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-2"
-      d="M167.4,277.6h-1.1v2.1h1.1Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M174.5,290.3h-1v3.3h1Z" transform="translate(-1 -0.4)" />
+    <path class="cls-2" d="M153.1,287.5h-1v3.3h1Z" transform="translate(-1 -0.4)" />
+    <path class="cls-2" d="M167.4,277.6h-1.1v2.1h1.1Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M157.7,281.6v1.8l2.6.9,1.1-1.8,8.8,5a8.6,8.6,0,0,0,2.1-.7l.9-.5v-1.8l-11.6-4.9Z"
@@ -1178,11 +802,7 @@
       d="M170.7,286.6l-9.1-5.3-1.2,1.8-3.4-1.3,2.1-3.3,2.6-1.4,12.3,7v.6Zm-9.4-6.5h.3l9,5.2,1.5-.9-10.5-6.1-1.9,1-1.2,2,1.5.6,1-1.6Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M172.7,290.8h-1.1v3.3h1.1Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M172.7,290.8h-1.1v3.3h1.1Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M182,265.6c-1.6-2-3.1-1.6-7.4-2.5a24,24,0,0,0-11,.1c-3.6.9-5.9,1.6-7.3,3.2l-2,1v4h0c.1,2.7,2.3,5.2,6.6,7a20.8,20.8,0,0,0,13.7.9c6.5-1.5,9.7-4.7,9.8-8h0v-3.9Z"
@@ -1223,21 +843,9 @@
       d="M169.4,273.5a17.5,17.5,0,0,1-7.8-1.6,6.6,6.6,0,0,1-3.2-2.9v-.5a6.1,6.1,0,0,1,3.2-2.9c4.2-2.1,11.2-2.1,15.4,0a6.6,6.6,0,0,1,3.2,2.9v.5a6.1,6.1,0,0,1-3.2,2.9A16.1,16.1,0,0,1,169.4,273.5Zm-9.5-4.9a4.2,4.2,0,0,0,2.3,2,17.8,17.8,0,0,0,14.3,0,4.9,4.9,0,0,0,2.4-2,4.9,4.9,0,0,0-2.4-2,18.7,18.7,0,0,0-14.3,0A5.8,5.8,0,0,0,159.9,268.6Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M178.3,275.1h-1v3.3h1Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-2"
-      d="M157.1,272.3H156v3.3h1.1Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-2"
-      d="M171.3,262.3h-1v2.1h1Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M178.3,275.1h-1v3.3h1Z" transform="translate(-1 -0.4)" />
+    <path class="cls-2" d="M157.1,272.3H156v3.3h1.1Z" transform="translate(-1 -0.4)" />
+    <path class="cls-2" d="M171.3,262.3h-1v2.1h1Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M161.7,266.4v1.8l2.5.9,1.2-1.8,8.7,5a10.5,10.5,0,0,0,2.1-.6l.9-.6v-1.8l-11.6-4.9Z"
@@ -1258,11 +866,7 @@
       d="M174.5,271.3l-9.1-5.3-1.2,1.8-3.4-1.3,2.1-3.3,2.6-1.4,12,7,.4.3-.5.4Zm-9.2-6.5h.2l9,5.2,1.6-1-10.6-6-1.8,1-1.2,2,1.5.5,1-1.5Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M176.5,275.6h-1.1v3.3h1.1Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M176.5,275.6h-1.1v3.3h1.1Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M267,274c-1.6-1.9-3.1-1.5-7.4-2.5a22.7,22.7,0,0,0-11,.2c-3.6.9-5.9,1.5-7.3,3.1l-2,1.1V280c.1,2.6,2.3,5.1,6.6,7a21.5,21.5,0,0,0,13.7.9c6.5-1.6,9.7-4.8,9.8-8.1h0v-3.8Z"
@@ -1303,21 +907,9 @@
       d="M254.5,281.8a17.5,17.5,0,0,1-7.8-1.6,7.1,7.1,0,0,1-3.2-2.9v-.5a6.6,6.6,0,0,1,3.2-2.9c4.2-2.1,11.2-2.1,15.4,0a6.6,6.6,0,0,1,3.2,2.9v.5a6.1,6.1,0,0,1-3.2,2.9A16.7,16.7,0,0,1,254.5,281.8Zm-9.6-4.9a4.2,4.2,0,0,0,2.3,2,17.8,17.8,0,0,0,14.3,0,4.9,4.9,0,0,0,2.4-2,4.4,4.4,0,0,0-2.4-1.9,17.8,17.8,0,0,0-14.3,0A7.7,7.7,0,0,0,244.9,276.9Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M263.5,283.4h-1.1v3.3h1.1Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-2"
-      d="M242.1,280.6H241v3.3h1.1Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-2"
-      d="M256.3,270.7h-1v2.1h1Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M263.5,283.4h-1.1v3.3h1.1Z" transform="translate(-1 -0.4)" />
+    <path class="cls-2" d="M242.1,280.6H241v3.3h1.1Z" transform="translate(-1 -0.4)" />
+    <path class="cls-2" d="M256.3,270.7h-1v2.1h1Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M246.7,274.8v1.9l2.5.9,1.2-1.9,8.7,5.1,2.1-.7.9-.5v-1.9l-11.6-4.9Z"
@@ -1338,11 +930,7 @@
       d="M259.5,279.7l-9.1-5.3-1.2,1.9-3.4-1.3,2.1-3.3,2.6-1.5,12.3,7v.7Zm-9.2-6.5.2.2,9,5.1,1.6-.9-10.6-6.1-1.8,1.1-1.2,2,1.4.5,1.1-1.6Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M261.5,283.9h-1.1v3.3h1.1Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M261.5,283.9h-1.1v3.3h1.1Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M151,199.5c-1.6-2-3.2-1.6-7.4-2.5a24.5,24.5,0,0,0-11.1.1c-3.5.9-5.8,1.6-7.2,3.2l-2,1v4h0c.1,2.6,2.2,5.2,6.6,7a21.5,21.5,0,0,0,13.7.9c6.5-1.6,9.7-4.7,9.8-8v-4Z"
@@ -1383,21 +971,9 @@
       d="M138.5,207.4a17.5,17.5,0,0,1-7.8-1.6,7.1,7.1,0,0,1-3.2-2.9v-.5a6.6,6.6,0,0,1,3.2-2.9c4.2-2.1,11.2-2.1,15.4,0a6.6,6.6,0,0,1,3.2,2.9v.5a6.1,6.1,0,0,1-3.2,2.9A17,17,0,0,1,138.5,207.4Zm-9.7-4.9a4.5,4.5,0,0,0,2.4,2,17.8,17.8,0,0,0,14.3,0,4.2,4.2,0,0,0,2.3-2,3.9,3.9,0,0,0-2.3-2,17.8,17.8,0,0,0-14.3,0A5.4,5.4,0,0,0,128.8,202.5Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M147.5,209h-1.1v3.3h1.1Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-2"
-      d="M126.1,206.2H125v3.3h1.1Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-2"
-      d="M140.3,196.2h-1v2.1h1Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M147.5,209h-1.1v3.3h1.1Z" transform="translate(-1 -0.4)" />
+    <path class="cls-2" d="M126.1,206.2H125v3.3h1.1Z" transform="translate(-1 -0.4)" />
+    <path class="cls-2" d="M140.3,196.2h-1v2.1h1Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M130.7,200.3v1.8l2.5.9,1.2-1.8,8.7,5a7.4,7.4,0,0,0,2.1-.7l.9-.5v-1.8l-11.6-4.9Z"
@@ -1418,31 +994,19 @@
       d="M143.5,205.3l-9.1-5.3-1.2,1.8-3.4-1.3,2.1-3.3,2.6-1.4,12.2,7v.6l-.3.2Zm-9.2-6.6h.2l9,5.2,1.6-1-10.6-6-1.8,1-1.2,2,1.4.5,1.1-1.6Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M145.5,209.5h-1.1v3.3h1.1Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M145.5,209.5h-1.1v3.3h1.1Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M88.3,244.9l-.2-.2-15.5-8.9v-.7h.3l16.9-9.8H90l15.5,9v.7h-.3Zm-14.1-9.4,14.3,8.2,15.5-9-14.2-8.2Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-3"
-      d="M88.3,244.2v3.2l16.7-9.5v-3.2Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-3" d="M88.3,244.2v3.2l16.7-9.5v-3.2Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M88.3,248l-.5-.2v-3.7l.3-.2,16.9-9.7.5.2v3.7l-.3.2Zm.6-3.4v2l15.5-9v-2Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M73.1,235.5v3.2l15.2,8.8v-3.2Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M73.1,235.5v3.2l15.2,8.8v-3.2Z" transform="translate(-1 -0.4)" />
     <g>
       <path
         class="cls-4"
@@ -1466,72 +1030,44 @@
         d="M97.6,276h-.3l-6.1-3.6v-.6l.3-.2,23.7-13.7h.3l6.1,3.6v.7h-.3Zm-4.8-3.9,4.9,2.7,22.6-13-4.9-2.8Z"
         transform="translate(-1 -0.4)"
       />
-      <path
-        class="cls-2"
-        d="M97.6,275.4v18.7l-5.8-3.3V272.1Z"
-        transform="translate(-1 -0.4)"
-      />
+      <path class="cls-2" d="M97.6,275.4v18.7l-5.8-3.3V272.1Z" transform="translate(-1 -0.4)" />
       <path
         class="cls-3"
         d="M97.6,294.6h-.3l-6.1-3.4V271.8l.6-.3.2.2,6.1,3.4v19.3Zm-5.3-4.2,4.9,2.8V275.6l-4.9-2.8Z"
         transform="translate(-1 -0.4)"
       />
-      <path
-        class="cls-3"
-        d="M121.2,261.8v18.7L97.7,294.1V275.4Z"
-        transform="translate(-1 -0.4)"
-      />
+      <path class="cls-3" d="M121.2,261.8v18.7L97.7,294.1V275.4Z" transform="translate(-1 -0.4)" />
       <path
         class="cls-3"
         d="M97.6,294.6l-.6-.2V275.1h.3l23.9-13.8.5.3v19.3h-.2Zm.5-19v17.6l22.6-13.1V262.6Z"
         transform="translate(-1 -0.4)"
       />
-      <path
-        class="cls-4"
-        d="M119.9,275.4l6.6-4-2.9-1.7-6.8,3.9Z"
-        transform="translate(-1 -0.4)"
-      />
+      <path class="cls-4" d="M119.9,275.4l6.6-4-2.9-1.7-6.8,3.9Z" transform="translate(-1 -0.4)" />
       <path
         class="cls-3"
         d="M119.9,276h-.4l-3.2-1.9v-.5h.3l7-4.1.2.2,3.2,1.9v.5l-.3.2-6.6,3.8Zm-2-2.4,1.8,1.1,5.7-3.3-1.8-1.1Z"
         transform="translate(-1 -0.4)"
       />
-      <path
-        class="cls-2"
-        d="M119.9,275.4v9.3h-.2l-2.9-1.7v-9.4Z"
-        transform="translate(-1 -0.4)"
-      />
+      <path class="cls-2" d="M119.9,275.4v9.3h-.2l-2.9-1.7v-9.4Z" transform="translate(-1 -0.4)" />
       <path
         class="cls-3"
         d="M119.7,285.3l-.2-.2-2.8-1.6h-.4V273.4l.5-.3h.3l3.2,1.9V285Zm-2.3-2.6,1.8,1.1v-8.2l-1.8-1Z"
         transform="translate(-1 -0.4)"
       />
-      <path
-        class="cls-3"
-        d="M126.5,271.4v9.4l-6.6,3.9v-9.3Z"
-        transform="translate(-1 -0.4)"
-      />
+      <path class="cls-3" d="M126.5,271.4v9.4l-6.6,3.9v-9.3Z" transform="translate(-1 -0.4)" />
       <path
         class="cls-3"
         d="M119.9,285.3l-.6-.3v-9.8l.3-.2,6.9-4.1.5.2V281l-.3.2Zm.4-9.7v8.2l5.6-3.3v-8.2Z"
         transform="translate(-1 -0.4)"
       />
     </g>
-    <path
-      class="cls-4"
-      d="M219.8,283.5l-2.9-1.7,9.7-5.7,2.9,1.8Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-4" d="M219.8,283.5l-2.9-1.7,9.7-5.7,2.9,1.8Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M219.8,284.1l-.3-.2-3.2-1.8v-.7h.3l10-5.8h.3l3.2,1.9v.6l-.3.2Zm-1.9-2.3,1.9,1.1,8.8-5-1.8-1.1Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-3"
-      d="M219.8,283.5V295l9.7-5.7V277.9Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-3" d="M219.8,283.5V295l9.7-5.7V277.9Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M219.8,295.5l-.5-.2v-12l.2-.2,10.2-5.8.5.3v12h-.3Zm.5-11.7v10.3l8.8-5V278.8Z"
@@ -1557,16 +1093,8 @@
       d="M47.3,109.1,67.7,101l-7,13.7a31.7,31.7,0,0,1-10.5-3.5A24.3,24.3,0,0,1,47.3,109.1Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M67.7,115.4V101.1l5.1,14Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M61.3,114.7H60.1v8.7h1.2Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M67.7,115.4V101.1l5.1,14Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M61.3,114.7H60.1v8.7h1.2Z" transform="translate(-1 -0.4)" />
     <g id="pie">
       <path
         class="cls-3"
@@ -1583,11 +1111,7 @@
         d="M67.7,101,45.2,95.1a18.4,18.4,0,0,1,7.1-5.3c9.6-4.4,23.8-4.1,32.6.9s10.2,14.8.4,20.5-25.5,5.6-35.1,0a24.3,24.3,0,0,1-2.9-2.1Z"
         transform="translate(-1 -0.4)"
       />
-      <path
-        class="cls-3"
-        d="M67.7,101v14.3a41.4,41.4,0,0,1-7-.6Z"
-        transform="translate(-1 -0.4)"
-      />
+      <path class="cls-3" d="M67.7,101v14.3a41.4,41.4,0,0,1-7-.6Z" transform="translate(-1 -0.4)" />
       <path
         class="cls-3"
         d="M51.8,112.1v8.6a17.5,17.5,0,0,1-4.9-3.1l.2-8.4Z"
@@ -1603,21 +1127,9 @@
         d="M73.5,115.5l-.7.2a46.1,46.1,0,0,1-5.2.2h-.7V100.5l1.1-.2Zm-1.7-1-3.5-9.9v10.1Z"
         transform="translate(-1 -0.4)"
       />
-      <path
-        class="cls-3"
-        d="M88.1,109.4H86.9v8.7h1.2Z"
-        transform="translate(-1 -0.4)"
-      />
-      <path
-        class="cls-3"
-        d="M85.3,111.6H84.1v8.7h1.2Z"
-        transform="translate(-1 -0.4)"
-      />
-      <path
-        class="cls-3"
-        d="M51.1,96.6H49.9v8.8h1.2Z"
-        transform="translate(-1 -0.4)"
-      />
+      <path class="cls-3" d="M88.1,109.4H86.9v8.7h1.2Z" transform="translate(-1 -0.4)" />
+      <path class="cls-3" d="M85.3,111.6H84.1v8.7h1.2Z" transform="translate(-1 -0.4)" />
+      <path class="cls-3" d="M51.1,96.6H49.9v8.8h1.2Z" transform="translate(-1 -0.4)" />
       <path
         class="cls-3"
         d="M93.2,100.9c0,4.1-2.6,7.9-7.5,10.8-9.9,5.7-25.9,5.7-35.8,0a32.1,32.1,0,0,1-3-2.1l-.3-.3.2-.6,19-7.6L44.9,95.7h-.3v-.9A20.4,20.4,0,0,1,52,89.1c9.9-4.5,24.2-4.1,33.2,1a18.5,18.5,0,0,1,6.2,5.4A10,10,0,0,1,93.2,100.9Zm-25.3-.6.4.2v.9l-20,7.9,2,1.3c9.5,5.6,25,5.5,34.5,0,4.4-2.6,7-6,7-9.6s-2.7-7.1-7.3-9.8c-8.7-4.8-22.6-5.1-32.1-.8a18.8,18.8,0,0,0-6.3,4.5Z"
@@ -1800,21 +1312,9 @@
       d="M185.9,196.3c-.4,0-1-.1-1.2-.5l-14.8-16.7c-2.9-3.7-4.1-8.9-3.7-15.4,1.1-13.6,9.9-29,21.1-37,7.1-5,14.3-6.3,19.5-3.7s7.7,8.4,7.7,16.1c0,15.2-10.7,33.8-23.9,41.4-.3.1-.5.4-.9.5a27.1,27.1,0,0,0-.7,10.9,4.1,4.1,0,0,1-2.3,4.1Zm-14.7-17.7,14.5,16.2s.2.2.6,0a3.2,3.2,0,0,0,1.5-2.7,29.7,29.7,0,0,1,.8-11.8l.2-.2.2-.2a6,6,0,0,0,1.1-.6c12.8-7.4,23.2-25.5,23.2-40.3,0-7.2-2.5-12.5-7-14.9s-11.5-1.2-18.2,3.6c-10.8,7.6-19.5,22.7-20.5,35.9C167.1,170.2,168.3,175.3,171.2,178.6Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M158,171.2l14.8,8.3Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-2"
-      d="M155,158.9l14.8,8.4Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-2"
-      d="M181.1,117.4l14.8,8.3Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M158,171.2l14.8,8.3Z" transform="translate(-1 -0.4)" />
+    <path class="cls-2" d="M155,158.9l14.8,8.4Z" transform="translate(-1 -0.4)" />
+    <path class="cls-2" d="M181.1,117.4l14.8,8.3Z" transform="translate(-1 -0.4)" />
     <g id="money">
       <path
         class="cls-3"
@@ -1836,21 +1336,9 @@
         d="M170.7,179c-2.8-3.3-4.2-8.6-3.7-15.3,1-13.3,9.8-28.6,20.7-36.4,14.3-10.1,26.3-4.1,26.3,11.8s-10.6,33.3-23.5,40.8a10.5,10.5,0,0,0-1.1.7,28.2,28.2,0,0,0-.8,11.5c.3,2-2.2,4.3-3.1,3.1Z"
         transform="translate(-1 -0.4)"
       />
-      <path
-        class="cls-3"
-        d="M158.4,170.7l-.7,1.1,14.8,8.3.6-1.1Z"
-        transform="translate(-1 -0.4)"
-      />
-      <path
-        class="cls-3"
-        d="M155.4,158.4l-.7,1.2,14.8,8.3.6-1.2Z"
-        transform="translate(-1 -0.4)"
-      />
-      <path
-        class="cls-3"
-        d="M181.5,116.8l-.7,1.1,14.7,8.3.7-1.1Z"
-        transform="translate(-1 -0.4)"
-      />
+      <path class="cls-3" d="M158.4,170.7l-.7,1.1,14.8,8.3.6-1.1Z" transform="translate(-1 -0.4)" />
+      <path class="cls-3" d="M155.4,158.4l-.7,1.2,14.8,8.3.6-1.2Z" transform="translate(-1 -0.4)" />
+      <path class="cls-3" d="M181.5,116.8l-.7,1.1,14.7,8.3.7-1.1Z" transform="translate(-1 -0.4)" />
       <path
         class="cls-2"
         d="M198,152.5a8.6,8.6,0,0,1-1.6,4.9,15.7,15.7,0,0,1-4.3,4.2v3.2l-1.9,1v-3.2a14,14,0,0,1-5.7,2v-4.1a9.9,9.9,0,0,0,2.8-.4,11,11,0,0,0,2.9-1v-4.8l-.9.2a6.5,6.5,0,0,1-3.7-.4,3.3,3.3,0,0,1-1.1-2.9,9.1,9.1,0,0,1,1.6-4.7,18.6,18.6,0,0,1,4.2-4.2v-2.4l1.9-1v2.2a12.8,12.8,0,0,1,5.5-1.7l-1.3,4.4a9.7,9.7,0,0,0-4.2,1.3v4.6a9.3,9.3,0,0,1,3.7-.1,2,2,0,0,1,1.6.9A4.1,4.1,0,0,1,198,152.5Zm-9.5-3.9a1.2,1.2,0,0,0,.4,1h1.3v-3.6A4,4,0,0,0,188.5,148.6Zm5.4,6.4c0-.4-.1-.7-.4-.8h-1.3v3.8A3.8,3.8,0,0,0,193.9,155Z"
@@ -1888,16 +1376,8 @@
         d="M109.3,90.1a5.7,5.7,0,0,1-2.9-.8l-5-2.9c-.9-.6-1.5-1.2-1.5-2a1.8,1.8,0,0,1,1.1-1.6l5.7-3.3a5.9,5.9,0,0,1,5.2.1l5.1,2.9c.9.6,1.4,1.2,1.4,2a1.9,1.9,0,0,1-1,1.6l-5.7,3.3A4.4,4.4,0,0,1,109.3,90.1ZM108.9,80a5.3,5.3,0,0,0-1.8.4l-5.7,3.3a.8.8,0,0,0-.5.8c0,.4.4.8.9,1.1l5,2.9c1.2.6,3.2.8,4.2.1l5.7-3.3a.8.8,0,0,0,.5-.8c0-.4-.4-.8-.9-1l-5-3A7.2,7.2,0,0,0,108.9,80Z"
         transform="translate(-1 -0.4)"
       />
-      <path
-        class="cls-2"
-        d="M116.3,87.8h-.8v6.7h.8Z"
-        transform="translate(-1 -0.4)"
-      />
-      <path
-        class="cls-3"
-        d="M107.7,91.8h-.8v7h.8Z"
-        transform="translate(-1 -0.4)"
-      />
+      <path class="cls-2" d="M116.3,87.8h-.8v6.7h.8Z" transform="translate(-1 -0.4)" />
+      <path class="cls-3" d="M107.7,91.8h-.8v7h.8Z" transform="translate(-1 -0.4)" />
     </g>
     <g id="barchart-6" data-name="barchart">
       <path
@@ -1925,16 +1405,8 @@
         d="M10.3,153.4a5.7,5.7,0,0,1-2.9-.8l-5-2.9a2.3,2.3,0,0,1-1.4-2,1.8,1.8,0,0,1,1-1.6l5.7-3.3a6.6,6.6,0,0,1,5.3.2l5,2.9a2.3,2.3,0,0,1,1.4,2,1.9,1.9,0,0,1-1,1.5l-5.7,3.3A3.4,3.4,0,0,1,10.3,153.4Zm-.2-10a3.8,3.8,0,0,0-1.9.4l-5.7,3.3a1,1,0,0,0-.5.8c0,.4.4.7.9,1l5,2.9a4.7,4.7,0,0,0,4.3.1l5.6-3.3a.7.7,0,0,0,.6-.7c0-.4-.4-.8-.9-1.1l-5.1-2.9A3.9,3.9,0,0,0,10.1,143.4Z"
         transform="translate(-1 -0.4)"
       />
-      <path
-        class="cls-2"
-        d="M17.5,151.2h-.8v1.9h.8Z"
-        transform="translate(-1 -0.4)"
-      />
-      <path
-        class="cls-3"
-        d="M8.9,153.9H8.1v3.5h.8Z"
-        transform="translate(-1 -0.4)"
-      />
+      <path class="cls-2" d="M17.5,151.2h-.8v1.9h.8Z" transform="translate(-1 -0.4)" />
+      <path class="cls-3" d="M8.9,153.9H8.1v3.5h.8Z" transform="translate(-1 -0.4)" />
     </g>
     <g id="barchart-7" data-name="barchart">
       <path
@@ -1962,16 +1434,8 @@
         d="M16.7,77.9a5.2,5.2,0,0,1-2.9-.8L8.7,74.2a2.3,2.3,0,0,1-1.4-2,2,2,0,0,1,1-1.6L14,67.3a6.6,6.6,0,0,1,5.3.2l5,2.9a2.5,2.5,0,0,1,1.5,2,1.7,1.7,0,0,1-1.1,1.5L19,77.2A4.2,4.2,0,0,1,16.7,77.9Zm-.3-10.2a5.8,5.8,0,0,0-1.9.4L8.9,71.4c-.3.2-.6.4-.6.8s.4.8,1,1.1l5,2.9a4.5,4.5,0,0,0,4.2.1L24.2,73a1,1,0,0,0,.5-.8c0-.4-.4-.8-.9-1l-5-2.9A6.5,6.5,0,0,0,16.4,67.7Z"
         transform="translate(-1 -0.4)"
       />
-      <path
-        class="cls-2"
-        d="M23.7,75.5h-.8v2h.8Z"
-        transform="translate(-1 -0.4)"
-      />
-      <path
-        class="cls-3"
-        d="M15.2,78.4h-.8v3.5h.8Z"
-        transform="translate(-1 -0.4)"
-      />
+      <path class="cls-2" d="M23.7,75.5h-.8v2h.8Z" transform="translate(-1 -0.4)" />
+      <path class="cls-3" d="M15.2,78.4h-.8v3.5h.8Z" transform="translate(-1 -0.4)" />
     </g>
     <g id="barchart-8" data-name="barchart">
       <path
@@ -1999,17 +1463,9 @@
         d="M236,320.9a5.7,5.7,0,0,1-2.9-.8l-5-2.9a2.5,2.5,0,0,1-1.5-2,1.9,1.9,0,0,1,1.1-1.6l5.7-3.3c1.3-.8,3.7-.6,5.3.2l5,2.9a2.3,2.3,0,0,1,1.4,1.9,1.9,1.9,0,0,1-1,1.6l-5.7,3.3A3.6,3.6,0,0,1,236,320.9Zm-.2-10a3.8,3.8,0,0,0-1.9.4l-5.7,3.3a.8.8,0,0,0-.5.7c0,.4.4.8.9,1.1l5,2.9a4.7,4.7,0,0,0,4.3.1l5.6-3.3a.9.9,0,0,0,.6-.8c0-.4-.4-.7-1-1l-5-2.9A4.6,4.6,0,0,0,235.8,310.9Z"
         transform="translate(-1 -0.4)"
       />
-      <path
-        class="cls-2"
-        d="M243,318.6h-.8v2h.8Z"
-        transform="translate(-1 -0.4)"
-      />
+      <path class="cls-2" d="M243,318.6h-.8v2h.8Z" transform="translate(-1 -0.4)" />
     </g>
-    <path
-      class="cls-3"
-      d="M234.6,321.4h-.8v3.4h.8Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-3" d="M234.6,321.4h-.8v3.4h.8Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-2"
       d="M121.1,162.5H104.3a.4.4,0,0,0-.4.4v4.5c0,.5.4,1,1.2,1.4l5,2.9c1.5.8,3.6,1,4.8.2l5.6-3.3a1.5,1.5,0,0,0,.8-1.3v-4.5C121.3,162.6,121.2,162.5,121.1,162.5Z"
@@ -2035,16 +1491,8 @@
       d="M112.7,168.1a5.7,5.7,0,0,1-2.9-.8l-5-2.9c-.9-.6-1.4-1.2-1.4-2a1.9,1.9,0,0,1,1-1.6l5.7-3.3a6.2,6.2,0,0,1,5.3.1l5.1,3.1c1,.5,1.5,1.1,1.5,1.9a1.8,1.8,0,0,1-1.1,1.6l-5.7,3.3A4.9,4.9,0,0,1,112.7,168.1Zm-.2-10.1a5.8,5.8,0,0,0-1.9.4l-5.6,3.3a.9.9,0,0,0-.6.8c0,.4.4.8,1,1.1l5,2.9a4.8,4.8,0,0,0,4.2.1l5.7-3.3a1,1,0,0,0,.5-.8c0-.4-.4-.8-.9-1l-5-3A6,6,0,0,0,112.5,158Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M119.9,165.8h-.8v2h.8Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M111.3,168.6h-.8V172h.8Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M119.9,165.8h-.8v2h.8Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M111.3,168.6h-.8V172h.8Z" transform="translate(-1 -0.4)" />
     <g id="heavybit">
       <path
         class="cls-4"
@@ -2076,26 +1524,14 @@
         d="M285.1,136.9a7.8,7.8,0,0,1-3.3-.9l-35.3-20.4c-.3,3.8,2.1,8.9,3.3,10.7s.3,1.7-.3,2a1.4,1.4,0,0,1-2.1,0,31.4,31.4,0,0,1-13.6-20.1l-8.6-5.1A13.4,13.4,0,0,1,219,92.4V49.5a5.4,5.4,0,0,1,2.3-4.8c1.5-.9,3.3-.6,5.4.3l56.6,32.6a13.5,13.5,0,0,1,6.2,11v42.7a5.3,5.3,0,0,1-2.3,4.7A3.2,3.2,0,0,1,285.1,136.9Zm-39.5-24.6a1.1,1.1,0,0,1,.9.3L283,133.7c1.2.6,2.1.9,2.7.3s.9-1.2.9-2.7V88.9a10.9,10.9,0,0,0-5.1-8.6L224.9,47.7c-1.2-.6-2.1-.9-2.7-.3s-.9,1.2-.9,2.6V92.7a10.7,10.7,0,0,0,5.1,8.6l8.6,5.1a3,3,0,0,1,1.2,1.5,30.7,30.7,0,0,0,9.4,16.6c-1.1-3.3-2.3-7.1-1.4-10.7l.3-.6.8-.6A.3.3,0,0,1,245.6,112.3Z"
         transform="translate(-1 -0.4)"
       />
-      <path
-        class="cls-3"
-        d="M294.2,72.5l-9.9,6,1.4,2.3,9.9-6.1Z"
-        transform="translate(-1 -0.4)"
-      />
-      <path
-        class="cls-3"
-        d="M241.4,42.2l-9.8,6,1.4,2.3,9.8-6Z"
-        transform="translate(-1 -0.4)"
-      />
+      <path class="cls-3" d="M294.2,72.5l-9.9,6,1.4,2.3,9.9-6.1Z" transform="translate(-1 -0.4)" />
+      <path class="cls-3" d="M241.4,42.2l-9.8,6,1.4,2.3,9.8-6Z" transform="translate(-1 -0.4)" />
       <path
         class="cls-3"
         d="M298.3,83.4l-10.8,6.8,1.4,2.2,10.8-6.8Z"
         transform="translate(-1 -0.4)"
       />
-      <path
-        class="cls-4"
-        d="M298,93l-8.5,5.5v34.8l8.5-4.8.3-2.5Z"
-        transform="translate(-1 -0.4)"
-      />
+      <path class="cls-4" d="M298,93l-8.5,5.5v34.8l8.5-4.8.3-2.5Z" transform="translate(-1 -0.4)" />
       <g class="hblogo cls-6">
         <g>
           <path
@@ -2276,46 +1712,18 @@
       d="M77.2,127l-1.6-1a1.2,1.2,0,0,1-.6-1.2v-.6c0-.2.2-.4.4-.6h.7l1.6,1a1.2,1.2,0,0,1,.6,1.3v.6a1,1,0,0,1-.4.5h-.7Zm.5-1.3c0-.2,0-.4-.2-.5l-1.6-1v.6a.8.8,0,0,0,.2.5l1.6,1Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-3"
-      d="M79.8,109.9l-1,.3.3.8.9-.3Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-3" d="M79.8,109.9l-1,.3.3.8.9-.3Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M75,146.7H73.8a1.6,1.6,0,0,1-1.5-1.7v-3.8a1.1,1.1,0,0,1,.3-.8,1.1,1.1,0,0,1,.7-.3l3.3.3a1,1,0,0,1,.7.4,1.1,1.1,0,0,1,.2.8l-.7,3.7a1.7,1.7,0,0,1-1.7,1.4Zm-1.9-5.9c-.1,0-.1.1-.1.2v3.8a.9.9,0,0,0,.8.9H75a.9.9,0,0,0,1-.8l.7-3.7v-.2h-.1l-3.3-.3Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-3"
-      d="M75.8,136.7l-.5,3.9h.8l.5-3.9Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-3"
-      d="M74.5,138h-.8v2.4h.8Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-2"
-      d="M77.1,189.6l-.2.8,3.1.7v-.8Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-2"
-      d="M76.5,191.1l-.2.8,3,.7.2-.8Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-2"
-      d="M66.3,177.8l-.7.5,1.3,1.5.6-.5Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-2"
-      d="M65,178.8l-.7.5,1.2,1.5.7-.5Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-3" d="M75.8,136.7l-.5,3.9h.8l.5-3.9Z" transform="translate(-1 -0.4)" />
+    <path class="cls-3" d="M74.5,138h-.8v2.4h.8Z" transform="translate(-1 -0.4)" />
+    <path class="cls-2" d="M77.1,189.6l-.2.8,3.1.7v-.8Z" transform="translate(-1 -0.4)" />
+    <path class="cls-2" d="M76.5,191.1l-.2.8,3,.7.2-.8Z" transform="translate(-1 -0.4)" />
+    <path class="cls-2" d="M66.3,177.8l-.7.5,1.3,1.5.6-.5Z" transform="translate(-1 -0.4)" />
+    <path class="cls-2" d="M65,178.8l-.7.5,1.2,1.5.7-.5Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M75.3,108.5c-.2.6-.1,1.1.3,1.2s.7-.3.9-.8.1-1.1-.3-1.2S75.5,107.9,75.3,108.5Z"
@@ -2326,21 +1734,9 @@
       d="M71.4,107.3c-.1.6.1,1.1.5,1.1s.7-.4.8-1-.1-1.1-.5-1.1S71.5,106.8,71.4,107.3Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M68,115.2l-1.4.8.4.7,1.4-.8Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-2"
-      d="M61,112.8l1.4-.8-.3-.6-1.4.7Z"
-      transform="translate(-1 -0.4)"
-    />
-    <path
-      class="cls-2"
-      d="M67.3,130.6l1.4-.8-.4-.7-1.4.8Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M68,115.2l-1.4.8.4.7,1.4-.8Z" transform="translate(-1 -0.4)" />
+    <path class="cls-2" d="M61,112.8l1.4-.8-.3-.6-1.4.7Z" transform="translate(-1 -0.4)" />
+    <path class="cls-2" d="M67.3,130.6l1.4-.8-.4-.7-1.4.8Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-4"
       d="M104.5,151.7s3.4-.6,4.1,2.4a75,75,0,0,1,1.8,15.5,54.3,54.3,0,0,0,1.4,9.8L101.3,178,99,170.4Z"
@@ -2541,11 +1937,7 @@
       d="M123.3,224.3a3.1,3.1,0,0,0,1.2-.3l-.4-.6a1.8,1.8,0,0,1-1.6,0l-.3.7Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M106.4,165.9l-1.3.5.3.8,1.3-.6Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M106.4,165.9l-1.3.5.3.8,1.3-.6Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-2"
       d="M99.6,166.9l.2-.7a3,3,0,0,1-2.1-1.9l-.7.2A3.8,3.8,0,0,0,99.6,166.9Z"
@@ -2556,11 +1948,7 @@
       d="M98.4,179.5l.7-.2h0a20.5,20.5,0,0,1,0-4.2h-.8A28.3,28.3,0,0,0,98.4,179.5Z"
       transform="translate(-1 -0.4)"
     />
-    <path
-      class="cls-2"
-      d="M98.7,172.7l-.2,1.6h.8l.2-1.6Z"
-      transform="translate(-1 -0.4)"
-    />
+    <path class="cls-2" d="M98.7,172.7l-.2,1.6h.8l.2-1.6Z" transform="translate(-1 -0.4)" />
     <path
       class="cls-3"
       d="M92.7,169.7a14.7,14.7,0,0,1,.4-3.5l-.7-.3a13,13,0,0,0-.5,3.8Z"
@@ -2610,48 +1998,48 @@
 </template>
 
 <script>
-import { gsap } from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger.js"
-import { mapState } from "vuex"
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger.js";
+import { mapState } from "vuex";
 
-gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig"]),
+    ...mapState(["toggleConfig", "startConfig"])
   },
   methods: {
     bookAnim() {
       const path = this.$refs["arrowline"],
-        pathlength = path.getTotalLength()
+        pathlength = path.getTotalLength();
 
       gsap.set(path, {
         strokeDashoffset: pathlength,
-        strokeDasharray: pathlength,
-      })
+        strokeDasharray: pathlength
+      });
 
       gsap
         .timeline({
           scrollTrigger: {
             trigger: "#seed",
             toggleActions: this.toggleConfig,
-            start: this.startConfig,
+            start: this.startConfig
           },
           defaults: {
             duration: 1,
-            ease: "sine",
-          },
+            ease: "sine"
+          }
         })
         .add("seed")
         .fromTo(
           "g[data-name='barchart']",
           {
             scaleY: 0,
-            transformOrigin: "50% 100%",
+            transformOrigin: "50% 100%"
           },
           {
             scaleY: 1,
-            stagger: -0.15,
+            stagger: -0.15
           },
           "seed"
         )
@@ -2659,7 +2047,7 @@ export default {
           path,
           1.5,
           {
-            strokeDashoffset: 0,
+            strokeDashoffset: 0
           },
           "seed"
         )
@@ -2667,16 +2055,16 @@ export default {
           "#arrowhead",
           {
             opacity: 0,
-            ease: "sine",
+            ease: "sine"
           },
           "seed+=1"
-        )
-    },
+        );
+    }
   },
   mounted() {
-    this.bookAnim()
-  },
-}
+    this.bookAnim();
+  }
+};
 </script>
 
 <style lang="scss" scoped>
