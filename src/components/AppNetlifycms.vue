@@ -2,10 +2,10 @@
   <svg
     id="netlifycms"
     xmlns="http://www.w3.org/2000/svg"
-    x="600"
-    y="2000"
-    width="400"
-    height="325"
+    x="500"
+    y="3000"
+    width="500"
+    height="380"
     viewBox="0 0 336.7 274.4"
   >
     <g id="ElementsBehind">

@@ -1,8 +1,8 @@
 <template>
   <svg
     id="smashing"
-    x="50"
-    y="1800"
+    x="150"
+    y="2550"
     width="300"
     height="400"
     xmlns="http://www.w3.org/2000/svg"
@@ -10,10 +10,7 @@
   >
     <g id="Blocke_2" data-name="Blocke 2">
       <g id="Shadow">
-        <polygon
-          class="cls-1"
-          points="217.7 226.7 237.2 215.5 236.5 215 217 226.2 217.7 226.7"
-        />
+        <polygon class="cls-1" points="217.7 226.7 237.2 215.5 236.5 215 217 226.2 217.7 226.7" />
         <path
           class="cls-1"
           d="M212.9,223.9l19.4-11.2-.9-.3-18.9,10.9C212.6,223.6,212.6,223.8,212.9,223.9Z"
@@ -36,10 +33,7 @@
           d="M230.4,234.1l19-10.9c0-.3-.2-.4-.5-.6l-13.2,7.6h-.1l-38.5,22.2v.2l.6.3L230.1,234Z"
           transform="translate(-1 -0.7)"
         />
-        <polygon
-          class="cls-1"
-          points="236.5 230.5 198 252.8 198.7 253.2 237.2 230.8 236.5 230.5"
-        />
+        <polygon class="cls-1" points="236.5 230.5 198 252.8 198.7 253.2 237.2 230.8 236.5 230.5" />
         <polygon
           class="cls-1"
           points="238.5 231.7 200 253.8 200.2 254.1 200.6 254.2 239.2 232 238.5 231.7"
@@ -52,26 +46,17 @@
           class="cls-1"
           points="242.4 233.8 203.8 256.1 203.9 256.1 204.5 256.5 243.1 234.3 242.4 233.8"
         />
-        <polygon
-          class="cls-1"
-          points="244.2 235 205.8 257.2 206.5 257.7 244.9 235.4 244.2 235"
-        />
+        <polygon class="cls-1" points="244.2 235 205.8 257.2 206.5 257.7 244.9 235.4 244.2 235" />
         <polygon
           class="cls-1"
           points="246.2 236.1 207.8 258.4 207.9 258.5 208.5 258.8 247 236.6 246.2 236.1"
         />
-        <polygon
-          class="cls-1"
-          points="248.2 237.3 209.6 259.5 210.4 260 249 237.7 248.2 237.3"
-        />
+        <polygon class="cls-1" points="248.2 237.3 209.6 259.5 210.4 260 249 237.7 248.2 237.3" />
         <polygon
           class="cls-1"
           points="250.3 238.4 211.8 260.7 211.8 260.8 212.4 261.1 250.8 238.9 250.3 238.4"
         />
-        <polygon
-          class="cls-1"
-          points="252.1 239.6 213.7 261.8 214.2 262.3 252.8 240 252.1 239.6"
-        />
+        <polygon class="cls-1" points="252.1 239.6 213.7 261.8 214.2 262.3 252.8 240 252.1 239.6" />
         <path
           class="cls-1"
           d="M254.8,241.6l-38.2,21.9.2.2.6.3,37.8-21.8C255.1,242,255,241.7,254.8,241.6Z"
@@ -205,10 +190,7 @@
         d="M193.1,178l-1.8-1.9,2.2-1.3v-.7c-.4-1.5-1.3-3-3.3-6.4l-9.2-16-7.5-.7,5.2-3.1L170.2,133l-3.5,2,1-6.4-7,4,7-4-9.1-15.8-9.8,5.8,7.7-9.3-3-5.3c-1.9-3.2-2.9-4.9-4-5.9a7.5,7.5,0,0,0-1.4-1.2l-1.4-.5c-1.1-.3-2,.3-4,1.4l-16,9.3h0l16-9.3-13.9,7.9-2.1,1.3h-.1l-12.8,7.5h0l12.8-7.5-10.7,6.2-2.1,1.2h0l-13.5,7.9-10.1,5.8,14.8-8.7.8-.4L86.1,130.3h0c-1.9,1.1-2.9,1.6-3.2,2.7a3.7,3.7,0,0,0-.2,1.2h0l3.5,2.8-2.5,1.5,1.4,2.5.9,1.7,6.3,10.7,7.5.7-5.3,3.1h-.1l4.9,8.5h0l17.4-10h1.8l-11.2,6.6h-.2l-5.6,6.7,21.3,37c2,3.4,2.9,5,4,6.1a6.7,6.7,0,0,0,1.4,1.1,4.2,4.2,0,0,0,1.4.6h.5a6,6,0,0,0,2.7-1.1h0l2.1-1.2h0l2-1.1h0l3.5-2.1h.1l17.1-9.8h0l2.4-1.4h0l10.5-6,1.8-1.1-1,.6,19.6-11.5a6.5,6.5,0,0,0,2.3-1.7h-.1Z"
         transform="translate(-1 -0.7)"
       />
-      <polygon
-        class="cls-2"
-        points="95.2 157.7 98.5 163.4 102.6 158.4 102.6 158.3 95.2 157.7"
-      />
+      <polygon class="cls-2" points="95.2 157.7 98.5 163.4 102.6 158.4 102.6 158.3 95.2 157.7" />
       <polygon class="cls-2" points="99.4 152.6 86 141.7 91.9 152 99.4 152.6" />
       <path
         class="cls-2"
@@ -272,39 +254,25 @@
       />
     </g>
     <g id="Wordpress_Logo" data-name="Wordpress Logo">
-      <polygon
-        class="cls-4"
-        points="20.4 222 21.2 221.5 21.2 221.5 20.4 222 20.4 222"
-      />
+      <polygon class="cls-4" points="20.4 222 21.2 221.5 21.2 221.5 20.4 222 20.4 222" />
       <path
         class="cls-4"
         d="M49.9,265.3a15.1,15.1,0,0,0,.9-1.8l-2.9,1.7Z"
         transform="translate(-1 -0.7)"
       />
-      <path
-        class="cls-4"
-        d="M18.5,207.7H16.4l-.9,1.8Z"
-        transform="translate(-1 -0.7)"
-      />
+      <path class="cls-4" d="M18.5,207.7H16.4l-.9,1.8Z" transform="translate(-1 -0.7)" />
       <path
         class="cls-4"
         d="M26.9,238.1l-3.3-12.5,2.1-1.3h0l-2.1,1.3c-.2-.4-.3-.8-.8-1l1.7-1h0l-1.7,1-1.1-.6h0l1,.6a1.7,1.7,0,0,1,.9,1l3.3,12.5-.8,2.2h0l.8-2.2,5.1-3h0Z"
         transform="translate(-1 -0.7)"
       />
-      <path
-        class="cls-4"
-        d="M47.5,271.4l-.3.3Z"
-        transform="translate(-1 -0.7)"
-      />
+      <path class="cls-4" d="M47.5,271.4l-.3.3Z" transform="translate(-1 -0.7)" />
       <path
         class="cls-4"
         d="M46.8,265a18.5,18.5,0,0,0,3.5-9.9h-.1a17.7,17.7,0,0,1-3.5,9.8Z"
         transform="translate(-1 -0.7)"
       />
-      <polygon
-        class="cls-4"
-        points="42.7 251.6 42.8 251.7 44 250.9 44 250.9 42.7 251.6"
-      />
+      <polygon class="cls-4" points="42.7 251.6 42.8 251.7 44 250.9 44 250.9 42.7 251.6" />
       <path class="cls-4" d="M39,230.8v0Z" transform="translate(-1 -0.7)" />
       <path
         class="cls-4"
@@ -318,11 +286,7 @@
         transform="translate(-1 -0.7)"
       />
       <path class="cls-4" d="M48.1,271h0Z" transform="translate(-1 -0.7)" />
-      <path
-        class="cls-4"
-        d="M20.9,206.3l-3.2-.7h0l3.2.6Z"
-        transform="translate(-1 -0.7)"
-      />
+      <path class="cls-4" d="M20.9,206.3l-3.2-.7h0l3.2.6Z" transform="translate(-1 -0.7)" />
       <path
         d="M27.5,268.5l2.1-1.3-2.1-1.1a44.9,44.9,0,0,1-6.7-5l7.1-19.2L35.1,269a22,22,0,0,1-5.5-1.8l-2.1,1.3h0c9.9,5.7,18.4,4,22.4-3.2h-2l2.9-1.7a23.8,23.8,0,0,0,1.7-9.3c0-15.9-11.1-35.2-24.9-43.2a24.6,24.6,0,0,0-9.1-3.3l-3,1.7.9-1.8c-8.2,0-13.8,6.5-13.8,17.7C2.5,241.2,13.7,260.5,27.5,268.5Zm20.1-29.7a40.4,40.4,0,0,1,2.7,14.1,17.7,17.7,0,0,1-.1,2.3h.1a18.5,18.5,0,0,1-3.5,9.9h-.1a11,11,0,0,1-8.3,4.1L45,251.6l-1.3.8h0l1.3-.7.6-1.6A31.1,31.1,0,0,0,47.6,238.8Zm-20-25.4c6,3.4,11.4,9.2,15.4,15.9h-.1a2.9,2.9,0,0,0-3.1-.2h-.1a3.4,3.4,0,0,0-.7,1.7v.6h0a4,4,0,0,0,0,1.1c.5,4.4,3.9,8.5,3.9,14.7a18.5,18.5,0,0,1-1.1,6.2l-3,8.8L32,235.1l-5.1,3-.8,2.2h0l-4.3,12.4-8.2-32.9c-.1-.4,0-.5.3-.4l2.6,1.5a.2.2,0,0,0,.3-.1v-1.6a.5.5,0,0,0-.3-.4l-8.1-4.5C12.5,209.4,19.6,208.7,27.6,213.4ZM4.7,226.6a21.6,21.6,0,0,1,2.1-9.8l10.9,41.1C10,249.2,4.7,237.1,4.7,226.6Z"
         transform="translate(-1 -0.7)"
@@ -371,81 +335,32 @@
     </g>
     <g id="Blocke_1" data-name="Blocke 1">
       <g id="Shadow-2" data-name="Shadow">
-        <polygon
-          class="cls-1"
-          points="113 269.2 70.4 293.7 71.1 294.2 113.9 269.5 113 269.2"
-        />
-        <polygon
-          class="cls-1"
-          points="73 295.3 116.3 270.3 115.4 270 72.2 294.9 73 295.3"
-        />
-        <polygon
-          class="cls-1"
-          points="75 296.5 118.9 271.2 118 270.9 74.3 296 75 296.5"
-        />
-        <polygon
-          class="cls-1"
-          points="76.8 297.5 121.3 271.9 120.3 271.6 76.1 297 76.8 297.5"
-        />
-        <polygon
-          class="cls-1"
-          points="78.8 298.6 123.8 272.8 122.9 272.5 78.1 298.2 78.8 298.6"
-        />
-        <path
-          class="cls-1"
-          d="M81.5,300.5l45.7-26.3h-.9L81.1,300Z"
-          transform="translate(-1 -0.7)"
-        />
+        <polygon class="cls-1" points="113 269.2 70.4 293.7 71.1 294.2 113.9 269.5 113 269.2" />
+        <polygon class="cls-1" points="73 295.3 116.3 270.3 115.4 270 72.2 294.9 73 295.3" />
+        <polygon class="cls-1" points="75 296.5 118.9 271.2 118 270.9 74.3 296 75 296.5" />
+        <polygon class="cls-1" points="76.8 297.5 121.3 271.9 120.3 271.6 76.1 297 76.8 297.5" />
+        <polygon class="cls-1" points="78.8 298.6 123.8 272.8 122.9 272.5 78.1 298.2 78.8 298.6" />
+        <path class="cls-1" d="M81.5,300.5l45.7-26.3h-.9L81.1,300Z" transform="translate(-1 -0.7)" />
         <path
           class="cls-1"
           d="M128.8,274.9l-55.7,32a.8.8,0,0,0,0,.9l56.7-32.6Z"
           transform="translate(-1 -0.7)"
         />
-        <polygon
-          class="cls-1"
-          points="130.2 275.1 73 307.9 73.7 308.4 131.2 275.4 130.2 275.1"
-        />
-        <polygon
-          class="cls-1"
-          points="132.8 275.8 75 309.1 75.7 309.5 133.7 276.2 132.8 275.8"
-        />
-        <polygon
-          class="cls-1"
-          points="135.2 276.6 77 310.2 77.7 310.7 136.1 276.9 135.2 276.6"
-        />
-        <polygon
-          class="cls-1"
-          points="137.7 277.5 78.8 311.4 79.6 311.8 138.7 277.8 137.7 277.5"
-        />
-        <polygon
-          class="cls-1"
-          points="140.1 278.4 80.9 312.5 81.6 312.8 141 278.7 140.1 278.4"
-        />
-        <polygon
-          class="cls-1"
-          points="142.7 279.2 82.7 313.7 83.4 314 143.6 279.5 142.7 279.2"
-        />
-        <polygon
-          class="cls-1"
-          points="145.1 279.9 84.7 314.7 85.4 315.1 146 280.4 145.1 279.9"
-        />
-        <polygon
-          class="cls-1"
-          points="147.6 280.8 86.7 315.8 87.3 316.3 148.4 281.1 147.6 280.8"
-        />
+        <polygon class="cls-1" points="130.2 275.1 73 307.9 73.7 308.4 131.2 275.4 130.2 275.1" />
+        <polygon class="cls-1" points="132.8 275.8 75 309.1 75.7 309.5 133.7 276.2 132.8 275.8" />
+        <polygon class="cls-1" points="135.2 276.6 77 310.2 77.7 310.7 136.1 276.9 135.2 276.6" />
+        <polygon class="cls-1" points="137.7 277.5 78.8 311.4 79.6 311.8 138.7 277.8 137.7 277.5" />
+        <polygon class="cls-1" points="140.1 278.4 80.9 312.5 81.6 312.8 141 278.7 140.1 278.4" />
+        <polygon class="cls-1" points="142.7 279.2 82.7 313.7 83.4 314 143.6 279.5 142.7 279.2" />
+        <polygon class="cls-1" points="145.1 279.9 84.7 314.7 85.4 315.1 146 280.4 145.1 279.9" />
+        <polygon class="cls-1" points="147.6 280.8 86.7 315.8 87.3 316.3 148.4 281.1 147.6 280.8" />
         <path
           class="cls-1"
           d="M106.5,267.5,65.8,290.8c.1.3.1.5.4.6l41.2-23.7Z"
           transform="translate(-1 -0.7)"
         />
-        <polygon
-          class="cls-1"
-          points="108.1 267.5 66.5 291.4 67.2 291.9 109 267.7 108.1 267.5"
-        />
-        <polygon
-          class="cls-1"
-          points="110.6 268.3 68.4 292.6 69.1 293 111.4 268.6 110.6 268.3"
-        />
+        <polygon class="cls-1" points="108.1 267.5 66.5 291.4 67.2 291.9 109 267.7 108.1 267.5" />
+        <polygon class="cls-1" points="110.6 268.3 68.4 292.6 69.1 293 111.4 268.6 110.6 268.3" />
         <polygon
           class="cls-1"
           points="159.4 285.5 107.7 315.3 108.4 315.5 160.1 285.8 159.4 285.5"
@@ -458,14 +373,8 @@
           class="cls-1"
           points="163.7 287.6 111.6 317.4 112.3 317.8 164.4 287.8 163.7 287.6"
         />
-        <polygon
-          class="cls-1"
-          points="165.8 288.6 113.6 318.6 114.3 319 166.5 288.8 165.8 288.6"
-        />
-        <polygon
-          class="cls-1"
-          points="168 289.6 115.6 319.7 116.2 320.1 168.7 290 168 289.6"
-        />
+        <polygon class="cls-1" points="165.8 288.6 113.6 318.6 114.3 319 166.5 288.8 165.8 288.6" />
+        <polygon class="cls-1" points="168 289.6 115.6 319.7 116.2 320.1 168.7 290 168 289.6" />
         <path
           class="cls-1"
           d="M171.1,291.3l-52.5,30.1a1.7,1.7,0,0,0,1.4,0l51.8-29.7Z"
@@ -475,27 +384,18 @@
           class="cls-1"
           points="172.3 291.6 149.2 304.8 149.3 304.8 149.9 305.1 173 291.9 172.3 291.6"
         />
-        <polygon
-          class="cls-1"
-          points="174.4 292.6 151.2 305.9 151.9 306.4 175.1 293 174.4 292.6"
-        />
+        <polygon class="cls-1" points="174.4 292.6 151.2 305.9 151.9 306.4 175.1 293 174.4 292.6" />
         <path
           class="cls-1"
           d="M177.3,294.6l-23.1,13.3.7.5,22.5-13.1C177.4,295,177.4,294.7,177.3,294.6Z"
           transform="translate(-1 -0.7)"
         />
-        <polygon
-          class="cls-1"
-          points="155.8 308.7 173 298.7 174.4 297.2 155.1 308.2 155.8 308.7"
-        />
+        <polygon class="cls-1" points="155.8 308.7 173 298.7 174.4 297.2 155.1 308.2 155.8 308.7" />
         <polygon
           class="cls-1"
           points="157.8 309.8 168.8 303.3 170.3 301.8 157.1 309.4 157.8 309.8"
         />
-        <polygon
-          class="cls-1"
-          points="159.8 310.8 165 307.9 166.4 306.2 159.1 310.5 159.8 310.8"
-        />
+        <polygon class="cls-1" points="159.8 310.8 165 307.9 166.4 306.2 159.1 310.5 159.8 310.8" />
         <path
           class="cls-1"
           d="M163.1,311.8l.2-.3-1.1.6A.9.9,0,0,0,163.1,311.8Z"
@@ -511,10 +411,7 @@
           d="M153.6,283.2l-51.8,29.9a1.7,1.7,0,0,1,1.4,0l51.3-29.4Z"
           transform="translate(-1 -0.7)"
         />
-        <polygon
-          class="cls-1"
-          points="155.1 283.4 103.8 313 104.4 313.4 155.8 283.8 155.1 283.4"
-        />
+        <polygon class="cls-1" points="155.1 283.4 103.8 313 104.4 313.4 155.8 283.8 155.1 283.4" />
         <polygon
           class="cls-1"
           points="157.2 284.4 105.7 314.1 106.4 314.5 157.9 284.8 157.2 284.4"
@@ -707,37 +604,37 @@
 </template>
 
 <script>
-import { gsap } from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger.js"
-import { mapState } from "vuex"
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger.js";
+import { mapState } from "vuex";
 
-gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig"]),
+    ...mapState(["toggleConfig", "startConfig"])
   },
   methods: {
     smashingAnim() {
       const path = this.$refs["connecting-smashing"],
-        pathlength = path.getTotalLength()
+        pathlength = path.getTotalLength();
 
       gsap.set(path, {
         strokeDashoffset: pathlength,
-        strokeDasharray: pathlength,
-      })
+        strokeDasharray: pathlength
+      });
 
       gsap
         .timeline({
           scrollTrigger: {
             trigger: "#smashing",
             toggleActions: this.toggleConfig,
-            start: this.startConfig,
+            start: this.startConfig
           },
           defaults: {
             duration: 1,
-            ease: "sine",
-          },
+            ease: "sine"
+          }
         })
         .add("smashing")
         .from(
@@ -748,7 +645,7 @@ export default {
             scale: 0.5,
             transformOrigin: "50% 50%",
             stagger: 0.1,
-            ease: "back",
+            ease: "back"
           },
           "smashing"
         )
@@ -757,7 +654,7 @@ export default {
           {
             opacity: 0,
             scale: 0.5,
-            transformOrigin: "50% 50%",
+            transformOrigin: "50% 50%"
           },
           "smashing+=0.5"
         )
@@ -766,7 +663,7 @@ export default {
           {
             opacity: 0,
             scale: 0.5,
-            transformOrigin: "50% 50%",
+            transformOrigin: "50% 50%"
           },
           "smashing+=1"
         )
@@ -775,23 +672,23 @@ export default {
           {
             opacity: 0,
             scale: 0.5,
-            transformOrigin: "50% 50%",
+            transformOrigin: "50% 50%"
           },
           "smashing+=1.5"
         )
         .to(
           path,
           {
-            strokeDashoffset: 0,
+            strokeDashoffset: 0
           },
           "smashing"
-        )
-    },
+        );
+    }
   },
   mounted() {
-    this.smashingAnim()
-  },
-}
+    this.smashingAnim();
+  }
+};
 </script>
 
 <style lang="scss" scoped>

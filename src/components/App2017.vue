@@ -19,21 +19,36 @@
       <template v-slot:event>Introduced split-branch testing</template>
     </app-text>
 
-    <app-bush x="500" y="1700" />
-    <app-auditlogs x="700" />
+    <app-bush x="600" y="2600" />
+    <app-auditlogs x="730" y="2300" />
 
-    <app-text x="1020" y="1750" num="8">
+    <app-text x="1050" y="2550" num="8">
       <template v-slot:date>June 28, 2017</template>
       <template v-slot:event>Introduced audit logs</template>
       <template v-slot:event2>for teams</template>
     </app-text>
 
-    <app-tree x="50" y="1700" />
-    <app-tree x="0" y="1720" />
-    <app-tree x="0" y="1750" />
+    <app-tree x="0" y="2550" />
+    <app-tree x="50" y="2600" />
+    <app-tree x="0" y="2650" />
+    <app-streetlamp1 x="450" y="2600" />
+
     <app-smashing />
+    <app-text x="100" y="2900" num="9">
+      <template v-slot:date>Nov 21, 2017</template>
+      <template v-slot:event>Smashing Magazine migrates from</template>
+      <template v-slot:event2>WordPress to Jamstack & Netlify</template>
+    </app-text>
 
     <app-netlifycms />
+    <app-text x="1020" y="3080" num="10">
+      <template v-slot:date>Dec 07, 2017</template>
+      <template v-slot:event>Nelify CMS is released, bringing</template>
+      <template v-slot:event2>git-based content authoring to Jamstack</template>
+    </app-text>
+
+    <app-tree x="880" y="3320" />
+    <app-streetlamp1 x="900" y="3280" />
   </g>
 </template>
 
@@ -42,6 +57,7 @@
 import AppText from "@/components/AppText.vue";
 import AppTree from "@/components/AppTree.vue";
 import AppBush from "@/components/AppBush.vue";
+import AppStreetlamp1 from "@/components/AppStreetlamp1.vue";
 
 //unique units
 import AppTwodoto from "@/components/AppTwodoto.vue";
@@ -55,6 +71,7 @@ export default {
     AppText,
     AppTree,
     AppBush,
+    AppStreetlamp1,
     AppTwodoto: () =>
       import(/* webpackPrefetch: true */ "@/components/AppTwodoto.vue"),
     AppSmashing: () =>
