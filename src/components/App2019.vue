@@ -29,9 +29,15 @@
 
     <app-analyticsuk />
     <app-text x="1000" y="5500" num="17">
-      <template v-slot:date>Jul 31, 2019</template>
+      <template v-slot:date>Jul 10, 2019</template>
       <template v-slot:event>Launched Netlify Analytics</template>
       <template v-slot:event2>from Jamstack Conf London</template>
+    </app-text>
+
+    <app-docs />
+    <app-text x="0" y="5800" num="18">
+      <template v-slot:date>Oct 15, 2019</template>
+      <template v-slot:event>New and Improved Docs Site!</template>
     </app-text>
   </g>
 </template>
@@ -45,6 +51,7 @@ import AppStreetlamp2 from "@/components/AppStreetlamp2.vue";
 
 //unique units
 import AppBook from "@/components/AppBook.vue";
+import AppDocs from "@/components/AppDocs.vue";
 import AppStatueDev from "@/components/AppStatueDev.vue";
 import AppLargemedia from "@/components/AppLargemedia.vue";
 import AppAnalyticsuk from "@/components/AppAnalyticsuk.vue";
@@ -56,6 +63,7 @@ export default {
     AppBush,
     AppStreetlamp2,
     AppBook: () => import("@/components/AppBook.vue"),
+    AppDocs: () => import("@/components/AppDocs.vue"),
     AppStatueDev: () => import("@/components/AppStatueDev.vue"),
     AppLargemedia: () => import("@/components/AppLargemedia.vue"),
     AppAnalyticsuk: () => import("@/components/AppAnalyticsuk.vue")
