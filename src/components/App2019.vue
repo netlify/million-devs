@@ -34,6 +34,11 @@
       <template v-slot:event2>from Jamstack Conf London</template>
     </app-text>
 
+    <app-tree x="310" y="5150" />
+    <app-tree x="300" y="5200" />
+    <app-tree x="400" y="5100" />
+    <app-bush x="500" y="5150" />
+
     <app-docs />
     <app-text x="0" y="5800" num="18">
       <template v-slot:date>Oct 15, 2019</template>
