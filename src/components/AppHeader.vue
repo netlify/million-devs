@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="parent">
+    <section class="parent" ref="parent">
       <div class="netlify">
         <svg xmlns="http://www.w3.org/2000/svg" width="147" height="40">
           <g fill="#0E1E25" fill-rule="evenodd">
@@ -75,6 +75,31 @@ export default {
 }
 .intro {
   grid-area: 2 / 2 / 3 / 3;
+}
+
+@media only screen and (max-width: 1100px) {
+  .parent {
+    padding: 5vh 5vw;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .parent {
+    grid-template-columns: 1fr !important;
+    grid-row-gap: 40px;
+    grid-column-gap: 0 !important;
+    grid-template-rows: none;
+  }
+
+  .netlify {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .mlogo {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .intro {
+    grid-area: 3 / 1 / 4 / 2;
+  }
 }
 
 p {

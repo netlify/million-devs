@@ -42,13 +42,22 @@ export default {
 <style lang="scss" scoped>
 .scrolldown {
   position: absolute;
-  left: calc(50vw - 30px);
   top: 85vh;
+  left: calc(50vw - 30px);
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   opacity: 0.8;
+}
+
+@media only screen and (max-width: 950px) {
+  .scrolldown {
+    position: relative !important;
+    margin: 0 auto !important;
+    top: unset !important;
+    left: unset !important;
+  }
 }
 </style>

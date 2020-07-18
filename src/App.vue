@@ -116,6 +116,12 @@ body {
   height: 100vh;
   width: 99%;
 }
+
+@media only screen and (max-width: 950px) {
+  #timeline {
+    margin-top: 600px;
+  }
+}
 </style>
 
 <style lang="scss" scoped>
