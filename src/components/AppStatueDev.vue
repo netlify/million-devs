@@ -1356,7 +1356,7 @@ export default {
           scrollTrigger: {
             trigger: "#statuedev",
             toggleActions: this.toggleConfig,
-            start: this.startConfig
+            start: `center 60%`
           },
           defaults: {
             duration: 1,
