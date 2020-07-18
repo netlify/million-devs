@@ -1,6 +1,6 @@
 <template>
   <svg
-    id="million"
+    :id="`million${num}`"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 465 476.8"
@@ -3457,21 +3457,40 @@ export default {
   computed: {
     ...mapState(["toggleConfig", "startConfig"])
   },
+  props: {
+    num: {
+      type: [Number, String],
+      default: 1
+    }
+  },
   methods: {
     millionAnim() {
-      gsap
-        .timeline({
-          // scrollTrigger: {
-          //   trigger: "#million",
-          //   toggleActions: this.toggleConfig,
-          //   start: this.startConfig,
-          // },
+      let vm = this;
+      let tl;
+      const isScrollElConfig = {
+        scrollTrigger: {
+          trigger: `#million${vm.num}`,
+          toggleActions: this.toggleConfig,
+          start: this.startConfig
+        },
+        defaults: {
+          duration: 1.5,
+          ease: "sine"
+        }
+      };
+
+      if (vm.num === 1) {
+        tl = gsap.timeline({
           defaults: {
             duration: 1.5,
             ease: "sine"
           }
-        })
-        .add("million")
+        });
+      } else {
+        tl = gsap.timeline(isScrollElConfig);
+      }
+
+      tl.add(`million${vm.num}`)
         .from(
           ".whitebloop",
           {
@@ -3480,7 +3499,7 @@ export default {
             transformOrigin: "50% 50%",
             ease: "elastic.out(1.5, 0.3)"
           },
-          "million"
+          `million${vm.num}`
         )
         .from(
           "#Base",
@@ -3490,7 +3509,7 @@ export default {
             transformOrigin: "50% 50%",
             ease: "back"
           },
-          "million"
+          `million${vm.num}`
         )
         .from(
           "#back-circle",
@@ -3499,7 +3518,7 @@ export default {
             duration: 2,
             ease: "sine"
           },
-          "million"
+          `million${vm.num}`
         )
         .to(
           "#logo-clip, #one-clip, #dev-clip",
@@ -3509,7 +3528,7 @@ export default {
             y: -15,
             ease: "back"
           },
-          "million+=1"
+          `million${vm.num}+=1`
         )
         .from(
           ".melements",
@@ -3521,7 +3540,7 @@ export default {
             ease: "back",
             transformOrigin: "50% 50%"
           },
-          "million+=1"
+          `million${vm.num}+=1`
         )
         .from(
           "#Right_Bolt",
@@ -3533,7 +3552,7 @@ export default {
             ease: "back",
             transformOrigin: "50% 50%"
           },
-          "million+=0.25"
+          `million${vm.num}+=0.25`
         )
         .from(
           "#Left_Bolt",
@@ -3545,14 +3564,14 @@ export default {
             ease: "back",
             transformOrigin: "50% 50%"
           },
-          "million+=0.25"
+          `million${vm.num}+=0.25`
         )
         .from(
           "#colorboc",
           {
             fill: "hsl(-200%, 0, 0)"
           },
-          "million"
+          `million${vm.num}`
         )
         .from(
           "#side-arm-r",
@@ -3564,7 +3583,7 @@ export default {
             yoyo: true,
             ease: "circ.in"
           },
-          "million"
+          `million${vm.num}`
         )
         .from(
           "#side-arm-l",
@@ -3576,7 +3595,7 @@ export default {
             yoyo: true,
             ease: "circ.in"
           },
-          "million+=0.25"
+          `million${vm.num}+=0.25`
         )
         .from(
           "#front-leg-r",
@@ -3588,7 +3607,7 @@ export default {
             yoyo: true,
             ease: "sine.inOut"
           },
-          "million"
+          `million${vm.num}`
         )
         .from(
           "#front-leg-l",
@@ -3600,7 +3619,7 @@ export default {
             yoyo: true,
             ease: "sine.inOut"
           },
-          "million+=0.25"
+          `million${vm.num}+=0.25`
         )
         .from(
           "#side-bubbles g",
@@ -3612,7 +3631,7 @@ export default {
             transformOrigin: "50% 50%",
             ease: "back"
           },
-          "million+=2"
+          `million${vm.num}+=2`
         );
     }
   },

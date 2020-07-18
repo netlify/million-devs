@@ -3,7 +3,7 @@
     <section class="intro-section">
       <app-header />
     </section>
-    <svg id="timeline" xmlns="http://www.w3.org/2000/svg" viewBox="0 -500 2000 8500">
+    <svg id="timeline" xmlns="http://www.w3.org/2000/svg" viewBox="0 -500 2000 8300">
       <defs>
         <clipPath id="clip-candyland" transform="translate(-10 -30)">
           <path

@@ -19,6 +19,8 @@
       <template v-slot:date>May 27, 2020</template>
       <template v-slot:event>Launched Build Plugins</template>
     </app-text>
+
+    <app-million x="640" y="7000" width="750" height="750" :num="2" />
   </g>
 </template>
 
@@ -31,6 +33,7 @@ import AppStreetlamp2 from "@/components/AppStreetlamp2.vue";
 
 //unique units
 import AppBuildPlugins from "@/components/AppBuildPlugins.vue";
+import AppMillion from "@/components/AppMillion.vue";
 import AppVirtual from "@/components/AppVirtual.vue";
 
 export default {
@@ -40,6 +43,7 @@ export default {
     AppBush,
     AppStreetlamp2,
     AppBuildPlugins: () => import("@/components/AppBuildPlugins.vue"),
+    AppMillion: () => import("@/components/AppMillion.vue"),
     AppVirtual: () => import("@/components/AppVirtual.vue")
   }
 };
