@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <app-tweetit />
     <section class="intro-section">
       <app-header />
     </section>
@@ -40,6 +41,7 @@
 import AppJet from "@/components/AppJet.vue";
 import AppText from "@/components/AppText.vue";
 import AppHeader from "@/components/AppHeader.vue";
+import AppTweetit from "@/components/AppTweetit.vue";
 
 //sections by year
 import App2016 from "@/components/App2016.vue";
@@ -50,6 +52,7 @@ import App2020 from "@/components/App2020.vue";
 
 export default {
   components: {
+    AppTweetit,
     AppHeader,
     AppText,
     App2016,
