@@ -4,7 +4,7 @@
     y="4550"
     width="250"
     height="475"
-    id="statue"
+    id="statuedev"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 194.8 396.8"
   >
@@ -1356,7 +1356,7 @@ export default {
           scrollTrigger: {
             trigger: "#statuedev",
             toggleActions: this.toggleConfig,
-            start: `center 60%`
+            start: this.startConfig
           },
           defaults: {
             duration: 1,

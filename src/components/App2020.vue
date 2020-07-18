@@ -1,17 +1,17 @@
 <template>
   <g>
-    <!-- <app-million-one x="650" y="7000" width="700" height="700" /> -->
+    <app-build-plugins />
   </g>
 </template>
 
 <script>
-// import AppMillionOne from "@/components/AppMillionOne.vue";
+import AppBuildPlugins from "@/components/AppBuildPlugins.vue";
 
-// export default {
-//   components: {
-//     AppMillionOne: () => import("@/components/AppMillionOne.vue")
-//   }
-// };
+export default {
+  components: {
+    AppBuildPlugins: () => import("@/components/AppBuildPlugins.vue")
+  }
+};
 </script>
 
 <style lang="scss" scoped>
