@@ -1,12 +1,12 @@
 <template>
   <g>
-    <app-tree x="950" y="5700" />
-    <app-tree x="1000" y="5750" />
-    <app-bush x="1050" y="5900" />
+    <app-tree x="650" y="5500" />
+    <app-tree x="700" y="5550" />
+    <app-bush x="750" y="5600" />
     <app-streetlamp2 x="700" y="6000" />
 
     <app-virtual />
-    <app-text x="1400" y="6500" num="19">
+    <app-text x="1400" y="6500" num="20">
       <template v-slot:date>May 27, 2020</template>
       <template v-slot:event>Jamstack Conf Virtual</template>
     </app-text>
@@ -16,7 +16,7 @@
     <app-tree x="850" y="6200" />
 
     <app-build-plugins />
-    <app-text x="200" y="6700" num="20">
+    <app-text x="200" y="6700" num="21">
       <template v-slot:date>May 27, 2020</template>
       <template v-slot:event>Launched Build Plugins</template>
     </app-text>

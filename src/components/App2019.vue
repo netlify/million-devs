@@ -39,9 +39,16 @@
     <app-tree x="400" y="5100" />
     <app-bush x="500" y="5150" />
 
-    <app-docs />
+    <app-golden-gate />
     <app-text x="0" y="5800" num="18">
       <template v-slot:date>Oct 15, 2019</template>
+      <template v-slot:event>Jamstack SF, Jamstack at Scale</template>
+      <template v-slot:event2>Nike, Popeyes, Longos speaking</template>
+    </app-text>
+
+    <app-docs />
+    <app-text x="500" y="6000" num="19">
+      <template v-slot:date>Oct 16, 2019</template>
       <template v-slot:event>New and Improved Docs Site!</template>
     </app-text>
   </g>
@@ -59,6 +66,7 @@ import AppBook from "@/components/AppBook.vue";
 import AppDocs from "@/components/AppDocs.vue";
 import AppStatueDev from "@/components/AppStatueDev.vue";
 import AppLargemedia from "@/components/AppLargemedia.vue";
+import AppGoldenGate from "@/components/AppGoldenGate.vue";
 import AppAnalyticsuk from "@/components/AppAnalyticsuk.vue";
 
 export default {
@@ -71,6 +79,7 @@ export default {
     AppDocs: () => import("@/components/AppDocs.vue"),
     AppStatueDev: () => import("@/components/AppStatueDev.vue"),
     AppLargemedia: () => import("@/components/AppLargemedia.vue"),
+    AppGoldenGate: () => import("@/components/AppGoldenGate.vue"),
     AppAnalyticsuk: () => import("@/components/AppAnalyticsuk.vue")
   }
 };

@@ -1,7 +1,7 @@
 <template>
   <svg
-    x="300"
-    y="5500"
+    x="700"
+    y="5800"
     width="350"
     height="325"
     id="docs"

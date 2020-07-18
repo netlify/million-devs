@@ -19,7 +19,7 @@
 
     <app-jamstack1 />
     <app-tree x="600" y="4000" />
-    <app-text x="1000" y="4200" num="12">
+    <app-text x="1000" y="4200" num="13">
       <template v-slot:date>Oct 10, 2018</template>
       <template v-slot:event>World's First Jamstack Conf</template>
     </app-text>
