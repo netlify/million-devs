@@ -28,6 +28,11 @@
     <app-tree x="1000" y="5000" />
 
     <app-analyticsuk />
+    <app-text x="1000" y="5500" num="17">
+      <template v-slot:date>Jul 31, 2019</template>
+      <template v-slot:event>Launched Netlify Analytics</template>
+      <template v-slot:event2>from Jamstack Conf London</template>
+    </app-text>
   </g>
 </template>
 
