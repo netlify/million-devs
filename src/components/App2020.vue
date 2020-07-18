@@ -3,7 +3,6 @@
     <app-tree x="650" y="5500" />
     <app-tree x="700" y="5550" />
     <app-bush x="750" y="5600" />
-    <app-streetlamp2 x="700" y="6000" />
 
     <app-virtual />
     <app-text x="1400" y="6500" num="20">

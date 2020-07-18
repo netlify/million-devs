@@ -47,7 +47,7 @@
     </app-text>
 
     <app-docs />
-    <app-text x="500" y="6000" num="19">
+    <app-text x="400" y="6050" num="19">
       <template v-slot:date>Oct 16, 2019</template>
       <template v-slot:event>New and Improved Docs Site!</template>
     </app-text>

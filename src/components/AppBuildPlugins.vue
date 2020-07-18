@@ -2,11 +2,11 @@
   <svg
     x="600"
     y="6500"
-    width="450"
-    height="350"
+    width="600"
+    height="500"
     id="buildplugins"
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 313.7 228.7"
+    viewBox="-50 -50 400 300"
   >
     <g id="Puzzle">
       <g id="Piece-4">
