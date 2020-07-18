@@ -1,8 +1,8 @@
 <template>
   <svg
     id="book"
-    x="700"
-    y="4500"
+    x="1200"
+    y="5000"
     width="370"
     height="420"
     xmlns="http://www.w3.org/2000/svg"
