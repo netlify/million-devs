@@ -4,7 +4,7 @@
     y="3900"
     width="450"
     height="380"
-    id="jamstack-conf1"
+    id="jamstackconf1"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="-100 0 400 300"
   >
@@ -886,11 +886,11 @@ export default {
     ...mapState(["toggleConfig", "startConfig"])
   },
   methods: {
-    bookAnim() {
+    jamstackAnim() {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: "#jamstack-conf1",
+            trigger: "#jamstackconf1",
             toggleActions: this.toggleConfig,
             start: this.startConfig
           },
@@ -901,7 +901,6 @@ export default {
         })
         .add("jamstack1")
         .from("#clip-jamstack", {
-          duration: 2,
           x: 100,
           y: -100
         })
@@ -928,7 +927,7 @@ export default {
     }
   },
   mounted() {
-    this.bookAnim();
+    this.jamstackAnim();
   }
 };
 </script>
