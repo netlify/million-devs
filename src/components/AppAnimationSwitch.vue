@@ -1,5 +1,9 @@
 <template>
   <div class="animtoggle">
+    <p>
+      <span v-if="isAnimationDisabled">Enable Animations:</span>
+      <span v-else>Disable Animations:</span>
+    </p>
     <label class="switch">
       <input @click="animToggleStore" type="checkbox" :checked="isAnimationDisabled" />
       <span class="slider round"></span>
@@ -67,11 +71,11 @@ export default {
 }
 
 input:checked + .slider {
-  background-color: #2196f3;
+  background-color: #238b5f;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
+  box-shadow: 0 0 1px #238b5f;
 }
 
 input:checked + .slider:before {
