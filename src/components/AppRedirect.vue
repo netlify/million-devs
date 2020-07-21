@@ -1,33 +1,14 @@
 <template>
-  <svg
-    :x="x"
-    :y="y"
-    viewBox="0 0 236.1 284"
-    width="400"
-    height="350"
-    class="redirect"
-  >
+  <svg :x="x" :y="y" viewBox="0 0 236.1 284" width="400" height="350" class="redirect">
     <g class="computer">
-      <path
-        class="a"
-        d="M202.1,48h-1.2V81.4h1.2Z"
-        transform="translate(-0.1 -0.4)"
-      />
-      <path
-        class="a"
-        d="M201.6,137.1h-1.3v11.8h1.3Z"
-        transform="translate(-0.1 -0.4)"
-      />
+      <path class="a" d="M202.1,48h-1.2V81.4h1.2Z" transform="translate(-0.1 -0.4)" />
+      <path class="a" d="M201.6,137.1h-1.3v11.8h1.3Z" transform="translate(-0.1 -0.4)" />
       <path
         class="a"
         d="M1.5,160.1H.1v-38s-.8-12,10.4-17l.5,1.2c-10.3,4.6-9.7,15.3-9.7,15.8Z"
         transform="translate(-0.1 -0.4)"
       />
-      <path
-        class="a"
-        d="M1.3,164.7H.1v12.8H1.3Z"
-        transform="translate(-0.1 -0.4)"
-      />
+      <path class="a" d="M1.3,164.7H.1v12.8H1.3Z" transform="translate(-0.1 -0.4)" />
       <path
         class="a"
         d="M161.5,196.1l-7,.2-.4-.2-26.9-15.5a6,6,0,0,0-5.5-.2L60.5,215.8h-.2L40,222.7c-.4.1-.5.3-.5.7v5.1a2,2,0,0,0,1.3,2.1l33.7,19.5a6,6,0,0,0,5.5.2l81-46.8a1.6,1.6,0,0,0,1.1-1.4v-5C162.2,196.5,161.9,196.1,161.5,196.1Z"
@@ -48,11 +29,7 @@
         d="M77.9,245.8a7.8,7.8,0,0,1-3.4-.9L40.8,225.4a3.2,3.2,0,0,1-1.7-2.4,2.1,2.1,0,0,1,1.2-1.9l81.1-46.7a6.8,6.8,0,0,1,6.2.2L161.2,194a3.4,3.4,0,0,1,1.7,2.5,2.2,2.2,0,0,1-1.2,1.9l-81,46.7A5.5,5.5,0,0,1,77.9,245.8Zm46.2-70.9a3.9,3.9,0,0,0-2,.5L41,222.1c-.3.2-.7.6-.7.9s.4.9,1.1,1.2L75,243.7a5.5,5.5,0,0,0,5,.2l81-46.8a.9.9,0,0,0,.7-.8,1.4,1.4,0,0,0-1-1.2l-33.6-19.5A7.3,7.3,0,0,0,124.1,174.9Z"
         transform="translate(-0.1 -0.4)"
       />
-      <path
-        class="c"
-        d="M159.1,199.6h-1v4.8h1Z"
-        transform="translate(-0.1 -0.4)"
-      />
+      <path class="c" d="M159.1,199.6h-1v4.8h1Z" transform="translate(-0.1 -0.4)" />
       <path
         class="b"
         d="M195.7,12.5v-.4l-6-3.3a1.5,1.5,0,0,0-1.3,0L6.7,113.7A4.1,4.1,0,0,0,5,117.1v139c0,.7.1,1.2.5,1.4l6.4,3.4,6.3-7.5-2.5-1.1,172.7-99.6a4.1,4.1,0,0,0,1.8-3.5V20Z"
@@ -93,16 +70,8 @@
         d="M12.4,261.8a1.5,1.5,0,0,1-.9-.2,2,2,0,0,1-.8-1.7v-8.3H11L197.2,144v9.2A4.9,4.9,0,0,1,195,157L13.4,261.5A1.3,1.3,0,0,1,12.4,261.8Zm-.5-9.5v7.6a5.6,5.6,0,0,0,.1.7,1.1,1.1,0,0,0,.7-.2L194.3,155.6a3.4,3.4,0,0,0,1.6-2.8v-6.9Z"
         transform="translate(-0.1 -0.4)"
       />
-      <path
-        class="c"
-        d="M115.3,196.3,91.9,209.9l.5.8,23.4-13.5Z"
-        transform="translate(-0.1 -0.4)"
-      />
-      <path
-        class="a"
-        d="M5.2,114.6l-.6,1.1,6.2,3.7.6-1Z"
-        transform="translate(-0.1 -0.4)"
-      />
+      <path class="c" d="M115.3,196.3,91.9,209.9l.5.8,23.4-13.5Z" transform="translate(-0.1 -0.4)" />
+      <path class="a" d="M5.2,114.6l-.6,1.1,6.2,3.7.6-1Z" transform="translate(-0.1 -0.4)" />
       <path
         class="a"
         d="M77.6,242.2a3.1,3.1,0,0,1-1.9-.6l-7.1-4.3.7-1,7.1,4.3a2.1,2.1,0,0,0,2.4,0l69.6-39.8.7,1L79.3,241.6A2.9,2.9,0,0,1,77.6,242.2Z"
@@ -123,11 +92,7 @@
         d="M31.2,200.2a2.9,2.9,0,0,1-1.4-.3,4.7,4.7,0,0,1-1.7-4V179.7c0-3.2,1.9-7,4.5-8.4L170,92a3.3,3.3,0,0,1,3.3-.2,4.7,4.7,0,0,1,1.7,3.9v16.4c0,3.3-1.9,7.1-4.5,8.5L33.1,199.9A5.4,5.4,0,0,1,31.2,200.2ZM172.1,92.5a2.6,2.6,0,0,0-1.4.3L33.2,172.1c-2,1.2-3.7,4.5-3.7,7.5v16.3c0,1.4.3,2.5,1,2.8a2.2,2.2,0,0,0,2.1-.2L170,119.2c2.1-1.2,3.8-4.5,3.8-7.4V95.4a3.3,3.3,0,0,0-1-2.8Z"
         transform="translate(-0.1 -0.4)"
       />
-      <path
-        class="a"
-        d="M4.9,121.3l-.6,1.1,6.2,3.7.7-1Z"
-        transform="translate(-0.1 -0.4)"
-      />
+      <path class="a" d="M4.9,121.3l-.6,1.1,6.2,3.7.7-1Z" transform="translate(-0.1 -0.4)" />
       <path
         class="a"
         d="M85.7,201.5a7.6,7.6,0,0,1-1.8,3.1c.2,0,1.6-.2,1.8,1a6.1,6.1,0,0,1,1.7-3.1C87.2,202.5,85.8,202.7,85.7,201.5Z"
@@ -738,21 +703,9 @@
         d="M156.4,135.4l-.4-.2V118.3l.4-.5h.5l10.3,6.2v.4a.9.9,0,0,1-.3.5l-4.7,2.4,2.3,3.8a.7.7,0,0,1-.2.7l-1.7,2.1h-.7l-2.1-3.5-2.7,4.8A2,2,0,0,0,156.4,135.4Zm.3-16.7v15.2l2.6-4.4c.2-.1.3-.3.5-.3h.2l.2.2,2.2,3.4,1.4-1.7-2.3-3.8V127a.4.4,0,0,1,.4-.4l4.5-2.6Z"
         transform="translate(-0.1 -0.4)"
       />
-      <path
-        class="c"
-        d="M51.3,177.8l-11.8,6.9.6,1,11.8-6.8Z"
-        transform="translate(-0.1 -0.4)"
-      />
-      <path
-        class="b"
-        d="M37.9,187.7l11.7-6.9Z"
-        transform="translate(-0.1 -0.4)"
-      />
-      <path
-        class="a"
-        d="M49.5,180.4l-11.8,6.8.6,1.1,11.8-6.9Z"
-        transform="translate(-0.1 -0.4)"
-      />
+      <path class="c" d="M51.3,177.8l-11.8,6.9.6,1,11.8-6.8Z" transform="translate(-0.1 -0.4)" />
+      <path class="b" d="M37.9,187.7l11.7-6.9Z" transform="translate(-0.1 -0.4)" />
+      <path class="a" d="M49.5,180.4l-11.8,6.8.6,1.1,11.8-6.9Z" transform="translate(-0.1 -0.4)" />
       <path
         class="a"
         d="M73.8,160.1V157l1.2-.7a1,1,0,0,1,1.2-.2c.3.2.3.5.3,1a3.2,3.2,0,0,1-.3,1.4c-.2.4-.7.7-1,1.1Zm1.2-5.9-3.6,2.1v12l2.4-1.3v-4.7l1.4-.7a1.4,1.4,0,0,1,1.2-.2c.3.2.3.6.3,1.1v.7a3,3,0,0,0,.2,1.2c0,.3.1.7.3.7l2.6-1.4v-.2c-.2,0-.3-.3-.5-.5s-.2-.7-.2-1v-.7a5.7,5.7,0,0,0-.3-1.6c-.4-.3-.7-.3-1.4-.1a6.7,6.7,0,0,0,1.2-1.9,4.4,4.4,0,0,0,.3-1.9c0-1.1-.3-1.8-1-2.1S76.2,153.5,75,154.2Z"
@@ -768,11 +721,7 @@
         d="M94.3,152.8v-7.7l1.4-.9a1.2,1.2,0,0,1,1.4,0,2.6,2.6,0,0,1,.5,1.7v2.3a5.4,5.4,0,0,1-.5,2.2,5.6,5.6,0,0,1-1.4,1.6Zm1.4-10.5-3.8,2.3v12l3.8-2.2a9.2,9.2,0,0,0,3.1-3.1A8.5,8.5,0,0,0,100,147v-2.3c0-1.4-.4-2.4-1.2-2.7A2.5,2.5,0,0,0,95.7,142.3Z"
         transform="translate(-0.1 -0.4)"
       />
-      <path
-        class="a"
-        d="M105.5,136.6l-2.4,1.4v11.9l2.4-1.4Z"
-        transform="translate(-0.1 -0.4)"
-      />
+      <path class="a" d="M105.5,136.6l-2.4,1.4v11.9l2.4-1.4Z" transform="translate(-0.1 -0.4)" />
       <path
         class="a"
         d="M111.2,138.5v-3.1l1.2-.7a1.4,1.4,0,0,1,1.2-.2c.4.2.4.6.4,1.1a4.3,4.3,0,0,1-.4,1.4,6.3,6.3,0,0,1-1.2,1Zm1.2-5.8-3.6,2v12.1l2.4-1.4v-4.6l1.4-.7a1,1,0,0,1,1.2-.2,1.3,1.3,0,0,1,.3,1v.7a2.7,2.7,0,0,0,.2,1.2c0,.4.2.7.3.7l2.5-1.4h0c-.2,0-.4-.4-.4-.7a2.2,2.2,0,0,1-.2-1.1v-.6a3.2,3.2,0,0,0-.3-1.6c-.4-.3-.7-.3-1.4-.2a4.7,4.7,0,0,0,1.2-1.9,3,3,0,0,0,.4-1.9,2,2,0,0,0-1.1-2C114.6,131.6,113.6,131.8,112.4,132.7Z"
@@ -798,46 +747,14 @@
         d="M44.3,207.3a7.4,7.4,0,0,1-1.7,3.1c.1,0,1.5-.1,1.7,1.1a6.4,6.4,0,0,1,1.7-3.1s-1.4.1-1.7-1.1Z"
         transform="translate(-0.1 -0.4)"
       />
-      <path
-        class="a"
-        d="M202.1,34.2h-1.2V45.9h1.2Z"
-        transform="translate(-0.1 -0.4)"
-      />
-      <path
-        class="c"
-        d="M78.4,245.4h-1v4.9h1Z"
-        transform="translate(-0.1 -0.4)"
-      />
-      <path
-        class="c"
-        d="M43.9,226.3h-1v4.8h1Z"
-        transform="translate(-0.1 -0.4)"
-      />
-      <path
-        class="a"
-        d="M178.4,14.1l-.6,1,6.2,3.8.7-1.1Z"
-        transform="translate(-0.1 -0.4)"
-      />
-      <path
-        class="a"
-        d="M5.2,246.4l-.6,1,6.2,3.7.6-1Z"
-        transform="translate(-0.1 -0.4)"
-      />
-      <path
-        class="c"
-        d="M58.2,235.1l-3.9,2.2.6.9,3.8-2.3Z"
-        transform="translate(-0.1 -0.4)"
-      />
-      <path
-        class="a"
-        d="M4.8,241.5l-.6,1.1,6.2,3.7.7-1Z"
-        transform="translate(-0.1 -0.4)"
-      />
-      <path
-        class="a"
-        d="M174.4,16.3l-.6,1,6.2,3.8.6-1.1Z"
-        transform="translate(-0.1 -0.4)"
-      />
+      <path class="a" d="M202.1,34.2h-1.2V45.9h1.2Z" transform="translate(-0.1 -0.4)" />
+      <path class="c" d="M78.4,245.4h-1v4.9h1Z" transform="translate(-0.1 -0.4)" />
+      <path class="c" d="M43.9,226.3h-1v4.8h1Z" transform="translate(-0.1 -0.4)" />
+      <path class="a" d="M178.4,14.1l-.6,1,6.2,3.8.7-1.1Z" transform="translate(-0.1 -0.4)" />
+      <path class="a" d="M5.2,246.4l-.6,1,6.2,3.7.6-1Z" transform="translate(-0.1 -0.4)" />
+      <path class="c" d="M58.2,235.1l-3.9,2.2.6.9,3.8-2.3Z" transform="translate(-0.1 -0.4)" />
+      <path class="a" d="M4.8,241.5l-.6,1.1,6.2,3.7.7-1Z" transform="translate(-0.1 -0.4)" />
+      <path class="a" d="M174.4,16.3l-.6,1,6.2,3.8.6-1.1Z" transform="translate(-0.1 -0.4)" />
       <path
         class="a"
         d="M34.1,231.3a7,7,0,0,1-1.7,3.1c.2,0,1.5-.2,1.7,1a8.2,8.2,0,0,1,1.7-3.1C35.7,232.3,34.3,232.5,34.1,231.3Z"
@@ -976,26 +893,10 @@
           d="M29.1,267.8a1.9,1.9,0,0,1-.5-1.3,2.8,2.8,0,0,1,1.5-2.3l10-5.8a7,7,0,0,1,6.6,0l10.2,5.7a2.4,2.4,0,0,1,1.5,2.2c0,.9-.5,1.5-1.5,2.2l-10,5.9a7.6,7.6,0,0,1-6.6,0l-10.2-5.7A1.8,1.8,0,0,1,29.1,267.8Zm11.4-8.4-10,5.9a1.4,1.4,0,0,0-1,1.3c0,.6.3.9,1,1.4l10.2,5.7a5.9,5.9,0,0,0,5.5,0l10-5.9a1.4,1.4,0,0,0,1-1.3c0-.5-.3-.9-1-1.4L46,259.4A5.4,5.4,0,0,0,40.5,259.4Zm-5.2,7.9c-.2-.1-.3-.5-.3-.8a1.7,1.7,0,0,1,.8-1.4l5.6-3.3a3.5,3.5,0,0,1,3.7,0l5.7,3.1a1.5,1.5,0,0,1,0,2.8L45.3,271a4.2,4.2,0,0,1-3.8,0l-5.7-3.2Zm15.4-1.9-.2.6-5.7-3.2a4.5,4.5,0,0,0-2.8,0L36.4,266c-.4.1-.4.3-.4.5s.2.3.5.5l5.7,3.1a4.5,4.5,0,0,0,2.8,0l5.5-3.3c.3-.2.5-.3.3-.5s-.1-.3-.5-.5Z"
           transform="translate(-0.1 -0.4)"
         />
-        <path
-          class="a"
-          d="M44.1,274.8h-1v4.6h1Z"
-          transform="translate(-0.1 -0.4)"
-        />
-        <path
-          class="a"
-          d="M43.9,261.8h-1v4.7H44Z"
-          transform="translate(-0.1 -0.4)"
-        />
-        <path
-          class="a"
-          d="M31.8,268.9h-1v4.7h1Z"
-          transform="translate(-0.1 -0.4)"
-        />
-        <path
-          class="a"
-          d="M55.3,269.1h-1v4.6h1Z"
-          transform="translate(-0.1 -0.4)"
-        />
+        <path class="a" d="M44.1,274.8h-1v4.6h1Z" transform="translate(-0.1 -0.4)" />
+        <path class="a" d="M43.9,261.8h-1v4.7H44Z" transform="translate(-0.1 -0.4)" />
+        <path class="a" d="M31.8,268.9h-1v4.7h1Z" transform="translate(-0.1 -0.4)" />
+        <path class="a" d="M55.3,269.1h-1v4.6h1Z" transform="translate(-0.1 -0.4)" />
         <path
           class="a"
           d="M35.5,267a30,30,0,0,0,2.6,1.5c.1.2,3.8-1.9,3.8-1.9l1.5-.5v-4.3l-2.2.9L36,265.6A6,6,0,0,0,35.5,267Z"
@@ -1053,56 +954,28 @@
           d="M196.7,209.2h-.5a54.7,54.7,0,0,1-6.9-.5l-.9-.2,7.1-13.8.2-.3.9.2Zm-1.2-1.2V197.3l-5.2,10.2A31.5,31.5,0,0,0,195.5,208Z"
           transform="translate(-0.1 -0.4)"
         />
-        <path
-          class="c"
-          d="M196.2,208.7V195.1l4.8,13.3Z"
-          transform="translate(-0.1 -0.4)"
-        />
+        <path class="c" d="M196.2,208.7V195.1l4.8,13.3Z" transform="translate(-0.1 -0.4)" />
         <path
           class="a"
           d="M201.7,208.9H201a37.3,37.3,0,0,1-4.8.4h-.5V194.7h1Zm-1.5-1.1-3.5-9.4V208A20.6,20.6,0,0,0,200.2,207.8Z"
           transform="translate(-0.1 -0.4)"
         />
-        <path
-          class="a"
-          d="M190,208h-1.2v8.3H190Z"
-          transform="translate(-0.1 -0.4)"
-        />
-        <path
-          class="a"
-          d="M215.7,203h-1.2v8.3h1.2Z"
-          transform="translate(-0.1 -0.4)"
-        />
-        <path
-          class="a"
-          d="M213.1,205.1h-1.2v8.3h1.2Z"
-          transform="translate(-0.1 -0.4)"
-        />
-        <path
-          class="a"
-          d="M180.3,190.8h-1.2V199h1.2Z"
-          transform="translate(-0.1 -0.4)"
-        />
+        <path class="a" d="M190,208h-1.2v8.3H190Z" transform="translate(-0.1 -0.4)" />
+        <path class="a" d="M215.7,203h-1.2v8.3h1.2Z" transform="translate(-0.1 -0.4)" />
+        <path class="a" d="M213.1,205.1h-1.2v8.3h1.2Z" transform="translate(-0.1 -0.4)" />
+        <path class="a" d="M180.3,190.8h-1.2V199h1.2Z" transform="translate(-0.1 -0.4)" />
         <path
           class="a"
           d="M184.3,217.5a23.3,23.3,0,0,1-9.5-4.5,4.7,4.7,0,0,1-1.4-2.6v-2.7h-1.2v2.8a4.4,4.4,0,0,0,1.8,3.3,22.2,22.2,0,0,0,10,4.6Z"
           transform="translate(-0.1 -0.4)"
         />
-        <path
-          class="a"
-          d="M187,218.1l-.2,1.2,4.4.6.2-1.2Z"
-          transform="translate(-0.1 -0.4)"
-        />
+        <path class="a" d="M187,218.1l-.2,1.2,4.4.6.2-1.2Z" transform="translate(-0.1 -0.4)" />
         <path
           class="a"
           d="M196.4,177.3a26.5,26.5,0,0,0-9.5,1l.3,1.3a27.7,27.7,0,0,1,9-1.1Z"
           transform="translate(-0.1 -0.4)"
         />
-        <path
-          class="a"
-          d="M185.4,179.1l-3.4,1.3.4,1.1,3.4-1.3Z"
-          transform="translate(-0.1 -0.4)"
-        />
+        <path class="a" d="M185.4,179.1l-3.4,1.3.4,1.1,3.4-1.3Z" transform="translate(-0.1 -0.4)" />
       </g>
       <g class="access-g">
         <path
@@ -1130,26 +1003,10 @@
           d="M105,247.2c-5.7-3.3-8.8-7.6-8.8-12.5s3.1-9.1,8.8-12.4c11.4-6.5,30-6.5,41.4,0,5.7,3.3,8.8,7.6,8.8,12.4s-3.1,9.2-8.8,12.5a45.3,45.3,0,0,1-41.4,0Zm.8-23.5c-5.1,2.9-8.1,6.9-8.1,11s3,8.1,8.1,11.1c11.1,6.4,29,6.4,39.9,0,5.2-3,8.1-6.9,8.1-11.1s-2.9-8.1-8.1-11a41.9,41.9,0,0,0-20-4.8C118.4,218.9,111.2,220.6,105.8,223.7Z"
           transform="translate(-0.1 -0.4)"
         />
-        <path
-          class="a"
-          d="M149.1,244.9h-1v27.3h1Z"
-          transform="translate(-0.1 -0.4)"
-        />
-        <path
-          class="a"
-          d="M128.3,251.5h-1.1v27.2h1.1Z"
-          transform="translate(-0.1 -0.4)"
-        />
-        <path
-          class="c"
-          d="M116.7,250.6h-.5V277h.5Z"
-          transform="translate(-0.1 -0.4)"
-        />
-        <path
-          class="c"
-          d="M98.3,240.4h-.6v26.4h.6Z"
-          transform="translate(-0.1 -0.4)"
-        />
+        <path class="a" d="M149.1,244.9h-1v27.3h1Z" transform="translate(-0.1 -0.4)" />
+        <path class="a" d="M128.3,251.5h-1.1v27.2h1.1Z" transform="translate(-0.1 -0.4)" />
+        <path class="c" d="M116.7,250.6h-.5V277h.5Z" transform="translate(-0.1 -0.4)" />
+        <path class="c" d="M98.3,240.4h-.6v26.4h.6Z" transform="translate(-0.1 -0.4)" />
         <path
           class="c"
           d="M110.8,226.3c-8.2,4.8-8.2,12.4,0,17.2s21.6,4.9,29.9,0,8.3-12.4,0-17.2S119,221.5,110.8,226.3Z"
@@ -1170,16 +1027,8 @@
           d="M110.3,244.1a13.3,13.3,0,0,1-6-6.6v-.2h0a12.2,12.2,0,0,1,6-6.6c8.5-4.8,22.3-4.8,30.7,0a12.8,12.8,0,0,1,6.1,6.6h0v.2c-.9,2.6-3,4.8-6.1,6.6s-9.8,3.6-15.3,3.6A31.3,31.3,0,0,1,110.3,244.1Zm30-12.5c-8.1-4.6-21-4.6-29.1,0a12,12,0,0,0-5.4,5.6,12.3,12.3,0,0,0,5.4,5.5c8.1,4.6,21,4.6,29.1,0a12.3,12.3,0,0,0,5.4-5.5A13.1,13.1,0,0,0,140.3,231.6Z"
           transform="translate(-0.1 -0.4)"
         />
-        <path
-          class="a"
-          d="M121.5,223h-1v4.8h1Z"
-          transform="translate(-0.1 -0.4)"
-        />
-        <path
-          class="a"
-          d="M116.9,224.4h-1.1v4.8h1.1Z"
-          transform="translate(-0.1 -0.4)"
-        />
+        <path class="a" d="M121.5,223h-1v4.8h1Z" transform="translate(-0.1 -0.4)" />
+        <path class="a" d="M116.9,224.4h-1.1v4.8h1.1Z" transform="translate(-0.1 -0.4)" />
         <path
           class="a"
           d="M129.6,223v4.5l6.9,1.7,7.5,4.3,2.4,3,.5-3.1-2.9-4.7-4-2.9-5-1.9Z"
@@ -1287,42 +1136,18 @@
           d="M191.7,70.9a3.2,3.2,0,0,1-1.4-2.7v-25a7.8,7.8,0,0,1,3.7-6.4l33.2-19.2a2.9,2.9,0,0,1,3.2-.1,3.1,3.1,0,0,1,1.3,2.7v25a7.9,7.9,0,0,1-3.6,6.4l-5,2.9a19.2,19.2,0,0,1-7.9,12.1,1.3,1.3,0,0,1-1.2,0,1.2,1.2,0,0,1-.2-1.4,14.3,14.3,0,0,0,1.9-6.4L195,70.7a3.5,3.5,0,0,1-1.9.6A1.8,1.8,0,0,1,191.7,70.9Zm24.7-14,.5.4.2.3c.5,2.1-.2,4.4-.9,6.2a16,16,0,0,0,5.5-9.6c0-.4.4-.7.7-.9l5.2-2.9a6.9,6.9,0,0,0,2.9-5V20.2a1.7,1.7,0,0,0-.5-1.5,1.6,1.6,0,0,0-1.5.1L195.2,38a6.5,6.5,0,0,0-3,5V68a1.8,1.8,0,0,0,.6,1.5,1.6,1.6,0,0,0,1.5-.1l21.4-12.5h.5C216,56.9,216.2,56.9,216.4,56.9Z"
           transform="translate(-0.1 -0.4)"
         />
-        <path
-          class="a"
-          d="M218.6,15.7l-.8,1.4,5.7,3.5.8-1.4Z"
-          transform="translate(-0.1 -0.4)"
-        />
-        <path
-          class="a"
-          d="M185.2,39.9l-.8,1.3,6.4,4,.8-1.3Z"
-          transform="translate(-0.1 -0.4)"
-        />
-        <path
-          class="a"
-          d="M184.5,44l6.7,4V69.7l-6.4-3.4-.3-1.6Z"
-          transform="translate(-0.1 -0.4)"
-        />
+        <path class="a" d="M218.6,15.7l-.8,1.4,5.7,3.5.8-1.4Z" transform="translate(-0.1 -0.4)" />
+        <path class="a" d="M185.2,39.9l-.8,1.3,6.4,4,.8-1.3Z" transform="translate(-0.1 -0.4)" />
+        <path class="a" d="M184.5,44l6.7,4V69.7l-6.4-3.4-.3-1.6Z" transform="translate(-0.1 -0.4)" />
         <path
           class="b"
           d="M221.2,37.6l-6.7-3.8a1.1,1.1,0,0,0-1.1.2l-1,1c-.5,1.1-.5,2.1,0,2.5l4.3,2.4-11.2,6.5a3.2,3.2,0,0,0-1.4,2.4c0,.9.7,1.3,1.4.9l11.2-6.5-4.1,7.2c-.5,1-.5,2.1,0,2.4a.7.7,0,0,0,1-.2c.4-.1.7-.5,1.1-1l6.7-11.5C221.7,39,221.7,37.8,221.2,37.6Z"
           transform="translate(-0.1 -0.4)"
         />
         <g>
-          <path
-            class="a"
-            d="M220.9.5h-1.5l.6,7.2h1.5Z"
-            transform="translate(-0.1 -0.4)"
-          />
-          <path
-            class="a"
-            d="M228.2.4l-3.4,7.7,1.5.6L229.6,1Z"
-            transform="translate(-0.1 -0.4)"
-          />
-          <path
-            class="a"
-            d="M235.4,6.9l-6,3.4.8,1.3,6-3.4Z"
-            transform="translate(-0.1 -0.4)"
-          />
+          <path class="a" d="M220.9.5h-1.5l.6,7.2h1.5Z" transform="translate(-0.1 -0.4)" />
+          <path class="a" d="M228.2.4l-3.4,7.7,1.5.6L229.6,1Z" transform="translate(-0.1 -0.4)" />
+          <path class="a" d="M235.4,6.9l-6,3.4.8,1.3,6-3.4Z" transform="translate(-0.1 -0.4)" />
         </g>
       </g>
     </g>
@@ -1330,39 +1155,39 @@
 </template>
 
 <script>
-import { gsap } from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger.js"
-import { mapState } from "vuex"
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger.js";
+import { mapState } from "vuex";
 
-gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig"]),
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
   },
   props: {
     x: {
       type: [Number, String],
-      default: 1200,
+      default: 1200
     },
     y: {
       type: [Number, String],
-      default: 50,
-    },
+      default: 50
+    }
   },
   methods: {
     redirectAnim() {
       gsap.set(".computer, .access g", {
-        transformOrigin: "50% 50%",
-      })
+        transformOrigin: "50% 50%"
+      });
 
       gsap
         .timeline({
           scrollTrigger: {
             trigger: ".redirect",
             toggleActions: this.toggleConfig,
-            start: this.startConfig,
-          },
+            start: this.startConfig
+          }
         })
         .add("redirect")
         .fromTo(
@@ -1371,13 +1196,13 @@ export default {
             duration: 0.5,
             opacity: 0,
             scale: 0.9,
-            transformOrigin: "50% 50%",
+            transformOrigin: "50% 50%"
           },
           {
             opacity: 1,
             scale: 1,
             stagger: 0.05,
-            ease: "back.out(1.7)",
+            ease: "back.out(1.7)"
           },
           "redirect"
         )
@@ -1390,16 +1215,18 @@ export default {
             rotation: -180,
             stagger: 0.3,
             ease: "back.out(1.7)",
-            transformOrigin: "50% 50%",
+            transformOrigin: "50% 50%"
           },
           "redirect"
-        )
-    },
+        );
+    }
   },
   mounted() {
-    this.redirectAnim()
-  },
-}
+    if (!this.isAnimationDisabled) {
+      this.redirectAnim();
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>

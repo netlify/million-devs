@@ -850,7 +850,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
   },
   methods: {
     splitTesting() {
@@ -917,7 +917,9 @@ export default {
     }
   },
   mounted() {
-    this.splitTesting();
+    if (!this.isAnimationDisabled) {
+      this.splitTesting();
+    }
   }
 };
 </script>

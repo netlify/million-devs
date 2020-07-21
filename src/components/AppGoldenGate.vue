@@ -4682,7 +4682,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
   },
   methods: {
     goldengate() {
@@ -4720,7 +4720,9 @@ export default {
     }
   },
   mounted() {
-    this.goldengate();
+    if (!this.isAnimationDisabled) {
+      this.goldengate();
+    }
   }
 };
 </script>

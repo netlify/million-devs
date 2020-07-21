@@ -1570,7 +1570,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
   },
   methods: {
     encryptAnim() {
@@ -1631,7 +1631,9 @@ export default {
     }
   },
   mounted() {
-    this.encryptAnim();
+    if (!this.isAnimationDisabled) {
+      this.encryptAnim();
+    }
   }
 };
 </script>

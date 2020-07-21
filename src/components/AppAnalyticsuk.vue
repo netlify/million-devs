@@ -1433,7 +1433,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
   },
   methods: {
     analytics() {
@@ -1463,7 +1463,9 @@ export default {
     }
   },
   mounted() {
-    this.analytics();
+    if (this.isAnimationDisabled) {
+      this.analytics();
+    }
   }
 };
 </script>

@@ -3455,7 +3455,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
   },
   props: {
     num: {
@@ -3636,7 +3636,9 @@ export default {
     }
   },
   mounted() {
-    this.millionAnim();
+    if (!this.isAnimationDisabled) {
+      this.millionAnim();
+    }
   }
 };
 </script>

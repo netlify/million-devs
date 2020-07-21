@@ -50,6 +50,10 @@ import App2018 from "@/components/App2018.vue";
 import App2019 from "@/components/App2019.vue";
 import App2020 from "@/components/App2020.vue";
 
+//gsap
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger.js";
+
 export default {
   components: {
     AppTweetit,

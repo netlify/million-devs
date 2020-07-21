@@ -1676,11 +1676,11 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
   },
   methods: {
     twoAnim() {
-      gsap
+      const tl = gsap
         .timeline({
           scrollTrigger: {
             trigger: "#two",
@@ -1721,7 +1721,10 @@ export default {
     }
   },
   mounted() {
-    this.twoAnim();
+    if (!this.isAnimationDisabled) {
+      console.log("disabled");
+      this.twoAnim();
+    }
   }
 };
 </script>
