@@ -1722,7 +1722,6 @@ export default {
   },
   mounted() {
     if (!this.isAnimationDisabled) {
-      console.log("disabled");
       this.twoAnim();
     }
   }

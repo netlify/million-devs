@@ -7,9 +7,13 @@ export default new Vuex.Store({
   state: {
     toggleConfig: `restart pause none pause`,
     startConfig: `center 80%`,
-    isAnimationDisabled: true,
+    isAnimationDisabled: false,
   },
-  mutations: {},
+  mutations: {
+    updateAnimationState(state) {
+      state.isAnimationDisabled = !state.isAnimationDisabled
+    },
+  },
   actions: {},
   modules: {},
 })

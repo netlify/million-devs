@@ -1,14 +1,25 @@
 <template>
   <div class="animtoggle">
     <label class="switch">
-      <input type="checkbox" />
+      <input @click="animToggleStore" type="checkbox" :checked="isAnimationDisabled" />
       <span class="slider round"></span>
     </label>
   </div>
 </template>
 
 <script>
-export default {};
+import { mapState } from "vuex";
+
+export default {
+  computed: {
+    ...mapState(["isAnimationDisabled"])
+  },
+  methods: {
+    animToggleStore() {
+      this.$store.commit("updateAnimationState");
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>
