@@ -36,12 +36,14 @@
       </div>
     </section>
     <app-scrolldown />
+    <app-animation-switch />
   </div>
 </template>
 
 <script>
 import AppMillion from "@/components/AppMillion.vue";
 import AppScrolldown from "@/components/AppScrolldown.vue";
+import AppAnimationSwitch from "@/components/AppAnimationSwitch.vue";
 
 export default {
   data() {
@@ -51,7 +53,8 @@ export default {
   },
   components: {
     AppMillion,
-    AppScrolldown
+    AppScrolldown,
+    AppAnimationSwitch
   }
 };
 </script>
