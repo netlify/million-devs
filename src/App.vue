@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <app-tweetit />
+    <!-- <app-tweetit /> -->
+    <app-login-result-sticky/>
     <section class="intro-section">
       <app-header />
     </section>
@@ -41,7 +42,7 @@
 import AppJet from "@/components/AppJet.vue";
 import AppText from "@/components/AppText.vue";
 import AppHeader from "@/components/AppHeader.vue";
-import AppTweetit from "@/components/AppTweetit.vue";
+import AppLoginResultSticky from "@/components/AppLoginResultSticky.vue";
 
 //sections by year
 import App2016 from "@/components/App2016.vue";
@@ -56,7 +57,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 
 export default {
   components: {
-    AppTweetit,
+    AppLoginResultSticky,
     AppHeader,
     AppText,
     App2016,
@@ -117,6 +118,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #000000;
+  margin: 8px;
 }
 
 .intro-section {
