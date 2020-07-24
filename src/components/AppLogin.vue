@@ -54,9 +54,8 @@ export default {
       }, {})
     },
     removeHash: function() {
-      // TODO uncomment this
-      // document.location.hash = '';
-      // history.pushState("", document.title, `${window.location.pathname}${window.location.search}`)
+      document.location.hash = '';
+      history.pushState("", document.title, `${window.location.pathname}${window.location.search}`)
     },
     decode: function(s) {
       return decodeURIComponent(s).replace(/\+/g, ' ')
@@ -67,8 +66,7 @@ export default {
       /* Protect against csrf (cross site request forgery https://bit.ly/1V1AvZD) */
       if (this.isLoggedIn && !localStorage.getItem(this.response.csrf)) {
         alert('Token invalid. Please try to login again');
-        // TODO uncomment this
-        // return;
+        return;
       }
 
       /* Clean up csrfToken */
