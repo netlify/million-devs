@@ -7,7 +7,10 @@
     id="deploybtn"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 336.5 237.2"
+    role="presentation"
+    aria-labelledby="deploybutton"
   >
+    <title id="deploybutton">Creation of Deploy Button</title>
     <g id="stacks">
       <g>
         <path class="cls-1" d="M85.7,69l.8.6,19-10.9-1-.6Z" transform="translate(0 -0.8)" />
@@ -574,7 +577,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     deployButton() {
@@ -583,11 +586,11 @@ export default {
           scrollTrigger: {
             trigger: "#deploybtn",
             toggleActions: this.toggleConfig,
-            start: this.startConfig
+            start: this.startConfig,
           },
           defaults: {
-            duration: 0.8
-          }
+            duration: 0.8,
+          },
         })
         .add("deployB")
         .from(
@@ -595,7 +598,7 @@ export default {
           {
             rotation: 30,
             transformOrigin: "100% 100%",
-            ease: "sine"
+            ease: "sine",
           },
           "deployB"
         )
@@ -605,7 +608,7 @@ export default {
             duration: 0.1,
             scale: 0.9,
             transformOrigin: "50% 50%",
-            ease: "sine"
+            ease: "sine",
           },
           "deployB+=0.6"
         )
@@ -616,7 +619,7 @@ export default {
             scaleY: 0,
             transformOrigin: "50% 100%",
             stagger: 0.1,
-            ease: "sine"
+            ease: "sine",
           },
           "deployB+=0.6"
         )
@@ -627,17 +630,17 @@ export default {
             scale: 0,
             rotation: 360,
             transformOrigin: "50% 50%",
-            ease: "elastic.out(1, 0.5)"
+            ease: "elastic.out(1, 0.5)",
           },
           "deployB+=0.6"
         );
-    }
+    },
   },
   mounted() {
     if (!this.isAnimationDisabled) {
       this.deployButton();
     }
-  }
+  },
 };
 </script>
 

@@ -7,7 +7,10 @@
     height="420"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 288 326.9"
+    role="presentation"
+    aria-labelledby="book"
   >
+    <title id="book">Jamstack O'Reilly book published</title>
     <path class="cls-1" d="M237.7,226.9l-.8-.4-12.6,7.3.7.4Z" transform="translate(-0.6 -13.7)" />
     <path class="cls-1" d="M239.2,227.8l-.7-.4-12.7,7.2.7.4Z" transform="translate(-0.6 -13.7)" />
     <path class="cls-1" d="M240.8,228.6l-.8-.4-12.6,7.3.7.4Z" transform="translate(-0.6 -13.7)" />
@@ -1661,7 +1664,7 @@ gsap.registerPlugin(MorphSVGPlugin);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     bookAnim() {
@@ -1670,8 +1673,8 @@ export default {
           scrollTrigger: {
             trigger: "#book",
             toggleActions: this.toggleConfig,
-            start: this.startConfig
-          }
+            start: this.startConfig,
+          },
         })
         .add("book")
         .to(
@@ -1681,7 +1684,7 @@ export default {
             morphSVG: "#bookmark-morph",
             repeat: 3,
             yoyo: true,
-            ease: "sine.inOut"
+            ease: "sine.inOut",
           },
           "book"
         )
@@ -1692,7 +1695,7 @@ export default {
             rotation: 15,
             repeat: 3,
             yoyo: true,
-            ease: "sine.inOut"
+            ease: "sine.inOut",
           },
           "book+=0.25"
         )
@@ -1703,7 +1706,7 @@ export default {
             rotation: 15,
             repeat: 3,
             yoyo: true,
-            ease: "sine.inOut"
+            ease: "sine.inOut",
           },
           "book+=0.25"
         )
@@ -1716,17 +1719,17 @@ export default {
             rotation: 180,
             transformOrigin: "50% 50%",
             stagger: 0.1,
-            ease: "sine"
+            ease: "sine",
           },
           "book+=0.5"
         );
-    }
+    },
   },
   mounted() {
     if (!this.isAnimationDisabled) {
       this.bookAnim();
     }
-  }
+  },
 };
 </script>
 

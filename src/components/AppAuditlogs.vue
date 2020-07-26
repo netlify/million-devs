@@ -7,7 +7,10 @@
     id="auditlogs"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 246.2 327.2"
+    role="presentation"
+    aria-labelledby="audit"
   >
+    <title id="audit">Launch of audit logs</title>
     <g id="BlackScreen">
       <path
         id="Shadow"
@@ -3507,15 +3510,15 @@ export default {
   props: {
     x: {
       type: [Number, String],
-      default: 1100
+      default: 1100,
     },
     y: {
       type: [Number, String],
-      default: 1500
-    }
+      default: 1500,
+    },
   },
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     auditLogs() {
@@ -3524,17 +3527,17 @@ export default {
           scrollTrigger: {
             trigger: "#auditlogs",
             toggleActions: this.toggleConfig,
-            start: this.startConfig
+            start: this.startConfig,
           },
           defaults: {
-            duration: 0.5
-          }
+            duration: 0.5,
+          },
         })
         .add("audit")
         .from("#blackboard-words path, #blackboard-words polygon", {
           opacity: 0,
           stagger: 0.005,
-          ease: "sine"
+          ease: "sine",
         })
         .from(
           ".bblock",
@@ -3543,17 +3546,17 @@ export default {
             rotation: -30,
             transformOrigin: "50% 50%",
             stagger: 0.1,
-            ease: "back"
+            ease: "back",
           },
           "audit"
         );
-    }
+    },
   },
   mounted() {
     if (this.isAnimationDisabled) {
       this.auditLogs();
     }
-  }
+  },
 };
 </script>
 

@@ -6,6 +6,7 @@
     height="180"
     viewBox="0 0 148 120"
     xmlns="http://www.w3.org/2000/svg"
+    role="img"
   >
     <g clip-path="url(#clip0)">
       <path
@@ -1175,13 +1176,13 @@ export default {
   props: {
     x: {
       type: [Number, String],
-      default: 1450
+      default: 1450,
     },
     y: {
       type: [Number, String],
-      default: 170
-    }
-  }
+      default: 170,
+    },
+  },
 };
 </script>
 

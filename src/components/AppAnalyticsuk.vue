@@ -7,7 +7,10 @@
     id="analytics"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 263.4 419.7"
+    role="presentation"
+    aria-labelledby="analytics"
   >
+    <title id="analytics">Launch of analytics</title>
     <path
       id="Shadow_4"
       data-name="Shadow 4"
@@ -1433,7 +1436,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     analytics() {
@@ -1442,12 +1445,12 @@ export default {
           scrollTrigger: {
             trigger: "#analytics",
             toggleActions: this.toggleConfig,
-            start: this.startConfig
+            start: this.startConfig,
           },
           defaults: {
             duration: 1,
-            ease: "sine"
-          }
+            ease: "sine",
+          },
         })
         .add("analytics")
         .from(
@@ -1456,17 +1459,17 @@ export default {
             stagger: 0.01,
             scale: 0.4,
             opacity: 0,
-            transformOrigin: "50% 100%"
+            transformOrigin: "50% 100%",
           },
           "analytics"
         );
-    }
+    },
   },
   mounted() {
     if (this.isAnimationDisabled) {
       this.analytics();
     }
-  }
+  },
 };
 </script>
 

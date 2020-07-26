@@ -7,7 +7,10 @@
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 314.2 328.1"
     id="deploypreview"
+    role="presentation"
+    aria-labelledby="deploypreview"
   >
+    <title id="deploypreview">Launch of Atomic Deploy Previews</title>
     <defs>
       <clipPath id="clip-path" transform="translate(-1 -0.4)">
         <rect class="cls-1" x="1" y="42.9" width="54" height="117" />
@@ -2216,7 +2219,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     deployPreview() {
@@ -2225,8 +2228,8 @@ export default {
           scrollTrigger: {
             trigger: "#deploypreview",
             toggleActions: this.toggleConfig,
-            start: this.startConfig
-          }
+            start: this.startConfig,
+          },
         })
         .add("deployP")
         .fromTo(
@@ -2237,7 +2240,7 @@ export default {
             y: -5,
             x: 5,
             stagger: 0.3,
-            transformOrigin: "100% 100%"
+            transformOrigin: "100% 100%",
           },
           {
             rotation: 0,
@@ -2245,7 +2248,7 @@ export default {
             y: 0,
             x: 0,
             yoyo: true,
-            ease: "sine.inOut"
+            ease: "sine.inOut",
           },
           "deployP"
         )
@@ -2257,7 +2260,7 @@ export default {
             y: -5,
             x: 5,
             stagger: 0.3,
-            transformOrigin: "100% 100%"
+            transformOrigin: "100% 100%",
           },
           {
             rotation: 0,
@@ -2265,7 +2268,7 @@ export default {
             y: 0,
             x: 0,
             yoyo: true,
-            ease: "sine.inOut"
+            ease: "sine.inOut",
           },
           "deployP+=0.3"
         )
@@ -2277,7 +2280,7 @@ export default {
             y: -5,
             x: 5,
             stagger: 0.3,
-            transformOrigin: "100% 100%"
+            transformOrigin: "100% 100%",
           },
           {
             rotation: 0,
@@ -2285,7 +2288,7 @@ export default {
             y: 0,
             x: 0,
             yoyo: true,
-            ease: "sine.inOut"
+            ease: "sine.inOut",
           },
           "deployP+=0.5"
         )
@@ -2295,12 +2298,12 @@ export default {
             duration: 1,
             scale: 0.5,
             opacity: 0,
-            transformOrigin: "50% 50%"
+            transformOrigin: "50% 50%",
           },
           {
             scale: 1,
             opacity: 1,
-            ease: "sine"
+            ease: "sine",
           },
           "deployP"
         )
@@ -2308,22 +2311,22 @@ export default {
           "#commandwords path",
           {
             duration: 0.05,
-            opacity: 0
+            opacity: 0,
           },
           {
             opacity: 1,
             stagger: 0.05,
-            ease: "power3"
+            ease: "power3",
           },
           "deployP+=0.5"
         );
-    }
+    },
   },
   mounted() {
     if (!this.isAnimationDisabled) {
       this.deployPreview();
     }
-  }
+  },
 };
 </script>
 

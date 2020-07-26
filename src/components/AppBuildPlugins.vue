@@ -7,7 +7,10 @@
     id="buildplugins"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="-50 -50 400 300"
+    role="presentation"
+    aria-labelledby="buildplugins"
   >
+    <title id="buildplugins">GA of Build Plugins</title>
     <g id="Puzzle">
       <g id="Piece-4">
         <path
@@ -3430,7 +3433,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     buildplugins() {
@@ -3439,13 +3442,13 @@ export default {
           scrollTrigger: {
             trigger: "#buildplugins",
             toggleActions: this.toggleConfig,
-            start: "center 60%"
+            start: "center 60%",
           },
           defaults: {
             duration: 1,
             transformOrigin: "50% 50%",
-            ease: "back.out(1)"
-          }
+            ease: "back.out(1)",
+          },
         })
         .add("buildplugins")
         .from(
@@ -3455,7 +3458,7 @@ export default {
             scale: 0,
             rotation: 360,
             stagger: 0.1,
-            ease: "back"
+            ease: "back",
           },
           "buildplugins"
         )
@@ -3464,7 +3467,7 @@ export default {
           {
             x: 40,
             y: 40,
-            rotation: 20
+            rotation: 20,
           },
           "buildplugins"
         )
@@ -3473,7 +3476,7 @@ export default {
           {
             x: 40,
             y: -40,
-            rotation: -20
+            rotation: -20,
           },
           "buildplugins"
         )
@@ -3482,7 +3485,7 @@ export default {
           {
             x: -40,
             y: 40,
-            rotation: 20
+            rotation: 20,
           },
           "buildplugins"
         )
@@ -3491,17 +3494,17 @@ export default {
           {
             x: -40,
             y: -40,
-            rotation: -20
+            rotation: -20,
           },
           "buildplugins"
         );
-    }
+    },
   },
   mounted() {
     if (!this.isAnimationDisabled) {
       this.buildplugins();
     }
-  }
+  },
 };
 </script>
 

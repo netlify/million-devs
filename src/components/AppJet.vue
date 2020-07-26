@@ -1872,7 +1872,7 @@
         />
       </g>
     </g>
-    <g class="all-rocket">
+    <g id="jet" class="all-rocket">
       <g class="burst">
         <path
           class="c"
@@ -2057,14 +2057,14 @@ export default {
         opacity: 0.9,
         transformOrigin: "50% 50%"
       });
-      gsap.set(".burst, .top-burst", {
+      gsap.set(".fire", {
         opacity: 1
       });
 
-      gsap
+      const tl = gsap
         .timeline({
           scrollTrigger: {
-            trigger: ".all-rocket",
+            trigger: "#jet",
             toggleActions: this.toggleConfig,
             start: `center bottom`
           },
@@ -2123,6 +2123,9 @@ export default {
           },
           "start+=1"
         );
+
+      tl.pause(0).kill(true);
+      ScrollTrigger.getById("jet").kill(true);
     }
   },
   mounted() {
@@ -2137,13 +2140,6 @@ export default {
 svg {
   width: 200px;
   height: 400px;
-}
-
-.rocket,
-.top-burst,
-.burst,
-.fire {
-  opacity: 0;
 }
 
 .a,
