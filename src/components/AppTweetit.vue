@@ -15,9 +15,9 @@ export default {
 
 <style lang="scss" scoped>
 div {
-  position: fixed;
-  top: 0;
-  right: 0;
-  padding: 10px;
+  // position: fixed;
+  // top: 0;
+  // right: 0;
+  // padding: 10px;
 }
 </style>

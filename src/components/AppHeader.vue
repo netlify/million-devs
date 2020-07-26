@@ -26,13 +26,7 @@
           molestiae, nihil, beatae corrupti dignissimos repellendus suscipit
           debitis consectetur cumque voluptatem vero illo?
         </p>
-        <div class="dialog">
-          <label for="email">Find your place in our timeline</label>
-          <br />
-          <input v-model="nemail" type="email" id="email" placeholder="netlify email" />
-          <br />
-          <button class="find">Find out!</button>
-        </div>
+        <app-login/>
       </div>
     </section>
     <app-scrolldown />
@@ -41,17 +35,14 @@
 </template>
 
 <script>
+import AppLogin from "@/components/AppLogin.vue";
 import AppMillion from "@/components/AppMillion.vue";
 import AppScrolldown from "@/components/AppScrolldown.vue";
 import AppAnimationSwitch from "@/components/AppAnimationSwitch.vue";
 
 export default {
-  data() {
-    return {
-      nemail: ""
-    };
-  },
   components: {
+    AppLogin,
     AppMillion,
     AppScrolldown,
     AppAnimationSwitch
@@ -112,54 +103,5 @@ p {
 h1 {
   font-size: 3em;
   margin: 10px;
-}
-
-.dialog {
-  padding: 10px 20px 30px;
-  margin: 40px 0;
-  border-radius: 4px;
-  background: white;
-  line-height: 2.5;
-  label {
-    font-size: 22px;
-    color: #333;
-  }
-}
-
-input {
-  width: 90%;
-  padding: 10px;
-}
-
-button {
-  display: inline-block;
-  border: none;
-  padding: 0.5rem 1.5rem;
-  margin-top: 20px;
-  text-decoration: none;
-  background: #dd104a;
-  color: #ffffff;
-  border-radius: 4px;
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-  cursor: pointer;
-  text-align: center;
-  transition: background 250ms ease-in-out, transform 150ms ease;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-
-button:hover,
-button:focus {
-  background: #ff2260;
-}
-
-button:focus {
-  outline: 1px solid #fff;
-  outline-offset: -4px;
-}
-
-button:active {
-  transform: scale(0.99);
 }
 </style>
