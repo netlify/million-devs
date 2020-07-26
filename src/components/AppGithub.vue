@@ -7,7 +7,10 @@
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 372 327.9"
     class="github-all"
+    role="presentation"
+    aria-labelledby="github"
   >
+    <title id="github">Launch of GitHub and GitLab Enterprise</title>
     <g class="thought-bubbles">
       <g>
         <path
@@ -1781,22 +1784,22 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   props: {
     x: {
       type: [Number, String],
-      default: 550
+      default: 550,
     },
     y: {
       type: [Number, String],
-      default: 170
-    }
+      default: 170,
+    },
   },
   methods: {
     githubAnim() {
       gsap.set(".company, .access", {
-        transformOrigin: "50% 50%"
+        transformOrigin: "50% 50%",
       });
 
       gsap
@@ -1804,11 +1807,11 @@ export default {
           scrollTrigger: {
             trigger: ".github-all",
             toggleActions: this.toggleConfig,
-            start: this.startConfig
+            start: this.startConfig,
           },
           defaults: {
-            duration: 1.5
-          }
+            duration: 1.5,
+          },
         })
         .add("github")
         .fromTo(
@@ -1817,14 +1820,14 @@ export default {
             opacity: 0,
             scale: 0,
             rotation: -30,
-            transformOrigin: "50% 50%"
+            transformOrigin: "50% 50%",
           },
           {
             opacity: 1,
             scale: 1,
             stagger: -0.3,
             rotation: 0,
-            ease: "back.out(1.7)"
+            ease: "back.out(1.7)",
           },
           "github"
         )
@@ -1834,14 +1837,14 @@ export default {
             opacity: 0,
             scale: 0,
             rotation: 180,
-            transformOrigin: "50% 50%"
+            transformOrigin: "50% 50%",
           },
           {
             opacity: 1,
             scale: 1,
             rotation: 0,
             stagger: 0.1,
-            ease: "sine"
+            ease: "sine",
           },
           "github"
         )
@@ -1851,23 +1854,23 @@ export default {
             duration: 1,
             opacity: 0,
             scale: 0,
-            transformOrigin: "50% 50%"
+            transformOrigin: "50% 50%",
           },
           {
             opacity: 1,
             scale: 1,
             stagger: 0.3,
-            ease: "back.out(1.7)"
+            ease: "back.out(1.7)",
           },
           "github+=0.5"
         );
-    }
+    },
   },
   mounted() {
     if (!this.isAnimationDisabled) {
       this.githubAnim();
     }
-  }
+  },
 };
 </script>
 

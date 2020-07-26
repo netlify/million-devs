@@ -7,7 +7,10 @@
     height="320"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 317.3 253.5"
+    role="presentation"
+    aria-labelledby="functions"
   >
+    <title id="functions">Launch of Netlify Functions</title>
     <defs>
       <clipPath id="clip-path" transform="translate(-0.9 -1)">
         <rect class="cls-1" x="12" y="152" width="27" height="28" />
@@ -605,7 +608,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     bookAnim() {
@@ -614,8 +617,8 @@ export default {
           scrollTrigger: {
             trigger: "#functions",
             toggleActions: this.toggleConfig,
-            start: this.startConfig
-          }
+            start: this.startConfig,
+          },
         })
         .add("functions")
         .from(
@@ -627,7 +630,7 @@ export default {
             rotation: 360,
             transformOrigin: "50% 50%",
             stagger: 0.1,
-            ease: "sine"
+            ease: "sine",
           },
           "functions"
         )
@@ -640,17 +643,17 @@ export default {
             rotation: -360,
             transformOrigin: "50% 50%",
             stagger: 0.1,
-            ease: "sine"
+            ease: "sine",
           },
           "functions+=0.5"
         );
-    }
+    },
   },
   mounted() {
     if (!this.isAnimationDisabled) {
       this.bookAnim();
     }
-  }
+  },
 };
 </script>
 

@@ -7,7 +7,10 @@
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 -20 314.7 350"
+    role="presentation"
+    aria-labelledby="analytics"
   >
+    <title id="analytics">Netlify offers free SSL through Let's Encrypt</title>
     <defs>
       <clipPath id="clip-path" transform="translate(0 -0.1)">
         <rect class="cls-1" x="80.9" y="23.3" width="33" height="32.95" />
@@ -1570,14 +1573,14 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     encryptAnim() {
       gsap.set("#lock, #ssl, #letsencrypt path", {
         opacity: 0,
         scale: 0.5,
-        transformOrigin: "50% 50%"
+        transformOrigin: "50% 50%",
       });
 
       gsap
@@ -1585,11 +1588,11 @@ export default {
           scrollTrigger: {
             trigger: "#ssl",
             toggleActions: this.toggleConfig,
-            start: this.startConfig
+            start: this.startConfig,
           },
           defaults: {
-            duration: 1
-          }
+            duration: 1,
+          },
         })
         .add("enc")
         .fromTo(
@@ -1598,7 +1601,7 @@ export default {
             opacity: 0,
             scale: 0.5,
             rotation: 20,
-            y: 10
+            y: 10,
           },
           {
             y: 0,
@@ -1606,7 +1609,7 @@ export default {
             scale: 1,
             rotation: 0,
             stagger: 0.1,
-            ease: "back.out(1.7)"
+            ease: "back.out(1.7)",
           },
           "enc"
         )
@@ -1615,7 +1618,7 @@ export default {
           {
             rotation: 20,
             transformOrigin: "100% 100%",
-            ease: "sine"
+            ease: "sine",
           },
           "enc"
         )
@@ -1624,17 +1627,17 @@ export default {
           {
             x: 30,
             y: -10,
-            ease: "sine"
+            ease: "sine",
           },
           "enc"
         );
-    }
+    },
   },
   mounted() {
     if (!this.isAnimationDisabled) {
       this.encryptAnim();
     }
-  }
+  },
 };
 </script>
 

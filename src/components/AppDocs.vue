@@ -8,7 +8,10 @@
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 279.5 282.6"
+    role="presentation"
+    aria-labelledby="docs"
   >
+    <title id="docs">New version of docs</title>
     <defs>
       <clipPath id="docscover" transform="translate(0 0.1)">
         <rect
@@ -1497,7 +1500,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     docs() {
@@ -1506,11 +1509,11 @@ export default {
           scrollTrigger: {
             trigger: "#docs",
             toggleActions: this.toggleConfig,
-            start: "center 60%"
+            start: "center 60%",
           },
           defaults: {
-            duration: 2
-          }
+            duration: 2,
+          },
         })
         .add("docs")
         .from(
@@ -1519,7 +1522,7 @@ export default {
             duration: 2,
             x: 300,
             y: -300,
-            ease: "circ"
+            ease: "circ",
           },
           "docs"
         )
@@ -1530,17 +1533,17 @@ export default {
             rotation: 720,
             y: 200,
             stagger: 0.1,
-            ease: "elastic(1.75, 0.3)"
+            ease: "elastic(1.75, 0.3)",
           },
           "docs"
         );
-    }
+    },
   },
   mounted() {
     if (!this.isAnimationDisabled) {
       this.docs();
     }
-  }
+  },
 };
 </script>
 

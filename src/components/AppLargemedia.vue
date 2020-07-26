@@ -7,7 +7,10 @@
     height="375"
     viewBox="0 0 246 283"
     xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="largemedia"
   >
+    <title id="largemedia">Launch of Netlify Large Media</title>
     <g id="2019_02_LargeMedia">
       <g id="Shadow">
         <path
@@ -2582,7 +2585,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     lmAnim() {
@@ -2591,27 +2594,27 @@ export default {
           scrollTrigger: {
             trigger: "#largemedia",
             toggleActions: this.toggleConfig,
-            start: this.startConfig
+            start: this.startConfig,
           },
           defaults: {
             duration: 1,
-            ease: "sine"
-          }
+            ease: "sine",
+          },
         })
         .add("largemedia")
         .from("#Screen g", {
           scale: 0,
           stagger: 0.01,
           transformOrigin: "50% 50%",
-          ease: "back.out(1)"
+          ease: "back.out(1)",
         });
-    }
+    },
   },
   mounted() {
     if (!this.isAnimationDisabled) {
       this.lmAnim();
     }
-  }
+  },
 };
 </script>
 

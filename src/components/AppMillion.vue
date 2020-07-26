@@ -4,7 +4,10 @@
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 465 476.8"
+    role="presentation"
+    aria-labelledby="`million${num}`"
   >
+    <title id="`million${num}`">Netlify reaches a million developers!</title>
     <defs>
       <clipPath id="clip-path" transform="translate(3.3)">
         <path
@@ -3455,13 +3458,13 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   props: {
     num: {
       type: [Number, String],
-      default: 1
-    }
+      default: 1,
+    },
   },
   methods: {
     millionAnim() {
@@ -3471,20 +3474,20 @@ export default {
         scrollTrigger: {
           trigger: `#million${vm.num}`,
           toggleActions: this.toggleConfig,
-          start: this.startConfig
+          start: this.startConfig,
         },
         defaults: {
           duration: 1.5,
-          ease: "sine"
-        }
+          ease: "sine",
+        },
       };
 
       if (vm.num === 1) {
         tl = gsap.timeline({
           defaults: {
             duration: 1.5,
-            ease: "sine"
-          }
+            ease: "sine",
+          },
         });
       } else {
         tl = gsap.timeline(isScrollElConfig);
@@ -3497,7 +3500,7 @@ export default {
             duration: 2,
             scale: 0,
             transformOrigin: "50% 50%",
-            ease: "elastic.out(1.5, 0.3)"
+            ease: "elastic.out(1.5, 0.3)",
           },
           `million${vm.num}`
         )
@@ -3507,7 +3510,7 @@ export default {
             duration: 1,
             scale: 0.5,
             transformOrigin: "50% 50%",
-            ease: "back"
+            ease: "back",
           },
           `million${vm.num}`
         )
@@ -3516,7 +3519,7 @@ export default {
           {
             fill: "orange",
             duration: 2,
-            ease: "sine"
+            ease: "sine",
           },
           `million${vm.num}`
         )
@@ -3526,7 +3529,7 @@ export default {
             duration: 1,
             x: 22,
             y: -15,
-            ease: "back"
+            ease: "back",
           },
           `million${vm.num}+=1`
         )
@@ -3538,7 +3541,7 @@ export default {
             stagger: 0.05,
             scale: 0,
             ease: "back",
-            transformOrigin: "50% 50%"
+            transformOrigin: "50% 50%",
           },
           `million${vm.num}+=1`
         )
@@ -3550,7 +3553,7 @@ export default {
             opacity: 0,
             scale: 0,
             ease: "back",
-            transformOrigin: "50% 50%"
+            transformOrigin: "50% 50%",
           },
           `million${vm.num}+=0.25`
         )
@@ -3562,14 +3565,14 @@ export default {
             opacity: 0,
             scale: 0,
             ease: "back",
-            transformOrigin: "50% 50%"
+            transformOrigin: "50% 50%",
           },
           `million${vm.num}+=0.25`
         )
         .from(
           "#colorboc",
           {
-            fill: "hsl(-200%, 0, 0)"
+            fill: "hsl(-200%, 0, 0)",
           },
           `million${vm.num}`
         )
@@ -3581,7 +3584,7 @@ export default {
             transformOrigin: "100% 50%",
             repeat: 5,
             yoyo: true,
-            ease: "circ.in"
+            ease: "circ.in",
           },
           `million${vm.num}`
         )
@@ -3593,7 +3596,7 @@ export default {
             transformOrigin: "100% 50%",
             repeat: 5,
             yoyo: true,
-            ease: "circ.in"
+            ease: "circ.in",
           },
           `million${vm.num}+=0.25`
         )
@@ -3605,7 +3608,7 @@ export default {
             transformOrigin: "50% 0%",
             repeat: 6,
             yoyo: true,
-            ease: "sine.inOut"
+            ease: "sine.inOut",
           },
           `million${vm.num}`
         )
@@ -3617,7 +3620,7 @@ export default {
             transformOrigin: "50% 0%",
             repeat: 6,
             yoyo: true,
-            ease: "sine.inOut"
+            ease: "sine.inOut",
           },
           `million${vm.num}+=0.25`
         )
@@ -3629,17 +3632,17 @@ export default {
             scale: 0,
             stagger: 0.2,
             transformOrigin: "50% 50%",
-            ease: "back"
+            ease: "back",
           },
           `million${vm.num}+=2`
         );
-    }
+    },
   },
   mounted() {
     if (!this.isAnimationDisabled) {
       this.millionAnim();
     }
-  }
+  },
 };
 </script>
 

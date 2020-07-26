@@ -7,7 +7,10 @@
     width="500"
     height="380"
     viewBox="0 0 336.7 274.4"
+    role="presentation"
+    aria-labelledby="cms"
   >
+    <title id="cms">Netlify CMS, a git-based CMS launches</title>
     <g id="ElementsBehind">
       <g id="drawnlines">
         <polyline
@@ -2496,7 +2499,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     // pathAnim(ref) {
@@ -2514,12 +2517,12 @@ export default {
           scrollTrigger: {
             trigger: "#netlifycms",
             toggleActions: this.toggleConfig,
-            start: this.startConfig
+            start: this.startConfig,
           },
           defaults: {
             duration: 1,
-            ease: "sine"
-          }
+            ease: "sine",
+          },
         })
         .add("cms");
       // .to(
@@ -2530,13 +2533,13 @@ export default {
       //   },
       //   "cms"
       // );
-    }
+    },
   },
   mounted() {
     if (!this.isAnimationDisabled) {
       this.cmsAnim();
     }
-  }
+  },
 };
 </script>
 

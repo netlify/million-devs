@@ -7,7 +7,10 @@
     id="goldengate"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="-100 0 450 400"
+    role="presentation"
+    aria-labelledby="goldengate"
   >
+    <title id="goldengate">Jamstack SF</title>
     <image href="conf-bk.png" x="-50" y="100" height="380" width="330" />
     <g id="Sun">
       <g id="XMLID_437" data-name="XMLID 437">
@@ -4682,7 +4685,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     goldengate() {
@@ -4691,13 +4694,13 @@ export default {
           scrollTrigger: {
             trigger: "#goldengate",
             toggleActions: this.toggleConfig,
-            start: this.startConfig
+            start: this.startConfig,
           },
           defaults: {
             duration: 1,
             transformOrigin: "50% 50%",
-            ease: "back.out(1)"
-          }
+            ease: "back.out(1)",
+          },
         })
         .add("goldengate")
         .from(
@@ -4705,7 +4708,7 @@ export default {
           {
             opacity: 0,
             scale: 0,
-            stagger: 0.1
+            stagger: 0.1,
           },
           "goldengate"
         )
@@ -4713,17 +4716,17 @@ export default {
           "#Bridge",
           {
             opacity: 0,
-            scale: 0.5
+            scale: 0.5,
           },
           "goldengate+=0.5"
         );
-    }
+    },
   },
   mounted() {
     if (!this.isAnimationDisabled) {
       this.goldengate();
     }
-  }
+  },
 };
 </script>
 

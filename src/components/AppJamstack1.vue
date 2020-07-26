@@ -7,7 +7,10 @@
     id="jamstackconf1"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="-100 0 400 300"
+    role="presentation"
+    aria-labelledby="jamstack1"
   >
+    <title id="jamstack1">First Jamstack Conference</title>
     <defs>
       <clipPath id="jamstack-clip" transform="translate(-134.9 -35)">
         <rect
@@ -883,7 +886,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     jamstackAnim() {
@@ -892,17 +895,17 @@ export default {
           scrollTrigger: {
             trigger: "#jamstackconf1",
             toggleActions: this.toggleConfig,
-            start: this.startConfig
+            start: this.startConfig,
           },
           defaults: {
             duration: 1,
-            ease: "sine"
-          }
+            ease: "sine",
+          },
         })
         .add("jamstack1")
         .from("#clip-jamstack", {
           x: 100,
-          y: -100
+          y: -100,
         })
         .from(
           "#man-arm",
@@ -910,7 +913,7 @@ export default {
             rotation: -70,
             repeat: 2,
             yoyo: true,
-            transformOrigin: "100% 100%"
+            transformOrigin: "100% 100%",
           },
           "jamstack1"
         )
@@ -920,17 +923,17 @@ export default {
             rotation: 40,
             repeat: 2,
             yoyo: true,
-            transformOrigin: "100% 0%"
+            transformOrigin: "100% 0%",
           },
           "jamstack1+=0.5"
         );
-    }
+    },
   },
   mounted() {
     if (!this.isAnimationDisabled) {
       this.jamstackAnim();
     }
-  }
+  },
 };
 </script>
 

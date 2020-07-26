@@ -7,7 +7,10 @@
     class="intro"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 -50 207.8 459.1"
+    role="presentation"
+    aria-labelledby="jet"
   >
+    <title id="jet">Launch of Netlify!</title>
     <g class="computer">
       <g>
         <g>
@@ -2047,7 +2050,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     rocketAnim() {
@@ -2055,10 +2058,10 @@ export default {
         y: 120,
         scale: 0.4,
         opacity: 0.9,
-        transformOrigin: "50% 50%"
+        transformOrigin: "50% 50%",
       });
       gsap.set(".fire", {
-        opacity: 1
+        opacity: 1,
       });
 
       const tl = gsap
@@ -2066,11 +2069,11 @@ export default {
           scrollTrigger: {
             trigger: "#jet",
             toggleActions: this.toggleConfig,
-            start: `center bottom`
+            start: `center bottom`,
           },
           defaults: {
-            duration: 1
-          }
+            duration: 1,
+          },
         })
         .add("start")
         .to(
@@ -2080,7 +2083,7 @@ export default {
             opacity: 1,
             scale: 1,
             ease:
-              "rough({ template: none.out, strength: 1, points: 20, taper: 'none', randomize: true, clamp: false})"
+              "rough({ template: none.out, strength: 1, points: 20, taper: 'none', randomize: true, clamp: false})",
           },
           "start"
         )
@@ -2089,7 +2092,7 @@ export default {
           {
             duration: 0.5,
             y: 0,
-            ease: "back.out(1.7)"
+            ease: "back.out(1.7)",
           },
           "start+=0.8"
         )
@@ -2098,13 +2101,13 @@ export default {
           {
             opacity: 0,
             scale: 0,
-            transformOrigin: "50% 50%"
+            transformOrigin: "50% 50%",
           },
           {
             opacity: 1,
             scale: 1,
             stagger: 0.05,
-            ease: "back.out(1.7)"
+            ease: "back.out(1.7)",
           },
           "start+=0.65"
         )
@@ -2113,26 +2116,26 @@ export default {
           {
             opacity: 0,
             scale: 0,
-            transformOrigin: "50% 0%"
+            transformOrigin: "50% 0%",
           },
           {
             opacity: 1,
             scale: 1,
             stagger: 0.05,
-            ease: "elastic"
+            ease: "elastic",
           },
           "start+=1"
         );
 
       tl.pause(0).kill(true);
       ScrollTrigger.getById("jet").kill(true);
-    }
+    },
   },
   mounted() {
     if (!this.isAnimationDisabled) {
       this.rocketAnim();
     }
-  }
+  },
 };
 </script>
 
