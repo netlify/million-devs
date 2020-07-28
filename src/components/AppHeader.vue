@@ -54,7 +54,7 @@ export default {
 .parent {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 150px 1fr;
+  grid-template-rows: auto 1fr;
   grid-column-gap: 40px;
   padding: 10vh 10vw;
   line-height: 1.8;
@@ -101,7 +101,10 @@ p {
 }
 
 h1 {
-  font-size: 3em;
-  margin: 10px;
+  font-size: 3.5em;
+  font-size: clamp(3em,6vw,6em);
+  margin: .25em 10px 1em;
+  line-height: 1.4;
+  font-family: MADE-Dillan;
 }
 </style>

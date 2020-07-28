@@ -1,5 +1,5 @@
 <template>
-  <div class="dev-number-sticky">
+  <div class="dev-info-sticky">
     <app-login-result/>
   </div>
 </template>
@@ -15,9 +15,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.dev-number-sticky {
+.dev-info-sticky {
   background-color: rgba(255,255,255,.9);
-  padding: 0 1em;
   margin-left: -8px; /* Careful this is tied to the <body> margin in App.vue */
   margin-right: -8px; /* Careful this is tied to the <body> margin in App.vue */
 
