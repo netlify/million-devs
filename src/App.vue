@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!-- <app-tweetit /> -->
     <app-login-result-sticky/>
     <section class="intro-section">
       <app-header />
@@ -23,7 +22,7 @@
         transform="translate(16.1 -440.3)"
       />
 
-      <app-jet />
+      <app-jet id="milestone-jet" />
       <app-text x="1150" y="-200">
         <template v-slot:date>Apr 07, 2015</template>
         <template v-slot:event>Netlify officially launches</template>
@@ -107,6 +106,10 @@ export default {
 </script>
 
 <style lang="scss">
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 10vh;
+}
 body {
   background: #00dc9e;
   font-family: "Roboto", Helvetica, Arial, sans-serif;

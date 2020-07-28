@@ -1,13 +1,12 @@
 <template>
-  <div @click="tweetit">Tweet!</div>
+  <a :href="href">Tweet This</a>
 </template>
 
 <script>
 export default {
-  methods: {
-    tweetit() {
-      console.log("working");
-      window.location = `https://twitter.com/intent/tweet?text=thing+here&via=Netlify`;
+  computed: {
+    href: function() {
+      return `https://twitter.com/intent/tweet?text=thing+here&via=Netlify`
     }
   }
 };

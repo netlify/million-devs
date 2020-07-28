@@ -4,11 +4,18 @@
       <span class="name" v-html="user.name"></span>
       <h2 class="number"><abbr title="Developer">Dev</abbr><abbr title="Number">#</abbr> <span v-html="user.number"></span></h2>
     </div>
+    <a :href="milestoneId" class="button" v-if="milestoneId">Find Your Milestone</a>
+    <app-tweet-it class="button"/>
   </div>
 </template>
 <style lang="scss" scoped>
 .dev-info {
   padding: 1rem;
+  background-color: rgba(255,255,255,.9);
+
+  @media (min-width: 26.875em) { /* 430px */
+    border-radius: 0 6px 6px 0;
+  }
 }
 .dev-info .name {
   display: block;
@@ -21,18 +28,75 @@
   margin: 0;
   line-height: 1;
 }
+.button {
+  display: inline-flex;
+  background-color: #FF2260;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin: .5em 1rem;
+}
+.button + .button {
+  margin-left: 0;
+}
+.button:focus,
+.button:hover {
+  background-color: #d4194d;
+}
 abbr {
   text-decoration: none;
 }
 </style>
 <script>
 import { mapState } from "vuex";
+import AppTweetIt from "@/components/AppTweetit.vue";
 
 export default {
   computed: {
-    ...mapState(["user"])
+    ...mapState(["user"]),
+    milestoneId: function() {
+      let ids = {
+        jet: 0, // but really 7656
+        redirect: 12400,
+        github: 28112, // out of order?
+        letsencrypt: 18558,
+        seed: 31226,
+        deploypreview: 33769,
+        deploybutton: 44319,
+        twodoto: 74179,
+        splittesting: 82983,
+        auditlogs: 90554,
+        smashing: 128546,
+        netlifycms: 135652,
+        functions: 183658,
+        drop: 269271,
+        jamstack1: 308307,
+        largemedia: 395967,
+        "statue-dev": 435285,
+        analyticsuk: 520824,
+        book: 542309,
+        "golden-gate": 626192,
+        docs: 625040,
+        virtual: 948344,
+        "build-plugins": 948344,
+        million: 1000000
+      };
+
+      let userNumber = parseInt((""+this.user.number).replace(/[^\d]*/g, ""), 10);
+      let lastId = 0;
+      for(let idStr in ids) {
+        if(userNumber < ids[idStr]) {
+          return `#milestone-${lastId}`;
+        }
+        lastId = idStr;
+      }
+      return false;
+    }
   },
   props: {},
-  components: {}
+  components: {
+    AppTweetIt
+  }
 }
 </script>
