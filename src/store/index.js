@@ -51,6 +51,8 @@ export default new Vuex.Store({
         million: "1-million-developers"
       };
 
+      // TODO use a Netlify env variable for this origin?
+      // Use the full URL, this text is going on the tweet
       return `https://million-devs.netlify.app/share/${slugs[getters.milestone]}/`;
     },
     milestone: function(state) {
