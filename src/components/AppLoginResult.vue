@@ -56,42 +56,7 @@ export default {
   computed: {
     ...mapState(["user"]),
     milestoneId: function() {
-      let ids = {
-        jet: 0, // but really 7656
-        redirect: 12400,
-        github: 28112, // out of order?
-        letsencrypt: 18558,
-        seed: 31226,
-        deploypreview: 33769,
-        deploybutton: 44319,
-        twodoto: 74179,
-        splittesting: 82983,
-        auditlogs: 90554,
-        smashing: 128546,
-        netlifycms: 135652,
-        functions: 183658,
-        drop: 269271,
-        jamstack1: 308307,
-        largemedia: 395967,
-        "statue-dev": 435285,
-        analyticsuk: 520824,
-        book: 542309,
-        "golden-gate": 626192,
-        docs: 625040,
-        virtual: 948344,
-        "build-plugins": 948344,
-        million: 1000000
-      };
-
-      let userNumber = parseInt((""+this.user.number).replace(/[^\d]*/g, ""), 10);
-      let lastId = 0;
-      for(let idStr in ids) {
-        if(userNumber < ids[idStr]) {
-          return `#milestone-${lastId}`;
-        }
-        lastId = idStr;
-      }
-      return false;
+      return this.$store.getters.milestoneId;
     }
   },
   props: {},
