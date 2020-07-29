@@ -23,7 +23,37 @@ export default new Vuex.Store({
     }
   },
   getters: {
-    milestoneId: function(state) {
+    tweetPreviewLink: function(state, getters) {
+      let slugs = {
+        jet: "launch",
+        redirect: "redirects",
+        github: "gitlab",
+        letsencrypt: "lets-encrypt",
+        seed: "seed-funding",
+        deploypreview: "deploy-previews",
+        deploybutton: "deploy-to-netlify",
+        twodoto: "design-system",
+        splittesting: "split-testing",
+        auditlogs: "audit-logs",
+        smashing: "smashing-magazine",
+        netlifycms: "netlify-cms",
+        functions: "netlify-functions",
+        drop: "netlify-drop",
+        jamstack1: "jamstack-conf",
+        largemedia: "netlify-large-media",
+        "statue-dev": "netlify-dev",
+        analyticsuk: "netlify-analytics",
+        book: "jamstack-book",
+        "golden-gate": "jamstack-sf",
+        docs: "docs",
+        virtual: "jamstack-virtual",
+        "build-plugins": "build-plugins",
+        million: "1-million-developers"
+      };
+
+      return `https://million-devs.netlify.app/share/${slugs[getters.milestone]}/`;
+    },
+    milestone: function(state) {
       let ids = {
         jet: 0, // but really 7656
         redirect: 12400,
@@ -55,7 +85,7 @@ export default new Vuex.Store({
       let lastId = 0;
       for(let idStr in ids) {
         if(userNumber < ids[idStr]) {
-          return `#milestone-${lastId}`;
+          return lastId;
         }
         lastId = idStr;
       }

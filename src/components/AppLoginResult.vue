@@ -4,7 +4,7 @@
       <span class="name" v-html="user.name"></span>
       <h2 class="number"><abbr title="Developer">Dev</abbr><abbr title="Number">#</abbr> <span v-html="user.number"></span></h2>
     </div>
-    <a :href="milestoneId" class="button" v-if="milestoneId">Find Your Milestone</a>
+    <a :href="milestoneHref" class="button" v-if="milestoneHref">Find Your Milestone</a>
     <app-tweet-it class="button"/>
   </div>
 </template>
@@ -55,8 +55,12 @@ import AppTweetIt from "@/components/AppTweetit.vue";
 export default {
   computed: {
     ...mapState(["user"]),
-    milestoneId: function() {
-      return this.$store.getters.milestoneId;
+    milestoneHref: function() {
+      let id = this.$store.getters.milestone;
+      if(id) {
+        return `#milestone-${id}`;
+      }
+      return false;
     }
   },
   props: {},
