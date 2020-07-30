@@ -59,7 +59,7 @@ export default {
     },
     removeHash: function() {
       document.location.hash = '';
-      history.pushState("", document.title, `${window.location.pathname}${window.location.search}`)
+      history.replaceState("", document.title, `${window.location.pathname}${window.location.search}`);
     },
     decode: function(s) {
       return decodeURIComponent(s).replace(/\+/g, ' ')
