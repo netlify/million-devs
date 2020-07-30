@@ -2006,7 +2006,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     bookAnim() {
@@ -2015,7 +2015,7 @@ export default {
 
       gsap.set(path, {
         strokeDashoffset: pathlength,
-        strokeDasharray: pathlength
+        strokeDasharray: pathlength,
       });
 
       gsap
@@ -2023,23 +2023,23 @@ export default {
           scrollTrigger: {
             trigger: "#seed",
             toggleActions: this.toggleConfig,
-            start: this.startConfig
+            start: this.startConfig,
           },
           defaults: {
             duration: 1,
-            ease: "sine"
-          }
+            ease: "sine",
+          },
         })
         .add("seed")
         .fromTo(
           "g[data-name='barchart']",
           {
             scaleY: 0,
-            transformOrigin: "50% 100%"
+            transformOrigin: "50% 100%",
           },
           {
             scaleY: 1,
-            stagger: -0.15
+            stagger: -0.15,
           },
           "seed"
         )
@@ -2047,7 +2047,7 @@ export default {
           path,
           1.5,
           {
-            strokeDashoffset: 0
+            strokeDashoffset: 0,
           },
           "seed"
         )
@@ -2055,17 +2055,15 @@ export default {
           "#arrowhead",
           {
             opacity: 0,
-            ease: "sine"
+            ease: "sine",
           },
           "seed+=1"
         );
-    }
+    },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.bookAnim();
-    }
-  }
+    this.bookAnim();
+  },
 };
 </script>
 

@@ -1867,9 +1867,7 @@ export default {
     },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.githubAnim();
-    }
+    this.githubAnim();
   },
 };
 </script>

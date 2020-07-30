@@ -2323,9 +2323,7 @@ export default {
     },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.deployPreview();
-    }
+    this.deployPreview();
   },
 };
 </script>

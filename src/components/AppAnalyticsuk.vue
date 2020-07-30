@@ -1466,9 +1466,7 @@ export default {
     },
   },
   mounted() {
-    if (this.isAnimationDisabled) {
-      this.analytics();
-    }
+    this.analytics();
   },
 };
 </script>

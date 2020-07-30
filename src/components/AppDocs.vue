@@ -1540,9 +1540,7 @@ export default {
     },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.docs();
-    }
+    this.docs();
   },
 };
 </script>

@@ -3501,9 +3501,7 @@ export default {
     },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.buildplugins();
-    }
+    this.buildplugins();
   },
 };
 </script>

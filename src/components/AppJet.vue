@@ -2126,15 +2126,10 @@ export default {
           },
           "start+=1"
         );
-
-      tl.pause(0).kill(true);
-      ScrollTrigger.getById("jet").kill(true);
     },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.rocketAnim();
-    }
+    this.rocketAnim();
   },
 };
 </script>

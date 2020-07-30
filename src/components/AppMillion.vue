@@ -3639,9 +3639,7 @@ export default {
     },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.millionAnim();
-    }
+    this.millionAnim();
   },
 };
 </script>

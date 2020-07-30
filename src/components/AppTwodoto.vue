@@ -1676,7 +1676,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     twoAnim() {
@@ -1685,19 +1685,19 @@ export default {
           scrollTrigger: {
             trigger: "#two",
             toggleActions: this.toggleConfig,
-            start: this.startConfig
+            start: this.startConfig,
           },
           defaults: {
             duration: 1,
-            ease: "sine"
-          }
+            ease: "sine",
+          },
         })
         .add("two")
         .from(
           "#netlify-letters path",
           {
             stagger: 0.1,
-            opacity: 0
+            opacity: 0,
           },
           "two"
         )
@@ -1706,7 +1706,7 @@ export default {
           {
             duration: 0.3,
             x: -10,
-            y: -10
+            y: -10,
           },
           "two"
         )
@@ -1714,17 +1714,15 @@ export default {
           "#thought-bubbles g, #code-bubble1, #code-bubble2",
           {
             stagger: 0.3,
-            opacity: 0
+            opacity: 0,
           },
           "two+=0.3"
         );
-    }
+    },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.twoAnim();
-    }
-  }
+    this.twoAnim();
+  },
 };
 </script>
 
