@@ -850,7 +850,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     splitTesting() {
@@ -859,12 +859,12 @@ export default {
           scrollTrigger: {
             trigger: `#splittesting`,
             toggleActions: this.toggleConfig,
-            start: this.startConfig
+            start: this.startConfig,
           },
           defaults: {
             duration: 1,
-            ease: "back"
-          }
+            ease: "back",
+          },
         })
         .add("split")
         .from(
@@ -873,7 +873,7 @@ export default {
             opacity: 0.5,
             rotation: 180,
             scale: 0,
-            transformOrigin: "50% 50%"
+            transformOrigin: "50% 50%",
           },
           "split"
         )
@@ -883,7 +883,7 @@ export default {
             opacity: 0.5,
             rotation: -30,
             transformOrigin: "100% 0%",
-            ease: "back.out(2)"
+            ease: "back.out(2)",
           },
           "split"
         )
@@ -893,7 +893,7 @@ export default {
             opacity: 0.5,
             rotation: 30,
             transformOrigin: "0% 0%",
-            ease: "back.out(2)"
+            ease: "back.out(2)",
           },
           "split"
         )
@@ -901,7 +901,7 @@ export default {
           "#A, #B",
           {
             opacity: 0,
-            ease: "sine"
+            ease: "sine",
           },
           "split+=0.5"
         )
@@ -910,17 +910,15 @@ export default {
           {
             opacity: 0,
             stagger: 0.2,
-            ease: "sine"
+            ease: "sine",
           },
           "split+=1"
         );
-    }
+    },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.splitTesting();
-    }
-  }
+    this.splitTesting();
+  },
 };
 </script>
 

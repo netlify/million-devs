@@ -612,7 +612,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     smashingAnim() {
@@ -621,7 +621,7 @@ export default {
 
       gsap.set(path, {
         strokeDashoffset: pathlength,
-        strokeDasharray: pathlength
+        strokeDasharray: pathlength,
       });
 
       gsap
@@ -629,12 +629,12 @@ export default {
           scrollTrigger: {
             trigger: "#smashing",
             toggleActions: this.toggleConfig,
-            start: this.startConfig
+            start: this.startConfig,
           },
           defaults: {
             duration: 1,
-            ease: "sine"
-          }
+            ease: "sine",
+          },
         })
         .add("smashing")
         .from(
@@ -645,7 +645,7 @@ export default {
             scale: 0.5,
             transformOrigin: "50% 50%",
             stagger: 0.1,
-            ease: "back"
+            ease: "back",
           },
           "smashing"
         )
@@ -654,7 +654,7 @@ export default {
           {
             opacity: 0,
             scale: 0.5,
-            transformOrigin: "50% 50%"
+            transformOrigin: "50% 50%",
           },
           "smashing+=0.5"
         )
@@ -663,7 +663,7 @@ export default {
           {
             opacity: 0,
             scale: 0.5,
-            transformOrigin: "50% 50%"
+            transformOrigin: "50% 50%",
           },
           "smashing+=1"
         )
@@ -672,24 +672,22 @@ export default {
           {
             opacity: 0,
             scale: 0.5,
-            transformOrigin: "50% 50%"
+            transformOrigin: "50% 50%",
           },
           "smashing+=1.5"
         )
         .to(
           path,
           {
-            strokeDashoffset: 0
+            strokeDashoffset: 0,
           },
           "smashing"
         );
-    }
+    },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.smashingAnim();
-    }
-  }
+    this.smashingAnim();
+  },
 };
 </script>
 

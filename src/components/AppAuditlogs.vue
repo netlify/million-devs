@@ -3553,9 +3553,7 @@ export default {
     },
   },
   mounted() {
-    if (this.isAnimationDisabled) {
-      this.auditLogs();
-    }
+    this.auditLogs();
   },
 };
 </script>

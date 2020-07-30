@@ -1634,9 +1634,7 @@ export default {
     },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.encryptAnim();
-    }
+    this.encryptAnim();
   },
 };
 </script>

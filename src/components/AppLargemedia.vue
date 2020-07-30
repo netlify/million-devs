@@ -2611,9 +2611,7 @@ export default {
     },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.lmAnim();
-    }
+    this.lmAnim();
   },
 };
 </script>

@@ -1163,22 +1163,22 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   props: {
     x: {
       type: [Number, String],
-      default: 1200
+      default: 1200,
     },
     y: {
       type: [Number, String],
-      default: 50
-    }
+      default: 50,
+    },
   },
   methods: {
     redirectAnim() {
       gsap.set(".computer, .access g", {
-        transformOrigin: "50% 50%"
+        transformOrigin: "50% 50%",
       });
 
       gsap
@@ -1186,8 +1186,8 @@ export default {
           scrollTrigger: {
             trigger: ".redirect",
             toggleActions: this.toggleConfig,
-            start: this.startConfig
-          }
+            start: this.startConfig,
+          },
         })
         .add("redirect")
         .fromTo(
@@ -1196,13 +1196,13 @@ export default {
             duration: 0.5,
             opacity: 0,
             scale: 0.9,
-            transformOrigin: "50% 50%"
+            transformOrigin: "50% 50%",
           },
           {
             opacity: 1,
             scale: 1,
             stagger: 0.05,
-            ease: "back.out(1.7)"
+            ease: "back.out(1.7)",
           },
           "redirect"
         )
@@ -1215,17 +1215,15 @@ export default {
             rotation: -180,
             stagger: 0.3,
             ease: "back.out(1.7)",
-            transformOrigin: "50% 50%"
+            transformOrigin: "50% 50%",
           },
           "redirect"
         );
-    }
+    },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.redirectAnim();
-    }
-  }
+    this.redirectAnim();
+  },
 };
 </script>
 

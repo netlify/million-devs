@@ -1726,9 +1726,7 @@ export default {
     },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.bookAnim();
-    }
+    this.bookAnim();
   },
 };
 </script>

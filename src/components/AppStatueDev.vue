@@ -1347,7 +1347,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     devAnim() {
@@ -1356,12 +1356,12 @@ export default {
           scrollTrigger: {
             trigger: "#statuedev",
             toggleActions: this.toggleConfig,
-            start: this.startConfig
+            start: this.startConfig,
           },
           defaults: {
             duration: 1,
-            ease: "sine"
-          }
+            ease: "sine",
+          },
         })
         .add("statue")
         .from(
@@ -1370,7 +1370,7 @@ export default {
             stagger: 0.01,
             scale: 0.4,
             opacity: 0,
-            transformOrigin: "50% 100%"
+            transformOrigin: "50% 100%",
           },
           "statue"
         )
@@ -1379,17 +1379,15 @@ export default {
           {
             scaleX: 0,
             duration: 0.3,
-            transformOrigin: "50% 50%"
+            transformOrigin: "50% 50%",
           },
           "statue"
         );
-    }
+    },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.devAnim();
-    }
-  }
+    this.devAnim();
+  },
 };
 </script>
 

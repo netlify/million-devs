@@ -637,9 +637,7 @@ export default {
     },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.deployButton();
-    }
+    this.deployButton();
   },
 };
 </script>

@@ -930,9 +930,7 @@ export default {
     },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.jamstackAnim();
-    }
+    this.jamstackAnim();
   },
 };
 </script>

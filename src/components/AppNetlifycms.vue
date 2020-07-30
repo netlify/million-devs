@@ -2536,9 +2536,7 @@ export default {
     },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.cmsAnim();
-    }
+    this.cmsAnim();
   },
 };
 </script>

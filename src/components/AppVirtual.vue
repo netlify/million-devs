@@ -6589,7 +6589,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
     virtual() {
@@ -6598,13 +6598,13 @@ export default {
           scrollTrigger: {
             trigger: "#virtual",
             toggleActions: this.toggleConfig,
-            start: "center 60%"
+            start: "center 60%",
           },
           defaults: {
             duration: 1,
             transformOrigin: "50% 50%",
-            ease: "back.out(1)"
-          }
+            ease: "back.out(1)",
+          },
         })
         .add("virtual")
         .from(
@@ -6612,24 +6612,22 @@ export default {
           {
             opacity: 0,
             scale: 0,
-            stagger: 0.06
+            stagger: 0.06,
           },
           "virtual"
         )
         .from(
           "#Shadowjm_1, #Shadowjm_2, #Shadowjm_3, #Shadowjm_4",
           {
-            opacity: 0
+            opacity: 0,
           },
           "virtual+=1"
         );
-    }
+    },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.virtual();
-    }
-  }
+    this.virtual();
+  },
 };
 </script>
 

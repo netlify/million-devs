@@ -4723,9 +4723,7 @@ export default {
     },
   },
   mounted() {
-    if (!this.isAnimationDisabled) {
-      this.goldengate();
-    }
+    this.goldengate();
   },
 };
 </script>
