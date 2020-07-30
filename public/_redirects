@@ -1,3 +1,1 @@
-#/ /million-devs/ 301!
-/million-devs/ / 200!
 /million-devs/share/* https://million-devs-api.netlify.app/share/:splat 200!
