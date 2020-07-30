@@ -1,7 +1,7 @@
 <template>
   <g>
     <app-bush x="800" y="4300" />
-    <app-largemedia />
+    <app-largemedia id="milestone-largemedia" />
     <app-text x="0" y="4680" num="14">
       <template v-slot:date>Feb 26, 2019</template>
       <template v-slot:event>Netlify Large Media is born</template>
@@ -9,7 +9,7 @@
 
     <app-tree x="550" y="4500" />
 
-    <app-statue-dev />
+    <app-statue-dev id="milestone-statue-dev" />
     <app-text x="950" y="4500" num="15">
       <template v-slot:date>April 09, 2019</template>
       <template v-slot:event>Netlify Dev public beta</template>
@@ -18,7 +18,7 @@
 
     <app-bush x="1100" y="4750" />
 
-    <app-book />
+    <app-book id="milestone-book" />
     <app-text x="1400" y="4800" num="16">
       <template v-slot:date>Jul 31, 2019</template>
       <template v-slot:event>First O'Reilly Jamstack Book</template>
@@ -27,7 +27,7 @@
     <app-streetlamp2 x="1100" y="4950" />
     <app-tree x="1000" y="5000" />
 
-    <app-analyticsuk />
+    <app-analyticsuk id="milestone-analyticsuk" />
     <app-text x="1000" y="5500" num="17">
       <template v-slot:date>Jul 10, 2019</template>
       <template v-slot:event>Launched Netlify Analytics</template>
@@ -39,14 +39,14 @@
     <app-tree x="400" y="5100" />
     <app-bush x="500" y="5150" />
 
-    <app-golden-gate />
+    <app-golden-gate id="milestone-golden-gate" />
     <app-text x="0" y="5800" num="18">
       <template v-slot:date>Oct 15, 2019</template>
       <template v-slot:event>Jamstack SF, Jamstack at Scale</template>
       <template v-slot:event2>Nike, Popeyes, Longos speaking</template>
     </app-text>
 
-    <app-docs />
+    <app-docs id="milestone-docs" />
     <app-text x="400" y="6050" num="19">
       <template v-slot:date>Oct 16, 2019</template>
       <template v-slot:event>New and Improved Docs Site!</template>
