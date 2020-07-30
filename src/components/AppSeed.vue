@@ -2009,7 +2009,7 @@ export default {
     ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
-    bookAnim() {
+    seedAnim() {
       const path = this.$refs["arrowline"],
         pathlength = path.getTotalLength();
 
@@ -2062,7 +2062,7 @@ export default {
     },
   },
   mounted() {
-    this.bookAnim();
+    this.seedAnim();
   },
 };
 </script>

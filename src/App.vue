@@ -55,42 +55,6 @@ export default {
     App2020,
     AppJet: () => import("@/components/AppJet.vue"),
   },
-  //   methods: {
-  //     drawCandyland() {
-  //       const path = this.$refs["candyland"],
-  //         pathlength = path.getTotalLength();
-
-  //       gsap.set(path, {
-  //         strokeDashoffset: pathlength,
-  //         strokeDasharray: pathlength
-  //       });
-
-  //       gsap
-  //         .timeline({
-  //           scrollTrigger: {
-  //             trigger: "#timeline",
-  //             toggleActions: this.toggleConfig,
-  //             start: "500px bottom",
-  //             //end: () => "+=" + document.getElementById("timeline").offsetHeight,
-  //             markers: true
-  //             //scrub: true
-  //           }
-  //         })
-  //         .add("candyland")
-  //         .to(
-  //           path,
-  //           {
-  //             duration: 30,
-  //             strokeDashoffset: 0,
-  //             ease: "sine"
-  //           },
-  //           "candyland"
-  //         );
-  //     }
-  //   },
-  //   mounted() {
-  //     this.drawCandyland();
-  //   }
 };
 </script>
 

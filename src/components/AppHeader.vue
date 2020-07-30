@@ -30,7 +30,7 @@
       </div>
     </section>
     <app-scrolldown />
-    <app-animation-switch />
+    <!-- <app-animation-switch /> -->
   </div>
 </template>
 
@@ -38,14 +38,14 @@
 import AppLogin from "@/components/AppLogin.vue";
 import AppMillion from "@/components/AppMillion.vue";
 import AppScrolldown from "@/components/AppScrolldown.vue";
-import AppAnimationSwitch from "@/components/AppAnimationSwitch.vue";
+//import AppAnimationSwitch from "@/components/AppAnimationSwitch.vue";
 
 export default {
   components: {
     AppLogin,
     AppMillion,
     AppScrolldown,
-    AppAnimationSwitch,
+    //AppAnimationSwitch,
   },
 };
 </script>
