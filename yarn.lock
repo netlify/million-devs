@@ -3763,11 +3763,6 @@ gsap@./gsap-bonus.tgz:
   version "3.3.4"
   resolved "./gsap-bonus.tgz#0b4d50afbbdc6de17bb3aab6fa4cd7a36960003e"
 
-gsap@^3.3.4:
-  version "3.3.4"
-  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.3.4.tgz#759b9ecba1d21ad243f0d09900f29c4773b8cb32"
-  integrity sha512-qqrPsuh1eNN+Qtvux8f+UExXtd5N+TFhqyPlUX5PBwwDdig9CUxi50dYzUpSKkOczOmmiLMBiwoywPok1iOlDw==
-
 gzip-size@^5.0.0:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/gzip-size/-/gzip-size-5.1.1.tgz#cb9bee692f87c0612b232840a873904e4c135274"
