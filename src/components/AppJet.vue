@@ -2082,8 +2082,9 @@ export default {
             y: 110,
             opacity: 1,
             scale: 1,
-            ease:
-              "rough({ template: none.out, strength: 1, points: 20, taper: 'none', randomize: true, clamp: false})",
+            ease: "bounce",
+            //ease:
+            //  "rough({ template: none.out, strength: 1, points: 20, taper: 'none', randomize: true, clamp: false})",
           },
           "start"
         )
@@ -2126,6 +2127,8 @@ export default {
           },
           "start+=1"
         );
+
+      return tl;
     },
   },
   mounted() {
