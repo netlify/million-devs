@@ -1,7 +1,8 @@
 <template>
   <svg
-    x="850"
-    y="-400"
+    :x="svgCoords.x"
+    :y="svgCoords.y"
+    id="milestone-jet"
     width="280"
     height="550"
     class="intro"
@@ -2040,6 +2041,7 @@
 </template>
 
 <script>
+import coords from "@/components/coords.js";
 import { gsap } from "gsap";
 import { RoughEase } from "gsap/EasePack";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
@@ -2050,7 +2052,26 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled", "viewportSize"]),
+  },
+  mixins: [coords],
+  props: {
+    x: {
+      type: [Number, String],
+      default: 1200,
+    },
+    y: {
+      type: [Number, String],
+      default: 50,
+    },
+    xSmall: {
+      type: [Number, String],
+      default: 1200,
+    },
+    ySmall: {
+      type: [Number, String],
+      default: 50,
+    },
   },
   methods: {
     rocketAnim() {

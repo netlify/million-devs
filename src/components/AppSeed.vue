@@ -2067,7 +2067,6 @@ export default {
     },
   },
   mounted() {
-    console.log("hi");
     this.seedAnim();
   },
 };

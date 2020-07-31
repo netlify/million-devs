@@ -8,12 +8,16 @@ export default new Vuex.Store({
     toggleConfig: `play pause none pause`,
     startConfig: `center 90%`,
     isAnimationDisabled: false,
+    viewportSize: "large",
     user: {
       name: "",
       number: "",
     },
   },
   mutations: {
+    updateViewportState(state, size) {
+      state.viewportSize = size
+    },
     updateAnimationState(state) {
       state.isAnimationDisabled = !state.isAnimationDisabled
     },
