@@ -1,7 +1,7 @@
 <template>
   <svg
-    x="700"
-    y="4550"
+    :x="svgCoords.x"
+    :y="svgCoords.y"
     width="250"
     height="475"
     id="milestone-statue-dev"
@@ -1341,6 +1341,7 @@
 </template>
 
 <script>
+import coords from "@/components/coords.js";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 import { mapState } from "vuex";
@@ -1349,7 +1350,26 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled", "viewportSize"]),
+  },
+  mixins: [coords],
+  props: {
+    x: {
+      type: [Number, String],
+      default: 1200,
+    },
+    y: {
+      type: [Number, String],
+      default: 50,
+    },
+    xSmall: {
+      type: [Number, String],
+      default: 1200,
+    },
+    ySmall: {
+      type: [Number, String],
+      default: 50,
+    },
   },
   methods: {
     devAnim() {

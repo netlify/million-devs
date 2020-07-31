@@ -1,8 +1,8 @@
 <template>
   <svg
     id="milestone-twodoto"
-    x="800"
-    y="1800"
+    :x="svgCoords.x"
+    :y="svgCoords.y"
     xmlns="http://www.w3.org/2000/svg"
     width="470"
     height="370"
@@ -1671,6 +1671,7 @@
 </template>
 
 <script>
+import coords from "@/components/coords.js";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 import { mapState } from "vuex";
@@ -1679,7 +1680,26 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled", "viewportSize"]),
+  },
+  mixins: [coords],
+  props: {
+    x: {
+      type: [Number, String],
+      default: 1200,
+    },
+    y: {
+      type: [Number, String],
+      default: 50,
+    },
+    xSmall: {
+      type: [Number, String],
+      default: 1200,
+    },
+    ySmall: {
+      type: [Number, String],
+      default: 50,
+    },
   },
   methods: {
     twoAnim() {

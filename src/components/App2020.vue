@@ -4,8 +4,8 @@
     <app-tree x="700" y="5550" />
     <app-bush x="750" y="5600" />
 
-    <app-virtual />
-    <app-text x="1400" y="6500" num="20">
+    <app-virtual x="1200" y="6000" xSmall="50" ySmall="15100" />
+    <app-text x="1400" y="6500" xSmall="50" ySmall="15600" num="20">
       <template v-slot:date>May 27, 2020</template>
       <template v-slot:event>Jamstack Conf Virtual</template>
     </app-text>
@@ -14,13 +14,13 @@
     <app-tree x="800" y="6250" />
     <app-tree x="850" y="6200" />
 
-    <app-build-plugins />
-    <app-text x="200" y="6700" num="21">
+    <app-build-plugins x="600" y="6500" xSmall="-25" ySmall="15900" />
+    <app-text x="200" y="6700" xSmall="75" ySmall="16450" num="21">
       <template v-slot:date>May 27, 2020</template>
       <template v-slot:event>Launched Build Plugins</template>
     </app-text>
 
-    <app-million x="640" y="7000" width="750" height="750" :num="2" />
+    <app-million x="640" y="7000" width="750" height="750" xSmall="-100" ySmall="16900" :num="2" />
   </g>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <svg
-    :x="x"
-    :y="y"
+    :x="svgCoords.x"
+    :y="svgCoords.y"
     width="300"
     height="400"
     id="milestone-auditlogs"
@@ -3500,6 +3500,7 @@
 </template>
 
 <script>
+import coords from "@/components/coords.js";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 import { mapState } from "vuex";
@@ -3507,18 +3508,27 @@ import { mapState } from "vuex";
 gsap.registerPlugin(ScrollTrigger);
 
 export default {
+  computed: {
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled", "viewportSize"]),
+  },
+  mixins: [coords],
   props: {
     x: {
       type: [Number, String],
-      default: 1100,
+      default: 1200,
     },
     y: {
       type: [Number, String],
-      default: 1500,
+      default: 50,
     },
-  },
-  computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
+    xSmall: {
+      type: [Number, String],
+      default: 1200,
+    },
+    ySmall: {
+      type: [Number, String],
+      default: 50,
+    },
   },
   methods: {
     auditLogs() {

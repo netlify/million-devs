@@ -4,7 +4,7 @@
     <section class="intro-section">
       <app-header />
     </section>
-    <svg id="timeline" xmlns="http://www.w3.org/2000/svg" viewBox="0 -500 2000 8300">
+    <svg id="timeline" xmlns="http://www.w3.org/2000/svg" viewBox="0 -500 600 20000"><!-- 0 -500 2000 8300 -->
       <path
         class="cls-1"
         transform="translate(16.1 -440.3)"
@@ -12,7 +12,7 @@
       />
 
       <app-jet x="850" y="-400" xSmall="150" ySmall="-400" />
-      <app-text x="1150" y="-200">
+      <app-text x="1150" y="-200" xSmall="75" ySmall="150">
         <template v-slot:date>Apr 07, 2015</template>
         <template v-slot:event>Netlify officially launches</template>
       </app-text>
@@ -93,9 +93,19 @@ body {
   width: 99%;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1000px) {
   #timeline {
+    max-width: 500px;
+    display: block;
     margin-top: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .svg-tree,
+  .svg-bush,
+  .svg-streetlamp {
+    display: none;
   }
 }
 </style>
