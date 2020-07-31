@@ -4,7 +4,7 @@
     y="1800"
     width="420"
     height="300"
-    id="deploybtn"
+    id="milestone-deploybutton"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 336.5 237.2"
     role="presentation"
@@ -584,7 +584,7 @@ export default {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: "#deploybtn",
+            trigger: "#milestone-deploybutton",
             toggleActions: this.toggleConfig,
             start: this.startConfig,
           },

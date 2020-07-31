@@ -39,7 +39,7 @@
     <app-tree x="600" y="1050" />
     <app-bush x="800" y="1350" />
 
-    <app-deploypreview id="milestone-deploypreview" />
+    <app-deploypreview />
     <app-text x="50" y="1180" num="5">
       <template v-slot:date>Aug 30, 2016</template>
       <template v-slot:event>Introduced Deploy Previews</template>
@@ -49,7 +49,7 @@
     <app-bush x="0" y="1700" />
     <app-bush x="50" y="1750" />
 
-    <app-deploybutton id="milestone-deploybutton" />
+    <app-deploybutton />
     <app-text x="150" y="2050" num="5">
       <template v-slot:date>Aug 30, 2016</template>
       <template v-slot:event>Introduced Deploy to Netlify Button</template>
