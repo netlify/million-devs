@@ -104,7 +104,7 @@ body {
 
 @media only screen and (max-width: 1000px) {
   #timeline {
-    max-width: 500px;
+    max-width: 600px;
     display: block;
     margin-top: 600px;
     margin-left: auto;
