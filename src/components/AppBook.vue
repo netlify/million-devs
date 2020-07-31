@@ -1,8 +1,8 @@
 <template>
   <svg
     id="milestone-book"
-    x="1200"
-    y="5000"
+    :x="svgCoords.x"
+    :y="svgCoords.y"
     width="370"
     height="420"
     xmlns="http://www.w3.org/2000/svg"
@@ -1654,6 +1654,7 @@
 </template>
 
 <script>
+import coords from "@/components/coords.js";
 import { gsap } from "gsap";
 import { mapState } from "vuex";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
@@ -1664,7 +1665,26 @@ gsap.registerPlugin(MorphSVGPlugin);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
+    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled", "viewportSize"]),
+  },
+  mixins: [coords],
+  props: {
+    x: {
+      type: [Number, String],
+      default: 1200,
+    },
+    y: {
+      type: [Number, String],
+      default: 50,
+    },
+    xSmall: {
+      type: [Number, String],
+      default: 1200,
+    },
+    ySmall: {
+      type: [Number, String],
+      default: 50,
+    },
   },
   methods: {
     bookAnim() {
