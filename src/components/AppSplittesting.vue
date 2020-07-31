@@ -7,7 +7,10 @@
     id="splittesting"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 380.2 227.6"
+    role="presentation"
+    aria-labelledby="launchofsplittesting"
   >
+    <title id="launchofsplittesting">Launch of Split Testing</title>
     <defs>
       <mask id="mask" x="88.09" y="84.62" width="37" height="57" maskUnits="userSpaceOnUse">
         <g transform="translate(-0.7 -0.8)">

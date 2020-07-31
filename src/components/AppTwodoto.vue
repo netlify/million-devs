@@ -7,7 +7,10 @@
     width="470"
     height="370"
     viewBox="0 0 361 283"
+    aria-labelledby="netlifyapptwodoto"
+    role="presentation"
   >
+    <title id="netlifyapptwodoto">Netlify App Two Dot O</title>
     <path
       class="cls-2"
       d="M85.8,148H84l-15.2,8.8a3.6,3.6,0,0,0-.2,1.1Z"

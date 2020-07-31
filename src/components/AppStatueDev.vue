@@ -7,7 +7,9 @@
     id="statuedev"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 194.8 396.8"
+    aria-labelledby="jamstacknystatue"
   >
+    <title id="jamstacknystatue">Jamstack New York</title>
     <g id="StatueofLiberty">
       <g id="Building">
         <path

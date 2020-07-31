@@ -7,7 +7,10 @@
     id="virtual"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 351.3 359.1"
+    role="presentation"
+    aria-labelledby="firstvirtualjamstack"
   >
+    <title id="firstvirtualjamstack">First Virtual Jamstack Conf Event</title>
     <g id="Conference">
       <g id="FloatingPaper">
         <g id="XMLID_5848" data-name="XMLID 5848">
