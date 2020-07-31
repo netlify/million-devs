@@ -1,12 +1,12 @@
 <template>
-  <svg
+  <app-svg-wrapper
     id="seed"
     x="800"
     y="950"
+    xSmall="100"
+    ySmall="2300"
     width="350"
     height="375"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 304.6 325.4"
   >
     <g>
@@ -1994,10 +1994,11 @@
       d="M113.4,181.6h-.3a.6.6,0,0,1-.3-.6v-1.4a1.1,1.1,0,0,1,.6-1l1.4-.8h.6a.6.6,0,0,1,.3.6v1.5a1,1,0,0,1-.6,1l-1.4.8Zm1.5-3.2-1.2.7c-.1,0-.2.2-.2.4v1.3l1.2-.7c.1,0,.2-.2.2-.4Z"
       transform="translate(-1 -0.4)"
     />
-  </svg>
+  </app-svg-wrapper>
 </template>
 
 <script>
+import AppSvgWrapper from "@/components/AppSvgWrapper.vue";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 import { mapState } from "vuex";
@@ -2007,6 +2008,9 @@ gsap.registerPlugin(ScrollTrigger);
 export default {
   computed: {
     ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
+  },
+  components: {
+    AppSvgWrapper
   },
   methods: {
     bookAnim() {

@@ -1,5 +1,5 @@
 <template>
-  <svg :x="x" :y="y" width="160" height="200" viewBox="0 0 134 151" fill="none">
+  <svg :x="x" :y="y" width="160" height="200" viewBox="0 0 134 151" fill="none" class="illu-tree">
     <g clip-path="url(#clip0)">
       <path d="M24.682 146.987v.4l.9.5-.9-.9z" fill="#000" />
       <path d="M26.582 145.287l-1 .4 3.2 3.2 1.5.1-3.7-3.7z" fill="#000" />

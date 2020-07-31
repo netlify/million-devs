@@ -1,10 +1,11 @@
 <template>
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
+  <app-svg-wrapper
     width="450"
     height="250"
     :x="x"
     :y="y"
+    :xSmall="xSmall"
+    :ySmall="ySmall"
     viewBox="0 0 280 115.4"
   >
     <g :class="`textnode text${num}`">
@@ -31,10 +32,11 @@
       </text>
       <text class="h" transform="translate(164.5 104.3)">View Milestone</text>
     </g>
-  </svg>
+  </app-svg-wrapper>
 </template>
 
 <script>
+import AppSvgWrapper from "@/components/AppSvgWrapper.vue";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 import { mapState } from "vuex";
@@ -45,12 +47,23 @@ export default {
   computed: {
     ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"])
   },
+  components: {
+    AppSvgWrapper
+  },
   props: {
     x: {
       type: [Number, String],
       default: 1200
     },
     y: {
+      type: [Number, String],
+      default: 500
+    },
+    xSmall: {
+      type: [Number, String],
+      default: 1200
+    },
+    ySmall: {
       type: [Number, String],
       default: 500
     },

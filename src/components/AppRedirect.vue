@@ -1,5 +1,5 @@
 <template>
-  <svg :x="x" :y="y" viewBox="0 0 236.1 284" width="400" height="350" class="redirect">
+  <app-svg-wrapper x="1100" y="150" xSmall="100" ySmall="450" viewBox="0 0 236.1 284" width="400" height="350" class="redirect">
     <g class="computer">
       <path class="a" d="M202.1,48h-1.2V81.4h1.2Z" transform="translate(-0.1 -0.4)" />
       <path class="a" d="M201.6,137.1h-1.3v11.8h1.3Z" transform="translate(-0.1 -0.4)" />
@@ -1151,10 +1151,11 @@
         </g>
       </g>
     </g>
-  </svg>
+  </app-svg-wrapper>
 </template>
 
 <script>
+import AppSvgWrapper from "@/components/AppSvgWrapper.vue"
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 import { mapState } from "vuex";
@@ -1174,6 +1175,15 @@ export default {
       type: [Number, String],
       default: 50,
     },
+    xSmall: {
+      type: [Number, String]
+    },
+    ySmall: {
+      type: [Number, String]
+    },
+  },
+  components: {
+    AppSvgWrapper
   },
   methods: {
     redirectAnim() {

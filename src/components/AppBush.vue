@@ -7,6 +7,7 @@
     viewBox="0 0 148 120"
     xmlns="http://www.w3.org/2000/svg"
     role="img"
+    class="illu-bush"
   >
     <g clip-path="url(#clip0)">
       <path

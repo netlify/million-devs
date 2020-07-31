@@ -1,13 +1,13 @@
 <template>
-  <svg
+  <app-svg-wrapper
     x="220"
     y="1800"
     width="420"
     height="300"
-    id="deploybtn"
-    xmlns="http://www.w3.org/2000/svg"
+    xSmall="100"
+    ySmall="3750"
+    class="deploybtn"
     viewBox="0 0 336.5 237.2"
-    role="presentation"
     aria-labelledby="deploybutton"
   >
     <title id="deploybutton">Creation of Deploy Button</title>
@@ -565,10 +565,11 @@
         transform="translate(0 -0.8)"
       />
     </g>
-  </svg>
+  </app-svg-wrapper>
 </template>
 
 <script>
+import AppSvgWrapper from "@/components/AppSvgWrapper.vue";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 import { mapState } from "vuex";
@@ -579,12 +580,15 @@ export default {
   computed: {
     ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
+  components: {
+    AppSvgWrapper
+  },
   methods: {
     deployButton() {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: "#deploybtn",
+            trigger: ".deploybtn",
             toggleActions: this.toggleConfig,
             start: this.startConfig,
           },

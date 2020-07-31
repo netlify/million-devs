@@ -1,13 +1,12 @@
 <template>
-  <svg
+  <app-svg-wrapper
     x="350"
     y="1350"
+    xSmall="100"
+    ySmall="3050"
     width="380"
     height="380"
-    xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 314.2 328.1"
-    id="deploypreview"
-    role="presentation"
     aria-labelledby="deploypreview"
   >
     <title id="deploypreview">Launch of Atomic Deploy Previews</title>
@@ -2207,10 +2206,11 @@
         transform="translate(-1 -0.4)"
       />
     </g>
-  </svg>
+  </app-svg-wrapper>
 </template>
 
 <script>
+import AppSvgWrapper from "@/components/AppSvgWrapper.vue";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 import { mapState } from "vuex";
@@ -2220,6 +2220,9 @@ gsap.registerPlugin(ScrollTrigger);
 export default {
   computed: {
     ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
+  },
+  components: {
+    AppSvgWrapper
   },
   methods: {
     deployPreview() {

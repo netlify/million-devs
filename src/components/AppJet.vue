@@ -1,13 +1,13 @@
 <template>
-  <svg
+  <app-svg-wrapper
     x="850"
     y="-400"
+    xSmall="150"
+    ySmall="-400"
     width="280"
     height="550"
     class="intro"
-    xmlns="http://www.w3.org/2000/svg"
     viewBox="0 -50 207.8 459.1"
-    role="presentation"
     aria-labelledby="jet"
   >
     <title id="jet">Launch of Netlify!</title>
@@ -2036,10 +2036,11 @@
         />
       </g>
     </g>
-  </svg>
+  </app-svg-wrapper>
 </template>
 
 <script>
+import AppSvgWrapper from "@/components/AppSvgWrapper.vue";
 import { gsap } from "gsap";
 import { RoughEase } from "gsap/EasePack";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
@@ -2052,8 +2053,12 @@ export default {
   computed: {
     ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
+  components: {
+    AppSvgWrapper
+  },
   methods: {
     rocketAnim() {
+      console.log();
       gsap.set(".rocket", {
         y: 120,
         scale: 0.4,

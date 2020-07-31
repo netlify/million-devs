@@ -1,13 +1,12 @@
 <template>
-  <svg
+  <app-svg-wrapper
     x="1020"
     y="620"
+    xSmall="100"
+    ySmall="900"
     width="425"
     height="400"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 -20 314.7 350"
-    role="presentation"
     aria-labelledby="analytics"
   >
     <title id="analytics">Netlify offers free SSL through Let's Encrypt</title>
@@ -1561,10 +1560,11 @@
         transform="translate(0 -0.1)"
       />
     </g>
-  </svg>
+  </app-svg-wrapper>
 </template>
 
 <script>
+import AppSvgWrapper from "@/components/AppSvgWrapper.vue";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 import { mapState } from "vuex";
@@ -1574,6 +1574,9 @@ gsap.registerPlugin(ScrollTrigger);
 export default {
   computed: {
     ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
+  },
+  components: {
+    AppSvgWrapper
   },
   methods: {
     encryptAnim() {

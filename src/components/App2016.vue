@@ -1,65 +1,62 @@
 <template>
   <g>
     <app-tree x="1100" y="50" />
-    <app-redirect x="1100" y="150" id="milestone-redirect" />
     <app-bush />
     <app-streetlamp2 />
-
     <app-tree x="750" y="300" />
     <app-tree x="800" y="320" />
     <app-tree x="700" y="350" />
-
-    <app-github x="500" y="450" id="milestone-github" />
     <app-tree x="1050" y="620" />
+    <app-streetlamp1 x="1450" y="950" />
+    <app-bush x="1350" y="1150" />
+    <app-tree x="600" y="1050" />
+    <app-bush x="800" y="1350" />
+    <app-streetlamp2 x="100" y="1550" />
+    <app-bush x="0" y="1700" />
+    <app-bush x="50" y="1750" />
+    <app-tree x="640" y="2100" />
 
-    <app-text x="200" y="700" num="2">
+    <app-redirect id="milestone-redirect" />
+    
+    <app-github id="milestone-github" />
+    <app-text x="200" y="700" xSmall="75" ySmall="2000" num="2">
       <template v-slot:date>Jul 13, 2016</template>
       <template v-slot:event>Added GitLab integration</template>
       <template v-slot:event2>(in addition to GitHub and Bitbucket)</template>
     </app-text>
 
     <app-letsencrypt id="milestone-letsencrypt" />
-
-    <app-text x="1450" y="650" num="3">
+    <app-text x="1450" y="650" xSmall="75" ySmall="1300" num="3"><!-- 75 / 1300 -->
       <template v-slot:date>Jan 01, 2016</template>
       <template v-slot:event>Netlify first hosting provider to</template>
       <template v-slot:event2>offer free SSL through Let's Encrypt</template>
     </app-text>
 
-    <app-streetlamp1 x="1450" y="950" />
-    <app-bush x="1350" y="1150" />
-
-    <app-seed id="milestone-seed" />
-
-    <app-text x="1180" y="1050" num="4">
+    <app-seed id="milestone-seed" /><!-- 100 / 2300 -->
+    <app-text x="1180" y="1050" xSmall="75" ySmall="2750" num="4"><!-- 75 / 2750 -->
       <template v-slot:date>Aug 16, 2016</template>
       <template v-slot:event>Raised seed funding and joined</template>
       <template v-slot:event2>Heavybit accelerator program</template>
     </app-text>
-    <app-tree x="600" y="1050" />
-    <app-bush x="800" y="1350" />
 
-    <app-deploypreview id="milestone-deploypreview" />
-    <app-text x="50" y="1180" num="5">
+    <app-deploypreview id="milestone-deploypreview" /><!-- 100 / 3050 -->
+    <app-text x="50" y="1180" xSmall="75" ySmall="3450" num="5"><!-- 75 / 3450 -->
       <template v-slot:date>Aug 30, 2016</template>
       <template v-slot:event>Introduced Deploy Previews</template>
     </app-text>
 
-    <app-streetlamp2 x="100" y="1550" />
-    <app-bush x="0" y="1700" />
-    <app-bush x="50" y="1750" />
-
-    <app-deploybutton id="milestone-deploybutton" />
-    <app-text x="150" y="2050" num="5">
+    <app-deploybutton id="milestone-deploybutton" /><!-- 100 / 3750 -->
+    <app-text x="150" y="2050" xSmall="75" ySmall="4050" num="5" ><!-- 75 / 4050 -->
       <template v-slot:date>Aug 30, 2016</template>
       <template v-slot:event>Introduced Deploy to Netlify Button</template>
     </app-text>
-    <app-tree x="640" y="2100" />
+
   </g>
 </template>
 
 <script>
 //repeated elements
+import AppSvgWrapper from "@/components/AppSvgWrapper.vue";
 import AppTree from "@/components/AppTree.vue";
 import AppBush from "@/components/AppBush.vue";
 import AppText from "@/components/AppText.vue";
@@ -81,6 +78,7 @@ export default {
     AppBush,
     AppStreetlamp1,
     AppStreetlamp2,
+    AppSvgWrapper,
     AppSeed: () =>
       import(/* webpackPrefetch: true */ "@/components/AppSeed.vue"),
     AppGithub: () =>

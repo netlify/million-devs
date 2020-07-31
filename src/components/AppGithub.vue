@@ -1,15 +1,5 @@
 <template>
-  <svg
-    :x="x"
-    :y="y"
-    width="500"
-    height="475"
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 372 327.9"
-    class="github-all"
-    role="presentation"
-    aria-labelledby="github"
-  >
+  <app-svg-wrapper x="500" y="450" xSmall="50" ySmall="1550" id="milestone-github" width="500" height="475" viewBox="0 0 372 327.9" class="github-all" aria-labelledby="github">
     <title id="github">Launch of GitHub and GitLab Enterprise</title>
     <g class="thought-bubbles">
       <g>
@@ -1772,10 +1762,11 @@
         transform="translate(-0.6 -0.4)"
       />
     </g>
-  </svg>
+  </app-svg-wrapper>
 </template>
 
 <script>
+import AppSvgWrapper from "@/components/AppSvgWrapper.vue";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 import { mapState } from "vuex";
@@ -1783,8 +1774,20 @@ import { mapState } from "vuex";
 gsap.registerPlugin(ScrollTrigger);
 
 export default {
+  data: function() {
+    return {
+      defaultState() {
+        const x = this.$el.getAttribute("x");
+        const y = this.$el.getAttribute("y");
+        return {x, y}
+      }
+    }
+  },
   computed: {
     ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
+  },
+  components: {
+    AppSvgWrapper
   },
   props: {
     x: {
