@@ -33,6 +33,7 @@
     <app-tree x="0" y="2650" />
     <app-streetlamp1 x="450" y="2600" />
 
+
     <app-smashing x="150" y="2550" xSmall="150" ySmall="6400" />
     <app-text x="100" y="2900" xSmall="75" ySmall="6800" num="9">
       <template v-slot:date>Nov 21, 2017</template>
@@ -48,7 +49,7 @@
     </app-text>
 
     <app-tree x="880" y="3320" />
-    <app-streetlamp1 x="900" y="3280" /> -->
+    <app-streetlamp1 x="900" y="3280" />
   </g>
 </template>
 

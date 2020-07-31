@@ -12,30 +12,23 @@
   >
     <title id="launchofcms">Netlify CMS, a git-based CMS launches</title>
     <g id="ElementsBehind">
-      <g id="drawnlines">
+      <g id="drawnlinescms">
         <polyline
           ref="drawn1"
-          class="cls-1"
+          class="cls-1 drawcms"
           points="335.4 179.6 308.9 165.9 296.2 141.6 279 133.4 266.2 109.8 260.5 113.9 234.8 99 220.3 107.3 176.9 82.2"
         />
         <polyline
-          ref="drawn2"
-          class="cls-1"
+          class="cls-1 drawcms"
           points="266.2 109.8 296.5 90.6 284.8 68 253.4 51.6 243.7 54.9 230.3 47 216.7 59.1 196.4 47.3 187.9 52.2 179.6 47.4"
         />
+        <polyline class="cls-1 drawcms" points="274.9 104.2 266 89 238.1 71.9 228.5 80 210.3 67.5" />
         <polyline
-          ref="drawn3"
-          class="cls-1"
-          points="274.9 104.2 266 89 238.1 71.9 228.5 80 210.3 67.5"
-        />
-        <polyline
-          ref="drawn4"
-          class="cls-1"
+          class="cls-1 drawcms"
           points="333.7 123.1 307.5 109.8 284.8 68 253.4 51.6 243.7 54.9 230.3 47 213.8 37.7 198.4 11.2 180.6 0.9"
         />
         <polyline
-          ref="drawn5"
-          class="cls-1"
+          class="cls-1 drawcms"
           points="333.8 65.8 316.8 57.7 301.4 64.3 274.3 48.6 263.6 56.9 253.4 51.6 243.7 54.9 177.5 16.8"
         />
       </g>
@@ -2116,7 +2109,7 @@
         transform="translate(-0.5 -2.3)"
       />
       <g id="DogsGroup">
-        <g id="Group_34" data-name="Group 34">
+        <g class="cmsdots" id="Group_34" data-name="Group 34">
           <g id="Group_35" data-name="Group 35">
             <path
               id="Vector_113"
@@ -2523,15 +2516,6 @@ export default {
     },
   },
   methods: {
-    // pathAnim(ref) {
-    //   const path = this.$refs[ref],
-    //     pathlength = path.getTotalLength()
-
-    //   gsap.set(path, {
-    //     strokeDashoffset: pathlength,
-    //     strokeDasharray: pathlength,
-    //   })
-    // },
     cmsAnim() {
       gsap
         .timeline({
@@ -2541,19 +2525,48 @@ export default {
             start: this.startConfig,
           },
           defaults: {
-            duration: 1,
+            duration: 0.5,
+            stagger: 0.05,
             ease: "sine",
           },
         })
-        .add("cms");
-      // .to(
-      //   path,
-      //   1.5,
-      //   {
-      //     strokeDashoffset: 0
-      //   },
-      //   "cms"
-      // );
+        .add("cms")
+        .from("#SideTables g", {
+          scaleY: 0,
+          transformOrigin: "100% 50%",
+        })
+        .from(
+          "#FrontElements g",
+          {
+            stagger: 0.01,
+            scale: 0,
+            transformOrigin: "50% 50%",
+          },
+          "cms"
+        )
+        .from(
+          "#cmsdots g",
+          {
+            opacity: 0,
+            transformOrigin: "50% 50%",
+          },
+          "cms"
+        )
+        .from(
+          "#DogsGroup g g",
+          {
+            opacity: 0,
+          },
+          "cms"
+        )
+        .from(
+          "#drawnlinescms",
+          {
+            duration: 1.5,
+            opacity: 0,
+          },
+          "cms"
+        );
     },
   },
   mounted() {
