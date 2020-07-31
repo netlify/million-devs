@@ -20,7 +20,7 @@
       <template v-slot:event>Launched Build Plugins</template>
     </app-text>
 
-    <app-million x="640" y="7000" width="750" height="750" xSmall="-100" ySmall="16900" :num="2" />
+    <app-million x="640" y="7000" width="750" height="750" xSmall="-75" ySmall="16900" :num="2" />
   </g>
 </template>
 
