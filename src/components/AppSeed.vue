@@ -8,7 +8,10 @@
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 304.6 325.4"
+    aria-labelledby="netlifyseedfundinground"
+    role="presentation"
   >
+    <title id="netlifyseedfundinground">Netlify's Seed Funding Round</title>
     <g>
       <path
         class="cls-2"
@@ -1019,7 +1022,7 @@
         transform="translate(-1 -0.4)"
       />
     </g>
-    <g id="barchart">
+    <g class="barchartseed">
       <path
         class="cls-4"
         d="M97.6,275.4l23.5-13.6-5.9-3.5L91.8,271.9Z"
@@ -1181,7 +1184,7 @@
       d="M164,67.9a4.6,4.6,0,0,1-2.3-.6l-14.1-8.1a2.1,2.1,0,0,1-1.1-1.9,2,2,0,0,1,1.1-1.8L162,47.2a4.2,4.2,0,0,1,4.3,0l14.1,8.1a2.1,2.1,0,0,1,1.1,1.9,2,2,0,0,1-1.1,1.8l-14.2,8.2A3.8,3.8,0,0,1,164,67.9Zm.2-20a5.3,5.3,0,0,0-1.6.4l-14.2,8.2a.8.8,0,0,0-.4.7.6.6,0,0,0,.4.6L162.5,66a2.7,2.7,0,0,0,3,0l14.3-8.2a.6.6,0,0,0,.4-.6.7.7,0,0,0-.4-.7l-14.1-8.2A3.7,3.7,0,0,0,164.2,47.9Z"
       transform="translate(-1 -0.4)"
     />
-    <g id="barchart-2" data-name="barchart">
+    <g id="barchart-2" class="barchartseed">
       <path
         class="cls-2"
         d="M156.2,138.1V90.8H156L141,92l-1.3-8.3h-.2l-13.8,7.9h-.2l-2.6-.8c-.1,0-.1,0-.1.2v47.1a1.6,1.6,0,0,0,.6,1.2l14,8.2a4.2,4.2,0,0,0,3.8,0l14.3-8.2A1.7,1.7,0,0,0,156.2,138.1Z"
@@ -1223,7 +1226,7 @@
         transform="translate(-1 -0.4)"
       />
     </g>
-    <g id="barchart-3" data-name="barchart">
+    <g id="barchart-3" class="barchartseed">
       <path
         class="cls-3"
         d="M114.5,162.6a4.6,4.6,0,0,1-2.3-.6l-14.1-8.1a2.3,2.3,0,0,1-1.1-1.6V120.4a1.5,1.5,0,0,1,.3-.7.8.8,0,0,1,.7-.1l2.3.7,13.8-7.9a.6.6,0,0,1,.8,0h.2l1.3,8,14.7-1.3h.1c.4.1.5.4.5.8v32.1a2,2,0,0,1-1,1.7l-14,8.2A4.6,4.6,0,0,1,114.5,162.6Zm-16-41.5v31a.6.6,0,0,0,.4.5l14,8.2a3.4,3.4,0,0,0,3.1,0l14.3-8.2c.4-.3.4-.5.4-.7V120.7L116.2,122h-.3l-.3-.2-1.3-7.8-13.6,7.8h-.4Z"
@@ -1270,7 +1273,7 @@
       d="M75.7,169.4l-2.4-1.5a2.3,2.3,0,0,1-1.1-1.6V151.8a1.1,1.1,0,0,1,.3-.6c.1-.2.5-.3.6-.2l3.2.9-.2.7a4.1,4.1,0,0,0-.4,1.2Zm-2.2-16.8v13.6a.9.9,0,0,0,.4.5l.4.3V153.5a1.4,1.4,0,0,0,.3-.6Z"
       transform="translate(-1 -0.4)"
     />
-    <g id="barchart-4" data-name="barchart">
+    <g id="barchart-4" class="barchartseed">
       <path
         class="cls-2"
         d="M106.4,166.1V151.6s0-.2-.1-.2l-15.1,1.3-1.3-8.3h-.1l-13.9,7.9h-.1l-2.7-.7H73v14.4a1.7,1.7,0,0,0,.7,1.2l14,8.1a3.7,3.7,0,0,0,3.8,0l14.2-8.1A1.6,1.6,0,0,0,106.4,166.1Z"
@@ -1350,7 +1353,7 @@
         transform="translate(-1 -0.4)"
       />
     </g>
-    <g id="barchart-5" data-name="barchart">
+    <g id="barchart-5" class="barchartseed">
       <path
         class="cls-2"
         d="M117.5,84.5H100.7a.4.4,0,0,0-.4.4V94a1.9,1.9,0,0,0,1.2,1.5l5,2.9a5.1,5.1,0,0,0,4.8.1l5.7-3.3a1.7,1.7,0,0,0,.8-1.3V84.6Z"
@@ -1379,7 +1382,7 @@
       <path class="cls-2" d="M116.3,87.8h-.8v6.7h.8Z" transform="translate(-1 -0.4)" />
       <path class="cls-3" d="M107.7,91.8h-.8v7h.8Z" transform="translate(-1 -0.4)" />
     </g>
-    <g id="barchart-6" data-name="barchart">
+    <g id="barchart-6" class="barchartseed">
       <path
         class="cls-2"
         d="M18.6,147.9H1.9a.4.4,0,0,0-.4.4v4.4q0,.9,1.2,1.5l5,2.9a4.9,4.9,0,0,0,4.7.1l5.7-3.3a1.7,1.7,0,0,0,.8-1.3v-4.5C19,148,18.8,147.9,18.6,147.9Z"
@@ -1408,7 +1411,7 @@
       <path class="cls-2" d="M17.5,151.2h-.8v1.9h.8Z" transform="translate(-1 -0.4)" />
       <path class="cls-3" d="M8.9,153.9H8.1v3.5h.8Z" transform="translate(-1 -0.4)" />
     </g>
-    <g id="barchart-7" data-name="barchart">
+    <g id="barchart-7" class="barchartseed">
       <path
         class="cls-2"
         d="M25,72.2H8.2c-.1,0-.4.2-.4.4v4.5A1.9,1.9,0,0,0,9,78.6l5,2.9a5.1,5.1,0,0,0,4.8.1l5.6-3.3a1.5,1.5,0,0,0,.8-1.3V72.5C25.2,72.4,25.1,72.2,25,72.2Z"
@@ -1437,7 +1440,7 @@
       <path class="cls-2" d="M23.7,75.5h-.8v2h.8Z" transform="translate(-1 -0.4)" />
       <path class="cls-3" d="M15.2,78.4h-.8v3.5h.8Z" transform="translate(-1 -0.4)" />
     </g>
-    <g id="barchart-8" data-name="barchart">
+    <g id="barchart-8" class="barchartseed">
       <path
         class="cls-2"
         d="M244.2,315.3H227.4c-.1,0-.4.2-.4.4v4.5q0,.9,1.2,1.5l5,2.9a5.1,5.1,0,0,0,4.8.1l5.7-3.3a1.7,1.7,0,0,0,.8-1.3v-4.5C244.6,315.5,244.5,315.3,244.2,315.3Z"
@@ -2009,7 +2012,7 @@ export default {
     ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
   methods: {
-    bookAnim() {
+    seedAnim() {
       const path = this.$refs["arrowline"],
         pathlength = path.getTotalLength();
 
@@ -2018,10 +2021,10 @@ export default {
         strokeDasharray: pathlength,
       });
 
-      gsap
+      const tl = gsap
         .timeline({
           scrollTrigger: {
-            trigger: "#seed",
+            trigger: "#seedfunding",
             toggleActions: this.toggleConfig,
             start: this.startConfig,
           },
@@ -2030,9 +2033,9 @@ export default {
             ease: "sine",
           },
         })
-        .add("seed")
+        .add("seedfunding")
         .fromTo(
-          "g[data-name='barchart']",
+          ".barchartseed",
           {
             scaleY: 0,
             transformOrigin: "50% 100%",
@@ -2041,7 +2044,7 @@ export default {
             scaleY: 1,
             stagger: -0.15,
           },
-          "seed"
+          "seedfunding"
         )
         .to(
           path,
@@ -2049,7 +2052,7 @@ export default {
           {
             strokeDashoffset: 0,
           },
-          "seed"
+          "seedfunding"
         )
         .from(
           "#arrowhead",
@@ -2057,12 +2060,15 @@ export default {
             opacity: 0,
             ease: "sine",
           },
-          "seed+=1"
+          "seedfunding+=1"
         );
+
+      return tl;
     },
   },
   mounted() {
-    this.bookAnim();
+    console.log("hi");
+    this.seedAnim();
   },
 };
 </script>

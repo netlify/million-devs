@@ -7,7 +7,10 @@
     height="400"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 254.6 320.8"
+    aria-labelledby="smashingmigratestojamstack"
+    role="presentation"
   >
+    <title id="smashingmigratestojamstack">smashing migrates to jamstack</title>
     <g id="Blocke_2" data-name="Blocke 2">
       <g id="Shadow">
         <polygon class="cls-1" points="217.7 226.7 237.2 215.5 236.5 215 217 226.2 217.7 226.7" />

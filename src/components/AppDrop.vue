@@ -8,9 +8,9 @@
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 293.4 236.3"
     role="presentation"
-    aria-labelledby="drop"
+    aria-labelledby="launchofdrop"
   >
-    <title id="drop">Launch of Netlify Drop</title>
+    <title id="launchofdrop">Launch of Netlify Drop</title>
     <path
       class="cls-1"
       d="M202,83.6l1,65.3a6.8,6.8,0,0,0,2.9,5.3l84.3,49.6a2.9,2.9,0,0,0,3.4-1.2,3.2,3.2,0,0,0,.3-1.4V135.6a6.6,6.6,0,0,0-2.7-5L205.6,81.4C204.4,80.5,202,81.6,202,83.6Z"

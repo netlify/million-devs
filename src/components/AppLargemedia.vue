@@ -8,9 +8,9 @@
     viewBox="0 0 246 283"
     xmlns="http://www.w3.org/2000/svg"
     role="presentation"
-    aria-labelledby="largemedia"
+    aria-labelledby="launchoflargemedia"
   >
-    <title id="largemedia">Launch of Netlify Large Media</title>
+    <title id="launchoflargemedia">Launch of Netlify Large Media</title>
     <g id="2019_02_LargeMedia">
       <g id="Shadow">
         <path

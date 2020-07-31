@@ -8,9 +8,9 @@
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 317.3 253.5"
     role="presentation"
-    aria-labelledby="functions"
+    aria-labelledby="launchoffunctions"
   >
-    <title id="functions">Launch of Netlify Functions</title>
+    <title id="launchoffunctions">Launch of Netlify Functions</title>
     <defs>
       <clipPath id="clip-path" transform="translate(-0.9 -1)">
         <rect class="cls-1" x="12" y="152" width="27" height="28" />

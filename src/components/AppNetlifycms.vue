@@ -8,9 +8,9 @@
     height="380"
     viewBox="0 0 336.7 274.4"
     role="presentation"
-    aria-labelledby="cms"
+    aria-labelledby="launchofcms"
   >
-    <title id="cms">Netlify CMS, a git-based CMS launches</title>
+    <title id="launchofcms">Netlify CMS, a git-based CMS launches</title>
     <g id="ElementsBehind">
       <g id="drawnlines">
         <polyline

@@ -8,9 +8,9 @@
     xmlns="http://www.w3.org/2000/svg"
     viewBox="-50 -50 400 300"
     role="presentation"
-    aria-labelledby="buildplugins"
+    aria-labelledby="buildpluginsga"
   >
-    <title id="buildplugins">GA of Build Plugins</title>
+    <title id="buildpluginsga">GA of Build Plugins</title>
     <g id="Puzzle">
       <g id="Piece-4">
         <path

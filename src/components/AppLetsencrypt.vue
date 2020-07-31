@@ -8,9 +8,9 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 -20 314.7 350"
     role="presentation"
-    aria-labelledby="analytics"
+    aria-labelledby="letsencryptssl"
   >
-    <title id="analytics">Netlify offers free SSL through Let's Encrypt</title>
+    <title id="letsencryptssl">Netlify offers free SSL through Let's Encrypt</title>
     <defs>
       <clipPath id="clip-path" transform="translate(0 -0.1)">
         <rect class="cls-1" x="80.9" y="23.3" width="33" height="32.95" />

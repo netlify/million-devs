@@ -5,9 +5,9 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 465 476.8"
     role="presentation"
-    aria-labelledby="`million${num}`"
+    aria-labelledby="`milliondevsatnetlify${num}`"
   >
-    <title id="`million${num}`">Netlify reaches a million developers!</title>
+    <title id="`milliondevsatnetlify${num}`">Netlify reaches a million developers!</title>
     <defs>
       <clipPath id="clip-path" transform="translate(3.3)">
         <path

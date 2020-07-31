@@ -8,9 +8,9 @@
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 288 326.9"
     role="presentation"
-    aria-labelledby="book"
+    aria-labelledby="bookoreilly"
   >
-    <title id="book">Jamstack O'Reilly book published</title>
+    <title id="bookoreilly">Jamstack O'Reilly book published</title>
     <path class="cls-1" d="M237.7,226.9l-.8-.4-12.6,7.3.7.4Z" transform="translate(-0.6 -13.7)" />
     <path class="cls-1" d="M239.2,227.8l-.7-.4-12.7,7.2.7.4Z" transform="translate(-0.6 -13.7)" />
     <path class="cls-1" d="M240.8,228.6l-.8-.4-12.6,7.3.7.4Z" transform="translate(-0.6 -13.7)" />

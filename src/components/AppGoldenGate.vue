@@ -8,9 +8,9 @@
     xmlns="http://www.w3.org/2000/svg"
     viewBox="-100 0 450 400"
     role="presentation"
-    aria-labelledby="goldengate"
+    aria-labelledby="goldengatejamstacksf"
   >
-    <title id="goldengate">Jamstack SF</title>
+    <title id="goldengatejamstacksf">Jamstack SF</title>
     <image href="conf-bk.png" x="-50" y="100" height="380" width="330" />
     <g id="Sun">
       <g id="XMLID_437" data-name="XMLID 437">

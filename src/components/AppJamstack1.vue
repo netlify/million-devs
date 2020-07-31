@@ -8,9 +8,9 @@
     xmlns="http://www.w3.org/2000/svg"
     viewBox="-100 0 400 300"
     role="presentation"
-    aria-labelledby="jamstack1"
+    aria-labelledby="jamstack1conf"
   >
-    <title id="jamstack1">First Jamstack Conference</title>
+    <title id="jamstack1conf">First Jamstack Conference</title>
     <defs>
       <clipPath id="jamstack-clip" transform="translate(-134.9 -35)">
         <rect

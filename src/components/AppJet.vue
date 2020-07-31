@@ -8,10 +8,10 @@
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 -50 207.8 459.1"
     role="presentation"
-    aria-labelledby="jet"
+    aria-labelledby="netlifylaunch"
   >
-    <title id="jet">Launch of Netlify!</title>
-    <g class="computer">
+    <title id="netlifylaunch">Launch of Netlify!</title>
+    <g class="computer-jet">
       <g>
         <g>
           <path
@@ -2075,7 +2075,7 @@ export default {
             duration: 1,
           },
         })
-        .add("start")
+        .add("startjets")
         .to(
           ".rocket",
           {
@@ -2085,7 +2085,7 @@ export default {
             ease:
               "rough({ template: none.out, strength: 1, points: 20, taper: 'none', randomize: true, clamp: false})",
           },
-          "start"
+          "startjets"
         )
         .to(
           ".rocket",
@@ -2094,7 +2094,7 @@ export default {
             y: 0,
             ease: "back.out(1.7)",
           },
-          "start+=0.8"
+          "startjets+=0.8"
         )
         .fromTo(
           ".burst path, .top-burst path",
@@ -2109,7 +2109,7 @@ export default {
             stagger: 0.05,
             ease: "back.out(1.7)",
           },
-          "start+=0.65"
+          "startjets+=0.65"
         )
         .fromTo(
           ".fire",
@@ -2124,8 +2124,10 @@ export default {
             stagger: 0.05,
             ease: "elastic",
           },
-          "start+=1"
+          "startjets+=1"
         );
+
+      return tl;
     },
   },
   mounted() {

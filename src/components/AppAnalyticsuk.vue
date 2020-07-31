@@ -8,9 +8,9 @@
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 263.4 419.7"
     role="presentation"
-    aria-labelledby="analytics"
+    aria-labelledby="analyticsuklaunch"
   >
-    <title id="analytics">Launch of analytics</title>
+    <title id="analyticsuklaunch">Launch of analytics</title>
     <path
       id="Shadow_4"
       data-name="Shadow 4"
