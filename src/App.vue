@@ -4,7 +4,8 @@
     <section class="intro-section">
       <app-header />
     </section>
-    <svg id="timeline" xmlns="http://www.w3.org/2000/svg" :viewBox="timelineAttributes.viewBox"><!-- 0 -500 2000 8300 -->
+    <svg id="timeline" xmlns="http://www.w3.org/2000/svg" :viewBox="timelineAttributes.viewBox">
+      <!-- 0 -500 2000 8300 -->
       <path
         class="cls-1 timeline-path"
         transform="translate(16.1 -440.3)"
@@ -57,24 +58,27 @@ export default {
     AppJet: () => import("@/components/AppJet.vue"),
   },
   computed: {
-    ...mapState(["viewportSize"]),
+    ...mapState(["viewportSize", "user"]),
     timelineAttributes() {
       return {
-        viewBox: this.viewportSize == "large" ? "0 -500 2000 8300" : "0 -500 600 18500",
-      }
-    }
+        viewBox:
+          this.viewportSize == "large"
+            ? "0 -500 2000 8300"
+            : "0 -500 600 18500",
+      };
+    },
   },
   mounted() {
-    var mql = window.matchMedia('(max-width: 1000px)');
+    var mql = window.matchMedia("(max-width: 1000px)");
 
     const setViewportSize = (e) => {
       const viewportSize = e.matches ? "small" : "large";
       this.$store.commit("updateViewportState", viewportSize);
-    }
-  
+    };
+
     setViewportSize(mql);
     mql.addListener(setViewportSize);
-  }
+  },
 };
 </script>
 
