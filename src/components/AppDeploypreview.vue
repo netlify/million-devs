@@ -6,7 +6,7 @@
     height="380"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 314.2 328.1"
-    id="deploypreview"
+    id="milestone-deploypreview"
     role="presentation"
     aria-labelledby="atomicdeploypreviews"
   >
@@ -2226,7 +2226,7 @@ export default {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: "#deploypreview",
+            trigger: "#milestone-deploypreview",
             toggleActions: this.toggleConfig,
             start: this.startConfig,
           },

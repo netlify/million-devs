@@ -4,7 +4,7 @@
     y="3900"
     width="450"
     height="380"
-    id="jamstackconf1"
+    id="milestone-jamstack1"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="-100 0 400 300"
     role="presentation"
@@ -893,7 +893,7 @@ export default {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: "#jamstackconf1",
+            trigger: "#milestone-jamstack1",
             toggleActions: this.toggleConfig,
             start: this.startConfig,
           },

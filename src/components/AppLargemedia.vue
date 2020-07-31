@@ -1,6 +1,6 @@
 <template>
   <svg
-    id="largemedia"
+    id="milestone-largemedia"
     x="0"
     y="4300"
     width="350"
@@ -2592,7 +2592,7 @@ export default {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: "#largemedia",
+            trigger: "#milestone-largemedia",
             toggleActions: this.toggleConfig,
             start: this.startConfig,
           },

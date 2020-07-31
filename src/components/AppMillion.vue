@@ -1,6 +1,7 @@
 <template>
   <svg
-    :id="`million${num}`"
+    :class="`million${num}`"
+    id="milestone-million"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 465 476.8"
@@ -3472,7 +3473,7 @@ export default {
       let tl;
       const isScrollElConfig = {
         scrollTrigger: {
-          trigger: `#million${vm.num}`,
+          trigger: `.million${vm.num}`,
           toggleActions: this.toggleConfig,
           start: this.startConfig,
         },

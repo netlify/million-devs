@@ -4,7 +4,7 @@
     y="5400"
     width="550"
     height="450"
-    id="goldengate"
+    id="milestone-golden-gate"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="-100 0 450 400"
     role="presentation"
@@ -4692,7 +4692,7 @@ export default {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: "#goldengate",
+            trigger: "#milestone-golden-gate",
             toggleActions: this.toggleConfig,
             start: this.startConfig,
           },

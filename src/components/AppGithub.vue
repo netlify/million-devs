@@ -6,7 +6,7 @@
     height="475"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 372 327.9"
-    class="github-all"
+    id="milestone-github"
     role="presentation"
     aria-labelledby="githubandgitlab"
   >
@@ -1805,7 +1805,7 @@ export default {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: ".github-all",
+            trigger: "#milestone-github",
             toggleActions: this.toggleConfig,
             start: this.startConfig,
           },

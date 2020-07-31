@@ -1,6 +1,6 @@
 <template>
   <svg
-    id="netlifycms"
+    id="milestone-netlifycms"
     xmlns="http://www.w3.org/2000/svg"
     x="500"
     y="3000"
@@ -2515,7 +2515,7 @@ export default {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: "#netlifycms",
+            trigger: "#milestone-netlifycms",
             toggleActions: this.toggleConfig,
             start: this.startConfig,
           },

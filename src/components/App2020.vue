@@ -4,7 +4,7 @@
     <app-tree x="700" y="5550" />
     <app-bush x="750" y="5600" />
 
-    <app-virtual id="milestone-virtual" />
+    <app-virtual />
     <app-text x="1400" y="6500" num="20">
       <template v-slot:date>May 27, 2020</template>
       <template v-slot:event>Jamstack Conf Virtual</template>
@@ -14,13 +14,13 @@
     <app-tree x="800" y="6250" />
     <app-tree x="850" y="6200" />
 
-    <app-build-plugins id="milestone-build-plugins" />
+    <app-build-plugins />
     <app-text x="200" y="6700" num="21">
       <template v-slot:date>May 27, 2020</template>
       <template v-slot:event>Launched Build Plugins</template>
     </app-text>
 
-    <app-million x="640" y="7000" width="750" height="750" :num="2" id="milestone-million" />
+    <app-million x="640" y="7000" width="750" height="750" :num="2" />
   </g>
 </template>
 
@@ -44,8 +44,8 @@ export default {
     AppStreetlamp2,
     AppBuildPlugins: () => import("@/components/AppBuildPlugins.vue"),
     AppMillion: () => import("@/components/AppMillion.vue"),
-    AppVirtual: () => import("@/components/AppVirtual.vue")
-  }
+    AppVirtual: () => import("@/components/AppVirtual.vue"),
+  },
 };
 </script>
 
