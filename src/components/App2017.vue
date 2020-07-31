@@ -33,14 +33,14 @@
     <app-tree x="0" y="2650" />
     <app-streetlamp1 x="450" y="2600" />
 
-    <app-smashing  id="milestone-smashing" />
+    <app-smashing id="milestone-smashing" />
     <app-text x="100" y="2900" num="9">
       <template v-slot:date>Nov 21, 2017</template>
       <template v-slot:event>Smashing Magazine migrates from</template>
       <template v-slot:event2>WordPress to Jamstack & Netlify</template>
     </app-text>
 
-    <app-netlifycms id="milestone-netlifycms" />
+    <app-netlifycms />
     <app-text x="1020" y="3080" num="10">
       <template v-slot:date>Dec 07, 2017</template>
       <template v-slot:event>Nelify CMS is released, bringing</template>
@@ -81,8 +81,8 @@ export default {
     AppNetlifycms: () =>
       import(/* webpackPrefetch: true */ "@/components/AppNetlifycms.vue"),
     AppSplittesting: () =>
-      import(/* webpackPrefetch: true */ "@/components/AppSplittesting.vue")
-  }
+      import(/* webpackPrefetch: true */ "@/components/AppSplittesting.vue"),
+  },
 };
 </script>
 
