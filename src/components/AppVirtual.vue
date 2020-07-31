@@ -4,7 +4,7 @@
     y="6000"
     width="500"
     height="500"
-    id="virtual"
+    id="milestone-virtual"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 351.3 359.1"
     role="presentation"
@@ -6599,7 +6599,7 @@ export default {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: "#virtual",
+            trigger: "#milestone-virtual",
             toggleActions: this.toggleConfig,
             start: "center 60%",
           },

@@ -4,7 +4,7 @@
     y="6500"
     width="600"
     height="500"
-    id="buildplugins"
+    id="milestone-build-plugins"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="-50 -50 400 300"
     role="presentation"
@@ -3440,7 +3440,7 @@ export default {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: "#buildplugins",
+            trigger: "#milestone-build-plugins",
             toggleActions: this.toggleConfig,
             start: "center 60%",
           },
