@@ -92,4 +92,11 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+/* This is just for demo! */
+@media only screen and (max-width: 1000px) {
+  .animtoggle {
+    display: none;
+  }
+}
 </style>

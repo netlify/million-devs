@@ -145,7 +145,7 @@ body {
   #timeline {
     max-width: 500px;
     display: block;
-    margin-top: 150px;
+    margin-top: 600px;
     margin-left: auto;
     margin-right: auto;
   }
