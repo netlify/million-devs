@@ -10,14 +10,14 @@
 
     <app-streetlamp2 x="100" y="3280" />
 
-    <app-drop id="milestone-drop" />
+    <app-drop />
     <app-text x="0" y="3950" num="12">
       <template v-slot:date>Mar 20, 2018</template>
       <template v-slot:event>Launched Netlify Drop</template>
       <template v-slot:event2>a simple drag-n-drop way to launch sites</template>
     </app-text>
 
-    <app-jamstack1 id="milestone-jamstack1" />
+    <app-jamstack1 />
     <app-tree x="600" y="4000" />
     <app-text x="1000" y="4200" num="13">
       <template v-slot:date>Oct 10, 2018</template>
@@ -46,8 +46,8 @@ export default {
     AppStreetlamp2,
     AppDrop: () => import("@/components/AppDrop.vue"),
     AppJamstack1: () => import("@/components/AppJamstack1.vue"),
-    AppFunctions: () => import("@/components/AppFunctions.vue")
-  }
+    AppFunctions: () => import("@/components/AppFunctions.vue"),
+  },
 };
 </script>
 

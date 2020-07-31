@@ -1,6 +1,6 @@
 <template>
   <svg
-    id="seed"
+    id="milestone-seed"
     x="800"
     y="950"
     width="350"
@@ -2024,7 +2024,7 @@ export default {
       const tl = gsap
         .timeline({
           scrollTrigger: {
-            trigger: "#seedfunding",
+            trigger: "#milestone-seed",
             toggleActions: this.toggleConfig,
             start: this.startConfig,
           },

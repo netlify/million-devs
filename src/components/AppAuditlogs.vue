@@ -4,7 +4,7 @@
     :y="y"
     width="300"
     height="400"
-    id="auditlogs"
+    id="milestone-auditlogs"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 246.2 327.2"
     role="presentation"
@@ -3525,7 +3525,7 @@ export default {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: "#auditlogs",
+            trigger: "#milestone-auditlogs",
             toggleActions: this.toggleConfig,
             start: this.startConfig,
           },

@@ -4,7 +4,7 @@
     y="2120"
     width="425"
     height="300"
-    id="splittesting"
+    id="milestone-splittesting"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 380.2 227.6"
     role="presentation"
@@ -860,7 +860,7 @@ export default {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: `#splittesting`,
+            trigger: `#milestone-splittesting`,
             toggleActions: this.toggleConfig,
             start: this.startConfig,
           },

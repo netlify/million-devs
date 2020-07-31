@@ -4,7 +4,7 @@
     y="5800"
     width="350"
     height="325"
-    id="docs"
+    id="milestone-docs"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 279.5 282.6"
@@ -1507,7 +1507,7 @@ export default {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: "#docs",
+            trigger: "#milestone-docs",
             toggleActions: this.toggleConfig,
             start: "center 60%",
           },

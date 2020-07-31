@@ -1,5 +1,14 @@
 <template>
-  <svg :x="x" :y="y" viewBox="0 0 236.1 284" width="400" height="350" class="redirect" role="img">
+  <svg
+    :x="x"
+    :y="y"
+    viewBox="0 0 236.1 284"
+    width="400"
+    height="350"
+    id="milestone-redirect"
+    class="redirect"
+    role="img"
+  >
     <g class="computer">
       <path class="a" d="M202.1,48h-1.2V81.4h1.2Z" transform="translate(-0.1 -0.4)" />
       <path class="a" d="M201.6,137.1h-1.3v11.8h1.3Z" transform="translate(-0.1 -0.4)" />
@@ -1184,7 +1193,7 @@ export default {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: ".redirect",
+            trigger: "#milestone-redirect",
             toggleActions: this.toggleConfig,
             start: this.startConfig,
           },

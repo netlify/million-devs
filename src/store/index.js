@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    toggleConfig: `restart pause none pause`,
+    toggleConfig: `play pause none pause`,
     startConfig: `center 90%`,
     isAnimationDisabled: false,
     user: {

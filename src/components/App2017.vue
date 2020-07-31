@@ -1,6 +1,6 @@
 <template>
   <g>
-    <app-twodoto id="milestone-twodoto" />
+    <app-twodoto />
 
     <app-text x="1200" y="1700" num="6">
       <template v-slot:date>Mar 14, 2017</template>
@@ -8,7 +8,7 @@
       <template v-slot:event2>to the Netlify app</template>
     </app-text>
 
-    <app-splittesting id="milestone-splittesting" />
+    <app-splittesting />
     <app-tree x="750" y="1700" />
     <app-tree x="800" y="1720" />
     <app-tree x="700" y="1770" />
@@ -20,7 +20,7 @@
     </app-text>
 
     <app-bush x="600" y="2600" />
-    <app-auditlogs x="730" y="2300" id="milestone-auditlogs" />
+    <app-auditlogs x="730" y="2300" />
 
     <app-text x="1050" y="2550" num="8">
       <template v-slot:date>June 28, 2017</template>
@@ -33,7 +33,8 @@
     <app-tree x="0" y="2650" />
     <app-streetlamp1 x="450" y="2600" />
 
-    <app-smashing id="milestone-smashing" />
+
+    <app-smashing />
     <app-text x="100" y="2900" num="9">
       <template v-slot:date>Nov 21, 2017</template>
       <template v-slot:event>Smashing Magazine migrates from</template>
