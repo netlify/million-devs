@@ -1,7 +1,7 @@
 <template>
   <svg
-    :x="x"
-    :y="y"
+    :x="svgCoords.x"
+    :y="svgCoords.y"
     width="500"
     height="475"
     xmlns="http://www.w3.org/2000/svg"
@@ -1776,6 +1776,7 @@
 </template>
 
 <script>
+import coords from "@/components/coords.js";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 import { mapState } from "vuex";
@@ -1786,12 +1787,21 @@ export default {
   computed: {
     ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
   },
+  mixins: [coords],
   props: {
     x: {
       type: [Number, String],
       default: 550,
     },
     y: {
+      type: [Number, String],
+      default: 170,
+    },
+    xSmall: {
+      type: [Number, String],
+      default: 550,
+    },
+    ySmall: {
       type: [Number, String],
       default: 170,
     },

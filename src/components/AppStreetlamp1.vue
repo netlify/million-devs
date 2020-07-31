@@ -1,5 +1,5 @@
 <template>
-  <svg :x="x" :y="y" width="200" height="200" viewBox="0 0 164 150" fill="none">
+  <svg :x="x" :y="y" width="200" height="200" viewBox="0 0 164 150" fill="none" class="svg-streetlamp">
     <defs>
       <linearGradient
         id="lightlinear"
