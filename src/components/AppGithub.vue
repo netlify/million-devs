@@ -8,9 +8,9 @@
     viewBox="0 0 372 327.9"
     class="github-all"
     role="presentation"
-    aria-labelledby="github"
+    aria-labelledby="githubandgitlab"
   >
-    <title id="github">Launch of GitHub and GitLab Enterprise</title>
+    <title id="githubandgitlab">Launch of GitHub and GitLab Enterprise</title>
     <g class="thought-bubbles">
       <g>
         <path

@@ -8,7 +8,10 @@
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 304.6 325.4"
+    aria-labelledby="netlifyseedfundinground"
+    role="presentation"
   >
+    <title id="netlifyseedfundinground">Netlify's Seed Funding Round</title>
     <g>
       <path
         class="cls-2"

@@ -9,9 +9,9 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 279.5 282.6"
     role="presentation"
-    aria-labelledby="docs"
+    aria-labelledby="newdocs"
   >
-    <title id="docs">New version of docs</title>
+    <title id="newdocs">New version of docs</title>
     <defs>
       <clipPath id="docscover" transform="translate(0 0.1)">
         <rect
