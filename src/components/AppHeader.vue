@@ -19,13 +19,9 @@
         <app-million />
       </div>
       <div class="intro">
-        <h2>Explore our timeline</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
-          provident, itaque eveniet facilis saepe praesentium vel blanditiis
-          molestiae, nihil, beatae corrupti dignissimos repellendus suscipit
-          debitis consectetur cumque voluptatem vero illo?
-        </p>
+        <h2>The road to 1 million devs</h2>
+        <p>Five years ago, Netlify launched and changed the way developers build for the web, and we've now onboarded more than 1 million users! <span v-if="!user || !user.number">Look up your Netlify account to learn when you joined, and check</span><span v-else>Check</span> out the timeline to see animated versions of the big features and milestones along the way. Tweet your number and milestone to share with the community!</p>
+        <p v-if="!user || !user.number">Not yet a Netlify user? <a href="https://app.netlify.com/signup">Get started for free</a> to join us on the journey.</p>
         <app-login />
       </div>
     </section>
@@ -39,8 +35,12 @@ import AppLogin from "@/components/AppLogin.vue";
 import AppMillion from "@/components/AppMillion.vue";
 import AppScrolldown from "@/components/AppScrolldown.vue";
 import AppAnimationSwitch from "@/components/AppAnimationSwitch.vue";
+import { mapState } from "vuex";
 
 export default {
+  computed: {
+    ...mapState(["user"]),
+  },
   components: {
     AppLogin,
     AppMillion,
@@ -58,6 +58,12 @@ export default {
   grid-column-gap: 40px;
   padding: 5vh 10vw;
   line-height: 1.8;
+}
+
+a[href],
+:visited {
+  color: inherit;
+  font-weight: 700;
 }
 
 .netlify {
