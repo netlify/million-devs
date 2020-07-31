@@ -8,9 +8,9 @@
     viewBox="0 0 314.2 328.1"
     id="deploypreview"
     role="presentation"
-    aria-labelledby="deploypreview"
+    aria-labelledby="atomicdeploypreviews"
   >
-    <title id="deploypreview">Launch of Atomic Deploy Previews</title>
+    <title id="atomicdeploypreviews">Launch of Atomic Deploy Previews</title>
     <defs>
       <clipPath id="clip-path" transform="translate(-1 -0.4)">
         <rect class="cls-1" x="1" y="42.9" width="54" height="117" />

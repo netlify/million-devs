@@ -6,21 +6,21 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     toggleConfig: `restart pause none pause`,
-    startConfig: `center 80%`,
+    startConfig: `center 90%`,
     isAnimationDisabled: false,
     user: {
       name: "",
-      number: ""
-    }
+      number: "",
+    },
   },
   mutations: {
     updateAnimationState(state) {
       state.isAnimationDisabled = !state.isAnimationDisabled
     },
     login(state, payload) {
-      state.user.name = payload.name;
-      state.user.number = payload.number;
-    }
+      state.user.name = payload.name
+      state.user.number = payload.number
+    },
   },
   getters: {
     tweetPreviewLink: function(state, getters) {
@@ -48,11 +48,13 @@ export default new Vuex.Store({
         docs: "1288853499208503298",
         virtual: "1288853975710695424",
         "build-plugins": "1288854043134132227",
-        million: "1288849874671341569"
-      };
+        million: "1288849874671341569",
+      }
 
-      if(twitterVideoSlugs[getters.milestone]) {
-        return `https://twitter.com/1mdevs/status/${twitterVideoSlugs[getters.milestone]}/video/1`;
+      if (twitterVideoSlugs[getters.milestone]) {
+        return `https://twitter.com/1mdevs/status/${
+          twitterVideoSlugs[getters.milestone]
+        }/video/1`
       }
 
       // fallback to old fashioned redirects
@@ -80,12 +82,14 @@ export default new Vuex.Store({
         docs: "docs",
         virtual: "jamstack-virtual",
         "build-plugins": "build-plugins",
-        million: "1-million-developers"
-      };
+        million: "1-million-developers",
+      }
 
       // TODO use a Netlify env variable for this origin?
       // Use the full URL, this text is going on the tweet
-      return `https://million-devs.netlify.app/share/${slugs[getters.milestone]}/`;
+      return `https://million-devs.netlify.app/share/${
+        slugs[getters.milestone]
+      }/`
     },
     milestone: function(state) {
       let ids = {
@@ -112,19 +116,22 @@ export default new Vuex.Store({
         docs: 625040,
         virtual: 948344,
         "build-plugins": 948344,
-        million: 1000000
-      };
-
-      let userNumber = parseInt((""+state.user.number).replace(/[^\d]*/g, ""), 10);
-      let lastId = 0;
-      for(let idStr in ids) {
-        if(userNumber < ids[idStr]) {
-          return lastId;
-        }
-        lastId = idStr;
+        million: 1000000,
       }
-      return false;
-    }
+
+      let userNumber = parseInt(
+        ("" + state.user.number).replace(/[^\d]*/g, ""),
+        10
+      )
+      let lastId = 0
+      for (let idStr in ids) {
+        if (userNumber < ids[idStr]) {
+          return lastId
+        }
+        lastId = idStr
+      }
+      return false
+    },
   },
   actions: {},
   modules: {},

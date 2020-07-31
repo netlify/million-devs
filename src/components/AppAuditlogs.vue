@@ -8,9 +8,9 @@
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 246.2 327.2"
     role="presentation"
-    aria-labelledby="audit"
+    aria-labelledby="auditlogslaunch"
   >
-    <title id="audit">Launch of audit logs</title>
+    <title id="auditlogslaunch">Launch of audit logs</title>
     <g id="BlackScreen">
       <path
         id="Shadow"
