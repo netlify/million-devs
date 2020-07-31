@@ -1,7 +1,7 @@
 <template>
   <g>
     <app-tree x="1100" y="50" />
-    <app-redirect x="1100" y="150" id="milestone-redirect" />
+    <app-redirect x="1100" y="150" />
     <app-bush />
     <app-streetlamp2 />
 
@@ -9,7 +9,7 @@
     <app-tree x="800" y="320" />
     <app-tree x="700" y="350" />
 
-    <app-github x="500" y="450" id="milestone-github" />
+    <app-github x="500" y="450" />
     <app-tree x="1050" y="620" />
 
     <app-text x="200" y="700" num="2">
@@ -18,7 +18,7 @@
       <template v-slot:event2>(in addition to GitHub and Bitbucket)</template>
     </app-text>
 
-    <app-letsencrypt id="milestone-letsencrypt" />
+    <app-letsencrypt />
 
     <app-text x="1450" y="650" num="3">
       <template v-slot:date>Jan 01, 2016</template>
@@ -29,7 +29,7 @@
     <app-streetlamp1 x="1450" y="950" />
     <app-bush x="1350" y="1150" />
 
-    <app-seed id="milestone-seed" />
+    <app-seed />
 
     <app-text x="1180" y="1050" num="4">
       <template v-slot:date>Aug 16, 2016</template>
@@ -92,8 +92,8 @@ export default {
     AppDeploybutton: () =>
       import(/* webpackPrefetch: true */ "@/components/AppDeploybutton.vue"),
     AppDeploypreview: () =>
-      import(/* webpackPrefetch: true */ "@/components/AppDeploypreview.vue")
-  }
+      import(/* webpackPrefetch: true */ "@/components/AppDeploypreview.vue"),
+  },
 };
 </script>
 

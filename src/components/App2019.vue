@@ -27,7 +27,7 @@
     <app-streetlamp2 x="1100" y="4950" />
     <app-tree x="1000" y="5000" />
 
-    <app-analyticsuk id="milestone-analyticsuk" />
+    <app-analyticsuk />
     <app-text x="1000" y="5500" num="17">
       <template v-slot:date>Jul 10, 2019</template>
       <template v-slot:event>Launched Netlify Analytics</template>
@@ -80,8 +80,8 @@ export default {
     AppStatueDev: () => import("@/components/AppStatueDev.vue"),
     AppLargemedia: () => import("@/components/AppLargemedia.vue"),
     AppGoldenGate: () => import("@/components/AppGoldenGate.vue"),
-    AppAnalyticsuk: () => import("@/components/AppAnalyticsuk.vue")
-  }
+    AppAnalyticsuk: () => import("@/components/AppAnalyticsuk.vue"),
+  },
 };
 </script>
 

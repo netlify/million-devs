@@ -4,9 +4,9 @@
     y="5100"
     width="300"
     height="505"
-    id="analytics"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 263.4 419.7"
+    id="milestone-analyticsuk"
     role="presentation"
     aria-labelledby="analyticsuklaunch"
   >
@@ -1443,7 +1443,7 @@ export default {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: "#analytics",
+            trigger: "#milestone-analyticsuk",
             toggleActions: this.toggleConfig,
             start: this.startConfig,
           },
