@@ -1,6 +1,6 @@
 <template>
   <svg
-    id="drop"
+    id="milestone-drop"
     x="200"
     y="3700"
     width="430"
@@ -1188,7 +1188,7 @@ export default {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: "#drop",
+            trigger: "#milestone-drop",
             toggleActions: this.toggleConfig,
             start: this.startConfig,
           },

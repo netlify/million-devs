@@ -4,7 +4,7 @@
     y="4550"
     width="250"
     height="475"
-    id="statuedev"
+    id="milestone-statue-dev"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 194.8 396.8"
     aria-labelledby="jamstacknystatue"
@@ -1356,7 +1356,7 @@ export default {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: "#statuedev",
+            trigger: "#milestone-statue-dev",
             toggleActions: this.toggleConfig,
             start: this.startConfig,
           },
