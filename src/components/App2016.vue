@@ -47,7 +47,7 @@
     </app-text>
 
     <app-streetlamp1 x="1450" y="950" />
-    <app-bush x="1350" y="1150" />
+    <app-bush x="1350" y="1250" />
 
     <app-seed x="800" y="950" xSmall="100" ySmall="2300" />
 
