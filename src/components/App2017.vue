@@ -15,11 +15,12 @@
       <template v-slot:event2>to the Netlify app</template>
     </app-text>
 
-    <app-splittesting x="1100" y="2120" xSmall="75" ySmall="5050" />
+    <app-tree x="700" y="1770" />
     <app-tree x="750" y="1700" />
     <app-tree x="800" y="1720" />
-    <app-tree x="700" y="1770" />
     <app-bush x="500" y="2300" />
+
+    <app-splittesting x="1100" y="2120" xSmall="75" ySmall="5050" />
 
     <app-text
       x="1400"
