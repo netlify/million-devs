@@ -14,7 +14,7 @@
     <defs>
       <clipPath id="jamstack-clip" transform="translate(-134.9 -35)">
         <rect
-          id="clip-jamstack"
+          id="clip-jamstackconf1"
           class="cls-1"
           x="240.2"
           y="-39.1"
@@ -25,8 +25,8 @@
       </clipPath>
     </defs>
     <image href="conf-bk.png" x="-75" height="380" width="330" />
-    <g id="Conference">
-      <g id="Scenario">
+    <g id="ConferenceJamstack1">
+      <g id="ScenarioJamstack1">
         <g id="Graph_2" data-name="Graph 2">
           <polygon
             class="cls-2"
@@ -887,7 +887,12 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled", "viewportSize"]),
+    ...mapState([
+      "toggleConfig",
+      "startConfig",
+      "isAnimationDisabled",
+      "viewportSize",
+    ]),
   },
   mixins: [coords],
   props: {
@@ -915,7 +920,7 @@ export default {
           scrollTrigger: {
             trigger: "#milestone-jamstack1",
             toggleActions: this.toggleConfig,
-            start: this.startConfig,
+            start: "center bottom",
           },
           defaults: {
             duration: 1,
@@ -923,10 +928,6 @@ export default {
           },
         })
         .add("jamstack1")
-        .from("#clip-jamstack", {
-          x: 100,
-          y: -100,
-        })
         .from(
           "#man-arm",
           {
@@ -946,6 +947,14 @@ export default {
             transformOrigin: "100% 0%",
           },
           "jamstack1+=0.5"
+        )
+        .from(
+          "#clip-jamstackconf1",
+          {
+            x: 100,
+            y: -100,
+          },
+          "jamstack1"
         );
     },
   },
