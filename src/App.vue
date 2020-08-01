@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <app-login-result-sticky v-if="user.number" />
+    <app-github-corner />
+
     <section class="intro-section">
       <app-header />
     </section>
@@ -27,6 +29,7 @@
 import AppText from "@/components/AppText.vue";
 import AppHeader from "@/components/AppHeader.vue";
 import AppYouarehere from "@/components/AppYouarehere.vue";
+import AppGithubCorner from "@/components/AppGithubCorner.vue";
 import AppLoginResultSticky from "@/components/AppLoginResultSticky.vue";
 import { mapState } from "vuex";
 
@@ -40,6 +43,7 @@ import App2020 from "@/components/App2020.vue";
 export default {
   components: {
     AppLoginResultSticky,
+    AppGithubCorner,
     AppHeader,
     AppText,
     App2016,
