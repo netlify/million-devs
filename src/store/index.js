@@ -55,12 +55,12 @@ export default new Vuex.Store({
         million: "1288849874671341569",
       }
 
-      if(twitterVideoSlugs[getters.milestone]) {
+      if (twitterVideoSlugs[getters.milestone]) {
         return `https://twitter.com/1mdevs/status/${
           twitterVideoSlugs[getters.milestone]
-        }/video/1`;
+        }/video/1`
       }
-      return "";
+      return ""
     },
     milestone: function(state) {
       let ids = {
@@ -102,6 +102,41 @@ export default new Vuex.Store({
         lastId = idStr
       }
       return false
+    },
+    milestonePlacement(state, getters) {
+      let twitterVideoSlugs = {
+        jet: { x: 750, y: -400 },
+        redirect: { x: 1000, y: 1050 },
+        github: "1289369827228827648",
+        letsencrypt: "1288850557013299203",
+        seed: "1288852224467247106",
+        deploypreview: "1289369944078143492",
+        deploybutton: "1288852349335764997",
+        twodoto: "1289370041616445440",
+        splittesting: "1288852492248387586",
+        auditlogs: "1288852552474406912",
+        smashing: "1288852619251908608",
+        netlifycms: "1289370121908047872",
+        functions: "1288852683449933832",
+        drop: "1288852749153718273",
+        jamstack1: "1288852888312328192",
+        largemedia: "1288852991529963525",
+        "statue-dev": "1288853067518152705",
+        analyticsuk: "1288853373496832003",
+        book: "1288853167535464450",
+        "golden-gate": "1288853434041589760",
+        docs: "1288853499208503298",
+        virtual: "1288853975710695424",
+        "build-plugins": "1288854043134132227",
+        million: "1288849874671341569",
+      }
+
+      if (twitterVideoSlugs[getters.milestone]) {
+        return `https://twitter.com/1mdevs/status/${
+          twitterVideoSlugs[getters.milestone]
+        }/video/1`
+      }
+      return ""
     },
   },
   actions: {},

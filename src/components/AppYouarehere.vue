@@ -60,17 +60,37 @@ export default {
   props: {
     x: {
       type: [Number, String],
-      default: 350,
-      required: true,
+      default: 450,
     },
     y: {
       type: [Number, String],
-      default: 350,
-      required: true,
+      default: 250,
     },
+  },
+  milestone() {
+    return this.$store.getters.milestone;
   },
   computed: {
     ...mapState(["toggleConfig", "startConfig"]),
+    getMilestoneCoords() {
+      if (this.milestone) {
+        let milestoneEl = document.getElementById(
+          `milestone-${this.milestone}`
+        );
+        console.log(milestoneEl);
+        let milestoneRect = milestoneEl.getBoundingClientRect();
+
+        return {
+          x: milestoneRect.top + 200,
+          y: milestoneRect.left,
+        };
+      } else {
+        return {
+          x: 400,
+          y: 6050,
+        };
+      }
+    },
   },
   methods: {
     hereAnim() {
