@@ -16,12 +16,21 @@
         <h1>1 Million Developers</h1>
       </div>
       <div class="mlogo">
-        <app-million />
+        <app-million margin-top="-100px" />
       </div>
       <div class="intro">
         <h2>The road to 1 million devs</h2>
-        <p>Five years ago, Netlify launched and changed the way developers build for the web, and we've now onboarded more than 1 million users! <span v-if="!user || !user.number">Look up your Netlify account to learn when you joined, and check</span><span v-else>Check</span> out the timeline to see animated versions of the big features and milestones along the way. Tweet your number and milestone to share with the community!</p>
-        <p v-if="!user || !user.number">Not yet a Netlify user? <a href="https://app.netlify.com/signup">Get started for free</a> to join us on the journey.</p>
+        <p>
+          Five years ago, Netlify launched and changed the way developers build for the web, and we've now onboarded more than 1 million users!
+          <span
+            v-if="!user || !user.number"
+          >Look up your Netlify account to learn when you joined, and check</span>
+          <span v-else>Check</span> out the timeline to see animated versions of the big features and milestones along the way. Tweet your number and milestone to share with the community!
+        </p>
+        <p v-if="!user || !user.number">
+          Not yet a Netlify user?
+          <a href="https://app.netlify.com/signup">Get started for free</a> to join us on the journey.
+        </p>
         <app-login />
       </div>
     </section>
