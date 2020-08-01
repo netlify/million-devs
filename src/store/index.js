@@ -11,7 +11,7 @@ export default new Vuex.Store({
     viewportSize: "large",
     user: {
       name: "",
-      number: "395968",
+      number: "1000001",
     },
   },
   mutations: {
@@ -66,8 +66,8 @@ export default new Vuex.Store({
       let ids = {
         jet: 0, // but really 7656
         redirect: 12400,
-        github: 28112, // out of order?
-        letsencrypt: 18558,
+        github: 18112, // out of order?
+        letsencrypt: 25000,
         seed: 31226,
         deploypreview: 33769,
         deploybutton: 44319,
@@ -83,9 +83,9 @@ export default new Vuex.Store({
         "statue-dev": 435285,
         analyticsuk: 520824,
         book: 542309,
-        "golden-gate": 626192,
+        "golden-gate": 600000,
         docs: 625040,
-        virtual: 948344,
+        virtual: 750000,
         "build-plugins": 948344,
         million: 1000000,
       }
@@ -121,20 +121,20 @@ export default new Vuex.Store({
         drop: { x: 380, y: 3650 },
         jamstack1: { x: 890, y: 3870 },
         largemedia: { x: 100, y: 4200 },
-        "statue-dev": { x: 450, y: 250 },
-        analyticsuk: { x: 450, y: 250 },
-        book: { x: 450, y: 250 },
-        "golden-gate": { x: 450, y: 250 },
-        docs: { x: 450, y: 250 },
-        virtual: { x: 450, y: 250 },
-        "build-plugins": { x: 450, y: 250 },
-        million: { x: 450, y: 250 },
+        "statue-dev": { x: 700, y: 4400 },
+        analyticsuk: { x: 800, y: 5050 },
+        book: { x: 1180, y: 4900 },
+        "golden-gate": { x: 200, y: 5300 },
+        docs: { x: 700, y: 5700 },
+        virtual: { x: 1400, y: 5950 },
+        "build-plugins": { x: 750, y: 6450 },
+        million: { x: 750, y: 6800 },
       }
 
       if (coords[getters.milestone]) {
         return coords[getters.milestone]
       }
-      return { x: 450, y: 250 }
+      return { x: -250, y: -1000 }
     },
   },
   actions: {},
