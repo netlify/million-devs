@@ -14,12 +14,6 @@
 
       <app-youarehere v-if="user.name" :x="getMilestoneCoords.x" :y="getMilestoneCoords.y" />
 
-      <app-jet x="850" y="-400" xSmall="150" ySmall="-400" />
-      <app-text x="1150" y="-200" xSmall="75" ySmall="150">
-        <template v-slot:date>Apr 07, 2015</template>
-        <template v-slot:event>Netlify officially launches</template>
-      </app-text>
-
       <app2016 />
       <app2017 />
       <app2018 />
@@ -30,7 +24,6 @@
 </template>
 
 <script>
-import AppJet from "@/components/AppJet.vue";
 import AppText from "@/components/AppText.vue";
 import AppHeader from "@/components/AppHeader.vue";
 import AppYouarehere from "@/components/AppYouarehere.vue";
@@ -57,7 +50,6 @@ export default {
     App2018,
     App2019,
     App2020,
-    AppJet: () => import("@/components/AppJet.vue"),
     AppYouarehere: () =>
       import(/* webpackPrefetch: true */ "@/components/AppYouarehere.vue"),
   },

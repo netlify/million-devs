@@ -1,5 +1,11 @@
 <template>
   <g>
+    <app-jet x="850" y="-400" xSmall="150" ySmall="-400" />
+    <app-text x="1150" y="-200" xSmall="75" ySmall="150">
+      <template v-slot:date>Apr 07, 2015</template>
+      <template v-slot:event>Netlify officially launches</template>
+    </app-text>
+
     <app-tree x="1100" y="50" />
     <app-redirect x="1100" y="150" xSmall="100" ySmall="450" />
     <app-bush />
@@ -67,6 +73,7 @@ import AppStreetlamp1 from "@/components/AppStreetlamp1.vue";
 import AppStreetlamp2 from "@/components/AppStreetlamp2.vue";
 
 //unique units
+import AppJet from "@/components/AppJet.vue";
 import AppSeed from "@/components/AppSeed.vue";
 import AppGithub from "@/components/AppGithub.vue";
 import AppRedirect from "@/components/AppRedirect.vue";
@@ -81,6 +88,7 @@ export default {
     AppBush,
     AppStreetlamp1,
     AppStreetlamp2,
+    AppJet: () => import(/* webpackPrefetch: true */ "@/components/AppJet.vue"),
     AppSeed: () =>
       import(/* webpackPrefetch: true */ "@/components/AppSeed.vue"),
     AppGithub: () =>

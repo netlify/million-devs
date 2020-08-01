@@ -60,10 +60,12 @@ export default {
   props: {
     x: {
       type: [Number, String],
+      default: 350,
       required: true,
     },
     y: {
       type: [Number, String],
+      default: 350,
       required: true,
     },
   },
