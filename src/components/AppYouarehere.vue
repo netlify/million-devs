@@ -3,6 +3,8 @@
     id="youarehere"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 350 150"
+    :x="x"
+    :y="y"
     width="350"
     height="150"
   >
@@ -55,6 +57,16 @@ import { mapState } from "vuex";
 gsap.registerPlugin(ScrollTrigger);
 
 export default {
+  props: {
+    x: {
+      type: [Number, String],
+      required: true,
+    },
+    y: {
+      type: [Number, String],
+      required: true,
+    },
+  },
   computed: {
     ...mapState(["toggleConfig", "startConfig"]),
   },

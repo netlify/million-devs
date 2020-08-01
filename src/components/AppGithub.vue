@@ -1,7 +1,7 @@
 <template>
   <svg
-    :x="svgCoords.x"
-    :y="svgCoords.y"
+    :x="x"
+    :y="y"
     width="500"
     height="475"
     xmlns="http://www.w3.org/2000/svg"
@@ -1791,19 +1791,19 @@ export default {
   props: {
     x: {
       type: [Number, String],
-      default: 550,
+      default: 350,
     },
     y: {
       type: [Number, String],
-      default: 170,
+      default: 350,
     },
     xSmall: {
       type: [Number, String],
-      default: 550,
+      default: 50,
     },
     ySmall: {
       type: [Number, String],
-      default: 170,
+      default: 1550,
     },
   },
   methods: {

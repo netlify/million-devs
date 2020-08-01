@@ -9,7 +9,7 @@
     <app-tree x="800" y="320" />
     <app-tree x="700" y="350" />
 
-    <app-github x="500" y="450" xSmall="50" ySmall="1550" />
+    <app-github />
     <app-tree x="1050" y="620" />
 
     <app-text x="200" y="700" xSmall="75" ySmall="2000" num="2">
