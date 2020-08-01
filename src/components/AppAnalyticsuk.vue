@@ -1479,7 +1479,7 @@ export default {
         })
         .add("analytics")
         .from(
-          "#BigBen path",
+          "#BigBen path, #BigBen polygon",
           {
             stagger: 0.01,
             scale: 0.4,

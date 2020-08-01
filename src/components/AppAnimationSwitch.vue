@@ -33,16 +33,17 @@ export default {
 <style lang="scss" scoped>
 .toggleloggedin {
   position: fixed;
-  top: 125px;
+  top: 175px;
   left: 20px;
   background: #00dc9e;
 }
 
 .toggleloggedout {
   position: fixed;
-  top: 10px;
-  left: 10px;
-  padding: 10px;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  border-radius: 0 0 10px 0;
   background: #00dc9e;
 }
 
