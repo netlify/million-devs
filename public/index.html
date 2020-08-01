@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title %></title>
     <link rel="icon" href="<%= BASE_URL %>favicon/favicon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="<%= BASE_URL %>favicon/apple-touch-icon.png" />
     <link rel="mask-icon" href="<%= BASE_URL %>favicon/safari-pinned-tab.svg" color="#00c7b7" />
@@ -33,7 +34,13 @@
       font-display: swap;
     }
     </style>
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42258181-23"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-42258181-23');
+    </script>
   </head>
   <body>
     <noscript>
