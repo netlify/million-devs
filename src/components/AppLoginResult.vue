@@ -8,8 +8,7 @@
         <span v-html="user.number"></span>
       </h2>
     </div>
-    <!-- removing this because it messes up all the animation
-    <a :href="milestoneHref" class="button" v-if="milestoneHref">Find Your Milestone</a>-->
+    <a @click="scrollToHref" v-if="milestoneHref" class="button">Find Your Milestone</a>
     <app-tweet-it class="button" />
   </div>
 </template>
@@ -21,7 +20,7 @@ import AppTweetIt from "@/components/AppTweetit.vue";
 export default {
   computed: {
     ...mapState(["user"]),
-    milestoneHref: function () {
+    milestoneHref() {
       let id = this.$store.getters.milestone;
       if (id) {
         return `#milestone-${id}`;
@@ -32,6 +31,15 @@ export default {
   props: {},
   components: {
     AppTweetIt,
+  },
+  methods: {
+    scrollToHref() {
+      const el = document.querySelector(this.milestoneHref);
+
+      el.scrollIntoView({
+        behavior: "smooth",
+      });
+    },
   },
 };
 </script>
@@ -64,7 +72,8 @@ export default {
   padding: 8px 20px;
   border-radius: 6px;
   text-decoration: none;
-  margin: 0.6em 0 0.5em 200px;
+  margin: 0.6em 0.2em 0.5em;
+  cursor: pointer;
 }
 .button + .button {
   margin-left: 0;
