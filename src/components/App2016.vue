@@ -18,7 +18,7 @@
       <template v-slot:event2>(in addition to GitHub and Bitbucket)</template>
     </app-text>
 
-    <app-letsencrypt x="1020" y="620" xSmall="100" ySmall="900"/>
+    <app-letsencrypt x="1020" y="620" xSmall="100" ySmall="900" />
 
     <app-text x="1450" y="650" xSmall="75" ySmall="1300" num="3">
       <template v-slot:date>Jan 01, 2016</template>
