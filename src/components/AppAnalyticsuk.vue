@@ -1429,7 +1429,6 @@
 
 <script>
 import coords from "@/components/coords.js";
-import animtoggle from "@/components/animtoggle.js";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 import { mapState } from "vuex";
@@ -1445,7 +1444,7 @@ export default {
       "viewportSize",
     ]),
   },
-  mixins: [coords, animtoggle],
+  mixins: [coords],
   props: {
     x: {
       type: [Number, String],

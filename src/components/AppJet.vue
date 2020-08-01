@@ -2042,7 +2042,6 @@
 
 <script>
 import coords from "@/components/coords.js";
-import animtoggle from "@/components/animtoggle.js";
 import { gsap } from "gsap";
 import { RoughEase } from "gsap/EasePack";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
@@ -2060,7 +2059,7 @@ export default {
       "viewportSize",
     ]),
   },
-  mixins: [coords, animtoggle],
+  mixins: [coords],
   props: {
     x: {
       type: [Number, String],
