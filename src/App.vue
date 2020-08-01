@@ -52,7 +52,7 @@ export default {
       import(/* webpackPrefetch: true */ "@/components/AppYouarehere.vue"),
   },
   computed: {
-    ...mapState(["viewportSize", "user"]),
+    ...mapState(["viewportSize", "user", "isAnimationDisabled"]),
     timelineAttributes() {
       return {
         viewBox:
@@ -84,6 +84,18 @@ export default {
 
     setViewportSize(mql);
     mql.addListener(setViewportSize);
+  },
+  watch: {
+    isAnimationDisabled(newVal, oldVal) {
+      ScrollTrigger.getAll().forEach((trigger) => {
+        let animation = trigger.animation;
+        if (newVal === true) {
+          animation && animation.progress(1);
+        } else {
+          animation && animation.progress(0);
+        }
+      });
+    },
   },
 };
 </script>

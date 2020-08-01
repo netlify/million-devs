@@ -35,7 +35,7 @@
       </div>
     </section>
     <app-scrolldown />
-    <!-- <app-animation-switch /> -->
+    <app-animation-switch />
   </div>
 </template>
 
@@ -54,7 +54,7 @@ export default {
     AppLogin,
     AppMillion,
     AppScrolldown,
-    //AppAnimationSwitch,
+    AppAnimationSwitch,
   },
 };
 </script>

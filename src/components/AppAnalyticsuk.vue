@@ -1429,6 +1429,7 @@
 
 <script>
 import coords from "@/components/coords.js";
+import animtoggle from "@/components/animtoggle.js";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 import { mapState } from "vuex";
@@ -1437,9 +1438,14 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled", "viewportSize"]),
+    ...mapState([
+      "toggleConfig",
+      "startConfig",
+      "isAnimationDisabled",
+      "viewportSize",
+    ]),
   },
-  mixins: [coords],
+  mixins: [coords, animtoggle],
   props: {
     x: {
       type: [Number, String],
