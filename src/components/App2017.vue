@@ -2,7 +2,7 @@
   <g>
     <app-twodoto x="800" y="1800" xSmall="75" ySmall="4350" />
 
-    <app-text x="1200" y="1700" xSmall="75" ySmall="4750" num="6">
+    <app-text x="1200" y="1700" xSmall="75" ySmall="4750" num="6" url-slug="introduced-a-new-design-system-for-the-app">
       <template v-slot:date>Mar 14, 2017</template>
       <template v-slot:event>Introduced a new design system</template>
       <template v-slot:event2>to the Netlify app</template>
@@ -14,7 +14,7 @@
     <app-tree x="700" y="1770" />
     <app-bush x="500" y="2100" />
 
-    <app-text x="1400" y="2000" xSmall="75" ySmall="5350" num="7">
+    <app-text x="1400" y="2000" xSmall="75" ySmall="5350" num="7" url-slug="introduced-split-branch-testing">
       <template v-slot:date>June 28, 2017</template>
       <template v-slot:event>Introduced split-branch testing</template>
     </app-text>
@@ -22,7 +22,7 @@
     <app-bush x="600" y="2600" />
     <app-auditlogs x="730" y="2300" xSmall="140" ySmall="5700" />
 
-    <app-text x="1050" y="2550" xSmall="75" ySmall="6100" num="8">
+    <app-text x="1050" y="2550" xSmall="75" ySmall="6100" num="8" url-slug="launched-audit-logs-for-teams">
       <template v-slot:date>June 28, 2017</template>
       <template v-slot:event>Introduced audit logs</template>
       <template v-slot:event2>for teams</template>
@@ -35,16 +35,16 @@
 
 
     <app-smashing x="150" y="2550" xSmall="150" ySmall="6400" />
-    <app-text x="100" y="2900" xSmall="75" ySmall="6800" num="9">
+    <app-text x="100" y="2900" xSmall="75" ySmall="6800" num="9" url-slug="smashing-magazine-migrates-from-wordpress-to-jamstack-netlify">
       <template v-slot:date>Nov 21, 2017</template>
       <template v-slot:event>Smashing Magazine migrates from</template>
       <template v-slot:event2>WordPress to Jamstack & Netlify</template>
     </app-text>
 
     <app-netlifycms x="500" y="3000" xSmall="50" ySmall="7150" />
-    <app-text x="1020" y="3080" xSmall="75" ySmall="7550" num="10">
+    <app-text x="1020" y="3080" xSmall="75" ySmall="7550" num="10" url-slug="netlify-cms-is-released">
       <template v-slot:date>Dec 07, 2017</template>
-      <template v-slot:event>Nelify CMS is released, bringing</template>
+      <template v-slot:event>Netlify CMS is released, bringing</template>
       <template v-slot:event2>git-based content authoring to Jamstack</template>
     </app-text>
 
