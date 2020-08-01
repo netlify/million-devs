@@ -1,5 +1,11 @@
 <template>
   <g>
+    <app-jet x="850" y="-400" xSmall="150" ySmall="-400" />
+    <app-text x="1150" y="-200" xSmall="75" ySmall="150">
+      <template v-slot:date>Apr 07, 2015</template>
+      <template v-slot:event>Netlify officially launches</template>
+    </app-text>
+
     <app-tree x="1100" y="50" />
     <app-redirect x="1100" y="150" xSmall="100" ySmall="450" />
     <app-bush />
@@ -9,7 +15,7 @@
     <app-tree x="800" y="320" />
     <app-tree x="700" y="350" />
 
-    <app-github x="500" y="450" xSmall="50" ySmall="1550" />
+    <app-github />
     <app-tree x="1050" y="620" />
 
     <app-text x="200" y="700" xSmall="75" ySmall="2000" num="2" url-slug="added-gitlab-integration-in-addition-to-github-and-bitbucket">
@@ -18,7 +24,7 @@
       <template v-slot:event2>(in addition to GitHub and Bitbucket)</template>
     </app-text>
 
-    <app-letsencrypt x="1020" y="620" xSmall="100" ySmall="900"/>
+    <app-letsencrypt x="1020" y="620" xSmall="100" ySmall="900" />
 
     <app-text x="1450" y="650" xSmall="75" ySmall="1300" num="3" url-slug="netlify-first-hosting-provider-to-offer-free-ssl-through-let-s-encrypt">
       <template v-slot:date>Jan 01, 2016</template>
@@ -67,6 +73,7 @@ import AppStreetlamp1 from "@/components/AppStreetlamp1.vue";
 import AppStreetlamp2 from "@/components/AppStreetlamp2.vue";
 
 //unique units
+import AppJet from "@/components/AppJet.vue";
 import AppSeed from "@/components/AppSeed.vue";
 import AppGithub from "@/components/AppGithub.vue";
 import AppRedirect from "@/components/AppRedirect.vue";
@@ -81,6 +88,7 @@ export default {
     AppBush,
     AppStreetlamp1,
     AppStreetlamp2,
+    AppJet: () => import(/* webpackPrefetch: true */ "@/components/AppJet.vue"),
     AppSeed: () =>
       import(/* webpackPrefetch: true */ "@/components/AppSeed.vue"),
     AppGithub: () =>

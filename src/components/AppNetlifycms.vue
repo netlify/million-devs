@@ -2494,7 +2494,12 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled", "viewportSize"]),
+    ...mapState([
+      "toggleConfig",
+      "startConfig",
+      "isAnimationDisabled",
+      "viewportSize",
+    ]),
   },
   mixins: [coords],
   props: {
@@ -2545,15 +2550,7 @@ export default {
           "cms"
         )
         .from(
-          "#cmsdots g",
-          {
-            opacity: 0,
-            transformOrigin: "50% 50%",
-          },
-          "cms"
-        )
-        .from(
-          "#DogsGroup g g",
+          ".cmsdots g",
           {
             opacity: 0,
           },

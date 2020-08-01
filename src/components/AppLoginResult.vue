@@ -2,18 +2,24 @@
   <div v-if="user && user.number">
     <div class="dev-info">
       <span class="name" v-html="user.name"></span>
-      <h2 class="number"><abbr title="Developer">Dev</abbr><abbr title="Number">#</abbr> <span v-html="user.number"></span></h2>
+      <h2 class="number">
+        <abbr title="Developer">Dev</abbr>
+        <abbr title="Number">#</abbr>
+        <span v-html="user.number"></span>
+      </h2>
     </div>
-    <a :href="milestoneHref" class="button" v-if="milestoneHref">Find Your Milestone</a>
-    <app-tweet-it class="button"/>
+    <!-- removing this because it messes up all the animation
+    <a :href="milestoneHref" class="button" v-if="milestoneHref">Find Your Milestone</a>-->
+    <app-tweet-it class="button" />
   </div>
 </template>
 <style lang="scss" scoped>
 .dev-info {
   padding: 1rem;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, 0.9);
 
-  @media (min-width: 26.875em) { /* 430px */
+  @media (min-width: 26.875em) {
+    /* 430px */
     border-radius: 0 6px 6px 0;
   }
 }
@@ -30,12 +36,12 @@
 }
 .button {
   display: inline-flex;
-  background-color: #FF2260;
+  background-color: #ff2260;
   color: #fff;
   padding: 8px 20px;
   border-radius: 6px;
   text-decoration: none;
-  margin: .5em 1rem;
+  margin: 0.5em 1rem;
 }
 .button + .button {
   margin-left: 0;
@@ -55,17 +61,17 @@ import AppTweetIt from "@/components/AppTweetit.vue";
 export default {
   computed: {
     ...mapState(["user"]),
-    milestoneHref: function() {
+    milestoneHref: function () {
       let id = this.$store.getters.milestone;
-      if(id) {
+      if (id) {
         return `#milestone-${id}`;
       }
       return false;
-    }
+    },
   },
   props: {},
   components: {
-    AppTweetIt
-  }
-}
+    AppTweetIt,
+  },
+};
 </script>
