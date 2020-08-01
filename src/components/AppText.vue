@@ -1,37 +1,39 @@
 <template>
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="450"
-    height="250"
-    :x="svgCoords.x"
-    :y="svgCoords.y"
-    viewBox="0 0 280 115.4"
-  >
-    <g :class="`textnode text${num}`">
-      <rect class="a" width="69.8" height="21.39" />
-      <rect class="b" y="25.4" width="280" height="56" />
-      <!-- <path
-        class="c"
-        d="M153.1,90.9a4.5,4.5,0,0,1,4.5-4.5h118a4.5,4.5,0,0,1,4.5,4.5v21a4.5,4.5,0,0,1-4.5,4.5h-118a4.5,4.5,0,0,1-4.5-4.5Z"
-        transform="translate(-0.1 -1)"
-      />-->
-      <path
-        class="a"
-        d="M265.8,96.4l-.2.4c0,.2.1.4.2.4l2.8,2.7h-6.7l-.4.2a.8.8,0,0,0-.2.4v.7c0,.2.1.4.2.4s.2.2.4.2h6.7l-2.8,2.7a.8.8,0,0,0-.2.4.5.5,0,0,0,.2.4l.5.5.4.2.4-.2,4.6-4.5a.6.6,0,0,0,.1-.4c0-.2,0-.3-.1-.4l-4.6-4.6h-.8Z"
-        transform="translate(-0.1 -1)"
-      />
-      <text class="d" transform="translate(7.6 14)">
-        <slot name="date">Jul 13, 2016</slot>
-      </text>
-      <text class="e" transform="translate(16.5 48.7)">
-        <slot name="event">Something here</slot>
-      </text>
-      <text class="e" transform="translate(16.5 70)">
-        <slot name="event2" />
-      </text>
-      <text class="h" transform="translate(164.5 104.3)">View Milestone</text>
-    </g>
-  </svg>
+  <a :href="`https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#${urlSlug}`">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="450"
+      height="250"
+      :x="svgCoords.x"
+      :y="svgCoords.y"
+      viewBox="0 0 280 115.4"
+    >
+      <g :class="`textnode text${num}`">
+        <rect class="a" width="69.8" height="21.39" />
+        <rect class="b" y="25.4" width="280" height="56" />
+        <!-- <path
+          class="c"
+          d="M153.1,90.9a4.5,4.5,0,0,1,4.5-4.5h118a4.5,4.5,0,0,1,4.5,4.5v21a4.5,4.5,0,0,1-4.5,4.5h-118a4.5,4.5,0,0,1-4.5-4.5Z"
+          transform="translate(-0.1 -1)"
+        />-->
+        <path
+          class="a"
+          d="M265.8,96.4l-.2.4c0,.2.1.4.2.4l2.8,2.7h-6.7l-.4.2a.8.8,0,0,0-.2.4v.7c0,.2.1.4.2.4s.2.2.4.2h6.7l-2.8,2.7a.8.8,0,0,0-.2.4.5.5,0,0,0,.2.4l.5.5.4.2.4-.2,4.6-4.5a.6.6,0,0,0,.1-.4c0-.2,0-.3-.1-.4l-4.6-4.6h-.8Z"
+          transform="translate(-0.1 -1)"
+        />
+        <text class="d" transform="translate(7.6 14)">
+          <slot name="date">Jul 13, 2016</slot>
+        </text>
+        <text class="e" transform="translate(16.5 48.7)">
+          <slot name="event">Something here</slot>
+        </text>
+        <text class="e" transform="translate(16.5 70)">
+          <slot name="event2" />
+        </text>
+        <text class="h" transform="translate(164.5 104.3)">View Milestone</text>
+      </g>
+    </svg>
+  </a>
 </template>
 
 <script>
@@ -48,6 +50,9 @@ export default {
   },
   mixins: [coords],
   props: {
+    urlSlug: {
+      type: String
+    },
     x: {
       type: [Number, String],
       default: 1200
