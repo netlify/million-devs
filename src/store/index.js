@@ -31,16 +31,16 @@ export default new Vuex.Store({
       let twitterVideoSlugs = {
         jet: "1288850213172662272",
         redirect: "1288850337349197824",
-        github: "1288850455074942976",
+        github: "1289369827228827648",
         letsencrypt: "1288850557013299203",
         seed: "1288852224467247106",
-        deploypreview: "1288852284076691462",
+        deploypreview: "1289369944078143492",
         deploybutton: "1288852349335764997",
-        twodoto: "1288852428184522752",
+        twodoto: "1289370041616445440",
         splittesting: "1288852492248387586",
         auditlogs: "1288852552474406912",
         smashing: "1288852619251908608",
-        netlifycms: "", // TODO
+        netlifycms: "1289370121908047872",
         functions: "1288852683449933832",
         drop: "1288852749153718273",
         jamstack1: "1288852888312328192",
@@ -55,45 +55,12 @@ export default new Vuex.Store({
         million: "1288849874671341569",
       }
 
-      if (twitterVideoSlugs[getters.milestone]) {
+      if(twitterVideoSlugs[getters.milestone]) {
         return `https://twitter.com/1mdevs/status/${
           twitterVideoSlugs[getters.milestone]
-        }/video/1`
+        }/video/1`;
       }
-
-      // fallback to old fashioned redirects
-      let slugs = {
-        jet: "launch",
-        redirect: "redirects",
-        github: "gitlab",
-        letsencrypt: "lets-encrypt",
-        seed: "seed-funding",
-        deploypreview: "deploy-previews",
-        deploybutton: "deploy-to-netlify",
-        twodoto: "design-system",
-        splittesting: "split-testing",
-        auditlogs: "audit-logs",
-        smashing: "smashing-magazine",
-        netlifycms: "netlify-cms",
-        functions: "netlify-functions",
-        drop: "netlify-drop",
-        jamstack1: "jamstack-conf",
-        largemedia: "netlify-large-media",
-        "statue-dev": "netlify-dev",
-        analyticsuk: "netlify-analytics",
-        book: "jamstack-book",
-        "golden-gate": "jamstack-sf",
-        docs: "docs",
-        virtual: "jamstack-virtual",
-        "build-plugins": "build-plugins",
-        million: "1-million-developers",
-      }
-
-      // TODO use a Netlify env variable for this origin?
-      // Use the full URL, this text is going on the tweet
-      return `https://million-devs.netlify.app/share/${
-        slugs[getters.milestone]
-      }/`
+      return "";
     },
     milestone: function(state) {
       let ids = {
