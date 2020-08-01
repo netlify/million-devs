@@ -11,7 +11,7 @@ export default new Vuex.Store({
     viewportSize: "large",
     user: {
       name: "",
-      number: "1000001",
+      number: "",
     },
   },
   mutations: {
