@@ -1,6 +1,9 @@
 <template>
   <g>
-    <app-twodoto x="800" y="1800" xSmall="75" ySmall="4350" />
+    <app-tree x="700" y="1770" />
+    <app-tree x="750" y="1700" />
+    <app-tree x="800" y="1720" />
+    <app-bush x="500" y="2300" />
 
     <app-text
       x="1200"
@@ -14,11 +17,7 @@
       <template v-slot:event>Introduced a new design system</template>
       <template v-slot:event2>to the Netlify app</template>
     </app-text>
-
-    <app-tree x="700" y="1770" />
-    <app-tree x="750" y="1700" />
-    <app-tree x="800" y="1720" />
-    <app-bush x="500" y="2300" />
+    <app-twodoto x="800" y="1800" xSmall="75" ySmall="4350" />
 
     <app-splittesting x="1100" y="2120" xSmall="75" ySmall="5050" />
 
