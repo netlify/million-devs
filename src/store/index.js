@@ -11,7 +11,7 @@ export default new Vuex.Store({
     viewportSize: "large",
     user: {
       name: "",
-      number: "",
+      number: "18560",
     },
   },
   mutations: {
@@ -103,12 +103,12 @@ export default new Vuex.Store({
       }
       return false
     },
-    milestonePlacement(state, getters) {
-      let twitterVideoSlugs = {
-        jet: { x: 750, y: -400 },
-        redirect: { x: 1000, y: 1050 },
-        github: "1289369827228827648",
-        letsencrypt: "1288850557013299203",
+    milestoneCoords(state, getters) {
+      let coords = {
+        jet: { x: 1050, y: -350 },
+        redirect: { x: 450, y: 250 },
+        github: { x: 450, y: 250 },
+        letsencrypt: { x: 1120, y: 520 },
         seed: "1288852224467247106",
         deploypreview: "1289369944078143492",
         deploybutton: "1288852349335764997",
@@ -131,12 +131,10 @@ export default new Vuex.Store({
         million: "1288849874671341569",
       }
 
-      if (twitterVideoSlugs[getters.milestone]) {
-        return `https://twitter.com/1mdevs/status/${
-          twitterVideoSlugs[getters.milestone]
-        }/video/1`
+      if (coords[getters.milestone]) {
+        return coords[getters.milestone]
       }
-      return ""
+      return { x: 450, y: 250 }
     },
   },
   actions: {},

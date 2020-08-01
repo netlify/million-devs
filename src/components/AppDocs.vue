@@ -1501,7 +1501,12 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled", "viewportSize"]),
+    ...mapState([
+      "toggleConfig",
+      "startConfig",
+      "isAnimationDisabled",
+      "viewportSize",
+    ]),
   },
   mixins: [coords],
   props: {
@@ -1550,8 +1555,8 @@ export default {
           "#Confetti-1, #Confetti-2, #Confetti-3, #Confetti-4",
           {
             duration: 2,
-            rotation: 720,
-            y: 200,
+            rotation: 360,
+            y: -100,
             stagger: 0.1,
             ease: "elastic(1.75, 0.3)",
           },

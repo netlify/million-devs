@@ -3,8 +3,8 @@
     id="youarehere"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 350 150"
-    :x="x"
-    :y="y"
+    :x="milestoneCoords.x"
+    :y="milestoneCoords.y"
     width="350"
     height="150"
   >
@@ -57,39 +57,10 @@ import { mapState } from "vuex";
 gsap.registerPlugin(ScrollTrigger);
 
 export default {
-  props: {
-    x: {
-      type: [Number, String],
-      default: 450,
-    },
-    y: {
-      type: [Number, String],
-      default: 250,
-    },
-  },
-  milestone() {
-    return this.$store.getters.milestone;
-  },
   computed: {
     ...mapState(["toggleConfig", "startConfig"]),
-    getMilestoneCoords() {
-      if (this.milestone) {
-        let milestoneEl = document.getElementById(
-          `milestone-${this.milestone}`
-        );
-        console.log(milestoneEl);
-        let milestoneRect = milestoneEl.getBoundingClientRect();
-
-        return {
-          x: milestoneRect.top + 200,
-          y: milestoneRect.left,
-        };
-      } else {
-        return {
-          x: 400,
-          y: 6050,
-        };
-      }
+    milestoneCoords() {
+      return this.$store.getters.milestoneCoords;
     },
   },
   methods: {
@@ -111,7 +82,7 @@ export default {
         .from(
           "#RedSign",
           {
-            rotation: -30,
+            rotation: -25,
           },
           "here"
         );
