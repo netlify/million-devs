@@ -74,6 +74,17 @@ export default {
             : "0 -500 600 18500",
       };
     },
+    getMilestoneCoords() {
+      if (!this.milestone) return;
+
+      let milestone = document.getElementById(`#milestone-${this.milestone}`);
+      let milestonerect = milestone.getBoundingClientRect();
+
+      return {
+        x: milestonerect.x,
+        y: milestonerect.y,
+      };
+    },
   },
   mounted() {
     var mql = window.matchMedia("(max-width: 1000px)");
