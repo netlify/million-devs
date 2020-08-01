@@ -71,7 +71,7 @@ span {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgb(131, 131, 131);
+  background-color: #a3a3a3;
   transition: 0.4s all ease;
 }
 

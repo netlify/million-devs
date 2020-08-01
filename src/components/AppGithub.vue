@@ -1,7 +1,7 @@
 <template>
   <svg
-    :x="x"
-    :y="y"
+    :x="svgCoords.x"
+    :y="svgCoords.y"
     width="500"
     height="475"
     xmlns="http://www.w3.org/2000/svg"
@@ -1785,7 +1785,12 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled"]),
+    ...mapState([
+      "toggleConfig",
+      "startConfig",
+      "isAnimationDisabled",
+      "viewportSize",
+    ]),
   },
   mixins: [coords],
   props: {

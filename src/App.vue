@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <app-login-result-sticky v-if="user && user.number" />
+    <app-login-result-sticky v-if="user.number" />
     <section class="intro-section">
       <app-header />
     </section>
@@ -17,6 +17,8 @@
       <app2018 />
       <app2019 />
       <app2020 />
+
+      <app-youarehere v-if="user.number && viewportSize === 'large'" />
     </svg>
   </div>
 </template>
@@ -34,9 +36,6 @@ import App2017 from "@/components/App2017.vue";
 import App2018 from "@/components/App2018.vue";
 import App2019 from "@/components/App2019.vue";
 import App2020 from "@/components/App2020.vue";
-//gsap
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 
 export default {
   components: {
@@ -59,18 +58,6 @@ export default {
           this.viewportSize == "large"
             ? "0 -500 2000 8300"
             : "0 -500 600 18500",
-      };
-    },
-    getMilestoneCoords() {
-      //this.$nextTick(() => this.$refs.myForm.submit());
-      if (!this.milestone) return;
-
-      let milestone = document.getElementById(`#milestone-${this.milestone}`);
-      let milestonerect = milestone.getBoundingClientRect();
-
-      return {
-        x: milestonerect.x,
-        y: milestonerect.y,
       };
     },
   },
@@ -105,6 +92,7 @@ html {
   scroll-behavior: smooth;
   scroll-padding: 10vh;
 }
+
 body {
   background: #00dc9e;
   font-family: "Roboto", Helvetica, Arial, sans-serif;

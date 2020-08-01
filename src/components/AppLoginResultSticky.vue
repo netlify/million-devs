@@ -27,7 +27,7 @@ export default {
   }
   @media (min-width: 62.5em) and (min-height: 37.5em) {
     /* 1000px 600px */
-    position: sticky;
+    position: fixed;
     left: 0;
     top: 10px;
   }

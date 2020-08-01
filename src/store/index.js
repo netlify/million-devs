@@ -55,19 +55,19 @@ export default new Vuex.Store({
         million: "1288849874671341569",
       }
 
-      if(twitterVideoSlugs[getters.milestone]) {
+      if (twitterVideoSlugs[getters.milestone]) {
         return `https://twitter.com/1mdevs/status/${
           twitterVideoSlugs[getters.milestone]
-        }/video/1`;
+        }/video/1`
       }
-      return "";
+      return ""
     },
     milestone: function(state) {
       let ids = {
         jet: 0, // but really 7656
         redirect: 12400,
-        github: 28112, // out of order?
-        letsencrypt: 18558,
+        github: 18112, // out of order?
+        letsencrypt: 25000,
         seed: 31226,
         deploypreview: 33769,
         deploybutton: 44319,
@@ -83,9 +83,9 @@ export default new Vuex.Store({
         "statue-dev": 435285,
         analyticsuk: 520824,
         book: 542309,
-        "golden-gate": 626192,
+        "golden-gate": 600000,
         docs: 625040,
-        virtual: 948344,
+        virtual: 750000,
         "build-plugins": 948344,
         million: 1000000,
       }
@@ -102,6 +102,39 @@ export default new Vuex.Store({
         lastId = idStr
       }
       return false
+    },
+    milestoneCoords(state, getters) {
+      let coords = {
+        jet: { x: 1050, y: -350 },
+        redirect: { x: 450, y: 250 },
+        github: { x: 450, y: 250 },
+        letsencrypt: { x: 450, y: 250 },
+        seed: { x: 700, y: 850 },
+        deploypreview: { x: 420, y: 1200 },
+        deploybutton: { x: 350, y: 1700 },
+        twodoto: { x: 850, y: 1680 },
+        splittesting: { x: 1130, y: 2020 },
+        auditlogs: { x: 730, y: 2200 },
+        smashing: { x: 200, y: 2430 },
+        netlifycms: { x: 700, y: 2900 },
+        functions: { x: 250, y: 3250 },
+        drop: { x: 380, y: 3650 },
+        jamstack1: { x: 890, y: 3870 },
+        largemedia: { x: 100, y: 4200 },
+        "statue-dev": { x: 700, y: 4400 },
+        analyticsuk: { x: 800, y: 5050 },
+        book: { x: 1180, y: 4900 },
+        "golden-gate": { x: 200, y: 5300 },
+        docs: { x: 700, y: 5700 },
+        virtual: { x: 1400, y: 5950 },
+        "build-plugins": { x: 750, y: 6450 },
+        million: { x: 750, y: 6800 },
+      }
+
+      if (coords[getters.milestone]) {
+        return coords[getters.milestone]
+      }
+      return { x: -250, y: -1000 }
     },
   },
   actions: {},
