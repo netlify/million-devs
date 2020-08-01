@@ -1,5 +1,5 @@
 <template>
-  <div v-if="user && user.number">
+  <div>
     <div class="dev-info">
       <span class="name" v-html="user.name"></span>
       <h2 class="number">

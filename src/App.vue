@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <app-login-result-sticky />
+    <app-login-result-sticky v-if="user && user.number" />
     <section class="intro-section">
       <app-header />
     </section>

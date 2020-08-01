@@ -1,5 +1,5 @@
 <template>
-  <div class="animtoggle">
+  <div :class="animtoggle">
     <span v-if="isAnimationDisabled">Animations off:</span>
     <span v-else>Animations On:</span>
     <label class="switch">
@@ -14,7 +14,13 @@ import { mapState } from "vuex";
 
 export default {
   computed: {
-    ...mapState(["isAnimationDisabled"]),
+    ...mapState(["isAnimationDisabled", "user"]),
+    animtoggle() {
+      return {
+        toggleloggedin: this.user.number,
+        toggleloggedout: !this.user.number,
+      };
+    },
   },
   methods: {
     animToggleStore() {
@@ -25,10 +31,23 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.animtoggle {
+.toggleloggedin {
   position: fixed;
   top: 125px;
   left: 20px;
+  background: #00dc9e;
+}
+
+.toggleloggedout {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  background: #00dc9e;
+}
+
+span {
+  font-weight: normal;
 }
 
 .switch {
