@@ -1,4 +1,10 @@
-# million-devs
+# Netlify Reaches a Million Developers!
+
+![Screenshot of Site](https://assets.codepen.io/28963/CleanShot+2020-08-01+at+16.29.48%402x.png)
+
+Five years ago, Netlify launched and changed the way developers build for the web, and we've now onboarded more than 1 million users! Look up your Netlify account to learn when you joined, and check out the timeline to see animated versions of the big features and milestones along the way. Tweet your number and milestone to share with the community!
+
+### [Check out the site here](https://million-devs.netlify.app/)
 
 ## Project setup
 ```
