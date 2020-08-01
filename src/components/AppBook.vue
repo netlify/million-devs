@@ -1658,14 +1658,17 @@ import coords from "@/components/coords.js";
 import { gsap } from "gsap";
 import { mapState } from "vuex";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
-import { MorphSVGPlugin } from "gsap/MorphSVGPlugin.js";
 
 gsap.registerPlugin(ScrollTrigger);
-gsap.registerPlugin(MorphSVGPlugin);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled", "viewportSize"]),
+    ...mapState([
+      "toggleConfig",
+      "startConfig",
+      "isAnimationDisabled",
+      "viewportSize",
+    ]),
   },
   mixins: [coords],
   props: {
@@ -1701,9 +1704,10 @@ export default {
           "#bookmark",
           {
             duration: 0.5,
-            morphSVG: "#bookmark-morph",
+            rotation: 6,
             repeat: 3,
             yoyo: true,
+            transformOrigin: "0% 100%",
             ease: "sine.inOut",
           },
           "book"
