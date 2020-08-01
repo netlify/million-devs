@@ -40,9 +40,10 @@ export default {
 
 .toggleloggedout {
   position: fixed;
-  top: 10px;
-  left: 10px;
-  padding: 10px;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  border-radius: 0 0 10px 0;
   background: #00dc9e;
 }
 

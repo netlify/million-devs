@@ -1,5 +1,7 @@
 <template>
-  <a :href="`https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#${urlSlug}`">
+  <a
+    :href="`https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#${urlSlug}`"
+  >
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="450"
@@ -11,11 +13,6 @@
       <g :class="`textnode text${num}`">
         <rect class="a" width="69.8" height="21.39" />
         <rect class="b" y="25.4" width="280" height="56" />
-        <!-- <path
-          class="c"
-          d="M153.1,90.9a4.5,4.5,0,0,1,4.5-4.5h118a4.5,4.5,0,0,1,4.5,4.5v21a4.5,4.5,0,0,1-4.5,4.5h-118a4.5,4.5,0,0,1-4.5-4.5Z"
-          transform="translate(-0.1 -1)"
-        />-->
         <path
           class="a"
           d="M265.8,96.4l-.2.4c0,.2.1.4.2.4l2.8,2.7h-6.7l-.4.2a.8.8,0,0,0-.2.4v.7c0,.2.1.4.2.4s.2.2.4.2h6.7l-2.8,2.7a.8.8,0,0,0-.2.4.5.5,0,0,0,.2.4l.5.5.4.2.4-.2,4.6-4.5a.6.6,0,0,0,.1-.4c0-.2,0-.3-.1-.4l-4.6-4.6h-.8Z"
@@ -46,33 +43,38 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
   computed: {
-    ...mapState(["toggleConfig", "startConfig", "isAnimationDisabled", "viewportSize"])
+    ...mapState([
+      "toggleConfig",
+      "startConfig",
+      "isAnimationDisabled",
+      "viewportSize",
+    ]),
   },
   mixins: [coords],
   props: {
     urlSlug: {
-      type: String
+      type: String,
     },
     x: {
       type: [Number, String],
-      default: 1200
+      default: 1200,
     },
     y: {
       type: [Number, String],
-      default: 500
+      default: 500,
     },
     xSmall: {
       type: [Number, String],
-      default: 1200
+      default: 1200,
     },
     ySmall: {
       type: [Number, String],
-      default: 500
+      default: 500,
     },
     num: {
       type: [Number, String],
-      default: 1
-    }
+      default: 1,
+    },
   },
   methods: {
     textEntrance() {
@@ -81,32 +83,32 @@ export default {
           scrollTrigger: {
             trigger: `.text${this.num}`,
             toggleActions: this.toggleConfig,
-            start: this.startConfig
-          }
+            start: this.startConfig,
+          },
         })
         .fromTo(
           `.text${this.num}`,
           {
             duration: 1,
             y: 40,
-            scale: 0.8,
+            scale: 0.9,
             opacity: 0,
-            transformOrigin: "50% 50%"
+            transformOrigin: "50% 50%",
           },
           {
             y: 0,
             opacity: 1,
             scale: 1,
-            ease: "sine"
+            ease: "sine",
           }
         );
-    }
+    },
   },
   mounted() {
     if (!this.isAnimationDisabled) {
       this.textEntrance();
     }
-  }
+  },
 };
 </script>
 
