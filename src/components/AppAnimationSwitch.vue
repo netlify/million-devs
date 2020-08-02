@@ -1,9 +1,16 @@
 <template>
   <div :class="animtoggle">
-    <span v-if="isAnimationDisabled">Animations off:</span>
-    <span v-else>Animations On:</span>
+    <span id="animation-state">
+      <span v-if="isAnimationDisabled">Animations off:</span>
+      <span v-else>Animations On:</span>
+    </span>
     <label class="switch">
-      <input @click="animToggleStore" type="checkbox" :checked="isAnimationDisabled" />
+      <input
+        aria-labelledby="animation-state"
+        @click="animToggleStore"
+        type="checkbox"
+        :checked="isAnimationDisabled"
+      />
       <span class="slider round"></span>
     </label>
   </div>
