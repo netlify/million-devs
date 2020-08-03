@@ -88,16 +88,25 @@ export default {
     setViewportSize(mql);
     mql.addListener(setViewportSize);
   },
+  methods: {
+    toggleAnimation: function(isDisabled) {
+      if(isDisabled) {
+        gsap.globalTimeline.timeScale(9999);
+      } else {
+        gsap.globalTimeline.timeScale(1);
+      }
+    }
+  },
+  mounted: function() {
+    this.$nextTick(() => {
+      if(this.isAnimationDisabled) {
+        this.toggleAnimation(true);
+      }
+    })
+  },
   watch: {
     isAnimationDisabled(newVal, oldVal) {
-      ScrollTrigger.getAll().forEach((trigger) => {
-        let animation = trigger.animation;
-        if (newVal === true) {
-          animation && animation.progress(1);
-        } else {
-          animation && animation.progress(0);
-        }
-      });
+      this.toggleAnimation(newVal);
     },
   },
 };
