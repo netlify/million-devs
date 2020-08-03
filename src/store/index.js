@@ -7,7 +7,7 @@ export default new Vuex.Store({
   state: {
     toggleConfig: `play pause none pause`,
     startConfig: `center 90%`,
-    isAnimationDisabled: false,
+    isAnimationDisabled: window.matchMedia('(prefers-reduced-motion: reduce)'),
     viewportSize: "large",
     user: {
       name: "",
