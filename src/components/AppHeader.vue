@@ -13,7 +13,7 @@
             />
           </g>
         </svg>
-        <h1>1 Million Developers</h1>
+        <h1>Thanks a Million!</h1>
       </div>
       <div class="mlogo">
         <app-million margin-top="-100px" />
