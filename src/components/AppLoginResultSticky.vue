@@ -16,7 +16,6 @@ export default {
 
 <style lang="scss" scoped>
 .dev-info-sticky {
-  background: #00dc9e;
   margin-left: -8px; /* Careful this is tied to the <body> margin in App.vue */
   margin-right: -8px; /* Careful this is tied to the <body> margin in App.vue */
 

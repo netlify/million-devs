@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <app-login-result-sticky v-if="user.number" />
+    <app-animation-switch />
     <app-github-corner />
 
     <section class="intro-section">
@@ -33,6 +34,7 @@ import AppYouarehere from "@/components/AppYouarehere.vue";
 import AppMobilepath from "@/components/AppMobilepath.vue";
 import AppGithubCorner from "@/components/AppGithubCorner.vue";
 import AppLoginResultSticky from "@/components/AppLoginResultSticky.vue";
+import AppAnimationSwitch from "@/components/AppAnimationSwitch.vue";
 import { mapState } from "vuex";
 
 //sections by year
@@ -60,6 +62,7 @@ export default {
     App2018,
     App2019,
     App2020,
+    AppAnimationSwitch,
     AppYouarehere: () =>
       import(/* webpackPrefetch: true */ "@/components/AppYouarehere.vue"),
   },
