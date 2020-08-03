@@ -1,7 +1,7 @@
 <template>
   <g>
     <app-jet x="850" y="-400" xSmall="150" ySmall="-400" />
-    <app-text x="1150" y="-200" xSmall="75" ySmall="150">
+    <app-text x="1150" y="-200" xSmall="75" ySmall="150" url-slug="netlify-officially-launches">
       <template v-slot:date>Apr 07, 2015</template>
       <template v-slot:event>Netlify officially launches</template>
     </app-text>
