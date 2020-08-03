@@ -1,50 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title><%= htmlWebpackPlugin.options.title %></title>
-    <link rel="icon" href="<%= BASE_URL %>favicon/favicon.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="<%= BASE_URL %>favicon/apple-touch-icon.png" />
-    <link rel="mask-icon" href="<%= BASE_URL %>favicon/safari-pinned-tab.svg" color="#00c7b7" />
+    <link rel="icon" href="<%= BASE_URL %>favicon/favicon.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="<%= BASE_URL %>favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="mask-icon"
+      href="<%= BASE_URL %>favicon/safari-pinned-tab.svg"
+      color="#00c7b7"
+    />
     <meta name="apple-mobile-web-app-title" content="1M Devs" />
     <meta name="application-name" content="1M Devs" />
-    <link rel="preload" href="<%= BASE_URL %>fonts/dillan-latin-hint.woff2" as="font" type="font/woff2" crossorigin>
+    <meta
+      name="description"
+      content="Find your spot on the Netlify timeline. Thanks a million!"
+    />
+    <meta property="og:title" content="Netlify Reaches One Million Devs!" />
+    <meta property="og:url" content="https://million-devs.netlify.com/" />
+    <meta property="og:image" content="<%=BASE_URL%>plugins-og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@netlify" />
+    <meta name="twitter:creator" content="@netlify" />
+    <meta name="twitter:image" content="<%=BASE_URL%>plugins-og.png" />
+    <meta name="twitter:title" content="Netlify Reaches One Million Devs!" />
+    <meta
+      name="twitter:description"
+      content="Find your spot on the Netlify timeline. Thanks a million!"
+    />
+    <link
+      rel="preload"
+      href="<%= BASE_URL %>fonts/dillan-latin-hint.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
     <style>
-    @font-face {
-      font-family: MADE-Dillan;
-      src: url(<%= BASE_URL %>fonts/dillan-latin-hint.woff2) format("woff2"),
-           url(<%= BASE_URL %>fonts/dillan-latin-hint.woff) format("woff");
-      font-weight: 700;
-      font-display: swap;
-    }
-    @font-face {
-      font-family: Roboto;
-      src: url(<%= BASE_URL %>fonts/Roboto-Bold-latin.woff2) format("woff2"),
-           url(<%= BASE_URL %>fonts/Roboto-Bold-latin.woff) format("woff");
-      font-weight: 700;
-      font-display: swap;
-    }
-    @font-face {
-      font-family: Roboto;
-      src: url(<%= BASE_URL %>fonts/Roboto-Regular-latin.woff2) format("woff2"),
-           url(<%= BASE_URL %>fonts/Roboto-Regular-latin.woff) format("woff");
-      font-weight: 400;
-      font-display: swap;
-    }
+      @font-face {
+        font-family: MADE-Dillan;
+        src: url(<%=BASE_URL%>fonts/dillan-latin-hint.woff2) format("woff2"),
+          url(<%=BASE_URL%>fonts/dillan-latin-hint.woff) format("woff");
+        font-weight: 700;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(<%=BASE_URL%>fonts/Roboto-Bold-latin.woff2) format("woff2"),
+          url(<%=BASE_URL%>fonts/Roboto-Bold-latin.woff) format("woff");
+        font-weight: 700;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(<%=BASE_URL%>fonts/Roboto-Regular-latin.woff2) format("woff2"),
+          url(<%=BASE_URL%>fonts/Roboto-Regular-latin.woff) format("woff");
+        font-weight: 400;
+        font-display: swap;
+      }
     </style>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42258181-23"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-42258181-23"
+    ></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-42258181-23');
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+      gtag("config", "UA-42258181-23")
     </script>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
