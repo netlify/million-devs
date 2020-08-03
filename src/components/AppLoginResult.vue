@@ -47,7 +47,7 @@ export default {
 <style lang="scss" scoped>
 .dev-info {
   padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #fff;
 
   @media (min-width: 26.875em) {
     /* 430px */
