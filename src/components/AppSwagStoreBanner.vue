@@ -35,7 +35,7 @@
     width: 1100px;
     border: 5px solid var(--color-white);
     border-radius: 12px;
-    box-shadow: 0 0 0 1px #0e1e2511, 0 4px 4px #0e1e2511;;
+    box-shadow: 0 0 0 1px #0e1e2511, 0 4px 4px #0e1e2511;
     background-color: var(--color-black);
     color: var(--color-white);
     display: flex;
