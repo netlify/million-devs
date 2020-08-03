@@ -108,7 +108,7 @@ export default {
     }
   }
 
-  @media (max-width: 750px) /* > 600px */ {
+  @media (max-width: 750px) {
     
     .badge {
       clip-path: polygon(0 0, 8% 50%, 0% 100%, 100% 100%, 92% 50%, 100% 0%);
