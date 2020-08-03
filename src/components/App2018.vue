@@ -12,7 +12,7 @@
 
     <app-drop x="200" y="3700" xSmall="75" ySmall="8600" />
     <app-text x="0" y="3950" xSmall="75" ySmall="8950" num="12" url-slug="launched-netlify-drop-https-app-netlify-com-drop-a-simple-drag-n-drop-way-to-launch-sites">
-      <template v-slot:date>Mar 20, 2018</template>
+      <template v-slot:date>Aug 14, 2018</template>
       <template v-slot:event>Launched Netlify Drop</template>
       <template v-slot:event2>a simple drag-n-drop way to launch sites</template>
     </app-text>

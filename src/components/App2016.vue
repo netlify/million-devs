@@ -1,7 +1,7 @@
 <template>
   <g>
     <app-jet x="850" y="-400" xSmall="150" ySmall="-400" />
-    <app-text x="1150" y="-200" xSmall="75" ySmall="150">
+    <app-text x="1150" y="-200" xSmall="75" ySmall="150" url-slug="netlify-officially-launches">
       <template v-slot:date>Apr 07, 2015</template>
       <template v-slot:event>Netlify officially launches</template>
     </app-text>
@@ -73,7 +73,7 @@
       xSmall="75"
       ySmall="3450"
       num="5"
-      url-slug="introduces-deploy-previews"
+      url-slug="introduced-deploy-previews"
     >
       <template v-slot:date>Aug 30, 2016</template>
       <template v-slot:event>Introduced Deploy Previews</template>
