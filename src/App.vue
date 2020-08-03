@@ -23,6 +23,7 @@
 
       <app-youarehere v-if="user.number && viewportSize === 'large'" />
     </svg>
+    <app-swag-store-banner />
   </div>
 </template>
 
@@ -33,6 +34,7 @@ import AppYouarehere from "@/components/AppYouarehere.vue";
 import AppMobilepath from "@/components/AppMobilepath.vue";
 import AppGithubCorner from "@/components/AppGithubCorner.vue";
 import AppLoginResultSticky from "@/components/AppLoginResultSticky.vue";
+import AppSwagStoreBanner from "@/components/AppSwagStoreBanner.vue";
 import { mapState } from "vuex";
 
 //sections by year
@@ -60,6 +62,8 @@ export default {
     App2018,
     App2019,
     App2020,
+    AppSwagStoreBanner: () =>
+      import(/* webpackPrefetch: true */ "@/components/AppSwagStoreBanner.vue"),
     AppYouarehere: () =>
       import(/* webpackPrefetch: true */ "@/components/AppYouarehere.vue"),
   },
