@@ -73,7 +73,7 @@
       xSmall="75"
       ySmall="3450"
       num="5"
-      url-slug="introduces-deploy-previews"
+      url-slug="introduced-deploy-previews"
     >
       <template v-slot:date>Aug 30, 2016</template>
       <template v-slot:event>Introduced Deploy Previews</template>
