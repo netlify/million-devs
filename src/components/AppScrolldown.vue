@@ -10,7 +10,7 @@
       xmlns="http://www.w3.org/2000/svg"
       aria-labelledby="scrolldownicon"
       role="presentation"
-      v-on:click="scrollTop()"
+      v-on:click="scrollDown()"
       cursor="pointer"
     >
       <title id="scrolldownicon">An arrow icon that tells you to scroll down</title>
@@ -27,7 +27,7 @@ import { gsap } from "gsap";
 
 export default {
   methods: {
-    scrollTop: function () {
+    scrollDown: function () {
       window.scroll(0, window.pageYOffset + 950)
     }
   },
