@@ -4,7 +4,9 @@
 
 Five years ago, Netlify launched and changed the way developers build for the web, and we've now onboarded more than 1 million users! Look up your Netlify account to learn when you joined, and check out the timeline to see animated versions of the big features and milestones along the way. Tweet your number and milestone to share with the community!
 
-### [Check out the site here](https://million-devs.netlify.app/)
+### [Check out the site here >](https://million-devs.netlify.com/?utm_source=csstricks&utm_medium=milliondevs-sd&utm_campaign=devex)
+
+There is also a writeup of how the application and SVG Animations were done, if you'd like to learn about the process, [the article is here](https://css-tricks.com/the-making-of-netlifys-million-devs-svg-animation-site/).
 
 ## Project setup
 ```

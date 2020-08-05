@@ -1,8 +1,8 @@
 <template>
   <div :class="animtoggle">
     <span id="animation-state">
-      <span v-if="isAnimationDisabled">Animations off:</span>
-      <span v-else>Animations On:</span>
+      <span v-if="isAnimationDisabled">Turn Animations On:</span>
+      <span v-else>Turn Animations Off:</span>
     </span>
     <label class="switch">
       <input
@@ -39,19 +39,27 @@ export default {
 
 <style lang="scss" scoped>
 .toggleloggedin {
-  position: fixed;
-  top: 175px;
-  left: 20px;
+  padding: 10px;
+  border-radius: 0 6px 6px 0;
   background: #00dc9e;
+
+  @media (min-width: 62.5em) and (min-height: 37.5em) {
+    position: fixed;
+    top: 160px;
+    left: 5px;
+  }
 }
 
 .toggleloggedout {
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding: 20px;
   border-radius: 0 0 10px 0;
   background: #00dc9e;
+
+  @media (min-width: 62.5em) and (min-height: 37.5em) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+  }
 }
 
 span {
@@ -79,7 +87,7 @@ span {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #a3a3a3;
+  background-color: #238b5f;
   transition: 0.4s all ease;
 }
 

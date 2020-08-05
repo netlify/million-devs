@@ -1,15 +1,19 @@
 <template>
   <g>
-    <app-jet x="850" y="-400" xSmall="150" ySmall="-400" />
-    <app-text x="1150" y="-200" xSmall="75" ySmall="150">
+    <app-jet x="850" y="-400" xSmall="150" ySmall="-450" />
+    <app-text x="1150" y="-200" xSmall="75" ySmall="60" url-slug="netlify-officially-launches">
       <template v-slot:date>Apr 07, 2015</template>
       <template v-slot:event>Netlify officially launches</template>
     </app-text>
 
     <app-tree x="1100" y="50" />
-    <app-redirect x="1100" y="150" xSmall="100" ySmall="450" />
+    <app-redirect x="1100" y="150" xSmall="100" ySmall="320" />
     <app-bush />
     <app-streetlamp2 />
+    <app-text x="1500" y="100" xSmall="75" ySmall="650" url-slug="netlify-launches-smarter-redirects">
+      <template v-slot:date>Oct 26, 2015</template>
+      <template v-slot:event>Netlify launches smarter redirects</template>
+    </app-text>
 
     <app-tree x="750" y="300" />
     <app-tree x="800" y="320" />
@@ -31,7 +35,7 @@
       <template v-slot:event2>(in addition to GitHub and Bitbucket)</template>
     </app-text>
 
-    <app-letsencrypt x="1020" y="620" xSmall="100" ySmall="900" />
+    <app-letsencrypt x="1020" y="620" xSmall="100" ySmall="920" />
 
     <app-text
       x="1450"
@@ -73,7 +77,7 @@
       xSmall="75"
       ySmall="3450"
       num="5"
-      url-slug="introduces-deploy-previews"
+      url-slug="introduced-deploy-previews"
     >
       <template v-slot:date>Aug 30, 2016</template>
       <template v-slot:event>Introduced Deploy Previews</template>
