@@ -1177,11 +1177,11 @@ export default {
   props: {
     x: {
       type: [Number, String],
-      default: 1450,
+      default: 1475,
     },
     y: {
       type: [Number, String],
-      default: 170,
+      default: 320,
     },
   },
 };
