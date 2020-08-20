@@ -8,29 +8,29 @@ Five years ago, Netlify launched and changed the way developers build for the we
 
 There is also a writeup of how the application and SVG Animations were done, if you'd like to learn about the process, [the article is here](https://css-tricks.com/the-making-of-netlifys-million-devs-svg-animation-site/).
 
-## Project setup
+## 📐 Project setup
 ```
-yarn install
+yarn install or npm install
 ```
 
-### Compiles and hot-reloads for development
+### 🚀 Compiles and hot-reloads for development
 ```
-yarn run serve
+yarn run serve or npm run serve
 ```
 
 ### Compiles and minifies for production
 ```
-yarn run build
+yarn run build or npm run build
 ```
 
 ### Run your tests
 ```
-yarn run test
+yarn run test or npm run test
 ```
 
 ### Lints and fixes files
 ```
-yarn run lint
+yarn run lint or npm run lint
 ```
 
 ### Customize configuration
