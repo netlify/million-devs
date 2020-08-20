@@ -130,7 +130,11 @@ body {
   height: 100vh;
   width: 99%;
 }
-
+@media screen and (max-width: 1024px){ /**| APPLE IPAD LANDSCAPE |**/
+  .intro-section {
+    height: unset;
+  }
+}
 @media only screen and (max-width: 1000px) {
   #timeline {
     max-width: 600px;
@@ -145,6 +149,11 @@ body {
   .svg-streetlamp,
   .timeline-path {
     display: none;
+  }
+}
+@media screen and (max-width: 800px) { /**| APPLE IPAD PORTRAIT |***/
+  .intro-section {
+    height: 100vh;
   }
 }
 </style>

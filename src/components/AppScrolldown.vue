@@ -93,14 +93,19 @@ export default {
   visibility: visible;
   opacity: 1;
 }
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1600px) { /*****| MID HD DESKTOP |*****/
   .scrolldown {
     top: 90%;
   }
 }
-@media only screen and (max-width: 950px) {
+@media screen and (max-width: 1024px){ /**| APPLE IPAD LANDSCAPE |**/
   .scrolldown {
-    margin: 0 auto !important;
+    display: none;
+  }
+}
+@media screen and (max-width: 640px) { /********| IPHONE 6+ |*******/
+  .scrolldown {
+    display: none;
   }
 }
 </style>
