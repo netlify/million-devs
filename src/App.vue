@@ -24,6 +24,8 @@
 
       <app-youarehere v-if="user.number && viewportSize === 'large'" />
     </svg>
+
+    <Footer />
   </div>
 </template>
 
@@ -35,6 +37,7 @@ import AppMobilepath from "@/components/AppMobilepath.vue";
 import AppGithubCorner from "@/components/AppGithubCorner.vue";
 import AppLoginResultSticky from "@/components/AppLoginResultSticky.vue";
 import AppAnimationSwitch from "@/components/AppAnimationSwitch.vue";
+import Footer from "@/components/Footer.vue";
 import { mapState } from "vuex";
 
 //sections by year
@@ -63,6 +66,7 @@ export default {
     App2019,
     App2020,
     AppAnimationSwitch,
+    Footer,
     AppYouarehere: () =>
       import(/* webpackPrefetch: true */ "@/components/AppYouarehere.vue"),
   },
